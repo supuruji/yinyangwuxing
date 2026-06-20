@@ -4,13 +4,13 @@
   "items": [
     {
       "type": "para",
-      "text": "서론",
+      "text": "Introduction",
       "level": 1,
       "anchor": "h109-서론"
     },
     {
       "type": "para",
-      "text": "연구의 배경 및 필요성",
+      "text": "Research Background and Necessity",
       "level": 2,
       "anchor": "h110-연구의-배경-및-필요성"
     },
@@ -160,7 +160,7 @@
     },
     {
       "type": "para",
-      "text": "연구의 목적과 범위",
+      "text": "Research Objectives and Scope",
       "level": 2,
       "anchor": "h135-연구의-목적과-범위"
     },
@@ -244,7 +244,7 @@
     },
     {
       "type": "para",
-      "text": "선행연구 분석",
+      "text": "Analysis of Prior Research",
       "level": 2,
       "anchor": "h149-선행연구-분석"
     },
@@ -1144,22 +1144,22 @@
   "headings": [
     {
       "level": 1,
-      "text": "서론",
+      "text": "Introduction",
       "anchor": "h109-서론"
     },
     {
       "level": 2,
-      "text": "연구의 배경 및 필요성",
+      "text": "Research Background and Necessity",
       "anchor": "h110-연구의-배경-및-필요성"
     },
     {
       "level": 2,
-      "text": "연구의 목적과 범위",
+      "text": "Research Objectives and Scope",
       "anchor": "h135-연구의-목적과-범위"
     },
     {
       "level": 2,
-      "text": "선행연구 분석",
+      "text": "Analysis of Prior Research",
       "anchor": "h149-선행연구-분석"
     }
   ]
