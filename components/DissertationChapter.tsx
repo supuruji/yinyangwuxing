@@ -5,6 +5,10 @@ import Link from 'next/link';
 
 interface Heading { level: number; text: string; anchor: string | null; }
 interface Paragraph { text: string; level: number; anchor: string | null; }
+interface Cell { text: string; colSpan?: number; rowSpan?: number; }
+interface TableItem { type: 'table'; caption: string; rows: Cell[][]; }
+interface ParaItem { type: 'para'; text: string; level: number; anchor: string | null; }
+type Item = ParaItem | TableItem;
 interface Footnote { number: number; text: string; }
 interface ChapterMeta {
   id: string;
@@ -15,7 +19,7 @@ interface ChapterMeta {
 interface Props {
   chapterId: string;
   chapterTitle: string;
-  paragraphs: Paragraph[];
+  items: Item[];
   footnotes: Footnote[];
   headings: Heading[];
   locale: string;
@@ -41,6 +45,35 @@ function renderText(text: string, fnNums: Set<number>): React.ReactNode {
     }
     return <span key={i}>{part}</span>;
   });
+}
+
+/* 표 렌더 */
+function TableBlock({ item }: { item: TableItem }) {
+  return (
+    <div className="my-6 overflow-x-auto">
+      {item.caption && (
+        <p className="text-xs text-parchment-muted mb-2 font-medium">{item.caption}</p>
+      )}
+      <table className="w-full border-collapse text-xs text-parchment">
+        <tbody>
+          {item.rows.map((row, ri) => (
+            <tr key={ri} className={ri === 0 ? 'bg-gold/10' : ri % 2 === 0 ? 'bg-ink-soft/50' : ''}>
+              {row.map((cell, ci) => (
+                <td
+                  key={ci}
+                  colSpan={cell.colSpan ?? 1}
+                  rowSpan={cell.rowSpan ?? 1}
+                  className="border border-gold/30 px-2 py-1.5 align-top leading-snug whitespace-pre-wrap"
+                >
+                  {cell.text}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
 }
 
 /* 단락 렌더: level별로 다른 스타일 */
@@ -160,7 +193,7 @@ function Sidebar({
 }
 
 export default function DissertationChapter({
-  chapterId, chapterTitle, paragraphs, footnotes, headings,
+  chapterId, chapterTitle, items, footnotes, headings,
   locale, dissertationId, allChapters,
 }: Props) {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -231,9 +264,11 @@ export default function DissertationChapter({
 
           {/* 본문 */}
           <article className="space-y-4">
-            {paragraphs.map((para, i) => (
-              <Paragraph key={i} para={para} fnNums={fnNums} />
-            ))}
+            {items.map((item, i) =>
+              item.type === 'table'
+                ? <TableBlock key={i} item={item} />
+                : <Paragraph key={i} para={item} fnNums={fnNums} />
+            )}
           </article>
 
           {/* 각주 */}
