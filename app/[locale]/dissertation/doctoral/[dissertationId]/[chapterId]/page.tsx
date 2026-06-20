@@ -42,6 +42,7 @@ export default async function ChapterPage({ params }: Props) {
       chapterTitle={chapter.title}
       paragraphs={chapter.paragraphs}
       footnotes={chapter.footnotes}
+      headings={chapter.headings ?? []}
       locale={locale}
       dissertationId={dissertationId}
       allChapters={meta.chapters}
