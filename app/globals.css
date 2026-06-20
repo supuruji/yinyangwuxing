@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #c9a84c;
+  --ink: #0f0e0b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0e0b;
+  color: #e8d5b7;
+  font-family: 'Noto Serif KR', 'Noto Serif SC', 'Noto Serif JP', Georgia, serif;
+}
+
+::selection {
+  background: rgba(201, 168, 76, 0.3);
+  color: #e8d5b7;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1915;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 168, 76, 0.4);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 168, 76, 0.7);
+}
