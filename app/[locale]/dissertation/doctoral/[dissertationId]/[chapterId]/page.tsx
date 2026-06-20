@@ -22,11 +22,15 @@ function loadChapter(dissertationId: string, chapterId: string) {
 }
 
 export async function generateStaticParams() {
-  const dissertationId = 'donghak-daesoon-ko';
+  const dissertations = [
+    { dissertationId: 'donghak-daesoon-ko', locales: ['ko', 'zh', 'ja'] },
+    { dissertationId: 'donghak-daesoon-en', locales: ['en'] },
+  ];
   const chapterIds = ['intro', 'ch2', 'ch3', 'ch4', 'ch5', 'conclusion', 'references'];
-  const locales = ['ko', 'en', 'zh', 'ja'];
-  return locales.flatMap(locale =>
-    chapterIds.map(chapterId => ({ locale, dissertationId, chapterId }))
+  return dissertations.flatMap(({ dissertationId, locales }) =>
+    locales.flatMap(locale =>
+      chapterIds.map(chapterId => ({ locale, dissertationId, chapterId }))
+    )
   );
 }
 

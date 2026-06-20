@@ -1,0 +1,469 @@
+{
+  "dissertationId": "donghak-daesoon-en",
+  "title": "A Comparative Study of Autogenous Modernity in Donghak and Daesoon Thought",
+  "subtitle": "- Centered on Views of Heaven, Earth, and Humanity -",
+  "author": "Choi Won-hyeok",
+  "year": "2024",
+  "university": "Daejin University Graduate School, Department of Daesoon Studies",
+  "chapters": [
+    {
+      "id": "intro",
+      "title": "I. Introduction",
+      "paragraphCount": 74,
+      "footnoteCount": 173,
+      "headings": [
+        {
+          "level": 1,
+          "text": "서론",
+          "anchor": "h109-서론"
+        },
+        {
+          "level": 2,
+          "text": "연구의 배경 및 필요성",
+          "anchor": "h110-연구의-배경-및-필요성"
+        },
+        {
+          "level": 2,
+          "text": "연구의 목적과 범위",
+          "anchor": "h135-연구의-목적과-범위"
+        },
+        {
+          "level": 2,
+          "text": "선행연구 분석",
+          "anchor": "h149-선행연구-분석"
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "II. Autogenous Modernity and Liminality",
+      "paragraphCount": 218,
+      "footnoteCount": 166,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Indigenous Modernity and Liminality",
+          "anchor": "h183-자생적-自生的-근대성과-리미널리티"
+        },
+        {
+          "level": 2,
+          "text": "Modernity and Indigenous Modernity",
+          "anchor": "h184-근대성과-자생적-근대성"
+        },
+        {
+          "level": 3,
+          "text": "Modernity and the Encompassment (Tongsŏp) of the Sacred (Seong) and the Secular (Sok)",
+          "anchor": "h185-근대성과-성-聖-속-俗-의-통섭-統攝"
+        },
+        {
+          "level": 3,
+          "text": "서구 근대성과 자생적 근대성의 동양적 공동 기원",
+          "anchor": "h210-서구-근대성과-자생적-근대성의-동양적-공동-기원"
+        },
+        {
+          "level": 3,
+          "text": "자생적 근대성의 형식 체계로서의 “학(學)”",
+          "anchor": "h227-자생적-근대성의-형식-체계로서의-학-學"
+        },
+        {
+          "level": 3,
+          "text": "자생적 근대성의 이론적 배경으로서 동서 구분",
+          "anchor": "h242-자생적-근대성의-이론적-배경으로서-동서-구분"
+        },
+        {
+          "level": 3,
+          "text": "자생적 근대성의 철학적 방법론으로서의 상관적 사유",
+          "anchor": "h263-자생적-근대성의-철학적-방법론으로서의-상관적-사유"
+        },
+        {
+          "level": 2,
+          "text": "리미널리티와 재활성화",
+          "anchor": "h277-리미널리티와-재활성화"
+        },
+        {
+          "level": 3,
+          "text": "자생적 근대성의 성(聖)·속(俗) 변화 기제로서의 리미널리티",
+          "anchor": "h278-자생적-근대성의-성-聖-속-俗-변화-기제로서의-리미널리티"
+        },
+        {
+          "level": 3,
+          "text": "자생적 근대성의 성(聖)·속(俗) 지속 기제로서의 재활성화",
+          "anchor": "h318-자생적-근대성의-성-聖-속-俗-지속-기제로서의-재활성화"
+        },
+        {
+          "level": 1,
+          "text": "동학사상의 자생적 근대성과 작란의 리미널리티",
+          "anchor": "h0-동학사상의-자생적-근대성과-작란의-리미널리티"
+        },
+        {
+          "level": 2,
+          "text": "시천주(侍天主) 천관(天觀)의 자생적 근대성",
+          "anchor": "h1-시천주-侍天主-천관-天觀-의-자생적-근대성"
+        },
+        {
+          "level": 3,
+          "text": "서양의 형상적(形相的) 천관",
+          "anchor": "h2-서양의-형상적-形相的-천관"
+        },
+        {
+          "level": 3,
+          "text": "The Eastern Assimilative (同化的) View of Heaven",
+          "anchor": "h17-동양의-동화적-同化的-천관"
+        },
+        {
+          "level": 3,
+          "text": "근대 동서양 천관의 충돌과 상극화(相克化)",
+          "anchor": "h42-근대-동서양-천관의-충돌과-상극화-相克化"
+        },
+        {
+          "level": 3,
+          "text": "천관의 충돌",
+          "anchor": "h43-천관의-충돌"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "III. Autogenous Modernity and the Liminality of Disorder in Donghak Thought",
+      "paragraphCount": 328,
+      "footnoteCount": 207,
+      "headings": [
+        {
+          "level": 3,
+          "text": "천관의 상극화",
+          "anchor": "h62-천관의-상극화"
+        },
+        {
+          "level": 3,
+          "text": "동학사상의 시천주(侍天主) 천관에 나타난 리미널리티",
+          "anchor": "h68-동학사상의-시천주-侍天主-천관에-나타난-리미널리티"
+        },
+        {
+          "level": 3,
+          "text": "동학사상의 시천주(侍天主) 천관(天觀)",
+          "anchor": "h69-동학사상의-시천주-侍天主-천관-天觀"
+        },
+        {
+          "level": 3,
+          "text": "시천주(侍天主) 천관의 리미널리티 양상",
+          "anchor": "h109-시천주-侍天主-천관의-리미널리티-양상"
+        },
+        {
+          "level": 2,
+          "text": "Indigenous Modernity of the Johwajeong (Creation is Determined) View of Earth (Jigwan)",
+          "anchor": "h136-조화정-造化定-지관-地觀-의-자생적-근대성"
+        },
+        {
+          "level": 3,
+          "text": "The Western Material (Jillyojeok) View of Earth (Jigwan)",
+          "anchor": "h137-서양의-질료적-質料的-지관"
+        },
+        {
+          "level": 3,
+          "text": "The Eastern Condensational (Eungchukjeok) View of Earth (Jigwan)",
+          "anchor": "h147-동양의-응축적-凝縮的-지관"
+        },
+        {
+          "level": 3,
+          "text": "The Collision and Mutually Overcoming Conflict (Sanggeukhwa) of Eastern and Western Views of Earth (Jigwan)",
+          "anchor": "h162-동서양-지관-地觀-의-충돌과-상극화-相克化"
+        },
+        {
+          "level": 3,
+          "text": "The Clash of Views of Earth (Ji-gwan)",
+          "anchor": "h163-지관-地觀-의-충돌"
+        },
+        {
+          "level": 3,
+          "text": "The Mutual Conflict (Sanggeuk-hwa) of the Heaven-Earth Relationship",
+          "anchor": "h170-천지관계의-상극화"
+        },
+        {
+          "level": 3,
+          "text": "동학사상의 조화정(造化定) 지관(地觀)에 나타난 리미널리티",
+          "anchor": "h179-동학사상의-조화정-造化定-지관-地觀-에-나타난-리미널리티"
+        },
+        {
+          "level": 3,
+          "text": "Liminality Aspects of the Johwajeong (Fixing the Creation-Transformation) View of Earth (Ji-gwan)",
+          "anchor": "h200-조화정-造化定-지관-地觀-의-리미널리티-양상"
+        },
+        {
+          "level": 3,
+          "text": "동학사상의 귀신론적(鬼神論的) 천지관계에 나타난 리미널리티 양상",
+          "anchor": "h211-동학사상의-귀신론적-鬼神論的-천지관계에-나타난-리미널리티-양상"
+        },
+        {
+          "level": 2,
+          "text": "Indigenous Modernity of the Yeongsebulmang (Eternal Non-forgetting) View of Humanity (In-gwan)",
+          "anchor": "h233-영세불망-永世不忘-인간관-人間觀-의-자생적-근대성"
+        },
+        {
+          "level": 3,
+          "text": "서양의 성장론적(成長論的) 인간관",
+          "anchor": "h234-서양의-성장론적-成長論的-인간관"
+        },
+        {
+          "level": 3,
+          "text": "동양의 접화적(接化的) 인간관",
+          "anchor": "h246-동양의-접화적-接化的-인간관"
+        },
+        {
+          "level": 3,
+          "text": "근대 동서양 인간관의 충돌과 상극화(相克化)",
+          "anchor": "h263-근대-동서양-인간관의-충돌과-상극화-相克化"
+        },
+        {
+          "level": 3,
+          "text": "The Clash of Views of Humanity",
+          "anchor": "h264-인간관의-충돌"
+        },
+        {
+          "level": 3,
+          "text": "The Mutual Conflict (Sanggeuk-hwa) of the Heaven-Humanity (Cheon-In) and Earth-Humanity (Ji-In) Relationships",
+          "anchor": "h274-천인-天人-지인-地人-관계의-상극화"
+        },
+        {
+          "level": 3,
+          "text": "Liminality in Donghak Thought's View of Humanity as Yeongsebulmang (Eternal Unforgetting)",
+          "anchor": "h281-동학사상의-영세불망-永世不忘-인간관에-나타난-리미널리티"
+        },
+        {
+          "level": 3,
+          "text": "Donghak Thought's Yeongsebulmang (Eternal Non-forgetting) View of Humanity (In-gwan)",
+          "anchor": "h282-동학사상의-영세불망-永世不忘-인간관"
+        },
+        {
+          "level": 3,
+          "text": "Liminality Aspects in the Cheon-In (Heaven-Human) Relationship of Naeyu-sinryeong (Having Divine Spirit Within) in Donghak Thought",
+          "anchor": "h307-동학사상의-내유신령-內有神靈-천인-天人-관계에-나타난-리미널리티-양상"
+        },
+        {
+          "level": 3,
+          "text": "Liminality Aspects in the Ji-In (Earth-Human) Relationship of Oeyu-gihwa (Having Energetic Transformation Without) in Donghak Thought",
+          "anchor": "h312-동학사상의-외유기화-外有氣化-지인-地人-관계에-나타난-리미널리티-양상"
+        },
+        {
+          "level": 1,
+          "text": "대순사상의 자생적 근대성과 치란의 재활성화",
+          "anchor": "h328-대순사상의-자생적-근대성과-치란의-재활성화"
+        },
+        {
+          "level": 2,
+          "text": "The Indigenous Modernity of the View of the Heavenly Realm (Cheon'gye-gwan) based on Insin-gangse (Divine Incarnation in Human Form)",
+          "anchor": "h329-인신강세-人身降世-천계관-天界觀-의-자생적-근대성"
+        },
+        {
+          "level": 3,
+          "text": "The view of the Heavenly Realm (Cheon'gye-gwan) as the view of Heaven (Cheon'gwan).",
+          "anchor": "h330-천계관-天界觀-으로서의-천관-天觀"
+        },
+        {
+          "level": 3,
+          "text": "The Incarnational (人身降世) View of the Heavenly Realm (天界觀)",
+          "anchor": "h354-인신강세-人身降世-의-천계관-天界觀"
+        },
+        {
+          "level": 3,
+          "text": "Revitalization of Eastern and Western Views of Heaven in the View of the Heavenly Realm based on Divine Incarnation (Insin Gangse)",
+          "anchor": "h375-인신강세-人身降世-천계관-天界觀-에-나타난-동서양-천관-天觀-의-재활성화"
+        },
+        {
+          "level": 3,
+          "text": "Revitalization of Confucian, Buddhist, and Daoist (Yu-Bul-Seon) Views of Heaven in the View of the Heavenly Realm (Cheon'gye-gwan) based on Insin-gangse",
+          "anchor": "h376-인신강세-人身降世-천계관-天界觀-에-나타난-유불선-천관-天觀-의-재활성화"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "IV. Autogenous Modernity and the Revitalization of Order in Daesoon Thought",
+      "paragraphCount": 420,
+      "footnoteCount": 199,
+      "headings": [
+        {
+          "level": 3,
+          "text": "Reactivation of the Western View of Heaven (天觀) in the Incarnational (人身降世) View of the Heavenly Realm (天界觀)",
+          "anchor": "h400-인신강세-人身降世-천계관-天界觀-에-나타난-서양-천관-天觀-의-재활성화"
+        },
+        {
+          "level": 2,
+          "text": "천지성경신(天地誠敬信) 지계관(地界觀)의 자생적 근대성",
+          "anchor": "h417-천지성경신-天地誠敬信-지계관-地界觀-의-자생적-근대성"
+        },
+        {
+          "level": 3,
+          "text": "지계관(地界觀)으로서의 지관(地觀)",
+          "anchor": "h418-지계관-地界觀-으로서의-지관-地觀"
+        },
+        {
+          "level": 3,
+          "text": "The View of the Earthly Realm (Jigye-gwan) based on Cheonji Seong-Gyeong-Sin (Sincerity, Reverence, and Faith of Heaven and Earth)",
+          "anchor": "h444-천지성경신-天地誠敬信-의-지계관-地界觀"
+        },
+        {
+          "level": 3,
+          "text": "The Revitalization of Eastern and Western Views of Earth Manifested in the View of the Earthly Realm based on Cheonji-Seong-Gyeong-Sin (Sincerity, Reverence, and Faith of Heaven and Earth)",
+          "anchor": "h482-천지성경신-天地誠敬信-지계관-地界觀-에-나타난-동서양-지관地觀의-재활성화"
+        },
+        {
+          "level": 3,
+          "text": "The Revitalization of Confucian, Buddhist, and Seon (Daoist) Views of Earth Manifested in the View of the Earthly Realm based on Cheonji-Seong-Gyeong-Sin",
+          "anchor": "h483-천지성경신-天地誠敬信-지계관-地界觀-에-나타난-유불선-지관-地觀-의-재활"
+        },
+        {
+          "level": 3,
+          "text": "The Revitalization of the Western View of Earth Manifested in the View of the Earthly Realm based on Cheonji-Seong-Gyeong-Sin",
+          "anchor": "h509-천지성경신-天地誠敬信-지계관-地界觀-에-나타난-서양-지관-地觀-의-재활성"
+        },
+        {
+          "level": 3,
+          "text": "지상천국(地上天國)의 천지관계에 나타난 동서양 천지관계의 재활성화",
+          "anchor": "h540-지상천국-地上天國-의-천지관계에-나타난-동서양-천지관계의-재활성화"
+        },
+        {
+          "level": 2,
+          "text": "The Indigenous Modernity of the View of the Human Realm (Ingyegwan) as \"Achievement Depends on Humanity\" (Seongsa Jaein)",
+          "anchor": "h572-성사재인-成事在人-인계관-人界觀-의-자생적-근대성"
+        },
+        {
+          "level": 3,
+          "text": "The View of Humanity (Ingangwan) as the View of the Human Realm (Ingyegwan)",
+          "anchor": "h573-인계관-人界觀-으로서의-인간관-人間觀"
+        },
+        {
+          "level": 3,
+          "text": "The View of the Human Realm (Ingyegwan) as \"Achievement Depends on Humanity\" (Seongsa Jaein)",
+          "anchor": "h600-성사재인-成事在人-인계관-人界觀"
+        },
+        {
+          "level": 3,
+          "text": "The Revitalization of Eastern and Western Views of Humanity (Ingangwan) in the View of the Human Realm (Ingyegwan) as \"Achievement Depends on Humanity\" (Seongsa Jaein)",
+          "anchor": "h636-성사재인-成事在人-인계관-人界觀-에-나타난-동서양-인간관-人間觀-의-재활"
+        },
+        {
+          "level": 3,
+          "text": "The Revitalization of Confucian, Buddhist, and Seon (Daoist) Views of Humanity (Ingangwan) in the View of the Human Realm (Ingyegwan) as \"Achievement Depends on Humanity\" (Seongsa Jaein)",
+          "anchor": "h637-성사재인-成事在人-인계관-人界觀-에-나타난-유불선-인간관-人間觀-의-재활"
+        },
+        {
+          "level": 3,
+          "text": "성사재인(成事在人) 인계관(人界觀)에 나타난 서양 인간관(人間觀)의 재활성화",
+          "anchor": "h657-성사재인-成事在人-인계관-人界觀-에-나타난-서양-인간관-人間觀-의-재활성"
+        },
+        {
+          "level": 3,
+          "text": "천지보은(天地報恩)의 천인(天人) 관계에 나타난 동서양 천인관계의 재활성화",
+          "anchor": "h675-천지보은-天地報恩-의-천인-天人-관계에-나타난-동서양-천인관계의-재활성화"
+        },
+        {
+          "level": 3,
+          "text": "지상신선(地上神仙)의 지인(地人) 관계에 나타난 동서양 지인관계의 재활성화",
+          "anchor": "h695-지상신선-地上神仙-의-지인-地人-관계에-나타난-동서양-지인관계의-재활성화"
+        },
+        {
+          "level": 1,
+          "text": "동학사상과 대순사상의 자생적 근대성 비교",
+          "anchor": "h704-동학사상과-대순사상의-자생적-근대성-비교"
+        },
+        {
+          "level": 2,
+          "text": "천관(天觀)의 자생적 근대성 비교",
+          "anchor": "h705-천관-天觀-의-자생적-근대성-비교"
+        },
+        {
+          "level": 3,
+          "text": "Seoncheon (Former World) and Hucheon (Later World)",
+          "anchor": "h749-선천-先天-과-후천-後天"
+        },
+        {
+          "level": 2,
+          "text": "Comparative Study on the Indigenous Modernity of the View of Earth (Jigwan)",
+          "anchor": "h769-지관-地觀-의-자생적-근대성-비교"
+        },
+        {
+          "level": 3,
+          "text": "Gihwa (Ki-transformation) and Jori (Governing/Conditioning)",
+          "anchor": "h770-기화-氣化-와-조리-調理"
+        },
+        {
+          "level": 3,
+          "text": "노이무공(勞而無功)과 천지성공(天地成功)",
+          "anchor": "h799-노이무공-勞而無功-과-천지성공-天地成功"
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "V. A Comparison of Autogenous Modernity in Donghak and Daesoon Thought",
+      "paragraphCount": 254,
+      "footnoteCount": 91,
+      "headings": [
+        {
+          "level": 2,
+          "text": "인간관의 자생적 근대성 비교",
+          "anchor": "h810-인간관의-자생적-근대성-비교"
+        },
+        {
+          "level": 3,
+          "text": "인내천(人乃天)과 신인조화(神人調化)",
+          "anchor": "h811-인내천-人乃天-과-신인조화-神人調化"
+        },
+        {
+          "level": 3,
+          "text": "Buryeon-giyeon (Not so, yet so) and Seongsa-jaein (Accomplishment of affairs lies with human beings)",
+          "anchor": "h847-불연기연-不然其然-과-성사재인-成事在人"
+        },
+        {
+          "level": 2,
+          "text": "동학사상과 대순사상 천지관계의 자생적 근대성 비교",
+          "anchor": "h864-동학사상과-대순사상-천지관계의-자생적-근대성-비교"
+        },
+        {
+          "level": 3,
+          "text": "천지귀신(天地鬼神)과 천지성경신(天地誠敬信)",
+          "anchor": "h865-천지귀신-天地鬼神-과-천지성경신-天地誠敬信"
+        },
+        {
+          "level": 3,
+          "text": "도기장존(道氣長存)과 상생(相生)",
+          "anchor": "h890-도기장존-道氣長存-과-상생-相生"
+        },
+        {
+          "level": 2,
+          "text": "동학사상과 대순사상의 천인·지인 관계의 자생적 근대성 비교",
+          "anchor": "h912-동학사상과-대순사상의-천인-지인-관계의-자생적-근대성-비교"
+        },
+        {
+          "level": 3,
+          "text": "인도(人道)와 신도(神道)의 천인관계",
+          "anchor": "h913-인도-人道-와-신도-神道-의-천인관계"
+        },
+        {
+          "level": 3,
+          "text": "심급도유(心急道儒)와 도통군자(道通君子)의 지인관계",
+          "anchor": "h933-심급도유-心急道儒-와-도통군자-道通君子-의-지인관계"
+        },
+        {
+          "level": 1,
+          "text": "결론",
+          "anchor": "h958-결론"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "VI. Conclusion",
+      "paragraphCount": 21,
+      "footnoteCount": 0,
+      "headings": []
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "paragraphCount": 497,
+      "footnoteCount": 0,
+      "headings": []
+    }
+  ]
+}

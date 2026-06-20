@@ -16,17 +16,36 @@ function loadMeta(dissertationId: string) {
   }
 }
 
+const UI = {
+  ko: { dissertations: '학위논문', doctoral: '박사논문', footnotes: (n: number) => `각주 ${n}개` },
+  en: { dissertations: 'Dissertations', doctoral: 'Doctoral', footnotes: (n: number) => `${n} footnotes` },
+  zh: { dissertations: '学位论文', doctoral: '博士论文', footnotes: (n: number) => `脚注 ${n}` },
+  ja: { dissertations: '学位論文', doctoral: '博士論文', footnotes: (n: number) => `脚注 ${n}件` },
+} as const;
+
+type Locale = keyof typeof UI;
+
+export async function generateStaticParams() {
+  return [
+    { locale: 'ko', dissertationId: 'donghak-daesoon-ko' },
+    { locale: 'zh', dissertationId: 'donghak-daesoon-ko' },
+    { locale: 'ja', dissertationId: 'donghak-daesoon-ko' },
+    { locale: 'en', dissertationId: 'donghak-daesoon-en' },
+  ];
+}
+
 export default async function DissertationOverviewPage({ params }: Props) {
   const { locale, dissertationId } = await params;
   const meta = loadMeta(dissertationId);
   if (!meta) notFound();
+  const ui = UI[(locale as Locale)] ?? UI.en;
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <nav className="text-xs text-parchment-muted mb-6 flex items-center gap-1.5">
-        <Link href={`/${locale}/dissertation`} className="hover:text-gold transition-colors">학위논문</Link>
+        <Link href={`/${locale}/dissertation`} className="hover:text-gold transition-colors">{ui.dissertations}</Link>
         <span className="text-gold/40">›</span>
-        <Link href={`/${locale}/dissertation/doctoral`} className="hover:text-gold transition-colors">박사논문</Link>
+        <Link href={`/${locale}/dissertation/doctoral`} className="hover:text-gold transition-colors">{ui.doctoral}</Link>
         <span className="text-gold/40">›</span>
         <span className="text-parchment">{meta.title}</span>
       </nav>
@@ -46,7 +65,7 @@ export default async function DissertationOverviewPage({ params }: Props) {
               {ch.title}
             </span>
             <span className="text-xs text-parchment-muted shrink-0 ml-4">
-              {ch.footnoteCount > 0 && `각주 ${ch.footnoteCount}개`}
+              {ch.footnoteCount > 0 && ui.footnotes(ch.footnoteCount)}
             </span>
           </Link>
         ))}

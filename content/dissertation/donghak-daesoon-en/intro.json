@@ -1,0 +1,1166 @@
+{
+  "id": "intro",
+  "title": "I. Introduction",
+  "items": [
+    {
+      "type": "para",
+      "text": "서론",
+      "level": 1,
+      "anchor": "h109-서론"
+    },
+    {
+      "type": "para",
+      "text": "연구의 배경 및 필요성",
+      "level": 2,
+      "anchor": "h110-연구의-배경-및-필요성"
+    },
+    {
+      "type": "para",
+      "text": "Donghak Thought (Eastern Learning Thought) has been primarily studied as a religious ideology, and thus has not yet been independently illuminated from the perspectives of indigenous (autogenous) modernity and philosophical methodology implied by its name, \"Donghak (Eastern Learning).\" The same applies to Daesoon Thought (Daesoon Sasang), which claimed to be the \"True Eastern Learning\" (Cham Donghak). At that time, \"Seohak (Western Learning)\" was another name for Western modernity, characterized by material civilization and anthropocentrism, and 'Donghak' was another expression for the indigenous modernity and philosophical methodology that responded to it. Daesoon Thought also emphasizes that the origin of Western modernity is the Eastern civilization transmitted by Matteo Ricci (1552-1610), and highlights the global crisis caused by a Western modernity skewed toward materialism as the background for its emergence. Indeed, it is from this perspective that Daesoon Thought uses the term \"True Eastern Learning\" rather than just \"Donghak.\"",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "The reason Donghak Thought and Daesoon Thought have not been studied from the aspect of indigenous modernity is the failure to recognize East Asia's indigenous modernity, which is now known to be the origin of Western 'modernity.' However, as Daesoon Thought first revealed, the recent discovery that Western modernity originated from the Eastern civilization disseminated to the West by Matteo Ricci has led to a re-evaluation of Donghak Thought and Daesoon Thought as East Asia's indigenous modernity.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "This re-evaluation of Eastern and Western modernity began as the development of IT technology made writings from the dawn of Western modernity freely available online through platforms like Google (google.com), thereby shedding new light on the concealed Eastern origins of Western modernity. In fact, although Max Weber (1864-1920) claimed the origin of modernity was Calvin's Predestination, it has been revealed that the Enlightenment, which institutionalized Calvin's theology into capitalism, began from the ethical, non-monotheistic civilization of China—namely, Confucian civilization—disseminated by Matteo Ricci. These records show that Confucianism, which was identified as an obstacle to modernization in the East, was, on the contrary, the origin of modernity in the West.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "As the claims of Western scholars regarding the Eastern origins of the Enlightenment were substantiated by online materials, scholars from the Eastern sphere, such as Hwang Tae-yeon, are also revealing that the origin of Western Enlightenment lies in the ethical reflections and religious scholarship of the East, which had been dismissed as pre-modern superstition. Representative scholars in this field include Zhu Qianzhi (1899-1972) in China; in the West, Andre Gunder Frank (1929-2005), famous as a dependency theorist, John Montagu Hobson (1962-present), Herrlee Glessner Creel (1905-1994), and Adolf Reichwein (1898-1944); and in Korea, Hwang Tae-yeon, Cho Hye-in, Jeon Hong-seok, Lee Young-jae, and Lee Dong-hee, among others.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Consequently, Western 'post-modernism' theorists, particularly Francois Jullien (1951-present), have continuously conducted research seeking post-modern thought, an alternative to Western modernity, in the East. Although Jullien does not claim that Enlightenment philosophy was directly influenced by Mencius (BC 372? - BC 289?), he demonstrates that the critical consciousness of Enlightenment philosophers and that of Mencius are remarkably close.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "This Western modern civilization has long been feared to bring about a crisis of human extinction, such as nuclear weapons and environmental problems, and that crisis has now become a reality. Accordingly, the construction of alternative modernities has become a pressing real-world issue. Postmodernist thinkers, who have been preparing for alternative modernities through discussions of 'post-modernity,' are also seeking alternatives to modernity in \"ethical reflection\" and \"religious turns,\" much like indigenous modernity. Leading scholars unanimously state that without reflexivity on the civilization that has incessantly conquered nature, and without a religious turn, the alternatives proposed by numerous postmodern thoughts—such as \"Deconstruction\" and \"mourning\"—cannot succeed against a modern civilization skewed by human arrogance and materialism.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Amidst these fluid changes in global intellectual circles, Donghak Thought and Daesoon Thought, which early on emphasized the crisis of modern civilization and the religious turn as an alternative modernity, are being re-illuminated today as East Asia's indigenous modern ideologies.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Although Donghak Thought and Daesoon Thought have been studied in various fields as indigenous modernities, existing research has lacked inquiry into the Eastern philosophical methodology presupposed in the name \"Donghak\"—that is, the Eastern and Korean philosophical methodology of thought. In the West, conversely, the characteristics of Eastern thought were early on sought in its philosophical methodology, which has been consistently noted as an alternative rationality to Western modern rationality.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "It is somewhat surprising that philosophical methodology has not been the subject of research concerning Donghak-related thoughts thus far. A lack of understanding regarding the differences between Eastern and Western philosophical methods of thought is obscuring the global intellectual-historical value of the indigenous modernity found in Donghak-related thoughts. Donghak-related thoughts can be defined as thoughts influenced by or related to Donghak, including Daesoon Thought, which was described as 'True Donghak' after Donghak, as well as, for example, Won-Buddhism and the Unification Church.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In fact, Donghak Thought emerged asserting 'Donghak' as a \"Learning (Hak)\" in response to the identity crisis caused by the clash of Eastern and Western civilizations, similar to theories like 'Dongdo-seogi-ron' (Eastern ways, Western machines), 'Jungche-seoyong-ron' (Chinese essence, Western function), and 'Seohak-jungwon-ron' (Western learning originated in China). In the \"Nonhangmun\" (Discussion on Learning) of the Donggyeong Daejeon, where the term 'Donghak' first appears, Donghak Thought is presented over several passages as a \"Learning (Hak)\" contrasted with Seohak (Western Learning). With the failure of Donghak, this task remained an objective for subsequent Donghak-related thoughts.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Understanding religion from the academic perspective of \"learning (Hak)\" is a unique East Asian method of comprehending religion that became popular after Neo-Confucianism. The introduction of the term 'religion' into East Asia, which had previously understood it through the expression \"learning (Hak),\" occurred later, and even today, the concept of 'religion' remains highly controversial.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Of course, the concept of \"learning (Hak)\" in East Asia is sometimes assessed as a pre-modern, undifferentiated concept of religion used before the term \"religion\" was introduced. However, overseas, extensive research is being conducted on the concept of \"Hak\" as a broad concept that includes the social background of its emergence and its political implications, and the \"Hak\" concept of Neo-Confucianism, in particular, is evaluated as a highly holistic system of thought.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "The concept of 'learning (Hak)' presented in Neo-Confucianism is evaluated as having a logical structure very different from the modern educational acquisition of knowledge or skills, or even the acquisition of culture. Although the main part of \"Hak\" in Neo-Confucianism discusses the problem of the Mind (Sim), which seems most detached from the concrete phenomena of human society, this theory, which appears to be merely abstract metaphysics, is said to be a very important part of understanding actual real-world problems. \"Hak\" shows how the elite, whose identity is \"Hak,\" and the non-elite commoners (Min) are distinguished and what relationship they form; how they can possess and justify real power without being specifically empowered by the state or special institutions; and how the relationships between the elites and the government, state, and monarch are defined.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In Korea, the evaluation of Donghak's 'Hak' is sometimes expanded and re-evaluated as a theory of self-cultivation, or as Korean humanities or Korean philosophy; however, overseas, it is being re-evaluated through the postmodern science debate as an alternative East Asian science. The potential for East Asia's \"Hak\" to be an alternative science was discussed early in the philosophy of science, in the case of the scientific re-evaluation of Europe's pre-modern scientific philosophy, the \"four-element theory\" (Earth, Water, Fire, Air), within European philosophy of science.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "The re-evaluation of the 'four-element' theory, a pre-modern Western scientific theory, as a philosophy of science began with Gaston Louis Pierre Bachelard's (1884-1962) discovery of the scientific philosophy of Earth, Water, Fire, and Air. French philosophy of science, starting with Bachelard, now bifurcates the world of scientific philosophy alongside Anglo-American philosophies of science, such as the paradigm theory of Thomas Samuel Kuhn (1922-1996) or the Falsifiability of Karl Raimund Popper (1902-1994), which are considered representative of contemporary philosophy of science. Whereas the Anglo-American scientific philosophies of Kuhn and Popper are limited to the field of science and lack a concrete system like the 'four elements,' French philosophy of science, which began with the philosophy of the four elements, has expanded into the humanities and social sciences—unlike its Anglo-American counterparts—and presupposes the traditional substance of the four elements.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Unlike the Anglo-American philosophies of science of Popper and Kuhn, which viewed the conditions of science as falsifiability or the consensus of the scientific community, Bachelard regarded the characteristic of science as the \"Epistemological Break.\" This means that science is not based on the absolute existence of universally valid theories that are falsifiable or established by convention, but rather that disconnected theories emerge independently and coexist. A representative example is the coexistence of the 'four elements' and atomistic science. Bachelard, prior to Kuhn, termed this coexistence a 'paradigm.' Bachelard's philosophy of science, which regarded the 'epistemological break' as a paradigm, became the theoretical foundation for prominent postmodernist philosophers who are still influential today, such as Louis Pierre Althusser (1918-1990), Jacques Lacan (1902-1981), Michel Foucault (1926-1984), Gilles Deleuze (1925-1995), Michel Serres (1930-2019), Gilbert Durand (1921-2012), and systems science theorists like Humberto Maturana (1928-2021), Francisco Javier Varela Garcia (1946-2001), and Niklas Luhmann (1927-1998).",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "'Earth, Water, Fire, and Air' was a representative scientific view of the pre-modern world, prevalent not only in Europe but also in Buddhism, Hinduism, Egypt, and parts of China. The revival of the four-element scientific view, which had declined after modern science despite its past prominence, by Bachelard as a philosophy of science was paradoxically triggered by the process of pointing out its problems. In the process of identifying the problems of the four elements, the early Bachelard discovered within them the source of imagination, a pre-scientific element that transcends science. Bachelard discovered that the four elements were not an obstacle to science, but conversely, that science itself is a discovery of human imagination, and therefore science must utilize the four elements to advance. Bachelard pointed out that modern science, by obstructing the imagination of the four elements, has plunged modern people into the suffering of lacking imagination, and identified this lack of imagination as the cause of all modern problems. Bachelard's assertions, interpreted in various ways, came to form a major current in world philosophy of science.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "The philosophy of science of the four elements is important for understanding Donghak's \"Hak\" concept because it shows the possibility that Yin-Yang and the Five Elements—the East Asian scientific theory on which Donghak is academically based—can be re-evaluated as a modern philosophy of science, and that Yin-Yang and the Five Elements have the potential to contribute to modern Eastern philosophy of science as much as the four elements did to Western.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Daesoon Thought early on suggested, through the term 'True Donghak' (Cham Donghak), that it is the final solution to the task of \"Donghak\" as an East Asian methodology of thought, a task posed by Donghak Thought. Although extensive research has been conducted on Daesoon Thought and Donghak Thought, studies conducted from the perspective of \"Donghak\" as an East Asian philosophical methodology are still rare among researchers in both fields.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In the Jeon-gyeong, the scripture of Daesoon Thought, the phrase 'Seoyudaeseong-inwalseohak Dongyudaeseong-inwaldonghak' (A great sage in the West is called Western Learning, a great sage in the East is called Eastern Learning) expresses the religion and learning originating from Eastern sages as 'Donghak,' contrasting it with Western 'Seohak.' From this expression in the Jeon-gyeong, we can see that 'Donghak' was also presented as a philosophical methodology for East Asian religion. The use of the academic expression \"Jinri\" (Truth) in \"Daesoon Jinri\" (Truth of Daesoon) also reflects this.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "It is natural that this term was also presented as a philosophical methodology in Donghak. The \"Nonhangmun\" (Discussion on Learning) in the Donggyeong Daejeon, where the term 'Donghak' first appears, is said to have originally been titled \"Donghangmun\" (On Eastern Learning). The Yongdam Yusa, a compilation of Su-un's Hangeul verses, and the Donggyeong Daejeon, his work in classical Chinese, were both written directly by Su-un and thus correspond to early Donghak. In this discussion, the Donghak of the four-year period when Su-un was active is referred to as 'early Donghak,' and following the position of Daesoon Thought, which holds that 'early Donghak' is the thought of Jeungsan, this dissertation will limit its scope of Donghak Thought to early Donghak. However, for comparison with Daesoon Thought, some later terminology that specifically interprets early Donghak Thought will also be used.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In Daesoon Thought, Donghak Thought appears as 'a religion that advocated for the work of the Later World (Hucheon).' Although the term 'Hucheon' (Later World) does not appear directly in the Yongdam Yusa or Donggyeong Daejeon, Daesoon Thought shares many terms that originated in early Donghak, such as 'Donghak,' 'Gaebyeok' (Great Opening), and 'Jisang-seongyeong' (Earthly Paradise).",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "대순사상이 동학의 완성, 곧 참동학으로 제시되었다는 표현의 또 다른 근거는 작란과 치란에 대한 언급이다.[^45]. ‘작란(作亂)한 사람은 수운(水雲)이요, 치란(治亂)하는 사람은 증산(甑山)’이라는 이 구절은 ‘동학’에 대한 최초의 문제 제기가 수운에 의해 이루어지고 그 해결이 증산의 참동학에 의해 이루어졌음을 보여주고 있다. 초기 동학과 대순사상이 공유하는 용어들을 동양의 철학적 사유 방법론으로 검토하여 대순사상의 참동학이 동학사상의 동학을 어떻게 완성하고 있는가를 보여주는 작업은 대순사상을 연구하는 데 있어 대순사상의 논리적 정합성을 이해하는 데 반드시 필요한 연구이다.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Just as Western modernity began with Copernicus's heliocentric theory, it is a well-known fact that 'modernity' as a scholarly pursuit begins with the establishment of an indigenous theory of cosmology. Therefore, Donghak, as an indigenous modern thought, also started from the new establishment of an Eastern cosmology—that is, views on Heaven, Earth, and Humanity—but like Donghak's philosophical methodology, this aspect has not been extensively studied. Accordingly, this study intends to examine Donghak Thought and Daesoon Thought from the perspective of philosophical methodology, focusing on the indigenous modernity of their views on Heaven, Earth, and Humanity, in order to discuss the breadth and depth of their indigenous modernity.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "연구의 목적과 범위",
+      "level": 2,
+      "anchor": "h135-연구의-목적과-범위"
+    },
+    {
+      "type": "para",
+      "text": "The purpose of this discussion is to demonstrate that 'Donghak'-related thoughts established an indigenous modernity against Western modernity by constructing views of Heaven, Earth, and Humanity that fused East and West through Eastern philosophical methods of thought, and by deriving mutually beneficent (Sangsaeng-jeok) views of the Heaven-realm, Earth-realm, and Human-realm. From this perspective, this dissertation intends to compare Donghak Thought and Daesoon Thought.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "The theme of 'Donghak' as a philosophical methodology of thought is a broad and important topic related to the identity of East Asian civilization. Since the imperialist era, when Eastern and Western civilizations began to clash in earnest, the search for an Eastern philosophical methodology as an alternative to the West has been a task of survival for East Asians. Paradoxically, indigenous modernity is also an important task for Westerners in their search for an alternative modernity that can solve the crisis of modern civilization brought about by today's Western civilization.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Daesoon Thought and Donghak Thought present the philosophical structure and logical coherence of Eastern thought more clearly than existing Eastern thoughts. Although Daesoon Thought shares many terms with Donghak Thought, Daesoon Thought fundamentally redefines and supplements the terms first presented in Donghak Thought, referring to this as 'True Donghak' (Cham Donghak). Considering that the term 'Donghak' emerged with the meaning of an Eastern philosophical methodology, the difference between Daesoon Thought and Donghak Thought needs to be re-examined from the perspective of Eastern philosophical methodology. In particular, the 'True Donghak' spoken of in Daesoon Thought can be understood as meaning that it was more faithful to the Eastern philosophical methodology than Donghak Thought. Comparing Donghak Thought and Daesoon Thought from the perspective of Eastern philosophical methodology can show the potential for a more essential understanding of 'Donghak' as the establishment of indigenous modernity.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "This dissertation examines the characteristics of indigenous modernity in Donghak Thought and Daesoon Thought based on preceding research that defined them through the correlative thought's liminality and revitalization movements, focusing on the aspect of constructing a convergent East-West view of Heaven, Earth, and Humanity. The liminality of correlative thinking has been a representative concept used to explain alternative rationality within the history of modern Western thought, which has sought alternatives to Western modernity for over 100 years.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Correlative thinking is a system of thought that first sees the whole of all things and then views the parts in context and relation, contrasting with the Western substantival, ontological, and analytic thought (annalistic thought) that sees the parts first and then the whole; it is an Eastern holographic (Jeon-sik-jeok) and holistic generative system of thought. The theory of correlative thought posits that, unlike the West where addresses are written starting from the nearest location, the East has a unique relational system of thought, writing addresses starting from the furthest point, the country's name. Correlative thinking is the system of thought manifested in the traditional Eastern educational method of learning 'Haneul-cheon Tta-ji' (Heaven, Earth, etc.) first, unlike Western-style education which starts with 'Spot, Chul-soo' (names). Correlative thinking was proposed by Marcel Granet (1884-1940), an early researcher of Eastern religions, and has been continuously developed since.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Next, the theory of liminality is a theory that explains religious change through rites of passage. Victor Turner (1920-1983) explains religious change using the concept of liminality, an intermediate zone in rites of passage that exists between the pre-change and post-change states. The concept of liminality, derived from 'Limen' meaning threshold or intermediate zone, is also a theory that, unlike dichotomous Western thought, posits that a third, intermediate zone—liminality—can explain individual and social changes, such as those in rites of passage. Both theories were developed in the West in the search for alternative ways of thinking and are being applied to the characteristics of Eastern thought and systems.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Furthermore, revitalization theory, unlike liminality theory which emphasizes the change of modernity, is a theory that explains the process of responding to external changes. First introduced by anthropologist Anthony F. C. Wallace (1923-2015), revitalization theory is another anthropological ritual theory that explains the changes in the process of responding to external threats by utilizing tradition. Unlike liminality theory, which emphasizes the internal process of change, revitalization emphasizes external threats and the utilization of tradition. When an individual is threatened with the potential dissolution of their identity, they reorganize their personal belief system based on their strengths, put the changed belief system into practice, and thus change their position in society. Wallace named 'revitalization' as the process whereby a society, when facing a crisis that threatens to dissolve its social identity, revitalizes the strengths of its existing cultural traditions to change its social belief system. If the aspect of liminality explains the mechanism of change, revitalization well explains the mechanism of maintaining that change. In fact, the internal changes of revitalization can be explained by liminality. Therefore, to explain indigenous modernization, the perspective of liminality as an intermediate stage is needed simultaneously with the perspective of revitalization as the principle of maintaining change.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "To achieve the research objectives, this discussion will proceed in the following order and scope. First, it examines the differences between Eastern and Western thought systems as conditions for indigenous modernity, and explores liminality and revitalization as potential mediators between these systems. Second, this dissertation limits its scope to the views of Heaven, Earth, and Humanity to trace the indigenous modernity manifested in the two thoughts. It examines the modern transformation of the traditional views of Heaven, Earth, and Humanity found in both thoughts and traces its principles. Third, it compares the indigenous modernity of the two thoughts and, in the conclusion, presents an evaluation and prospect of them as the indigenous modernity of the views of Heaven, Earth, and Humanity.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In detail, this dissertation proceeds in the following order. First, Chapter I analyzes previous research related to modernity. Chapter II explains the difference between modernity and indigenous modernity, and presents liminality and revitalization as conditions for indigenous modernity. Specifically, Section II-1 examines the definition of modernity as the 'consilience of the sacred and the secular,' the shared Eastern origins of modernity and indigenous modernity, \"Hak\" (Learning) as the formal system of indigenous modernity, and correlative thinking as the philosophical methodology of indigenous modernity; Section II-2 examines liminality as the change mechanism and revitalization as the persistence mechanism of indigenous modernity.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Chapter III explains the continuity and change of Eastern and Western traditions in Donghak Thought—that is, their commonalities and differences—by dividing them into three parts, focusing on the views of Heaven, Earth, and Humanity. Specifically, Section III-1 explains the traditional Eastern and Western views of Heaven as assimilative and formalistic, respectively, and examines the indigenous modernity manifested in Donghak Thought's 'Sicheonju' (Bearing God) view of Heaven. Section III-2 explains the traditional Eastern and Western views of Earth as condensative and materialistic, respectively, and examines the modernity manifested in Donghak Thought's 'Jowhajeong' (Fixing Creation) view of Earth. Section III-3 explains the traditional Eastern and Western views of Humanity as grafting and growth-oriented, respectively, and examines the modernity manifested in Donghak Thought's 'Yeongsebulmang' (Eternal Non-forgetting) view of Humanity.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Chapter IV compares the continuity and change of Eastern and Western traditions in Daesoon Thought—that is, their commonalities and differences—by dividing them into three parts, focusing on the views of Heaven, Earth, and Humanity. Section IV-1 explains the Daesoon view of Heaven as a view of the Heaven-realm based on 'Insin-gangse' (Human Advent), compares it with the traditional view of Heaven, and then examines its aspects and characteristics. Section IV-2 explains the Daesoon view of Earth as a view of the Earth-realm based on 'Cheonji Seong-Gyeong-Sin' (Sincerity, Reverence, and Faith of Heaven and Earth), compares it with the traditional view of Earth, and then examines its aspects and characteristics. Section IV-3 explains the Daesoon view of Humanity as a view of the Human-realm based on 'Seongsa-jaein' (Success Depends on the Person), compares it with the traditional view of Humanity, and then examines its aspects and characteristics.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Chapter V compares the views of Heaven, Earth, and Humanity in Donghak Thought and Daesoon Thought from the perspective of the continuity and change in the two thoughts. Section V-1 compares the indigenous modernity of the two thoughts, focusing on their views of Heaven. Section V-2 compares the indigenous modernity of the two thoughts, focusing on their views of Earth. Section V-3 compares the indigenous modernity of the two thoughts, focusing on their views of Humanity.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Chapter VI, the conclusion, summarizes the above discussion, identifies the limitations and significance of this study, and synthesizes the comparison of the indigenous modernity of Donghak Thought and Daesoon Thought.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "선행연구 분석",
+      "level": 2,
+      "anchor": "h149-선행연구-분석"
+    },
+    {
+      "type": "para",
+      "text": "Research on Donghak has expanded, with over 1,000 theses published, primarily centered around related academic societies such as the Donghak Society and the Korean Donghak Society. The main discussion has consisted of content that seeks the origin of Korea's modernity theories in \"Donghak,\" as a counterargument to the theories that had sought it in \"Silhak\" (Practical Learning). Among the preceding studies, the part emphasized as the origin of indigenous modernity in Donghak Thought was the comparison of Donghak Thought's contemporary philosophical aspects—which began with figures like Kim Ji-ha—with aspects of modern Western philosophy, such as life philosophy and process philosophy.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Previous research on Donghak Thought related to modernity is broadly divided into three categories: studies on the Donghak popular movement, Donghak's religious thought, and Donghak's philosophical methodology. First, the Donghak popular movement is primarily studied using social scientific methods regarding the history of the social movement that arose from Donghak Thought, rather than its religion and ideology, as historical research on the Donghak Peasant Revolution. Second, Donghak's religious thought is studied through religious studies methods or intellectual history methods concerning Eastern religions. Third, Donghak's philosophical methodology is studied as an Eastern academic methodology from the perspective of the philosophy of science or civilizational history.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "The preceding research related to this dissertation is mainly the second type, which studies Donghak Thought and Daesoon Thought as religious ideologies, and the third type, which regards them as Eastern methodologies of thought. The second type of research can be further divided into studies that seek the significance of Donghak Thought and Daesoon Thought within the entire history of Korean religious thought, and studies that intensively explore Donghak Thought and Daesoon Thought. The first type, studies seeking the significance of Donghak Thought and Daesoon Thought in the entire history of Korean religious thought, includes Jang Byeong-gil, Jeong Jin-hong, Yoon Yi-heum, and Choi Jong-seong. Kang Don-gu, Noh Gil-myeong, Kim Hong-cheol, Don Baker, Yu Dong-sik, Kim Jong-seo, Kim Ik-du, Hwang Jong-won, among others, can be mentioned; for the second type, studies intensively comparing and exploring Donghak Thought and Daesoon Thought, representative researchers include Kim Ji-ha and Kim Tak.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Looking at each researcher in detail, first, in the case of Jang Byeong-gil, who pioneered the study of Daesoon Thought and published the first edition of the Jeon-gyeong through Seoul National University Press, he understands Donghak Thought and Daesoon Thought as the spiritual worldview of the grass-roots populace, and notes that Daesoon Thought, which emerged in response, particularly entails a view of divine beings (Sinmyeong-gwan) according to the principle of the transformation of Heaven and Earth. It is said that this is also accompanied by a total change in views of humanity, values, and so on. In the case of Jeong Jin-hong, a representative Korean scholar of religion, he summarized Korean religious history as Daoism of mimesis, Buddhism of Mythos, Confucianism of Logos, and Donghak of Theos, and regarded the development of Protestantism after liberation as an extension of Donghak. He states that although Donghak's appearance was brief, it holds the significant meaning of being the beginning of Theos in Korean religious thought. Choi Jong-seong, carrying on Jeong Jin-hong's research, argues that Donghak needs to be studied centering on its rituals, as 'Theopraxy.' While Jeong Jin-hong's research studied the significance of Donghak Thought focusing on its doctrines, Yoon Yi-heum explains its significance in the form of a supreme God, stating that Donghak, while a new ideology, also shares the transformative worldview of the Jeonggamnok that preceded it and serves as a model for the new religions that emerged afterward.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In the case of Kang Don-gu, who seeks to apply global religious studies trends to the study of Korean new religions, he emphasizes the role of the Jeongyeok (Correct Change) from the perspective of the differentiation of Korean religion, and stresses that Korean characteristics are prominent in new Korean religions that reflect the Jeongyeok. He says that Daesoon Thought, which particularly emphasizes the Jeongyeok, expresses Korean characteristics well. Noh Gil-myeong states that today's new Korean religions, although established in the late Joseon period, are a contemporary phenomenon that can be linked to post-modernity, in that they were re-illuminated after the economic development. Accordingly, he argues that Daesoon Thought's Haewon-sangsaeng should also be examined as Jeungsan's alternative modernity, which foresaw the future crisis that Western modernity would cause.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In the case of Kim Hong-cheol, he points to Geumsan Temple and Vinaya Master Jinpyo as the geographical background for the emergence of Donghak Thought and Daesoon Thought, illuminating the relationship between the Baekje restoration movement and the revitalization of Maitreya faith as the background for both thoughts. The Donghak Peasant Revolution and Daesoon Thought coincidentally developed centered on Geumsan Temple and Maitreya, which are related to the fall of Baekje. Don Baker regards Donghak-related thoughts as a combination of Sin (God/spirit) and Do (Dao/Way), which have constituted Korean spirituality. If Sin (神) is a personalistic god concept like that in Christianity or Shamanism, Do (道) can be said to be an impersonalistic principle-god (Ibeopsin), as in Confucianism, Buddhism, and Daoism. In the case of Yu Dong-sik, he advocates for \"Pungryu\" (Wind and Stream) theology, claiming that spiritual determinism, divination-prophecy beliefs, and Pungsu-jiri (Feng Shui) are the three mainstreams of Korean folk religion, and that Donghak Thought and Daesoon Thought are extensions of this. The 'Pung' (Wind) in Pungryu is a concept of Qi (Gi) that predates and is interchangeable with Qi (氣), and Qi (氣) has formed the main pillars of Korean folk religion: spiritual determinism, divination-prophecy beliefs, and Pungsu-jiri. Kim Jong-seo introduces the research of Gernot Prunner (1935-2002), who compared the modern Donghak Thought, which emphasized social revolutionary aspects, with Daesoon Thought, which focused on the salvation of humankind.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In the case of Kim Ik-du, who leads \"Jeongeup Studies\" in Jeongeup, the heartland of Donghak Thought and Daesoon Thought, he, as a scholar of Korean literature specializing in drama, evaluates the two thoughts as groundbreaking ideologies that transform Aristotle's (B.C. 384-322) Western conflict frame, which emphasizes conflict, into Korean Sangsaeng (mutual beneficence). Kim Ik-du argues that the project of seeking the alternative modernity that postmodernism sought in the West failed because catharsis is the womb of dialectics, and catharsis is motived by Western mythology, which is themed on the conflict of gods. Rather, Kim Ik-du pays attention to Kim Ji-ha's research, which sought the alternative modernity postmodernism was looking for in Donghak Thought and Daesoon Thought, and interprets Kim Ji-ha's research from the perspective of liminality. Kim Ik-du states that the 'aesthetics of white shadow,' an alternative modernity that Kim Ji-ha discovered in the two thoughts, was possible because it was based on Korean mythology, which, unlike Western mythology, is motived by the harmony of gods.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Also, Lee Young-ran, who studied performance studies under Richard Schechner (1934-present)—who early on applied liminality to performance studies and highly valued Korean shamanism from a liminality perspective—interprets liminality from a performance studies perspective along the two axes of 'being' and 'becoming,' and summarizes the views of Heaven, Earth, and Humanity (Cheon-Ji-In) and representative Western postmodern thoughts in a single table. The verb \"be,\" which has the two meanings of \"to exist\" (itda) and \"to be\" (ida), is applied in Heidegger's existentialism as a core tool for explaining the world, and Schechner applied this to performance studies, interpreting liminality as 'being' and 'becoming.' Although East Asia lacks the verb \"be,\" it has the \"Han\" concept, which refers to both part and whole simultaneously; Lee Young-ran applies this to Heaven, Earth, and Humanity (Cheon-Ji-In) like the Cheonbugyeong, interpreting them as Heaven (1), Earth (2, 1+2), and Human (3, 1+2, 1+2+3, 1’=1+2+3), and argues that this \"Han\" concept can interpret liminality more readily than the verb \"be.\" This dissertation intends to apply the definitions of liminality primarily referenced from Kim Ik-du and Lee Young-ran to the indigenous modernity of Donghak Thought and Daesoon Thought.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Hwang Jong-won states that Donghak Thought and Daesoon Thought achieved a creative modernity by uniquely synthesizing the three origins of Eastern and Western religions. It is said that Donghak Thought and Daesoon Thought, among the ideologies that chose a third path in response to the Enlightenment faction (Gaehwapa) and the 'Protect Orthodoxy and Reject Heterodoxy' faction (Wijeong-cheoksapa), became successful indigenous ideologies by coordinating East and West from an objective standpoint, unlike the popularization of Confucianism seen in figures like Park Eun-sik. This aligns well with the case of China's Liang Qichao, as pointed out by Wang Hui.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Next, looking at studies focused on comparing the modernity of Donghak Thought and Daesoon Thought, Kim Ji-ha, for instance, broadly categorizes Donghak Thought and Daesoon Thought into political modern thought and cultural modern thought. Kim Ji-ha argues that while Donghak Thought emphasized political modernity, Daesoon Thought pursued cultural modernity by applying it starting from small, everyday practices. Kim Ji-ha, comparing the two thoughts through an intuitive aesthetic method, states that Donghak Thought has a strong political-ideological character, pursuing a 'Dongse-gaebyeok' (Dynamic World-Opening) through the organized methods of artificial and traditional popular revolt; whereas Daesoon Thought has a strong cultural movement character, demonstrating a movement of 'Jeongse-gaebyeok' (Peaceful World-Opening) in everyday practice. Kim Ji-ha attempted a comparative analysis of the modern characteristics of the two thoughts from the perspective of the philosophy of Pierre Teilhard de Chardin (1881-1955), who synthesized science and theology; in particular, he compared the philosophy of becoming of Gilles Deleuze (1925-1995), a representative thinker of post-modernity, and ultimately derived the commonality of 'Chaosmos.' Kim Ji-ha expressed this through the stages of life philosophy, 'Yullyeo' (Cosmic Music/Rhythm), and the 'aesthetics of white shadow.' 'Yullyeo,' which means Eastern harmony but symbolizes cosmic harmony, was Kim Ji-ha's aesthetic expression for the indigenous modernity of correlative thinking. Kim Ji-ha interpreted Donghak Thought and Daesoon Thought as indigenous modernity and post-modernity, respectively, and emphasized the characteristics of correlative thinking; however, he primarily used aesthetic expressions and did not attempt a comparison linking correlative thinking with anthropological concepts such as liminality and revitalization, as this dissertation does.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In the case of Kim Tak, he provides detailed textual verification of the two thoughts, specifically comparing the continuity and change of tradition connecting them to existing thoughts from the perspective of anthropocentrism. Especially, insofar as Daesoon Thought could be called 'True Donghak,' he sufficiently explains the terms shared by Donghak Thought and Daesoon Thought. However, he has not yet conducted research on the correlative thinking present in the background of the two thoughts. Besides these two researchers, some comparative studies on the modernity of the two thoughts have been conducted, which will be discussed whenever the topic arises as the discussion unfolds.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Third, looking at preceding research on the methodological aspects of thought in Donghak Thought and Daesoon Thought, it is broadly divided into studies on process philosophy, correlative thinking, and synchronicity. However, these studies, while applied to individual research on Donghak Thought or Daesoon Thought, have rarely been applied to a comparison of the two. The controversy over the third method, which applies the methodology of applying Western scholarship to Eastern thought, is still ongoing. In Daesoon Thought, which holds that modern Western science and humanities/social sciences resulted from the transmission of Eastern thought to the West by Matteo Ricci and Great Master Jinmuk (1562-1633), despite the controversy, preceding studies on the methodological aspects of thought in Donghak Thought and Daesoon Thought are prerequisite studies that must be reviewed. In fact, Hwang Tae-yeon, by analyzing the 400-year-old English writings from Matteo Ricci's time released by Google on the internet, shows through about 20 existing books—which analyzed how Eastern thought transmitted after Matteo Ricci was transformed into Western science and humanities/social sciences—how Western modernity, originating from Eastern thought, is being appropriated in Donghak-related thoughts.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "연구자별로 살펴보면 먼저 과정 철학의 경우 대표적인 연구자로는 김경재와 김상일이 있다. 화이트헤드(Alfred North Whitehead, 1861-1947)로부터 시작한 과정 철학은 존 캅(John B. Cobb, 1925- 현재) 등을 거치며 과정 신학으로 발전하며 동서고금의 수양론적 전통의 종교 신관[^93] 이해에 획기적으로 공헌하였다. 김지하의 경우도 과정 철학을 미학적으로 수용하여 동학사상과 대순 사상에 적용하기도 하고 동아시아 사유 방법론의 기원이 되는 주역 사상 자체를 과정 철학적으로 분석한 박재주의 연구도 있지만[^94] 본격적으로 동학사상을 과정철학과 연관시킨 연구자는 김경재와 김상일이다. 김경재는 과정 신학을 정초한 하츠혼(Charles Hartshorne, 1897-2000)의 개념을 수용하여[^95] 동학의 신관을 초월자가 내재적으로 함께 있는 범재신론으로 해석하여 철학적 사유방법의 동학 이해에 대한 가능성을 우선적으로 제시했다.[^96] 김상일은 하츠혼의 개념을 더 확대한 존 캅의 과정 신학을 적용하여 동학을 신서학(新西學)이라 규정한다.[^97] 김상일은 이후 과정 철학을 현대 프랙탈 과학에 접목하여 켄 윌버(Ken Wilber, 1949- 현재)와 관련되는 영원 철학 등 대순사상의 탈근대성에 적용하는 다양한 연구도 시도했다.[^98] 최근 과정 신학에 대한 연구는 동학사상의 전일성(全一性)에 대한 연구로 발전되고 있다.[^99]",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Next, in the case of correlative thinking, representative researchers include Kim Hyung-hyo, Lee Chang-il, Kwak Shin-hwan, Jeong Woo-jin, Park Jeong-jin, Kim Ki, Baek Seung-jong, Lee Bong-ho, and Kim Baek-hyun. Although Lee Chang-il was the researcher who fully introduced correlative thinking to Korea, Kim Hyung-hyo's research, which had been grafting postmodernism onto Eastern thought for about 30 years prior, existed, and this was followed by domestic researchers like Park Jeong-jin and overseas research. Regarding full-scale research on correlative thinking by Confucian scholars, there is the work of Kwak Shin-hwan. Kwak Shin-hwan introduced Taiwanese research on correlative thinking and applied it to the study of post-Toegye Korean thought, including new Korean religious ideologies. Kim Ki has also published a doctoral dissertation synthesizing domestic and international research on the Confucian aspects of correlative thinking. Baek Seung-jong, who has traced the influence of the Jeonggamnok, has also explored the Eastern tradition regarding the power of the mind through correlative thinking, which formed the background of the Jeonggamnok's power.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Full-scale research on correlative thinking by Daoist scholars has been conducted by Jeong Woo-jin and others. Jeong Woo-jin, reflecting the recent trend in East Asian Daoist research connecting traditional Korean medicine with correlative thinking, distinguished between correlative thinking and synchronistic thinking and presented various views on the body, where East Asian science is concentrated. Kim Hee-jung regards the period when correlative thinking was established as the Han Dynasty, when the Huangdi Sijing (Yellow Emperor's Four Classics) was established, and has traced the development process of Eastern science, in which the body, state, and universe were integrated as one through correlative thinking. Lee Bong-ho, who has traced the correlative thinking of Daoist scholars like Seo Myeong-eung (1716-1787) who responded to Western Learning (Seohak) with correlative thinking, has also traced the emergence of the Yi-zhuan (Commentary on the I Ching), where correlative thinking centered on Taiyi (Great One) first appears, as the birth process of I Ching studies. Lee Bong-ho, like Kwon Taek-young, has also traced the structural similarities between Saussure, who was the origin of Lacanian structuralism—a leading theory of post-modernity—and Laozi's Daodejing. Kim Baek-hyun synthesizes the origins of correlative thinking from the perspective of the 'theory of Qi-fication' (Gihwa-ron).",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "While there have been critical studies on correlative thinking, such as Kim Young-gun's critical study from an analytic philosophy perspective arguing that correlative thinking cannot be an alternative to analytic science, if one applies the philosophy of science of Paul Karl Feyerabend (1924-1994)—who argued there is no reason why science must only use analytic methods—then analytic thinking, incompetent in solving today's real-world problems, can be sufficiently complemented by correlative thinking.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Research on synchronicity, as seen in the Secret craze, is a field that can be called the future of religious studies, represented today by the \"encounter between religion and science.\" Although the Korean Academy of Mental Science was disbanded, the International Society for Science & Religion, established in 1968, which has continuously held international academic conferences on science and religion, ranks among the top societies in the global field of religious studies every year. Research on synchronicity manifests in various fields of Fractal science, which posits that the whole appears repeatedly in the parts. Previous researchers in fields related to synchronicity in Donghak Thought and Jeungsan Thought include Heo Hun, Park Byoung-hoon, and others. Heo Hun viewed Daesoon Thought through \"Perennial Philosophy,\" and Park Byoung-hoon unearthed cases of synchronicity through the study of Donghak's \"Gangpil\" (automatic writing).",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In existing discussions on the modernity of Donghak Thought, the research paying attention to correlative thinking was pioneered by the study of Kim Ji-ha. Kim Ji-ha, almost the only early researcher to study both Donghak Thought and Jeungsan Thought simultaneously, also published many literary works, and the consistency seen in Kim Ji-ha's works was Yin-Yang and the Five Elements. Kim Ji-ha also claimed that Hong Yong-hee's critical review, which interpreted his thought development process through Yin-Yang and the Five Elements, was most consistent with his own thesis. Hong Yong-hee compares Kim Ji-ha's early work Hwangtogil (Yellow Earth Road) and his later work Aerin, stating that Kim Ji-ha interpreted Donghak Thought as the modernity of Yang (positivity) and Jeungsan Thought as post-modernity. Kim Ji-ha is said to have explained the development from Donghak Thought to Jeungsan Thought in three stages: Life, Yullyeo (rhythm/cosmic music), and White Shadow.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In the West, along with the trend of postmodernism, research interpreting correlative thinking as post-modernity also appeared globally. In the West, postmodernism is based on non-linear thinking, such as correlative thinking. In particular, theories such as the complex system attracted attention as an alternative not only for the humanities and social sciences but also for modern natural sciences. In Korea, Kim Sang-il and others developed a deductive theory that the I Ching is based on the logic of post-modernity and is also related to process philosophy. However, these preceding studies delved into everydayness or micro-theories and did not discuss the macroscopic views of Heaven, Earth, and Humanity that are the foundation of actual modernity.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Even researchers of Donghak Thought who have studied it as a theory of self-cultivation have conducted insufficient research on correlative thinking. This is because there was no mediating concept like \"liminality\" to connect correlative thinking with the theory of self-cultivation. The concept of liminality, which has properties of both epistemology and self-cultivation, shares common attributes with the concept of \"Jhwa\" (Harmony/Creation) in Donghak Thought, and thus can link research on correlative thinking in Donghak Thought with the theory of self-cultivation. The traditional research on \"Jhwa\" by Cho Yong-il and the research on \"liminality\" by Lee Young-ran can connect the two concepts.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "\"Jhwa\" (Harmony/Creation) was a core ideology of Donghak Thought, along with \"Sicheonju\" (Bearing God), but follow-up research after Cho Yong-il has been insufficient. The broad scope and meaning covered by \"Jhwa\" made it a very difficult concept for which to clarify the core attributes. In a broad sense, the \"Yullyeo\" (cosmic rhythm) and \"aesthetics of white shadow\" proposed by Kim Ji-ha, or Kim Sang-il's \"Han\" concept, can also be interpreted as different concepts of \"Jhwa.\"",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In his doctoral dissertation on the concept of \"Jhwa,\" Cho Yong-il utilizes the concepts of \"Buryeon\" (Not-so) and \"Giyeon\" (So-it-is) found in Donghak Thought to interpret the \"Jhwa\" concept with the dual meaning of the substance of \"being\" (doem) and the attribute of \"becoming\" (saengseong) inherent in the German verb \"ist\" (to be). Similarly, Lee Young-ran interprets the dual attributes of \"liminality\" from a performance studies perspective as \"becoming\" and \"being.\" Furthermore, Lee Young-ran applies these two attributes to a comparison of the Derrida-line and Deleuze-line of postmodernism, presenting a framework for understanding post-modernity as well as a link between modernity and Eastern thought. This visualizes the form of \"Jhwa\" that 'Sicheonju' (Bearing God)—which seeks to maximize the theory of self-cultivation by enshrining God in one's body—sought to achieve through self-cultivation, thereby presenting the indigenous modernity of Donghak-related thoughts.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Research on Donghak Thought and Daesoon Thought is extensive, not only in fields related to correlative thinking, liminality, revitalization, and modernity—which this dissertation adopts as its methodology—but also ideologically; however, further mention will be made in the detailed discussion.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Next, looking at the research by Daesoon Thought scholars related to the three methods above, representative studies include those by Ko Nam-sik, Lee Kyoung-won, Cha Sun-geun, Park Sang-gyu, and Kim Tae-soo. First, in the case of Ko Nam-sik, using a text-centered research method, he has unearthed many hidden concepts that had not received attention, such as 'True Donghak' (Cham Donghak), the 'Fifty-Year Study,' the 'Two Revelations,' the 'View of the Three Realms' (Samgye-gwan), the 'Earth-Human relationship' (Ji-in-gwangye), 'South Joseon,' 'Japanese Haewon (Resolution of Grievances),' the 'Dao of Divine Beings' (Sindo), and the 'Righteous Governance of the Mind's Law' (Ijeong-simbeop). In particular, related to the first research area, he studied the entire process of the establishment and development of Donghak Thought and Daesoon Thought from the perspective of 'True Donghak.' Ko Nam-sik first studied the establishment and development process of 'True Donghak' from the perspectives of 'Jakran' (Causing Disorder), 'Dongran' (Disturbance), and 'Chiran' (Rectifying Disorder); then, in relation to 'Haewon' (Resolution of Grievances) and the 'construction of the Earthly Paradise'—which constitute 'True Donghak'—he sought to prove that Daesoon Thought is 'True Donghak' by demonstrating that the study of Doju Jo Jeong-san, encompassing Korean 'Haewon' starting from 'Japanese Haewon,' the 'two revelations' in Daesoon Thought, and the realization of a nationalism different from Donghak's, was finalized as the 'Fifty-Year Study Completion' (Osimnyeon Gongbu Jongpil).",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Ko Nam-sik has explained the development process of Daesoon Thought as the development process of 'True Donghak.' Ko Nam-sik's research provides an opportunity for the development process of 'True Donghak' to be expanded into various studies if religious studies theories are applied. Accordingly, this dissertation aims to explain the development process of 'True Donghak' by focusing on the \"Hak\" (Learning) of Donghak, centering on the theory of rites of passage, which can be seen as a religious-anthropological theory of growth. In fact, in Daesoon Thought, modern civilization, which commits the ceaseless sin of conquering nature, is evaluated as a civilization that must be overcome through views of Heaven, Earth, and Humanity that accord with correlative thinking, and through rites of passage. This dissertation aims to show that both thoughts are indigenous modernities and post-modernities by examining how Donghak Thought and Daesoon Thought present views of Heaven, Earth, and Humanity with a new methodology of thought in order to overcome the crisis of modern civilization through the liminality of rites of passage.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In the case of Lee Kyoung-won, he compares the religious studies analysis of Donghak Thought and Jeungsan Thought as a religious studies inquiry into \"ultimate reality.\" Lee Kyoung-won shows a case where the unprecedented Korean concept of a personalistic God, established in Donghak Thought and Daesoon Thought, can be interpreted through the universally human religious studies concept of \"ultimate reality,\" thereby showing a clue that the two thoughts can be interpreted as indigenous modernity. Lee Kyoung-won, who also understood Daesoon Thought through organic philosophy, described the concept of \"ultimate reality\" as a characteristic of the view of God common to Donghak Thought and Daesoon Thought, showing that an understanding beyond panentheistic concepts is possible. Lee Kyoung-won showed that through the concept of \"ultimate reality,\" it is possible to interpret not only the view of the Three Realms in Daesoon Thought but also new religions in general, and furthermore, the characteristics of Korean religion. Furthermore, in his research on the modern transformation of the concept of Heaven (Cheon) in Daesoon Thought, Lee Kyoung-won comparatively explained Donghak Thought's mystical view of Heaven as the 'emergence of a Heaven-beyond-Heaven' (Cheonoecheon) and Daesoon Thought's avataric (Gwonhwa-jeok) view of Heaven as the 'Human Advent of the Ninth Heaven' (Gocheon ui Insin-gangse). Also, in his research on the modernity and transformative thought of Daesoon Thought, he explained Haewon (Resolution of Grievances) thought as true modernity and the Cheonji-gongsa (Reordering Works of Heaven and Earth) as transformative thought. Modernity without Haewon is like investing in the future without addressing the past, which well explains the problem of today's modernity, where problems grow larger as modernity progresses. This dissertation intends to examine the mystical view of Heaven and transformative thought by adding liminality, the avataric view of Heaven and true modernity by adding revitalization, and modernity by adding correlative thinking.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In the case of Cha Sun-geun, he applied the methodology of Jonathan Zittell Smith (1938-2017)—which holds that even when using a religious phenomenological method in comparative religion, the comparison should not be holistic between two religions, but contextual for each individual religion to reveal its uniqueness—to the comparative study of Daesoon Thought. Daesoon Thought shares various characteristics not only with Donghak Thought but also with many other Korean religious traditions such as Daoist thought, Jeongyeok (Correct Change) thought, and shamanistic thought, and thus many comparative studies have been conducted. Regarding this, Cha Sun-geun emphasizes that existing research on Daesoon Thought has concentrated on the religious phenomenological method that holistically compares two religions, which tends to conceal the unique characteristics of the two religions being compared; he stresses that contextual comparison is advantageous for highlighting these concealed characteristics. Accordingly, he emphasizes that despite the commonalities between Donghak Thought and Daesoon Thought, their differences must be clearly distinguished, and he subdivides these differences according to the categories of religious studies. Cha Sun-geun, in particular, demonstrates through the difference between the concept of \"Gihwa\" (Qi-fication) in Donghak Thought and \"Deokhwa\" (Virtuous Transformation) in Daesoon Thought that Daesoon Thought is not an alternative ideology to Donghak Thought but its own unique ideology, proving this from a religious studies perspective. Donghak Thought's 'Dogi-jangjon Sa-bul-ip' (If the spirit of Dao is preserved long, evil cannot enter) and Daesoon Thought's 'Jinsim-gyeonsu Bok-seon-rae' (If a true mind is firmly kept, blessings come first) clearly reveal the difference between 'Gihwa' (Qi-fication) and 'Deokhwa' (Virtuous Transformation). This dissertation also, following the contextual comparative method proposed by Cha Sun-geun, will compare the two thoughts restrictively, only within the contexts of \"learning (Hak)\" and the \"views of Heaven, Earth, and Humanity in correlative thinking.\"",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "In the case of Daesoon Thought research related to the view of the Three Realms or cosmology, the research of Park Sang-gyu can be mentioned. First, in his paper on the view of the Heaven-realm (Cheongye-gwan) within the view of the Three Realms (Samgye-gwan), Park Sang-gyu compares the 28 Heavens of the Buddhist Three Realms (divided into the Desire Realm, Form Realm, and Formless Realm) with the 36 Heavens of the Heaven-realm in Daesoon Thought and the 36 Heavens of Daoism, showing that these three views of the Heaven-realm can be mutually harmonized. Park Sang-gyu argues that the dual structure of the Yeongdae (Spirit Altar) and Dosolgung (Tusita Palace) at the Mugeukdo-jang, the center (Dojang) during the Mugeukdo period, shows the dual structure of the Heaven-realm: the 'Heaven within the Three Realms' and the 'Gocheon (Ninth Heaven), the Heaven outside the Three Realms.' Park Sang-gyu states that when explaining the Heaven-realm as a dual structure, the three Heaven-realms can be interconnected in various ways. In Daesoon Thought, which holds that Confucianism, Buddhism, and Daoism (Yu-Bul-Seon) were formed according to the principle of the 12 orbital periods (Unseong) of the 'Function of Heaven and Earth' (Cheonji-jiyong)—which is the Qi-dynamic action of the Taegeuk (Supreme Ultimate)—it would be natural for the views of the Heaven-realm of Yu-Bul-Seon to be congruent.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Lastly, regarding liminality, Kim Tae-soo has analyzed the Cheonji-gongsa (Reordering Works of Heaven and Earth) of Daesoon Thought from the perspective of liminality. Kim Tae-soo regarded the Cheonji-gongsa itself as a ritual based on liminality and analyzed the Cheonji-gongsa in detail based on liminality theory. This dissertation differs from Kim Tae-soo, who applied the concept of liminality from the perspective of the Supreme God, in that it applies liminality from the self-cultivation perspective of the practitioner (Sudo-in) and also compares it with Donghak Thought from the aspects of correlative thinking and modernity.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Although the three methods used to study the modernity of Donghak Thought—namely, the Donghak popular movement, religious thought, and methodology of thought—differ, the three methods are mutually and organically connected. Studying Donghak as a philosophical methodology does not diminish the characteristics of Donghak Thought as a popular movement or a religious ideology. Rather, an examination of its philosophical methodology can enhance the other two characteristics. A philosophical-methodological study of Donghak Thought can foster greater empathy for it by enabling an understanding of the reasons for its theoretical emergence not only from an ideological aspect but also from a logical one. A logical understanding of Donghak Thought also enables a rational and universal understanding of the motivations of the people involved in the Donghak popular movement, who put the thought into practice. Therefore, a philosophical-methodological understanding of Donghak Thought becomes very important research for universally understanding Daesoon Thought as well.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Despite there being no shortage of research compared to the other two fields, research applying philosophical methodology to Daesoon Thought is relatively lacking compared to Donghak Thought. The reason for this lack of research is related to the absence of diachronic studies and the research scope of the 'ideal world.' First, looking at the absence of diachronic research, existing studies on the philosophical methodology of Donghak remained at the level of existing synchronic methods comparing contemporary Eastern and Western philosophical methodologies, making it difficult to link with the other two fields that focus on historical change. This is because the existing synchronic method limited the philosophical-methodological understanding of Donghak Thought to the domain of philosophy of science, failing to present an organic method that could influence the other two research fields that were already active. In particular, existing preceding research did not pay attention to the difference between Donghak Thought and Daesoon Thought using a diachronic method, which studies changes that appear over time. A diachronic study, by diachronically presenting Donghak before Donghak Thought and Donghak after the emergence of Daesoon Thought, can explain the emergence of Donghak Thought and the Donghak popular movement through a philosophical-methodological understanding of Donghak Thought.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "대순사상이 사유방법론이라는 측면에서 이해되지 못한 또 다른 이유는 대순사상에서 동학의 완성은 동양 사상의 이상세계 실현으로까지 동학의 범위가 확대되기 때문이다. “나를 쫓는 자는 영원한 복록을 얻어 불로불사하며 영원한 선경의 낙을 누릴 것이니 이것이 참동학이니라.”[^165]라는 구절처럼 대순사상에서 동학은 민중운동의 차원을 넘어 실제 동양의 이상사회인 후천까지 그 범위가 확장되어, 학술적 이해보다는 종교적 이해가 보다 적합해 보이기 때문이다. 그러나 동학이 말하는 후천의 이상세계를 실증적 차원이 아니고 동양 철학적 사유 방법이라는 방법론적 차원에서 이해한다면 이상세계까지 포함되는 대순사상의 참동학을 사유방법으로 이해하는 방법이 제시될 수 있다.",
+      "level": 0,
+      "anchor": null
+    },
+    {
+      "type": "para",
+      "text": "Besides this, there are various research achievements on Donghak Thought and Daesoon Thought. In the case of Daesoon Thought's cosmology and view of the Three Realms alone, there are studies by Lee Jae-won, Kim Yong-hwan, Kim Gwi-man, Cha Sun-geun's comparative research on the cosmology of Daesoon Thought and Jeongyeok (Correct Change) thought, research on future views, Choi Won-hyuk's comparative study on the views of the Three Realms in Daesoon Thought and Donghak Thought, comparative research on the ideal society, as well as various studies and monographs published in overseas journals, including SCI-level ones. Additional preceding research will be discussed as the discussion unfolds, whenever the topic arises.",
+      "level": 0,
+      "anchor": null
+    }
+  ],
+  "footnotes": [
+    {
+      "number": 1,
+      "text": "이정우, 『세계철학사 3: 근대성의 카르토그라피 』, 서울: 길, 2021, pp.164-165."
+    },
+    {
+      "number": 2,
+      "text": "이도흠, 「탈현대 사상으로서 동양 철학의 가능성과 한계」 『동학학보』 10, 2005, p.9."
+    },
+    {
+      "number": 3,
+      "text": "찰스 해리슨, 『모더니즘』, 파주: 열화당, 2003, p.6"
+    },
+    {
+      "number": 4,
+      "text": "근대성에 대한 베버의 논지는 유명한 『종교사회학논총』의 「저자서문」에 집약되어 나타난다고 한다. 김상준, 『맹자의 땀 성왕의 피: 중층근대와 동아시아 유교문명』, 서울: 아카넷, 2011.p.52에서 재인용; 막스 베버 지음, 김덕영 옮김, 『프로테스탄트 윤리와 자본주의 정신』, 서울: 길, 2010. pp.11- 38."
+    },
+    {
+      "number": 5,
+      "text": "Vincent Descombes, translated by Park Seong-chang, The Same and the Other: Modern French Philosophy (1933-1978), Seoul: Ingansarang, 1991."
+    },
+    {
+      "number": 6,
+      "text": "이정우, 『세계철학사 3: 근대성의 카르토그라피 』, 서울: 길, 2021, pp,164-165."
+    },
+    {
+      "number": 7,
+      "text": "이정우, 『세계철학사 3: 근대성의 카르토그라피 』, 서울: 길, 2021; 이정우, 『세계철학사 4: 탈근대 사유의 지평들』, 서울: 길, 2024."
+    },
+    {
+      "number": 8,
+      "text": "앨런 소칼, 장 브리크몽 지음 ; 이희재 옮김, 『지적 사기: 포스트모던 사상가들은 과학을 어떻게 남용했는가』, 서울: 한국경제신문 한경BP, 2014."
+    },
+    {
+      "number": 9,
+      "text": "Jeong Il-gwon, René Girard in Dialogue with Modern Thinkers: Mimetic Theory, Post-structuralism, and Deconstructive Philosophy, Seoul: Dongyeon, 2017."
+    },
+    {
+      "number": 10,
+      "text": "후기구조주의는 구조의 변화 가능성을 보다 유연하게 간주하는 2세대 구조주의이다. 큰 범주에서 대표적 이론가로 라깡, 푸코, 데리다 등을 들수 있다."
+    },
+    {
+      "number": 11,
+      "text": "이도흠, 「탈현대 사상으로서 동양 철학의 가능성과 한계」 『동학학보』 10, 2005, p.11."
+    },
+    {
+      "number": 12,
+      "text": "Eisenstadt, Shmuel N. and Schluchter, Wolfgang, “Introduction: Paths to Early Modernities: A Comparative View”, Daedalus 127(3), 1998. pp.1-18 등 Eisenstadt(2002), Eisenstadt, Riedel, Sachsenmaier(2002), Wittrock(1998), Anarson(2001), Kaya(2004), Hung (2004). 쉬무엘 N. 아이젠스타트 지음 ; 임현진 [외]옮김, 『다중적 근대성의 탐구: 비교문명적 관점 』, 파주: 나남, 2009; 김상준, 『맹자의 땀 성왕의 피: 중층근대와 동아시아 유교문명』, 서울: 아카넷, 2011, pp.35-36에서 재인용; S. N. Eisenstadt, Multiple modernities. New Brunswick, N.J.: Transaction Publishers, 2002; Johann P. Arnason, Sternberg, Yitzhak and Ben-Rafael, Eliezer, “Identity, Culture and Globalization.” The Multiplication of Modernity. Brill. 2001;  B. Wittrock, “Early modernities: Varieties and transitions.” Daedalus 127(3), 1998; I. Kaya, “Modernity, openness, interpretation: a perspective on multiple modernities”, Social science information 43(1), 2004; Hung, “Early modernities and contentious politics in mid-Qing China, c. 1740–1839.” International Sociology 19(4), 2004."
+    },
+    {
+      "number": 13,
+      "text": "Appadurai(1996), Gilroy(1993), Ong(1999), Gaonkar ed.(2001). 김상준, 『맹자의 땀 성왕의 피: 중층근대와 동아시아 유교문명』, 서울: 아카넷, 2011, pp.35-36에서 재인용; A. Appadurai, Modernity at large: Cultural dimensions of globalization. Minn.: University of Minnesota Press, 1996; P. Gilroy, The black Atlantic: Modernity and double consciousness. Harvard University Press, 1993; A. Ong, Flexible citizenship: The cultural logics of transnationality. Duke University Press, 1999."
+    },
+    {
+      "number": 14,
+      "text": "김상준, 『맹자의 땀 성왕의 피: 중층근대와 동아시아 유교문명』, 서울: 아카넷, 2011, p.41."
+    },
+    {
+      "number": 15,
+      "text": "기축시대는 공교롭게 거의 동시대에 성인들이 출현하여 세계가 종교를 중심으로 하는 문명에 진입한 기원전 800-200년 사이를 지칭하는 말로 야스퍼스((Karl Jaspers, 1883-1969)가 처음 사용하였다."
+    },
+    {
+      "number": 16,
+      "text": "성과 속의 재배치를 통한 신성의 강화를 통한 역사의 발전은 중국사상사에 숨겨진 발전공식이라고 한다.(왕후이 지음, 박자영, 최정섭, 진성수 외 3인 옮김, 『근대중국사상의 흥기』, 파주: 돌베개, 2024)"
+    },
+    {
+      "number": 17,
+      "text": "김상준, 『맹자의 땀 성왕의 피: 중층근대와 동아시아 유교문명』, 서울: 아카넷, 2011, pp 33-79; 172-182."
+    },
+    {
+      "number": 18,
+      "text": "『전경』「교운」 1-9."
+    },
+    {
+      "number": 19,
+      "text": "Ulrich Beck, translated by Hong Sung-tae, Risk Society: Towards a New Modernity, Seoul: Saemulgyeol, 1997."
+    },
+    {
+      "number": 20,
+      "text": "지그문트 바우만, 『액체근대』, 서울: 강, 2009."
+    },
+    {
+      "number": 21,
+      "text": "김덕영, 『환원근대: 한국 근대화와 근대성의 사회학적 보편사를 위하여』, 서울: 길, 2014, p.41."
+    },
+    {
+      "number": 22,
+      "text": "Park Yong-sook, The 81 Characters of the Cheonbugyeong Paramita, Paju: Sodong, 2018."
+    },
+    {
+      "number": 23,
+      "text": "버먼(Herold J. Berman)의 선구적 방식을 살펴보는 것이 유용하다. 그는 1983년에 서구의 법률적 전통의 형성에 대한 연구서를 낸 바 있다. 그에 따르면, 우리가 과거를 다시 서술할 때는 “마르크스와 베버를 넘어서야 하고” 또한 다양한 서구의 민족주의의 오류, 종교적 선입견 그리고 19세기의 역사적 유물론 및 이상형 분석 등을 극복해야한 한다. 예를 들어 지역 명칭의 경우도 그렇다. 동아시아, 동남아시아의 구분이 역사적 실제와 내적 논리 구조에 의한 것이 아니라, 2차 세계대전 이후 미국의 전략적 지역구도에 의한 자의적 구분으로서 이는 잘못하면 지적인 탐구를 마비시킬 수 있는 잘못된 관행이 될 수 있다. 알렉산더 우드 사이드 지음, 민병희 옮김, 『잃어버린 근대성들』, 너머북스, 2012년, p.18.; 김덕삼, 이경자, 최원혁, 「근현대 패러다임의 전환과 내재성에 대한 고찰-전통과 근대에 대한 한국적 재고(再考)를 중심으로」 『인문과학연구』 23, 2014, pp.115-142."
+    },
+    {
+      "number": 24,
+      "text": "왕후이 지음, 백원담 옮김, 『근대중국사상의 흥기』, 파주: 돌베개, 2024.; 이종민, 『중국 사상과 대안 근대성: 왕후이의 『근대 중국 사상의 흥기』 읽기와 쓰기』, 서울: 현암사, 2017."
+    },
+    {
+      "number": 25,
+      "text": "근대성의 상징이라 할 수 있는 20세기 모더니즘 또한 일상적으로 가장 명확하게 드러나는 미술 분야에서도 16세기부터 본격화한 극동아시아 문화의 유럽전파에 의한 문화적 변종으로 해석된다. (유현준, 『모더니즘: 동서양 문화의 하이브리드』, 서울: 미세움, 2008, pp.73-92). 서구 근대성의 동양적 기원을 주장하는 학자들은 중층 근대성에 대해서마저도 서양의 근대성 자체가 이미 극동아시아 문화의 유럽전파에 의한 문화적 변종이므로 현실을 설명할 수 있는 충분한 근대성 개념이 아니라고 한다."
+    },
+    {
+      "number": 26,
+      "text": "윤승용, 「신종교의 반구조(communitas)적 성격에 관한 소고: 조선 말기 종교현상을 중심으로」, 서울대 석사학위논문, 1982."
+    },
+    {
+      "number": 27,
+      "text": "이선민, 『한국의 자주적 근대화에 관한 성찰』, 파주: 나남, 2021; 조혜인, 『동에서 서로 퍼진 근대 공민사회』, 파주: 집문당, 2013.; 황태연, 『유교적 근대의 일반이론』, 서울: 한국문화사, 2023."
+    },
+    {
+      "number": 28,
+      "text": "Lee Seon-min, Reflections on Korea's Indigenous Modernization, Paju: Nanam, 2021."
+    },
+    {
+      "number": 29,
+      "text": "동학이란 용어를 쓴 것은 동학의 독특한 문제의식을 표현한다 할 수 있다. 운즉일(運則一), 도즉동(道則同), 이즉비(理則非)야. 운은 하나이고 도는 같으나 이는 다르다. 서학은 원형이정의 이치가 없다고 수운은 비판한다. 원형이정이라는 전일적 이치가 없이 상황에 맞게 진리를 간주하므로 중심이 없다는 서학의 약점을 수운은 예리하게 지적한다. (배영순, 「동학과 서학의 차별성 문제: \"運則-道則同 理則非\"를 중심으로」, 대구사학』 73, 대구사학회, 2003, pp.203-210) 최수운은 『동경대전』「논학문」에서 수운은 서양은 분석적이라 상황에 따라 말이 달라지고 신을 믿는 듯하나 믿지 않기 때문에 결국 허무에 빠진다고 한다. 서양의 제국주의에 대항한 전 세계의 문명 중 유일하게 한국의 동학만이 니스벳과 같이 학문의 방법론을 저항의 주요 주제로 삼았다. 지금까지 동학은 민중 저항운동의 관점에서만 연구되었기에 패러다임과 사유 방법론이라는 내재성의 입장에서 새로 논의될 필요가 있다."
+    },
+    {
+      "number": 30,
+      "text": "김덕삼, 최원혁. 이경자, 「근현대 패러다임의 전환과 내재성에 대한 고찰-전통과 근대에 대한 한국적 재고(再考)를 중심으로」 『인문과학연구』 23, 2014, pp.115-142."
+    },
+    {
+      "number": 31,
+      "text": "Jeong Jae-sik, Continuity and Change in Tradition, Seoul: Acanet, 2004."
+    },
+    {
+      "number": 32,
+      "text": "베버는 개신교의 청교도정신에 의해 시작된 초기자본주의와 오늘날 경제적 능률에만 집중된 현대 자본주의는 구분된다고 한다.(대니얼 팰스 지음, 조병련, 전중현 공역, 『종교에 대한 여덟 가지 이론들』, 고양: 한국기독교연구소, 2013) 근대성의 특징인 자본주의의 성격이 바뀌었다는 베버의 지적은 옳지만 자본주의가 서양의 기독교적 입장에서만 발생할 수 있다는 베버의 이론은 오늘날 동양의 서양 추월로 이론적으로도 실천적으로도 논파되었다.(토마스 메츠거, 『곤경의 탈피: 주희·왕양명부터 탕쥔이·펑유란까지 신유학과 중국의 정치문화』, 민음사, 2014, pp.62-65)"
+    },
+    {
+      "number": 33,
+      "text": "고남식, 「수운과 증산의 민족주의적 요소 비교」, 『신종교연구』 26, 한국신종교학회, 2012; 이경원 , 「대순진리의 근대성과 변혁사상」, 『동학학보』10집, 동학학회, 2005. 또 한류가 세계적 붐을 일으키는 것은 대순사상에 잘 나타난 것과 같은 한국 종교철학이라는 분석도 있다. (박종현, 「한류 문화 현상의 종교철학적 기원과 분석」, 『신학논단』 76, 연세대학교 신과대학 연합신학대학원, 2014)"
+    },
+    {
+      "number": 34,
+      "text": "전수준, 『신과학에서 동양학으로』, 서울: 대원출판, 1995. pp.281-283."
+    },
+    {
+      "number": 35,
+      "text": "주겸지 지음, 전홍석 옮김, 『중국이 만든 유럽의 근대- 근대 유럽의 중국문화 열풍 』, 청계, 2003."
+    },
+    {
+      "number": 36,
+      "text": "토마스 메츠거, 『곤경의 탈피: 주희·왕양명부터 탕쥔이·펑유란까지 신유학과 중국의 정치문화』, 민음사, 2014."
+    },
+    {
+      "number": 37,
+      "text": "김덕삼, 최원혁, 이경자, 「근현대 패러다임의 전환과 내재성에 대한 고찰-전통과 근대에 대한 한국적 재고(再考)를 중심으로」 『인문과학연구』 23, pp.115-142."
+    },
+    {
+      "number": 38,
+      "text": "『전경』「교운」 1-9; 안신, 「마테오 리치와 대순사상의 관계성에 대한 연구: 대순사상의 기독교 종장에 대한 종교현상학적 해석」, 『대순사상논총』 36, 2020,"
+    },
+    {
+      "number": 39,
+      "text": "『전경』「공사」 3-15; 김태수, 「『진묵조사유적고』와 『전경』에 나타난 진묵 설화의 차이에 대한 재해석: 문헌 전승과 구전 전승의 차이를 중심으로」, 『대순사상논총』 41, 2022,"
+    },
+    {
+      "number": 40,
+      "text": "Lee Bong-ho, The Philosophy of Seo Myeong-eung, King Jeongjo's Teacher (A Joseon Scholar's Response to Western Science), Goyang: Donggwa Seo, 2013."
+    },
+    {
+      "number": 41,
+      "text": "황태연, 『유교적 근대의 일반이론: 서구국가의 유교적 근대화와 유교국가의 서구적 근대화 』, 서울: 한국문화사, 2023."
+    },
+    {
+      "number": 42,
+      "text": "소건생 지음, 조경희, 임소연 옮김, 『송나라의 슬픔』, 파주: 글항아리, 2021."
+    },
+    {
+      "number": 43,
+      "text": "황태연, 『공자와 세계: 패치워크문명 시대의 공맹 정치철학』, 파주: 청계, 2011; 황태연, 『유교적 근대의 일반이론: 서구국가의 유교적 근대화와 유교국가의 서구적 근대화』, 서울: 한국문화사, 2023."
+    },
+    {
+      "number": 44,
+      "text": "조혜인, 『동에서 서로 퍼진 근대 공민사회: 유교 예치(禮治) 및 자유 관념의 발전과 서구에의 전파』, 파주: 집문당, 2013.; 조혜인, 『상처받은 절개, 날개접은 발전: 유교적 유산과 한국 자본주의의 부침』, 파주: 나남출판 , 2007."
+    },
+    {
+      "number": 45,
+      "text": "이영재, 「공자의 ‘서(恕)’ 개념에 관한 공감도덕론적 해석」, 『한국정치학회보』 47(1), 2013, p.37."
+    },
+    {
+      "number": 46,
+      "text": "Paul Feyerabend, translated by Jeong Byeong-hoon, Against Method, Seoul: Greenbee, 2019."
+    },
+    {
+      "number": 47,
+      "text": "정병훈, 「파이어아벤트: 객관주의와 상대주의를 넘어서」 『과학철학』, 파주: 창비. 2011."
+    },
+    {
+      "number": 48,
+      "text": "보수적인 과학철학은 과학을 반증 가능한 학문으로 제한한다. 과학을 집단적 약속인 패러다임으로 보는 쿤 계열의 과학철학에서는 두 과학의 공약 불가능성을 강조하지만, 방법론 차이로 인하여 공약 불가능한 두 과학이라 하더라도 라카토스의 연구프로그램과 같이 기존 과학의 용어로 새로운 과학을 설명하고 그 관계를 밝혀낸다면 이론적 호환성을 또 하나의 반증 가능성이라 할 수 있다. 이론적 호환성이란 예를 들어 상대성이론은 뉴튼 이론을 모두 설명해 내었고 양자역학은 상대성이론을 다 설명해 낼 수 있었던 특성을 말한다.(신중섭, 『포퍼와 현대의 과학 철학』, 서울: 서광사, 1992, pp.209-214) 대순사상에서 동양과학이 서양과학과 이론적 호환성을 가지는 이유는 대순사상에 나타나듯 이마두에 의한 동양 과학의 서양 전래라 할 수 있다.(『전경』「교운」 1-9)"
+    },
+    {
+      "number": 49,
+      "text": "전통 유교와 근대 사이에서 이런 양자택일의 극단을 넘어 비교적 균형 잡힌 시각을 보이며 적절히 취사선택을 하려 했던 또 다른 흐름도 있었다. 유교의 틀 안팎에서 이루어진 유교 개혁운동이 그것이다. 조선에서의 유교개혁은 크게 보아 두 가지 흐름으로 이루어졌다. 하나는 유교의 틀 안에서 박은식-이승희-이병헌으로 이어진 개혁운동이고, 다른 하나는 유교의 틀 밖에서 최제우와 최시형에 의해 진행된 보다 급진적인 혁신운동이었는데, 박은식과 최제우는 이 두 방향으로의 전환을 최초로 꾀한 이들이지만 서로 상반된 태도를 보였다고 한다.(황종원, 「최제우와 박은식의 유교개혁 방향, 평등관, 서구 근대문명에 대한 태도」, 『퇴계학과 유교문화』 49, 2011, pp318-319."
+    },
+    {
+      "number": 50,
+      "text": "김용옥, 『동경대전 2』 통나무, 2021."
+    },
+    {
+      "number": 51,
+      "text": "안신, 「스코틀랜드 종교현상학파의 '기원': 니니안 스마트와 앤드류 월스를 중심으로」, 『종교문화연구』 9, 2007, p.230."
+    },
+    {
+      "number": 52,
+      "text": "니니안 스마트로부터 본격화되는 종교 현상학의 연구대상으로서 세계관의 도입은 멀리 자연과학에 대비해 인문과학의 존재가치를 해석학으로 입증한 해석학의 정초자 딜타이(Wilhelm Dilthey, 1833-1911)로부터 시작한다.(이길용, 「수양론으로 본 한국 신종교의 구조적 특징-동학과 증산교를 중심으로」, 『동학학보』25, 2012, p.153.)"
+    },
+    {
+      "number": 53,
+      "text": "Lee Gil-yong, Understanding the Study of Religion, Seoul: Handeul Publishing, 2007."
+    },
+    {
+      "number": 54,
+      "text": "니니안 스마트의 이론 또한 엘리아데 이론처럼 또 다른 유형론으로 비판받을 수 있지만, 엘리아데의 유형론 또한 모호한 점을 빼면 종교의 특성을 나타내는 유용한 설명체계임을 조나단 스미스에 의해 인정된 바 있다."
+    },
+    {
+      "number": 55,
+      "text": "Van Gennep은 반 게냅외에도 방주네프, 반 헤넵 등 여러 어휘로 번역된다. 이 글에서는 일반적인 로마자 발음 원칙으로 반 게넵으로 번역한다."
+    },
+    {
+      "number": 56,
+      "text": "Kim Tae-soo, \"Cheonjigongsa-e Natanan Uiryejeok Seonggyeok Yeongu\" [A Study on the Ritual Characteristics Appearing in the Reordering Works of Heaven and Earth (Cheonjigongsa)], Daejin University Doctoral Dissertation, 2013."
+    },
+    {
+      "number": 57,
+      "text": "이영란, 『리미널리티』, 서울: 동방인쇄공사, 2020; Thomassen, Bjørn, Liminality and the modern, Surrey: Ashgate, 2014."
+    },
+    {
+      "number": 58,
+      "text": "Thomas S. Kuhn, translated by Kim Myung-ja, The Structure of Scientific Revolutions, Seoul: Kkachi Glocal, 2013."
+    },
+    {
+      "number": 59,
+      "text": "김명진, 『(Ebs 다큐멘터리) 동과 서』, 서울: 예담, 2008."
+    },
+    {
+      "number": 60,
+      "text": "A. C. 그레이엄 지음, 이창일 옮김. 『음양과 상관적 사유』 청계, p.264, 2001."
+    },
+    {
+      "number": 61,
+      "text": "Kim Kyung-soo, 『Nojang-ui saengseongnon』 (Lao-Zhuang's Theory of Generation), Seoul: Munsachul, 2015."
+    },
+    {
+      "number": 62,
+      "text": "정우진, 「동양과학의 논리: 감응의 유형에 관한 연구」, 『도교문화연구』 42, 2015, p.122."
+    },
+    {
+      "number": 63,
+      "text": "리처드 니스벳 지음, 최인철 옮김, 『생각의 지도: 동양과 서양, 세상을 바라보는 서로 다른 시선』 2004, 김영사. pp.83-106."
+    },
+    {
+      "number": 64,
+      "text": "풍우란, 『중국철학의 정신(新原道)』, 곽신환. 역. 서울: 서광사, 1993."
+    },
+    {
+      "number": 65,
+      "text": "Kim Pil-nyeon, 『Dong-seo munmyeong-gwa jayeon gwahak』 (East-West Civilization and Natural Science), Seoul: Kkachi, 1992."
+    },
+    {
+      "number": 66,
+      "text": "Park Dong-hwan, Where is Eastern Logic?, Seoul: Koryowon, 1993."
+    },
+    {
+      "number": 67,
+      "text": "최봉영, 「‘사회’개념에 전제된 개체와 전체의 관계와 유형」, 『동양사회사상』1, 1998, pp.88-101."
+    },
+    {
+      "number": 68,
+      "text": "Lévi-Strauss, translated by Ahn Jeong-nam, 『Yasaeng-ui sago』 (The Savage Mind), Seoul: Hangilsa, 1996."
+    },
+    {
+      "number": 69,
+      "text": "나카자와 신이치지음, 김옥희 옮김, 『대칭성인류학: 무의식에서 발견하는 대안적 지성』, 동아시아, 2004, pp.197-221."
+    },
+    {
+      "number": 70,
+      "text": "순환적 세계관에서 실재의 출발은 실체가 아닌 감응이 된다.(프랑수아 줄리앙, 유병태 옮김, 『운행과 창조: 동서문화비교시론』, 서울: 케이시아카데미, 2003, pp.55-69) 프랑수아 줄리앙은 동서양이 같이 대립의 통일을 지향했지만 실체를 가정하지 않는 동양의 내재성은 비록 실체 개념은 부족하지만 서양과 같은 독단을 벗어날 수 있었다고 한다. (프랑수아 줄리앙, 『맹자와 계몽철학자의 대화(도덕의 기초를 세우다, 루소 칸트)』, 한울아카데미, 2009, pp.174-180) 감응은 동양 사상의 사물 이해방식이 감응이 되는 전초가 된다."
+    },
+    {
+      "number": 71,
+      "text": "Shin Ji-young, What is Immanence?, Seoul: Greenbee, 2009."
+    },
+    {
+      "number": 72,
+      "text": "프랑수아 줄리앙, 『사물의 성향: 중국인의 사유방식』, 한울아카데미, 2009, pp.27-37."
+    },
+    {
+      "number": 73,
+      "text": "Shin Ji-young, What is Immanence?, Seoul: Greenbee, 2009."
+    },
+    {
+      "number": 74,
+      "text": "프랑수아 줄리앙, 『맹자와 계몽철학자의 대화(도덕의 기초를 세우다, 루소 칸트)』, 한울아카데미, 2009, pp.174-180."
+    },
+    {
+      "number": 75,
+      "text": "이종민, 『중국 사상과 대안 근대성 왕후이의 『근대 중국 사상의 흥기』 읽기와 쓰기』, 서울: 현암사, 2017, pp.14-30에서 재인용."
+    },
+    {
+      "number": 76,
+      "text": "임헌규, 『공자에서 다산 정약용까지: 유교 인문학의 동서철학적 성찰』, 서울: 파라아카데미, 2019, pp.350-381."
+    },
+    {
+      "number": 77,
+      "text": "Kim Young-geon, 『Dongyang cheolhak-e gwanhan bunseokjeok bipan』 (An Analytical Critique of Eastern Philosophy), Seoul: Ratio Chulpansa, 2009."
+    },
+    {
+      "number": 78,
+      "text": "황태연, 『유교적 근대의 일반이론서구국가의 유교적 근대화와 유교국가의 서구적 근대화』, 서울: 한국문화사, 2023."
+    },
+    {
+      "number": 79,
+      "text": "이재걸, 「칸트 유기체론의 ‘자기조직화’ 개념과 프랙탈 이론의 교차 연구: 유기체, 생명성, 무한(無限)에 대한 미학적 전제」 『문화와 융합』 44(9), 2022, pp.419-433."
+    },
+    {
+      "number": 80,
+      "text": "『전경』「교운」 1-9."
+    },
+    {
+      "number": 81,
+      "text": "『전경』「공사」 3-15."
+    },
+    {
+      "number": 82,
+      "text": "『전경』「교법」 2-56."
+    },
+    {
+      "number": 83,
+      "text": "동학의 논학문 서두에서 수운이 말한 동학과 서학의 차이도 지금까지 서학을 서양 학문 일반으로 해석하지 않고 천주교로 국한하여 해석한데서 이해에 어려움이 있었다고 한다.(황종원, 「최제우와 박은식의 유교개혁 방향, 평등관, 서구 근대문명에 대한 태도」, 『퇴계학과 유교문화』 49, 2011. p.330)"
+    },
+    {
+      "number": 84,
+      "text": "함영대, 「18～19세기 서학중원론(西學中源論)의 전개와 그 함의- 서학(西學)에 대한 조선학자들의 대응논리」, 2020."
+    },
+    {
+      "number": 85,
+      "text": "정우진, 2015, \"동양과학의 논리: 감응의 유형에 관한 연구.\" 도교문화연구 42, pp.119-140."
+    },
+    {
+      "number": 86,
+      "text": "J. J. Clarke 지음, 조현숙 옮김, 『서양, 도교를 만나다』, 서울: 예문서원, 2014. p.152."
+    },
+    {
+      "number": 87,
+      "text": "상관적 사유의 과학적 가능성 타진은 니담과 카프라에 의해 시작되고 카우프만 등 산타페연구소에의 해 발전되었다고 한다.(J J. Clarke 지음, 조현숙 옮김, 『서양, 도교를 만나다』, 서울: 예문서원, 2014. pp.141-144., 167-177)"
+    },
+    {
+      "number": 88,
+      "text": "A.C 그레이엄 지음, 이창일 옮김, 『음양과 상관적 사유』, 청계, 2001."
+    },
+    {
+      "number": 89,
+      "text": "김기, 「음양오행설의 주자학적 적용양상에 관한 연구」, 성균관대학교 박사학위 논문 2012, p.4"
+    },
+    {
+      "number": 90,
+      "text": "A.C.그레이엄 지음, 이창일 옮김, 『음양과 상관적 사유』 청계 2001; D. L. Hall and R. T. Ames, Anticipating China, Albany: State University of New York Press, 1995."
+    },
+    {
+      "number": 91,
+      "text": "존 핸더슨 지음, 문중양 옮김, 『중국의 우주론과 청대의 과학혁명』 ,2004, p.45."
+    },
+    {
+      "number": 92,
+      "text": "정우진, 「동양과학의 논리: 감응의 유형에 관한 연구」, 『도교문화연구』, 42, 2015, p.122."
+    },
+    {
+      "number": 93,
+      "text": "리처드 니스벳 지음, 최인철 옮김, 『생각의 지도: 동양과 서양, 세상을 바라보는 서로 다른 시선』 2004, 김영사."
+    },
+    {
+      "number": 94,
+      "text": "프랑수아 줄리앙, 『맹자와 계몽철학자의 대화(도덕의 기초를 세우다, 루소 칸트)』, 한울아카데미, 2009."
+    },
+    {
+      "number": 95,
+      "text": "로저 에임즈 지음, 장원석 옮김, 『東洋哲學, 그 삶과 창조성: 和而不同: 비교철학 강의』, 성균관대학교 출판부, 2005, pp.155-199."
+    },
+    {
+      "number": 96,
+      "text": "김형효, 「原始返本과 解寃思想에 대한 哲學的 省察-甑山思想의 한 硏究」, 『東西哲學에 대한 主體的 記錄』, 서울: 고려원. 1985, pp.38-67; 김형효, 『데리다와 老莊의 독법』: 한국정신문화연구원, 1994."
+    },
+    {
+      "number": 97,
+      "text": "박정진, 『종교인류학』, 서울: 불교춘추사, 2007; 박정진, 『철학의 선물, 선물의 철학』, 서울: 소나무, 2012."
+    },
+    {
+      "number": 98,
+      "text": "Park Yong-sook, The 81 Characters of the Cheonbugyeong Paramita, Paju: Sodong, 2018."
+    },
+    {
+      "number": 99,
+      "text": "Kim Jeong-min, 『Syameon Baibeul』 (Shaman Bible), Seoul: Global Contents, 2023."
+    },
+    {
+      "number": 100,
+      "text": "Kim Sang-il, \"Daesun Sasang-ui 4-dae Jongji-e Daehan Munmyeong Sajeok Gochal\" [A Study on the Four Tenets of Daesoon Thought from the Perspective of the History of Civilization], Daesoon Jinri Haksul Nonchong [The Journal of Daesoon Jinri Academy] 1, 2007."
+    },
+    {
+      "number": 101,
+      "text": "김대현, 「대순사상과 하이데거의 ‘양심’ 개념에 대한 비교연구: 근원을 향한 ‘양심’의 회귀적 특성에 대한 논의를 중심으로」 『대순사상논총』 28, 2017, pp.243-265.; 김대현, 「헤겔의 노동(勞動, Arbeit) 개념을 통해 본 천지공사(天地公事) 연구」 『대순사상논총』 32, 2019, pp.175-199; 김대현, 「들뢰즈 체계의 형성 배경에 대한 연구: 칸트 선험철학 체계 그 심연으로부터의 역류」 『대순사상논총』 37: 329-355. 2021; 김대현, 「대순진리의 해원(解寃)사상에 대한 해체(解體)론적 이해: 자크 데리다(Jacques Derrida)의 해체론을 중심으로」 『대순사상논총』 39, 2021, pp.69-97."
+    },
+    {
+      "number": 102,
+      "text": "반 게넵 지음, 서영대 옮김, 『통과의례』, 인천: 인하대학교 출판부, 1986. 게넵은 원어 발음으로는 방즈네프, 헤넵으로도 불리지만 여기서는 일반 로마자 발음과 다른 번역서의 용례를 따라 “게넵”으로 번역한다."
+    },
+    {
+      "number": 103,
+      "text": "반 게넵 지음, 서영대 옮김, 『통과의례』, 인천: 인하대학교 출판부, 1986, p.13."
+    },
+    {
+      "number": 104,
+      "text": "반 게넵 지음, 서영대 옮김, 『통과의례』, 인천: 인하대학교 출판부, 1986, p.13."
+    },
+    {
+      "number": 105,
+      "text": "반 게넵 지음, 서영대 옮김, 『통과의례』, 인천: 인하대학교 출판부, 1986, p.14."
+    },
+    {
+      "number": 106,
+      "text": "Z. Bauman, “A Revolution in the Theory of Revolutions?”, International Political Science Review 15(1): 15-24, 1994."
+    },
+    {
+      "number": 107,
+      "text": "빅터 터너 지음, 강대훈 옮김, 『인간 사회와 상징 행위: 사회적 드라마, 구조, 커뮤니타스』, 서울: 황소걸음, 2018, pp.5-12."
+    },
+    {
+      "number": 108,
+      "text": "Zygmunt Bauman, translated by Jung Il-joon, Wasted Lives: Modernity and Its Outcasts, Seoul: Saemulgyeol, 2008."
+    },
+    {
+      "number": 109,
+      "text": "사무엘 N. 아이젠스타트 지음, 임현진 [외] 옮김, 『다중적 근대성의 탐구: 비교문명적 관점 』, 파주: 나남, 2009. 다중적 근대성은 또한 자생적 근대성과 같은 대안적 근대성을 포괄하는 개념이기도 하다."
+    },
+    {
+      "number": 110,
+      "text": "A. Szakolczai, “Liminality and experience: Structuring transitory situations and transformative events”, International Political Anthropology 2(1), 2009, p.160."
+    },
+    {
+      "number": 111,
+      "text": "바우만은 1992년에 사회학 및 사회과학 부문 유럽 아말피 상과 1998년에 프랑크푸르트시의 테오도어 아도르노 상을 수상했다."
+    },
+    {
+      "number": 112,
+      "text": "B. Thomassen, Liminality and the modern, Surrey: Ashgate, 2014, p.4: 김광건, 「리미널리티 (liminality) 개념의 다각적 이해」, 『신학과 실천』 78, 2022, pp.700-701에서 재인용."
+    },
+    {
+      "number": 113,
+      "text": "A. Szakolczai, “Liminality and experience: Structuring transitory situations and transformative events”, International Political Anthropology 2(1), 2009, p.160."
+    },
+    {
+      "number": 114,
+      "text": "M. Engelke, “An Interview with Edith Turner”, Current Anthropology 41(5), 2000,: pp.843-852."
+    },
+    {
+      "number": 115,
+      "text": "Kim Ik-doo, 『Hanguk minjok gongyeonhak』 (Korean National Performance Studies), Paju: Jisik Sanupsa, 2013."
+    },
+    {
+      "number": 116,
+      "text": "Lee Young-ran, Liminality, Seoul: Dongbang Printing Co., 2020."
+    },
+    {
+      "number": 117,
+      "text": "김혜숙, 『新음양론』, 서울: 이화여자대학교출판부, 2014.; 김영주, 「서양 이분법과 동양 음양법의 극복- 태극 이분법」, 『사회사상과 문화』 4: 2001, pp.37-80."
+    },
+    {
+      "number": 118,
+      "text": "Victor Turner, translated by Kim Ik-doo, (Victor Turner's) From Ritual to Theatre, Seoul: Minsokwon, 2014."
+    },
+    {
+      "number": 119,
+      "text": "빅터 터너, 『상징의 숲』, 서울: 지식을만드는지식, 2020."
+    },
+    {
+      "number": 120,
+      "text": "빅터 터너 지음, 박근원 옮김, 『의례의 과정』, 서울: 한국심리치료연구소, 2005, pp.144-170."
+    },
+    {
+      "number": 121,
+      "text": "Turner, Edith L. B., Communitas, New York: Palgrave Macmillan, 2012."
+    },
+    {
+      "number": 122,
+      "text": "M. Engelke, “An Interview with Edith Turner”, Current Anthropology 41(5), 2000, pp.843-852."
+    },
+    {
+      "number": 123,
+      "text": "영화“컵”의 감독으로 유명한 부탄의 정신적 지도자 키엔체 노르부가 공연학을 불교와 관련하여 수행한 선행연구도 있다. Norbu, Khyentse, 『人間是劇場』, 北京: 新星出版社, 2016."
+    },
+    {
+      "number": 124,
+      "text": "Zygmunt Bauman, translated by Lee Il-soo, Liquid Modernity, Seoul: Kang, 2009."
+    },
+    {
+      "number": 125,
+      "text": "에바 일루즈 지음, 박형신, 권오헌 옮김, 『낭만적 유토피아 소비하기』, 서울: 이학사, 2014."
+    },
+    {
+      "number": 126,
+      "text": "강인철, 『5·18 광주 커뮤니타스』, 서울: 사람의무늬, 2020."
+    },
+    {
+      "number": 127,
+      "text": "Bruno Latour, translated by Hong Chul-ki, We Have Never Been Modern: Essay on Symmetrical Anthropology, Seoul: Galmuri, 2009."
+    },
+    {
+      "number": 128,
+      "text": "A. Szakolczai, “Permanent (trickster) liminality: The reasons of the heart and of the mind”, Theory & Psychology 27(2), 2017, pp.231-248."
+    },
+    {
+      "number": 129,
+      "text": "이영란, 『리미널리티』, 서울: 동방인쇄공사 2020, pp.231-232."
+    },
+    {
+      "number": 130,
+      "text": "빅터 터너, 김익두 역, 『(빅터 터너의) 제의에서 연극으로』, 서울: 민속원, 2014, pp.47-48."
+    },
+    {
+      "number": 131,
+      "text": "대순사상에서도 표층종교와 심층종교의 종교적 경험 차이로 리미널리티를 종교체험으로 연구된 바 있다. (이은희, 「표층과 심층의 시각에서 바라본 대순진리회: 종교적 경험의 관점에서」, 『대순사상논총』 27, 2016)"
+    },
+    {
+      "number": 132,
+      "text": "황필호, 『종교변호학·종교학·종교철학』, 서울: 철학과현실사, 2004, pp.220-235."
+    },
+    {
+      "number": 133,
+      "text": "하늘 밖의 하늘은 초월천 혹은 천외천으로 불린다. 대순사상에서 이 글에서 하늘 밖의 하늘은 대순사상의 경우 구천으로, 그 외의 경우 내재천과 대비되는 의미가 강조되는 때는 초월천으로, 공간적인 차이가 강조될 때는 천외천으로 부르기로 한다."
+    },
+    {
+      "number": 134,
+      "text": "김지하, 『김지하전집1』, 서울: 실천문학사, 2002."
+    },
+    {
+      "number": 135,
+      "text": "김익두, 「상생ㆍ해원ㆍ대동의 ‘천지굿’ 비전과 신명 창출의 문체」, 『천년의시작』 11(3), 2012, pp.12-25."
+    },
+    {
+      "number": 136,
+      "text": "이영란, 『리미널리티』, 서울: 동방인쇄공사.2020, p.162."
+    },
+    {
+      "number": 137,
+      "text": "윤승용, 「新宗敎의 反構造(communitas)的 性格에 관한小考」,서울: 서울大學校 大學院, 1988."
+    },
+    {
+      "number": 138,
+      "text": "정진홍, 『한국종교문화의 전개』, 서울:집문당, 1988."
+    },
+    {
+      "number": 139,
+      "text": "Richard Nisbett, translated by Choi In-cheol, 『Saenggak-ui jido: Dongyang-gwa seoyang, sesang-eul baraboneun seoro dareun siseon』 (The Geography of Thought: How Asians and Westerners Think Differently... and Why), Paju: Gimmyoungsa, 2004."
+    },
+    {
+      "number": 140,
+      "text": "조성환, 「동학의 자생적 근대성: 해월 최시형의 인간관과 세계관을 중심으로」 『신학과 철학』 (36), . 2020, pp.223-243."
+    },
+    {
+      "number": 141,
+      "text": "이창일, 『소강절의 철학』, 서울: 심산, 2007. p.479."
+    },
+    {
+      "number": 142,
+      "text": "이합 핫산 지음, 정정호, 이소영 옮김, 『포스트모더니즘 개론』, 서울: 翰信文化社, 1991."
+    },
+    {
+      "number": 143,
+      "text": "Wallace, Anthony F. C., Religion; an Anthropological View. New York: Random House 1966, p.166."
+    },
+    {
+      "number": 144,
+      "text": "그것은. 사회의 모든 사람이 시스템의 모든 수준에서 변화의 압력을 줄이는 방식으로 행동하기 위해 사회와 문화, 자신의 신체와 행동 규칙에 대한 정신적 이미지를 유지하는 데 기능적으로 필요합니다. 내가 '미로길'이라고 부르는 이 이미지... [그것은] 한 사람이 보는 자연, 사회, 문화, 성격, 신체 이미지입니다.(김주관, 「교차문화적 비교로 본 재생운동으로서 동학」, 『동학학보』35, p.244 재인용)"
+    },
+    {
+      "number": 145,
+      "text": "최형근, 「선교와 문화변화」, 『선교신학』16, 2007, p.272."
+    },
+    {
+      "number": 146,
+      "text": "김주관, 「교차문화적 비교로 본 재생운동으로서 동학」, 『동학학보』 35, 2015, p.257."
+    },
+    {
+      "number": 147,
+      "text": "Wallace, Anthony F. C., Religion; an Anthropological View. New York: Random House 1966, pp.146-149."
+    },
+    {
+      "number": 148,
+      "text": "Wallace, Anthony F. C., Religion; an Anthropological View. New York: Random House 1966, p.255."
+    },
+    {
+      "number": 149,
+      "text": "Wallace, Anthony FC, \"Revitalization Movements.\" American anthropologist, 1956, pp.266-267."
+    },
+    {
+      "number": 150,
+      "text": "캠벨의 17순환은 다음과 같다. Ⅰ.제1막: 1.일상세계, 2.모험에의 소명, 3.소명의 거부, 4.정신적 스승과의 만남, 5.첫 관문의 통과. Ⅱ. 제2막: 6.시험·협력자·적대자, 7.동굴 가장 깊은 곳으로의 접근, 8.시련, 9. 보상 Ⅲ. 제3막 : 10.귀환의 길, 11. 부활, 12. 영약을 가지고 귀환. 캠벨의 12순환은 분리-통과-귀환이라는 3단계로 구성되어 있다. 3단계로 구분되는 경우 다시 17단계로 세분화되기도 한다. Ⅰ.출발,분리 : 1.범속한 나날의 세계, 2. 모험에의 소명, 3.소명의 거부, 4.초자연적인 조력, 5.첫 관문의 통과, 6.고래의 배 Ⅱ. 하강, 입문, 통과 : 7.시련, 8.여신과의 만남, 9.유혹자로서의 여성, 10.아버지와의 화해, 11.신격화, 12.궁극의 은혜 Ⅲ. 귀환 : 13.귀환의 거부, 14.불가사의한 탈출, 15.외부로부터의 구조, 16. (귀환) 관문의 통과, 17.삶의 자유. 크리스토퍼 보글러 지음, 함춘성 옮김, 󰡔신화 영웅 그리고 시나리오 쓰기󰡕, 무우수, 2005, p.51,:조셉 캠벨 지음, 이윤기 옮김, 『천의 얼굴을 가진 영웅』,  민음사, 1999, pp.44-45, 54-59, 315, 333-337; 조득창, 김덕삼 최원혁, 「캠벨 신화이론 접목을 통한 경극의 재조명」, 『예술인문사회융합멀티미디어논문지』 7(1), 2017, pp.979-987; 김현자, 「캠벨의 신화론」, 『종교와 문화』 6, 서울대학교 종교문제연구소, 2000."
+    },
+    {
+      "number": 151,
+      "text": "Wallace, Anthony FC, \"Revitalization Movements.\" American anthropologist, 1956, p.268"
+    },
+    {
+      "number": 152,
+      "text": "P. Laude, “Reflections on Civilization, Modernity, and Religion in Light of the Fellowship of the Truth”, Journal of Daesoon Thought and the Religions of East Asia 1(1), 2021, pp.39-60."
+    },
+    {
+      "number": 153,
+      "text": "정진홍, 김태연, 장석만, 이진구 임현수, 『한국 종교학』, 서울: 대한민국학술원, 2021, pp.398-431."
+    },
+    {
+      "number": 154,
+      "text": "김탁, 『한국신종교를 관통하는 이념, 인간중심주의』, 서울: 민속원, 2023."
+    },
+    {
+      "number": 155,
+      "text": "카를 만하임 지음, 임석진 옮김, 송호근 해제. 『이데올로기와 유토피아』, 파주: 김영사, 2012."
+    },
+    {
+      "number": 156,
+      "text": "Anthony F. C. Wallace 지음, 김종석 옮김, 『종교인류학』, 천안: 아우내 2010, pp.146-149."
+    },
+    {
+      "number": 157,
+      "text": "조혜진, 「저항의례로서 '오광대놀이'와 '동학','삼일운동'과의 상관성-소설 [토지] 의 이야기 서사 특성과 저항의례 연구」, 『현대문학의 연구』 78, 2022, pp.63-102."
+    },
+    {
+      "number": 158,
+      "text": "김태수, 「『전경』 에 나타난 입문의례에 관한 연구」, 『대순사상논총』24(2), 2015, pp.85-115; 김태수, 『천지공사에 나타난 의례적 성격 연구』. 대진대학교 박사학위논문, 2013."
+    },
+    {
+      "number": 159,
+      "text": "동학사상과 개화사상, 동학사상과 유교사상의 공동체 의식 등에 대해서는 비교연구가 있다. (진보성, 「19세기 후반 조선에서의 사회 변혁적 公共의식의 두 갈래」, 『인문사회 21』 13(2): 2022; 진보성, 김종곤, 「동학의 연대적 공동체 의식과 근대의 길」, 『大同哲學』 104, 2023."
+    },
+    {
+      "number": 160,
+      "text": "김주관, \"교차문화적 비교로 본 재생운동으로서 동학.\" 동학학보(35), 2015, pp.237-272."
+    },
+    {
+      "number": 161,
+      "text": "김한구, \"동학천도교에 관한 문화인류학적 일고찰.\" 社會科學論叢 9, 1990, pp.143-172."
+    },
+    {
+      "number": 162,
+      "text": "Rigal-Cellard, Bernadette, \"Daesoon Jinrihoe in Light of Anthony Fc Wallace's Revitalization Theory.\" Religiski-filozofiski raksti 30(2), 2021, pp.134-162."
+    },
+    {
+      "number": 163,
+      "text": "고남식, 「대순사상에 나타난 동학의 위상과 증산의 참동학 전개」 『대순사상논총』 16, 2003, pp.1-23."
+    },
+    {
+      "number": 164,
+      "text": "자기를 제3자로 낯설게 보는 반성과 토론은 대순사상에서 교화를 진리토론이라고 부르는 점에서부터 강조되고 있다.(『대순지침』,1장 5절; 엄혜진, 「대순진리회 교화방법의 토론교육적 접근.」,.大眞大學校 석사학위논문, 2019)"
+    },
+    {
+      "number": 165,
+      "text": "‘무자기’개념과 대순사상의 상생이 연결되는 지잠에 대해서도 이미 서양철학의 관점에서 연구된 바가 있다. 김태수, 「대순사상의 무자기(無自欺)에 나타난 상생윤리 - 칸트와 밀의 윤리관과의 대비를 중심으로」, 『대순사상논총』 27, 2016."
+    },
+    {
+      "number": 166,
+      "text": "‘무자기’는 대순사상의 천지인의 관계가 집약되는 지상천국, 지상신선실현과 함께 대순사상의 목적, 곧 이상사회와 부합한다. (나권수, 「大巡眞理會의 理想社會論 硏究.」,.大眞大學校 박사학위논문, 2016)"
+    },
+    {
+      "number": 167,
+      "text": "김용환, 「무극과 태극 상관연동의 대순우주론 연구」 『대순사상논총』 33, 2019, pp.31-62."
+    },
+    {
+      "number": 168,
+      "text": "김귀만, 「대순사상의 우주론 연구」 『원불교사상과 종교문화』 74, pp.285-323"
+    },
+    {
+      "number": 169,
+      "text": "차선근, 「정역사상과 대순사상의 비교 연구-우주론을 중심으로」 『宗敎硏究』 60, 2010, pp.35-59."
+    },
+    {
+      "number": 170,
+      "text": "배규한, 「인간과 세계의 미래에 관한 해원상생사상 연구」 『대순사상논총』 30, 2018, pp.1-57."
+    },
+    {
+      "number": 171,
+      "text": "최원혁, 「동학사상과 대순사상의 자생적 근대성 비교 연구」 『Studies on Humanities and Social Sciences (SHSC)』 6(1), 2024, pp.287-305."
+    },
+    {
+      "number": 172,
+      "text": "나권수, 「대순진리회의 이상사회론 연구」 『대순사상논총』 21, 2013, pp.409-452."
+    },
+    {
+      "number": 173,
+      "text": "Rigal-Cellard, Bernadette, “Daesoon Jinrihoe In Light Of Anthony Fc Wallace’s Revitalization Theory”, Religiski-filozofiski raksti 30(2), 2021; Introvigne, Massimo, “The Flourishing of New Religions in Korea”, Nova Religio 25(1), 2021; T.S. Kim, 「The Ethical Characteristics of \"Haewon-sangsaeng\"(解寃相生) in Daesoon Thought: With Focus on Its Relation to the Idea of\" Guarding Against Self-deception\"」, 『臺灣宗教研究』 20(1), 2021. 최근 대순사상과 관련된 경전에 대한 영문박사논문도 출간되었다. 제이슨 그린버거, 『Searching for the Historical Jeungsan while Beholding the Hagiographical Jeungsan』, 대진대학교 박사학위논문, 2024.; Kim, D.W., Daesoon Jinrihoe in Modern Korea: The Emergence, Transformation and Transmission of a New Religion. Cambridge Scholars Publishing, 2020."
+    }
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "text": "서론",
+      "anchor": "h109-서론"
+    },
+    {
+      "level": 2,
+      "text": "연구의 배경 및 필요성",
+      "anchor": "h110-연구의-배경-및-필요성"
+    },
+    {
+      "level": 2,
+      "text": "연구의 목적과 범위",
+      "anchor": "h135-연구의-목적과-범위"
+    },
+    {
+      "level": 2,
+      "text": "선행연구 분석",
+      "anchor": "h149-선행연구-분석"
+    }
+  ]
+}

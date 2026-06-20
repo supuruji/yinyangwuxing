@@ -3,6 +3,14 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
+const LOCALE_UI = {
+  ko: { toc: '목차', back: '← 논문 개요', dissertations: '학위논문', doctoral: '박사논문', dissertationShort: '동학·대순 비교연구', footnotes: '각주', prev: '← 이전', next: '다음 →', tocOpen: '목차 보기', tocClose: '목차 닫기' },
+  en: { toc: 'Contents', back: '← Overview', dissertations: 'Dissertations', doctoral: 'Doctoral', dissertationShort: 'Donghak·Daesoon Study', footnotes: 'Footnotes', prev: '← Prev', next: 'Next →', tocOpen: 'Show Contents', tocClose: 'Hide Contents' },
+  zh: { toc: '目录', back: '← 论文概要', dissertations: '学位论文', doctoral: '博士论文', dissertationShort: '东学·大巡比较研究', footnotes: '脚注', prev: '← 上一章', next: '下一章 →', tocOpen: '显示目录', tocClose: '隐藏目录' },
+  ja: { toc: '目次', back: '← 論文概要', dissertations: '学位論文', doctoral: '博士論文', dissertationShort: '東学·大巡比較研究', footnotes: '脚注', prev: '← 前', next: '次 →', tocOpen: '目次を開く', tocClose: '目次を閉じる' },
+} as const;
+type LocaleKey = keyof typeof LOCALE_UI;
+
 interface Heading { level: number; text: string; anchor: string | null; }
 interface Paragraph { text: string; level: number; anchor: string | null; }
 interface Cell { text: string; colSpan?: number; rowSpan?: number; }
@@ -129,10 +137,11 @@ function Sidebar({
     else if (h.level === 3 && cur) cur.children.push(h);
   }
 
+  const ui = LOCALE_UI[(locale as LocaleKey)] ?? LOCALE_UI.en;
   return (
     <nav className="space-y-0.5">
       <p className="text-[10px] font-semibold text-gold/50 uppercase tracking-widest px-3 pb-2 pt-1">
-        목차
+        {ui.toc}
       </p>
 
       {allChapters.map((ch) => {
@@ -201,6 +210,7 @@ export default function DissertationChapter({
   const currentIdx = allChapters.findIndex(c => c.id === chapterId);
   const prev = currentIdx > 0 ? allChapters[currentIdx - 1] : null;
   const next = currentIdx < allChapters.length - 1 ? allChapters[currentIdx + 1] : null;
+  const ui = LOCALE_UI[(locale as LocaleKey)] ?? LOCALE_UI.en;
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
@@ -212,7 +222,7 @@ export default function DissertationChapter({
         <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
         </svg>
-        {mobileOpen ? '목차 닫기' : '목차 보기'}
+        {mobileOpen ? ui.tocClose : ui.tocOpen}
       </button>
 
       {/* 모바일 목차 드롭다운 */}
@@ -234,7 +244,7 @@ export default function DissertationChapter({
               href={`/${locale}/dissertation/doctoral/${dissertationId}`}
               className="block text-[10px] text-parchment-muted hover:text-gold transition-colors mb-3 px-3"
             >
-              ← 논문 개요
+              {ui.back}
             </Link>
             <Sidebar
               allChapters={allChapters} chapterId={chapterId}
@@ -248,11 +258,11 @@ export default function DissertationChapter({
         <div className="flex-1 min-w-0">
           {/* 빵부스러기 */}
           <nav className="text-xs text-parchment-muted mb-6 flex items-center gap-1.5 flex-wrap">
-            <Link href={`/${locale}/dissertation`} className="hover:text-gold transition-colors">학위논문</Link>
+            <Link href={`/${locale}/dissertation`} className="hover:text-gold transition-colors">{ui.dissertations}</Link>
             <span className="text-gold/40">›</span>
-            <Link href={`/${locale}/dissertation/doctoral`} className="hover:text-gold transition-colors">박사논문</Link>
+            <Link href={`/${locale}/dissertation/doctoral`} className="hover:text-gold transition-colors">{ui.doctoral}</Link>
             <span className="text-gold/40">›</span>
-            <Link href={`/${locale}/dissertation/doctoral/${dissertationId}`} className="hover:text-gold transition-colors">동학·대순 비교연구</Link>
+            <Link href={`/${locale}/dissertation/doctoral/${dissertationId}`} className="hover:text-gold transition-colors">{ui.dissertationShort}</Link>
             <span className="text-gold/40">›</span>
             <span className="text-parchment">{chapterTitle}</span>
           </nav>
@@ -274,7 +284,7 @@ export default function DissertationChapter({
           {/* 각주 */}
           {footnotes.length > 0 && (
             <section className="mt-16 pt-8 border-t border-gold/20">
-              <h2 className="text-sm font-semibold text-gold mb-4 tracking-wide">각주</h2>
+              <h2 className="text-sm font-semibold text-gold mb-4 tracking-wide">{ui.footnotes}</h2>
               <ol className="space-y-3 text-xs text-parchment-muted leading-relaxed">
                 {footnotes.map(fn => (
                   <li key={fn.number} id={`fn-${fn.number}`} className="flex gap-2 scroll-mt-20">
@@ -293,14 +303,14 @@ export default function DissertationChapter({
             {prev ? (
               <Link href={`/${locale}/dissertation/doctoral/${dissertationId}/${prev.id}`}
                 className="flex-1 p-4 border border-gold/20 rounded-lg text-sm hover:border-gold/50 transition-colors bg-ink-soft">
-                <span className="block text-xs text-parchment-muted mb-1">← 이전</span>
+                <span className="block text-xs text-parchment-muted mb-1">{ui.prev}</span>
                 <span className="text-parchment font-medium line-clamp-1">{prev.title}</span>
               </Link>
             ) : <div />}
             {next ? (
               <Link href={`/${locale}/dissertation/doctoral/${dissertationId}/${next.id}`}
                 className="flex-1 p-4 border border-gold/20 rounded-lg text-sm hover:border-gold/50 transition-colors bg-ink-soft text-right">
-                <span className="block text-xs text-parchment-muted mb-1">다음 →</span>
+                <span className="block text-xs text-parchment-muted mb-1">{ui.next}</span>
                 <span className="text-parchment font-medium line-clamp-1">{next.title}</span>
               </Link>
             ) : <div />}
