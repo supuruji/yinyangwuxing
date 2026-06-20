@@ -1,0 +1,52 @@
+{
+  "dissertationId": "donghak-daesoon-ko",
+  "title": "동학사상과 대순사상의 자생적 근대성 비교 연구",
+  "subtitle": "- 천관·지관·인간관을 중심으로 -",
+  "author": "최원혁",
+  "year": "2024",
+  "university": "대진대학교 대학원 대순종학과",
+  "chapters": [
+    {
+      "id": "intro",
+      "title": "I. 서론",
+      "paragraphCount": 74,
+      "footnoteCount": 173
+    },
+    {
+      "id": "ch2",
+      "title": "II. 자생적(自生的) 근대성과 리미널리티",
+      "paragraphCount": 220,
+      "footnoteCount": 166
+    },
+    {
+      "id": "ch3",
+      "title": "III. 동학사상의 자생적 근대성과 작란(作亂)의 리미널리티",
+      "paragraphCount": 328,
+      "footnoteCount": 226
+    },
+    {
+      "id": "ch4",
+      "title": "IV. 대순사상의 자생적 근대성과 치란(治亂)의 재활성화",
+      "paragraphCount": 422,
+      "footnoteCount": 199
+    },
+    {
+      "id": "ch5",
+      "title": "V. 동학사상과 대순사상의 자생적 근대성 비교",
+      "paragraphCount": 254,
+      "footnoteCount": 166
+    },
+    {
+      "id": "conclusion",
+      "title": "VI. 결론",
+      "paragraphCount": 21,
+      "footnoteCount": 0
+    },
+    {
+      "id": "references",
+      "title": "참고문헌",
+      "paragraphCount": 582,
+      "footnoteCount": 0
+    }
+  ]
+}

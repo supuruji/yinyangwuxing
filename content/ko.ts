@@ -37,7 +37,7 @@ export const ko: SiteContent = {
         subtitle: '박사학위논문',
         description: '동학사상과 대순사상에 내재된 자생적 근대성을 비교 분석한 박사학위논문입니다.',
         youtubeUrl: YOUTUBE,
-        websiteUrl: 'https://dissertation-site.vercel.app/segment/1',
+        websiteUrl: '/ko/dissertation/doctoral/donghak-daesoon-ko',
       },
     ],
     masters: [

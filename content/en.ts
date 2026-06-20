@@ -37,7 +37,7 @@ export const en: SiteContent = {
         subtitle: 'Doctoral Dissertation',
         description: 'A doctoral dissertation comparing and analyzing the endogenous modernity inherent in Donghak and Daesoon thought.',
         youtubeUrl: YOUTUBE,
-        websiteUrl: 'https://dissertation-site.vercel.app/segment/1',
+        websiteUrl: '/en/dissertation/doctoral/donghak-daesoon-ko',
       },
     ],
     masters: [
