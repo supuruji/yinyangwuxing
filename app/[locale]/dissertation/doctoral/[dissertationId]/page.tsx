@@ -28,7 +28,7 @@ type Locale = keyof typeof UI;
 export async function generateStaticParams() {
   return [
     { locale: 'ko', dissertationId: 'donghak-daesoon-ko' },
-    { locale: 'zh', dissertationId: 'donghak-daesoon-ko' },
+    { locale: 'zh', dissertationId: 'donghak-daesoon-zh' },
     { locale: 'ja', dissertationId: 'donghak-daesoon-ko' },
     { locale: 'en', dissertationId: 'donghak-daesoon-en' },
   ];

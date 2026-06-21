@@ -37,7 +37,7 @@ export const zh: SiteContent = {
         subtitle: '博士学位论文',
         description: '比较分析东学思想与大巡思想内在自生性近代性的博士学位论文。',
         youtubeUrl: YOUTUBE,
-        websiteUrl: 'https://dissertation-site.vercel.app/segment/1',
+        websiteUrl: '/zh/dissertation/doctoral/donghak-daesoon-zh',
       },
     ],
     masters: [

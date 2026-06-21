@@ -1,0 +1,469 @@
+{
+  "dissertationId": "donghak-daesoon-zh",
+  "title": "东学思想与大巡思想自生性近代性比较研究",
+  "subtitle": "- 以天观·地观·人间观为中心 -",
+  "author": "崔元赫",
+  "year": "2024",
+  "university": "大真大学校研究生院大巡宗学科",
+  "chapters": [
+    {
+      "id": "intro",
+      "title": "I. 绪论",
+      "paragraphCount": 74,
+      "footnoteCount": 173,
+      "headings": [
+        {
+          "level": 1,
+          "text": "绪论",
+          "anchor": "h109-introduction"
+        },
+        {
+          "level": 2,
+          "text": "研究的背景与必要性",
+          "anchor": "h110-research-background-and-necessity"
+        },
+        {
+          "level": 2,
+          "text": "研究的目的与范围",
+          "anchor": "h135-research-objectives-and-scope"
+        },
+        {
+          "level": 2,
+          "text": "前人研究分析",
+          "anchor": "h149-analysis-of-prior-research"
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "II. 自生性(自生的)近代性与阈限性",
+      "paragraphCount": 218,
+      "footnoteCount": 166,
+      "headings": [
+        {
+          "level": 1,
+          "text": "自生性(自生的)近代性与阈限性",
+          "anchor": "h183-indigenous-modernity-and-liminality"
+        },
+        {
+          "level": 2,
+          "text": "近代性与自生性近代性",
+          "anchor": "h184-modernity-and-indigenous-modernity"
+        },
+        {
+          "level": 3,
+          "text": "近代性与圣(聖)·俗(俗)的统摄(統攝)",
+          "anchor": "h185-modernity-and-the-encompassment-of-the-sacred-seong-and-the-secular-sok"
+        },
+        {
+          "level": 3,
+          "text": "西方近代性与自生性近代性的东方共同起源",
+          "anchor": "h210-the-eastern-common-origins-of-western-modernity-and-autogenous-modernity"
+        },
+        {
+          "level": 3,
+          "text": "作为自生性近代性形式体系的“学(學)”",
+          "anchor": "h227-hak-as-the-formal-system-of-autogenous-modernity"
+        },
+        {
+          "level": 3,
+          "text": "作为自生性近代性理论背景的东西区分",
+          "anchor": "h242-east-west-distinction-as-the-theoretical-background-of-autogenous-modernity"
+        },
+        {
+          "level": 3,
+          "text": "作为自生性近代性的哲学方法论的相关性思维",
+          "anchor": "h263-correlative-thought-as-the-philosophical-methodology-of-autogenous-modernity"
+        },
+        {
+          "level": 2,
+          "text": "阈限性与再活化",
+          "anchor": "h277-liminality-and-revitalization"
+        },
+        {
+          "level": 3,
+          "text": "作为自生性近代性的圣(聖)·俗(俗)变化机制的阈限性",
+          "anchor": "h278-liminality-as-the-mechanism-of-sacred-secular-transformation-in-autogenous-modernity"
+        },
+        {
+          "level": 3,
+          "text": "作为自生性近代性的圣(聖)·俗(俗)持续机制的再活化",
+          "anchor": "h318-revitalization-as-the-mechanism-of-sacred-secular-continuity-in-autogenous-modernity"
+        },
+        {
+          "level": 1,
+          "text": "东学思想的自生性近代性与作乱的阈限性",
+          "anchor": "h0-autogenous-modernity-and-the-liminality-of-disorder-in-donghak-thought"
+        },
+        {
+          "level": 2,
+          "text": "侍天主(侍天主)天观(天觀)的自生性近代性",
+          "anchor": "h1-autogenous-modernity-in-the-siecheonju-view-of-heaven"
+        },
+        {
+          "level": 3,
+          "text": "西方的形相性(形相的)天观",
+          "anchor": "h2-the-western-formal-view-of-heaven"
+        },
+        {
+          "level": 3,
+          "text": "东方的同化性(同化的)天观",
+          "anchor": "h17-the-eastern-assimilative-view-of-heaven"
+        },
+        {
+          "level": 3,
+          "text": "近代东西方天观的冲突与相克化(相克化)",
+          "anchor": "h42-the-clash-and-mutual-antagonism-of-east-west-views-of-heaven-in-modernity"
+        },
+        {
+          "level": 3,
+          "text": "天观的冲突",
+          "anchor": "h43-clash-of-views-of-heaven"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "III. 东学思想的自生性近代性与作乱的阈限性",
+      "paragraphCount": 328,
+      "footnoteCount": 207,
+      "headings": [
+        {
+          "level": 3,
+          "text": "天观的相克化",
+          "anchor": "h62-mutual-antagonism-of-views-of-heaven"
+        },
+        {
+          "level": 3,
+          "text": "东学思想之侍天主(侍天主)天观所呈现的阈限性",
+          "anchor": "h68-liminality-in-the-siecheonju-view-of-heaven-in-donghak-thought"
+        },
+        {
+          "level": 3,
+          "text": "东学思想的侍天主(侍天主)天观(天观)",
+          "anchor": "h69-the-siecheonju-view-of-heaven-in-donghak-thought"
+        },
+        {
+          "level": 3,
+          "text": "侍天主(侍天主)天观的阈限性样态",
+          "anchor": "h109-introduction"
+        },
+        {
+          "level": 2,
+          "text": "造化定(造化定)地观(地观)的自生性近代性",
+          "anchor": "h136-indigenous-modernity-of-the-johwajeong-creation-is-determined-view-of-earth-jigwan"
+        },
+        {
+          "level": 3,
+          "text": "西方的质料性(质料的)地观",
+          "anchor": "h137-the-western-material-jillyojeok-view-of-earth-jigwan"
+        },
+        {
+          "level": 3,
+          "text": "东方的凝缩性(凝缩的)地观",
+          "anchor": "h147-the-eastern-condensational-eungchukjeok-view-of-earth-jigwan"
+        },
+        {
+          "level": 3,
+          "text": "东西方地观(地观)的冲突与相克化(相克化)",
+          "anchor": "h162-the-collision-and-mutually-overcoming-conflict-sanggeukhwa-of-eastern-and-western-views-of-earth-jigwan"
+        },
+        {
+          "level": 3,
+          "text": "地观(地观)的冲突",
+          "anchor": "h163-the-clash-of-views-of-earth-ji-gwan"
+        },
+        {
+          "level": 3,
+          "text": "天地关系的相克化",
+          "anchor": "h170-the-mutual-conflict-sanggeuk-hwa-of-the-heaven-earth-relationship"
+        },
+        {
+          "level": 3,
+          "text": "东学思想之造化定(造化定)地观(地观)所呈现的阈限性",
+          "anchor": "h179-liminality-in-the-johwajong-view-of-earth-in-donghak-thought"
+        },
+        {
+          "level": 3,
+          "text": "造化定(造化定)地观(地观)的阈限性样态",
+          "anchor": "h200-liminality-aspects-of-the-johwajeong-fixing-the-creation-transformation-view-of-earth-ji-gwan"
+        },
+        {
+          "level": 3,
+          "text": "东学思想之鬼神论性(鬼神论的)天地关系所呈现的阈限性样态",
+          "anchor": "h211-aspects-of-liminality-in-the-animistic-heaven-earth-relationship-in-donghak-thought"
+        },
+        {
+          "level": 2,
+          "text": "永世不忘(永世不忘)人间观(人间观)的自生性近代性",
+          "anchor": "h233-indigenous-modernity-of-the-yeongsebulmang-eternal-non-forgetting-view-of-humanity-in-gwan"
+        },
+        {
+          "level": 3,
+          "text": "西方的成长论性(成长论的)人间观",
+          "anchor": "h234-the-western-developmental-view-of-humanity"
+        },
+        {
+          "level": 3,
+          "text": "东方的接化性(接化的)人间观",
+          "anchor": "h246-the-eastern-transformative-contact-view-of-humanity"
+        },
+        {
+          "level": 3,
+          "text": "近代东西方人间观的冲突与相克化(相克化)",
+          "anchor": "h263-correlative-thought-as-the-philosophical-methodology-of-autogenous-modernity"
+        },
+        {
+          "level": 3,
+          "text": "人间观的冲突",
+          "anchor": "h264-the-clash-of-views-of-humanity"
+        },
+        {
+          "level": 3,
+          "text": "天人(天人)·地人(地人)关系的相克化",
+          "anchor": "h274-the-mutual-conflict-sanggeuk-hwa-of-the-heaven-humanity-cheon-in-and-earth-humanity-ji-in-relationships"
+        },
+        {
+          "level": 3,
+          "text": "东学思想之永世不忘(永世不忘)人间观所呈现的阈限性",
+          "anchor": "h281-liminality-in-donghak-thought-s-view-of-humanity-as-yeongsebulmang-eternal-unforgetting"
+        },
+        {
+          "level": 3,
+          "text": "东学思想的永世不忘(永世不忘)人间观",
+          "anchor": "h282-donghak-thought-s-yeongsebulmang-eternal-non-forgetting-view-of-humanity-in-gwan"
+        },
+        {
+          "level": 3,
+          "text": "东学思想之内有神灵(内有神灵)天人(天人)关系所呈现的阈限性样态",
+          "anchor": "h307-liminality-aspects-in-the-cheon-in-heaven-human-relationship-of-naeyu-sinryeong-having-divine-spirit-within-in-donghak-thought"
+        },
+        {
+          "level": 3,
+          "text": "东学思想之外有气化(外有气化)地人(地人)关系所呈现的阈限性样态",
+          "anchor": "h312-liminality-aspects-in-the-ji-in-earth-human-relationship-of-oeyu-gihwa-having-energetic-transformation-without-in-donghak-thought"
+        },
+        {
+          "level": 1,
+          "text": "大巡思想的自生性近代性与治乱的再活化",
+          "anchor": "h328-autogenous-modernity-and-the-revitalization-of-order-in-daesoon-thought"
+        },
+        {
+          "level": 2,
+          "text": "人身降世(人身降世)天界观(天界观)的自生性近代性",
+          "anchor": "h329-the-indigenous-modernity-of-the-view-of-the-heavenly-realm-cheon-gye-gwan-based-on-insin-gangse-divine-incarnation-in-human-form"
+        },
+        {
+          "level": 3,
+          "text": "作为天观(天观)的天界观(天界观)",
+          "anchor": "h330-the-view-of-the-heavenly-realm-cheon-gye-gwan-as-the-view-of-heaven-cheon-gwan"
+        },
+        {
+          "level": 3,
+          "text": "人身降世(人身降世)的天界观(天界观)",
+          "anchor": "h354-the-incarnational-view-of-the-heavenly-realm"
+        },
+        {
+          "level": 3,
+          "text": "人身降世(人身降世)天界观(天界观)所呈现的东西方天观(天观)之再活化",
+          "anchor": "h375-revitalization-of-eastern-and-western-views-of-heaven-in-the-view-of-the-heavenly-realm-based-on-divine-incarnation-insin-gangse"
+        },
+        {
+          "level": 3,
+          "text": "人身降世(人身降世)天界观(天界观)所呈现的儒佛仙天观(天观)之再活化",
+          "anchor": "h376-revitalization-of-confucian-buddhist-and-daoist-yu-bul-seon-views-of-heaven-in-the-view-of-the-heavenly-realm-cheon-gye-gwan-based-on-insin-gangse"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "IV. 大巡思想的自生性近代性与治乱的阈限性",
+      "paragraphCount": 420,
+      "footnoteCount": 199,
+      "headings": [
+        {
+          "level": 3,
+          "text": "人身降世(人身降世)天界观(天界觀)中所现西方天观(天觀)之再激活",
+          "anchor": "h400-reactivation-of-the-western-view-of-heaven-in-the-incarnational-view-of-the-heavenly-realm"
+        },
+        {
+          "level": 2,
+          "text": "天地诚敬信(天地誠敬信)地界观(地界觀)的自生性近代性",
+          "anchor": "h417-autogenous-modernity-in-the-cheonji-seongyeongsin-view-of-the-earthly-realm"
+        },
+        {
+          "level": 3,
+          "text": "作为地界观(地界觀)的地观(地觀)",
+          "anchor": "h418-view-of-earth-as-the-earthly-realm"
+        },
+        {
+          "level": 3,
+          "text": "天地诚敬信(天地誠敬信)的地界观(地界觀)",
+          "anchor": "h444-the-view-of-the-earthly-realm-jigye-gwan-based-on-cheonji-seong-gyeong-sin-sincerity-reverence-and-faith-of-heaven-and-earth"
+        },
+        {
+          "level": 3,
+          "text": "天地诚敬信(天地誠敬信)地界观(地界觀)中所现东西方地观地觀之再激活",
+          "anchor": "h482-the-revitalization-of-eastern-and-western-views-of-earth-manifested-in-the-view-of-the-earthly-realm-based-on-cheonji-seong-gyeong-sin-sincerity-reverence-and-faith-of-heaven-and-earth"
+        },
+        {
+          "level": 3,
+          "text": "天地诚敬信(天地誠敬信)地界观(地界觀)中所现儒佛仙地观(地觀)之再激活",
+          "anchor": "h483-the-revitalization-of-confucian-buddhist-and-seon-daoist-views-of-earth-manifested-in-the-view-of-the-earthly-realm-based-on-cheonji-seong-gyeong-sin"
+        },
+        {
+          "level": 3,
+          "text": "天地诚敬信(天地誠敬信)地界观(地界觀)中所现西方地观(地觀)之再激活",
+          "anchor": "h509-the-revitalization-of-the-western-view-of-earth-manifested-in-the-view-of-the-earthly-realm-based-on-cheonji-seong-gyeong-sin"
+        },
+        {
+          "level": 3,
+          "text": "地上天国(地上天國)的天地关系中所现东西方天地关系之再激活",
+          "anchor": "h540-revitalization-of-the-east-west-heaven-earth-relationship-in-the-earthly-heaven"
+        },
+        {
+          "level": 2,
+          "text": "成事在人(成事在人)人界观(人界觀)之自生性近代性",
+          "anchor": "h572-the-indigenous-modernity-of-the-view-of-the-human-realm-ingyegwan-as-achievement-depends-on-humanity-seongsa-jaein"
+        },
+        {
+          "level": 3,
+          "text": "作为人界观(人界觀)之人间观(人間觀)",
+          "anchor": "h573-the-view-of-humanity-ingangwan-as-the-view-of-the-human-realm-ingyegwan"
+        },
+        {
+          "level": 3,
+          "text": "成事在人(成事在人)人界观(人界觀)",
+          "anchor": "h600-the-view-of-the-human-realm-ingyegwan-as-achievement-depends-on-humanity-seongsa-jaein"
+        },
+        {
+          "level": 3,
+          "text": "成事在人(成事在人)人界观(人界觀)所显东西方人间观(人間觀)的再活化",
+          "anchor": "h636-the-revitalization-of-eastern-and-western-views-of-humanity-ingangwan-in-the-view-of-the-human-realm-ingyegwan-as-achievement-depends-on-humanity-seongsa-jaein"
+        },
+        {
+          "level": 3,
+          "text": "成事在人(成事在人)人界观(人界觀)所显儒佛仙人间观(人間觀)的再活化",
+          "anchor": "h637-the-revitalization-of-confucian-buddhist-and-seon-daoist-views-of-humanity-ingangwan-in-the-view-of-the-human-realm-ingyegwan-as-achievement-depends-on-humanity-seongsa-jaein"
+        },
+        {
+          "level": 3,
+          "text": "成事在人(成事在人)人界观(人界觀)所显西方人间观(人間觀)的再活化",
+          "anchor": "h657-revitalization-of-western-views-of-humanity-in-the-seongsa-jaein-human-realm-view"
+        },
+        {
+          "level": 3,
+          "text": "天地报恩(天地報恩)之天人(天人)关系所显东西方天人关系的再活化",
+          "anchor": "h675-revitalization-of-the-east-west-heaven-human-relationship-in-the-cheonji-boeun"
+        },
+        {
+          "level": 3,
+          "text": "地上神仙（地上神仙）地人（地人）关系中所呈现的东西方地人关系之重新激活",
+          "anchor": "h695-revitalization-of-the-east-west-earth-human-relationship-in-the-earthly-immortal"
+        },
+        {
+          "level": 1,
+          "text": "东学思想与大巡思想的自生性近代性比较",
+          "anchor": "h704-a-comparison-of-autogenous-modernity-in-donghak-and-daesoon-thought"
+        },
+        {
+          "level": 2,
+          "text": "天观（天觀）的自生性近代性比较",
+          "anchor": "h705-comparison-of-autogenous-modernity-in-views-of-heaven"
+        },
+        {
+          "level": 3,
+          "text": "先天（先天）与后天（後天）",
+          "anchor": "h749-seoncheon-former-world-and-hucheon-later-world"
+        },
+        {
+          "level": 2,
+          "text": "地观（地觀）的自生性近代性比较",
+          "anchor": "h769-comparative-study-on-the-indigenous-modernity-of-the-view-of-earth-jigwan"
+        },
+        {
+          "level": 3,
+          "text": "气化（氣化）与调理（調理）",
+          "anchor": "h770-gihwa-ki-transformation-and-jori-governing-conditioning"
+        },
+        {
+          "level": 3,
+          "text": "劳而无功（勞而無功）与天地成功（天地成功）",
+          "anchor": "h799-noiemugang-and-cheonji-seonggong"
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "V. 东学思想与大巡思想自生性近代性的比较",
+      "paragraphCount": 254,
+      "footnoteCount": 91,
+      "headings": [
+        {
+          "level": 2,
+          "text": "人间观的自生性近代性比较",
+          "anchor": "h810-comparison-of-autogenous-modernity-in-views-of-humanity"
+        },
+        {
+          "level": 3,
+          "text": "人乃天与神人调化",
+          "anchor": "h811-innaecheon-and-sinin-johwa"
+        },
+        {
+          "level": 3,
+          "text": "不然其然与成事在人",
+          "anchor": "h847-buryeon-giyeon-not-so-yet-so-and-seongsa-jaein-accomplishment-of-affairs-lies-with-human-beings"
+        },
+        {
+          "level": 2,
+          "text": "东学思想与大巡思想天地关系之自生性近代性比较",
+          "anchor": "h864-comparison-of-the-heaven-earth-relationships-in-donghak-and-daesoon-thought"
+        },
+        {
+          "level": 3,
+          "text": "天地鬼神与天地诚敬信",
+          "anchor": "h865-cheonji-gwisin-and-cheonji-seongyeongsin"
+        },
+        {
+          "level": 3,
+          "text": "道气长存与相生",
+          "anchor": "h890-dogi-jangjon-and-sangsaeng"
+        },
+        {
+          "level": 2,
+          "text": "东学思想与大巡思想天人·地人关系之自生性近代性比较",
+          "anchor": "h912-comparison-of-the-heaven-human-and-earth-human-relationships-in-donghak-and-daesoon-thought"
+        },
+        {
+          "level": 3,
+          "text": "人道与神道之天人关系",
+          "anchor": "h913-the-heaven-human-relationship-of-human-way-and-divine-way"
+        },
+        {
+          "level": 3,
+          "text": "心急道儒与道通君子之地人关系",
+          "anchor": "h933-the-earth-human-relationship-of-simgeub-doyu-and-dotong-gunja"
+        },
+        {
+          "level": 1,
+          "text": "结论",
+          "anchor": "h958-conclusion"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "VI. 结论",
+      "paragraphCount": 21,
+      "footnoteCount": 0,
+      "headings": []
+    },
+    {
+      "id": "references",
+      "title": "参考文献",
+      "paragraphCount": 497,
+      "footnoteCount": 0,
+      "headings": []
+    }
+  ]
+}
