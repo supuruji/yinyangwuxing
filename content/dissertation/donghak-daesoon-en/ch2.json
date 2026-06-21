@@ -6,19 +6,19 @@
       "type": "para",
       "text": "Indigenous Modernity and Liminality",
       "level": 1,
-      "anchor": "h183-자생적-自生的-근대성과-리미널리티"
+      "anchor": "h183-indigenous-modernity-and-liminality"
     },
     {
       "type": "para",
       "text": "Modernity and Indigenous Modernity",
       "level": 2,
-      "anchor": "h184-근대성과-자생적-근대성"
+      "anchor": "h184-modernity-and-indigenous-modernity"
     },
     {
       "type": "para",
       "text": "Modernity and the Encompassment (Tongsŏp) of the Sacred (Seong) and the Secular (Sok)",
       "level": 3,
-      "anchor": "h185-근대성과-성-聖-속-俗-의-통섭-統攝"
+      "anchor": "h185-modernity-and-the-encompassment-of-the-sacred-seong-and-the-secular-sok"
     },
     {
       "type": "para",
@@ -85,214 +85,214 @@
             "rowSpan": 1
           },
           {
-            "text": "중세",
+            "text": "Medieval",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "현대",
+            "text": "Modern",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "탈현대",
+            "text": "Postmodern",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "상 부 구 조",
+            "text": "Superstructure",
             "colSpan": 1,
             "rowSpan": 9
           },
           {
-            "text": "신 중심",
+            "text": "God-centered",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "인간 중심",
+            "text": "Human-centered",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "생태론적 패러다임",
+            "text": "Ecological paradigm",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "神聖의 지배",
+            "text": "Rule of the divine (Sinseong)",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "이성과 합리성의 원칙",
+            "text": "Principles of reason and rationality",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "이성중심주의의 해체",
+            "text": "Deconstruction of rationalism",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "신이 진리",
+            "text": "God as truth",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "진리의 절대성과 보편성",
+            "text": "Absoluteness and universality of truth",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "진리의 상대성, 불가지성",
+            "text": "Relativity and unknowability of truth",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "미신과 주술",
+            "text": "Superstition and magic",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "과학",
+            "text": "Science",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "과학(적 진리)의 불확정성",
+            "text": "Indeterminacy of science (and scientific truth)",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "善, 또는 神이 美",
+            "text": "Good, or the divine, as beauty",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "예술의 세속화와 자기목적성 추구",
+            "text": "Secularization of art and pursuit of self-purposiveness",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "예술의 異種性, 混種性과 해체",
+            "text": "Heterogeneity, hybridity, and deconstruction of art",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "신에게 복속된 자아",
+            "text": "Self subjugated to God",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "주체",
+            "text": "Subject",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "상호주체성",
+            "text": "Intersubjectivity",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "생의 공간",
+            "text": "Space of life",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "현실",
+            "text": "Reality",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "시뮬라시옹",
+            "text": "Simulation",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "로마와 중국 중심주의",
+            "text": "Roman and Chinese centrism",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "유럽중심주의",
+            "text": "Eurocentrism",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "세계화와 지역화",
+            "text": "Globalization and localization",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "중심의 문자",
+            "text": "Script of the center",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "국가의 문자",
+            "text": "Script of the nation-state",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "이미지",
+            "text": "Image",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "토대",
+            "text": "Base",
             "colSpan": 1,
             "rowSpan": 2
           },
           {
-            "text": "봉건체제",
+            "text": "Feudal system",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "자본제",
+            "text": "Capitalism",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "후기자본제",
+            "text": "Late capitalism",
             "colSpan": 1,
             "rowSpan": 1
           }
         ],
         [
           {
-            "text": "전산업사회",
+            "text": "Pre-industrial society",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "산업사회",
+            "text": "Industrial society",
             "colSpan": 1,
             "rowSpan": 1
           },
           {
-            "text": "탈산업사회",
+            "text": "Post-industrial society",
             "colSpan": 1,
             "rowSpan": 1
           }
@@ -387,7 +387,7 @@
       "type": "para",
       "text": "The Eastern Common Origins of Western Modernity and Autogenous Modernity",
       "level": 3,
-      "anchor": "h210-서구-근대성과-자생적-근대성의-동양적-공동-기원"
+      "anchor": "h210-the-eastern-common-origins-of-western-modernity-and-autogenous-modernity"
     },
     {
       "type": "para",
@@ -489,7 +489,7 @@
       "type": "para",
       "text": "Hak (학) as the Formal System of Autogenous Modernity",
       "level": 3,
-      "anchor": "h227-자생적-근대성의-형식-체계로서의-학-學"
+      "anchor": "h227-hak-as-the-formal-system-of-autogenous-modernity"
     },
     {
       "type": "para",
@@ -579,7 +579,7 @@
       "type": "para",
       "text": "East-West Distinction as the Theoretical Background of Autogenous Modernity",
       "level": 3,
-      "anchor": "h242-자생적-근대성의-이론적-배경으로서-동서-구분"
+      "anchor": "h242-east-west-distinction-as-the-theoretical-background-of-autogenous-modernity"
     },
     {
       "type": "para",
@@ -705,7 +705,7 @@
       "type": "para",
       "text": "Correlative Thought as the Philosophical Methodology of Autogenous Modernity",
       "level": 3,
-      "anchor": "h263-자생적-근대성의-철학적-방법론으로서의-상관적-사유"
+      "anchor": "h263-correlative-thought-as-the-philosophical-methodology-of-autogenous-modernity"
     },
     {
       "type": "para",
@@ -789,13 +789,13 @@
       "type": "para",
       "text": "Liminality and Revitalization",
       "level": 2,
-      "anchor": "h277-리미널리티와-재활성화"
+      "anchor": "h277-liminality-and-revitalization"
     },
     {
       "type": "para",
       "text": "Liminality as the Mechanism of Sacred-Secular Transformation in Autogenous Modernity",
       "level": 3,
-      "anchor": "h278-자생적-근대성의-성-聖-속-俗-변화-기제로서의-리미널리티"
+      "anchor": "h278-liminality-as-the-mechanism-of-sacred-secular-transformation-in-autogenous-modernity"
     },
     {
       "type": "para",
@@ -1123,7 +1123,7 @@
       "type": "para",
       "text": "Revitalization as the Mechanism of Sacred-Secular Continuity in Autogenous Modernity",
       "level": 3,
-      "anchor": "h318-자생적-근대성의-성-聖-속-俗-지속-기제로서의-재활성화"
+      "anchor": "h318-revitalization-as-the-mechanism-of-sacred-secular-continuity-in-autogenous-modernity"
     },
     {
       "type": "para",
@@ -1315,19 +1315,19 @@
       "type": "para",
       "text": "Autogenous Modernity and the Liminality of Disorder (作亂) in Donghak Thought",
       "level": 1,
-      "anchor": "h0-동학사상의-자생적-근대성과-작란의-리미널리티"
+      "anchor": "h0-autogenous-modernity-and-the-liminality-of-disorder-in-donghak-thought"
     },
     {
       "type": "para",
       "text": "Autogenous Modernity in the Siecheonju (侍天主) View of Heaven",
       "level": 2,
-      "anchor": "h1-시천주-侍天主-천관-天觀-의-자생적-근대성"
+      "anchor": "h1-autogenous-modernity-in-the-siecheonju-view-of-heaven"
     },
     {
       "type": "para",
       "text": "The Western Formal (形相的) View of Heaven",
       "level": 3,
-      "anchor": "h2-서양의-형상적-形相的-천관"
+      "anchor": "h2-the-western-formal-view-of-heaven"
     },
     {
       "type": "para",
@@ -1417,7 +1417,7 @@
       "type": "para",
       "text": "The Eastern Assimilative (同化的) View of Heaven",
       "level": 3,
-      "anchor": "h17-동양의-동화적-同化的-천관"
+      "anchor": "h17-the-eastern-assimilative-view-of-heaven"
     },
     {
       "type": "para",
@@ -1567,13 +1567,13 @@
       "type": "para",
       "text": "The Clash and Mutual Antagonism (相克化) of East-West Views of Heaven in Modernity",
       "level": 3,
-      "anchor": "h42-근대-동서양-천관의-충돌과-상극화-相克化"
+      "anchor": "h42-the-clash-and-mutual-antagonism-of-east-west-views-of-heaven-in-modernity"
     },
     {
       "type": "para",
       "text": "Clash of Views of Heaven",
       "level": 3,
-      "anchor": "h43-천관의-충돌"
+      "anchor": "h43-clash-of-views-of-heaven"
     },
     {
       "type": "para",
@@ -2300,82 +2300,82 @@
     {
       "level": 1,
       "text": "Indigenous Modernity and Liminality",
-      "anchor": "h183-자생적-自生的-근대성과-리미널리티"
+      "anchor": "h183-indigenous-modernity-and-liminality"
     },
     {
       "level": 2,
       "text": "Modernity and Indigenous Modernity",
-      "anchor": "h184-근대성과-자생적-근대성"
+      "anchor": "h184-modernity-and-indigenous-modernity"
     },
     {
       "level": 3,
       "text": "Modernity and the Encompassment (Tongsŏp) of the Sacred (Seong) and the Secular (Sok)",
-      "anchor": "h185-근대성과-성-聖-속-俗-의-통섭-統攝"
+      "anchor": "h185-modernity-and-the-encompassment-of-the-sacred-seong-and-the-secular-sok"
     },
     {
       "level": 3,
       "text": "The Eastern Common Origins of Western Modernity and Autogenous Modernity",
-      "anchor": "h210-서구-근대성과-자생적-근대성의-동양적-공동-기원"
+      "anchor": "h210-the-eastern-common-origins-of-western-modernity-and-autogenous-modernity"
     },
     {
       "level": 3,
       "text": "Hak (학) as the Formal System of Autogenous Modernity",
-      "anchor": "h227-자생적-근대성의-형식-체계로서의-학-學"
+      "anchor": "h227-hak-as-the-formal-system-of-autogenous-modernity"
     },
     {
       "level": 3,
       "text": "East-West Distinction as the Theoretical Background of Autogenous Modernity",
-      "anchor": "h242-자생적-근대성의-이론적-배경으로서-동서-구분"
+      "anchor": "h242-east-west-distinction-as-the-theoretical-background-of-autogenous-modernity"
     },
     {
       "level": 3,
       "text": "Correlative Thought as the Philosophical Methodology of Autogenous Modernity",
-      "anchor": "h263-자생적-근대성의-철학적-방법론으로서의-상관적-사유"
+      "anchor": "h263-correlative-thought-as-the-philosophical-methodology-of-autogenous-modernity"
     },
     {
       "level": 2,
       "text": "Liminality and Revitalization",
-      "anchor": "h277-리미널리티와-재활성화"
+      "anchor": "h277-liminality-and-revitalization"
     },
     {
       "level": 3,
       "text": "Liminality as the Mechanism of Sacred-Secular Transformation in Autogenous Modernity",
-      "anchor": "h278-자생적-근대성의-성-聖-속-俗-변화-기제로서의-리미널리티"
+      "anchor": "h278-liminality-as-the-mechanism-of-sacred-secular-transformation-in-autogenous-modernity"
     },
     {
       "level": 3,
       "text": "Revitalization as the Mechanism of Sacred-Secular Continuity in Autogenous Modernity",
-      "anchor": "h318-자생적-근대성의-성-聖-속-俗-지속-기제로서의-재활성화"
+      "anchor": "h318-revitalization-as-the-mechanism-of-sacred-secular-continuity-in-autogenous-modernity"
     },
     {
       "level": 1,
       "text": "Autogenous Modernity and the Liminality of Disorder (作亂) in Donghak Thought",
-      "anchor": "h0-동학사상의-자생적-근대성과-작란의-리미널리티"
+      "anchor": "h0-autogenous-modernity-and-the-liminality-of-disorder-in-donghak-thought"
     },
     {
       "level": 2,
       "text": "Autogenous Modernity in the Siecheonju (侍天主) View of Heaven",
-      "anchor": "h1-시천주-侍天主-천관-天觀-의-자생적-근대성"
+      "anchor": "h1-autogenous-modernity-in-the-siecheonju-view-of-heaven"
     },
     {
       "level": 3,
       "text": "The Western Formal (形相的) View of Heaven",
-      "anchor": "h2-서양의-형상적-形相的-천관"
+      "anchor": "h2-the-western-formal-view-of-heaven"
     },
     {
       "level": 3,
       "text": "The Eastern Assimilative (同化的) View of Heaven",
-      "anchor": "h17-동양의-동화적-同化的-천관"
+      "anchor": "h17-the-eastern-assimilative-view-of-heaven"
     },
     {
       "level": 3,
       "text": "The Clash and Mutual Antagonism (相克化) of East-West Views of Heaven in Modernity",
-      "anchor": "h42-근대-동서양-천관의-충돌과-상극화-相克化"
+      "anchor": "h42-the-clash-and-mutual-antagonism-of-east-west-views-of-heaven-in-modernity"
     },
     {
       "level": 3,
       "text": "Clash of Views of Heaven",
-      "anchor": "h43-천관의-충돌"
+      "anchor": "h43-clash-of-views-of-heaven"
     }
   ]
 }
