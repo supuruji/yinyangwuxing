@@ -37,7 +37,7 @@ export const ja: SiteContent = {
         subtitle: '博士学位論文',
         description: '東学思想と大巡思想に内在する自生的近代性を比較分析した博士学位論文。',
         youtubeUrl: YOUTUBE,
-        websiteUrl: 'https://dissertation-site.vercel.app/segment/1',
+        websiteUrl: '/ja/dissertation/doctoral/donghak-daesoon-ja',
       },
     ],
     masters: [

@@ -29,7 +29,7 @@ export async function generateStaticParams() {
   return [
     { locale: 'ko', dissertationId: 'donghak-daesoon-ko' },
     { locale: 'zh', dissertationId: 'donghak-daesoon-zh' },
-    { locale: 'ja', dissertationId: 'donghak-daesoon-ko' },
+    { locale: 'ja', dissertationId: 'donghak-daesoon-ja' },
     { locale: 'en', dissertationId: 'donghak-daesoon-en' },
   ];
 }

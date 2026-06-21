@@ -23,8 +23,9 @@ function loadChapter(dissertationId: string, chapterId: string) {
 
 export async function generateStaticParams() {
   const dissertations = [
-    { dissertationId: 'donghak-daesoon-ko', locales: ['ko', 'ja'] },
+    { dissertationId: 'donghak-daesoon-ko', locales: ['ko'] },
     { dissertationId: 'donghak-daesoon-zh', locales: ['zh'] },
+    { dissertationId: 'donghak-daesoon-ja', locales: ['ja'] },
     { dissertationId: 'donghak-daesoon-en', locales: ['en'] },
   ];
   const chapterIds = ['intro', 'ch2', 'ch3', 'ch4', 'ch5', 'conclusion', 'references'];
