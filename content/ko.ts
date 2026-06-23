@@ -152,7 +152,9 @@ export const ko: SiteContent = {
       id: 'paper-jinmuk-won',
       title: '진묵의 원에 대한 연구130104',
       subtitle: '발표논문',
+      description: '진묵(震默)이 품은 원(寃)의 성격과 크기를 서가여래의 오백대원, 나반존자·나반-아만, 음양오행의 관점에서 고찰한 논문입니다.',
       youtubeUrl: YOUTUBE,
+      websiteUrl: '/ko/papers/jinmuk-won',
     },
     {
       id: 'paper-cham-donghak',
