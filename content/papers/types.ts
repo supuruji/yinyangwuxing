@@ -1,7 +1,7 @@
-export interface PaperBlock {
-  type: 'h3' | 'h4' | 'p' | 'quote';
-  text: string;
-}
+export type PaperBlock =
+  | { type: 'h3' | 'h4' | 'p' | 'quote'; text: string }
+  | { type: 'table'; caption?: string; headers: string[]; rows: string[][] }
+  | { type: 'footnotes-list'; from: number; to: number };
 
 export interface PaperChapter {
   id: string;
@@ -15,6 +15,11 @@ export interface PaperDownload {
   href: string;
 }
 
+export interface PaperFootnote {
+  n: number;
+  body: string;
+}
+
 export interface Paper {
   id: string;
   title: string;
@@ -24,4 +29,5 @@ export interface Paper {
   year?: number;
   downloads?: PaperDownload[];
   chapters: PaperChapter[];
+  footnotes?: PaperFootnote[];
 }

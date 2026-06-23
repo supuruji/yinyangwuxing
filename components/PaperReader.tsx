@@ -1,8 +1,8 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, Fragment } from 'react';
 import Link from 'next/link';
-import type { Paper, PaperBlock } from '@/content/papers/types';
+import type { Paper, PaperBlock, PaperFootnote } from '@/content/papers/types';
 
 interface PaperReaderProps {
   paper: Paper;
@@ -19,6 +19,11 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
   const activeIndex = paper.chapters.findIndex((c) => c.id === activeId);
   const prevChapter = activeIndex > 0 ? paper.chapters[activeIndex - 1] : null;
   const nextChapter = activeIndex < paper.chapters.length - 1 ? paper.chapters[activeIndex + 1] : null;
+
+  const footnoteMap = new Map<number, PaperFootnote>();
+  if (paper.footnotes) {
+    for (const fn of paper.footnotes) footnoteMap.set(fn.n, fn);
+  }
 
   useEffect(() => {
     if (contentRef.current) {
@@ -124,7 +129,7 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
 
           <div className="space-y-5">
             {activeChapter.blocks.map((block, i) => (
-              <BlockRenderer key={i} block={block} />
+              <BlockRenderer key={i} block={block} footnoteMap={footnoteMap} />
             ))}
           </div>
 
@@ -168,34 +173,129 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
   );
 }
 
-function BlockRenderer({ block }: { block: PaperBlock }) {
+function BlockRenderer({
+  block,
+  footnoteMap,
+}: {
+  block: PaperBlock;
+  footnoteMap: Map<number, PaperFootnote>;
+}) {
+  if (block.type === 'footnotes-list') {
+    const items: PaperFootnote[] = [];
+    for (let n = block.from; n <= block.to; n++) {
+      const fn = footnoteMap.get(n);
+      if (fn) items.push(fn);
+    }
+    return (
+      <ol className="my-6 space-y-3 list-none pl-0">
+        {items.map((fn) => (
+          <li
+            key={fn.n}
+            id={`fn-${fn.n}`}
+            className="text-parchment-muted text-sm leading-relaxed border-l-2 border-gold/20 pl-4 scroll-mt-24"
+          >
+            <span className="text-gold/80 font-serif mr-2">[{fn.n}]</span>
+            <span className="whitespace-pre-wrap">{fn.body}</span>
+          </li>
+        ))}
+      </ol>
+    );
+  }
+
+  if (block.type === 'table') {
+    return (
+      <div className="my-6 overflow-x-auto">
+        {block.caption && (
+          <p className="text-gold/80 text-sm font-serif mb-2">{renderInline(block.caption, footnoteMap)}</p>
+        )}
+        <table className="min-w-full border border-gold/30 text-xs lg:text-sm">
+          <thead>
+            <tr className="bg-gold/10">
+              {block.headers.map((h, i) => (
+                <th key={i} className="border border-gold/20 px-3 py-2 text-left font-serif text-gold/90">
+                  {renderInline(h, footnoteMap)}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {block.rows.map((row, ri) => (
+              <tr key={ri} className="even:bg-gold/5">
+                {row.map((cell, ci) => (
+                  <td key={ci} className="border border-gold/15 px-3 py-2 align-top text-parchment leading-relaxed">
+                    {renderInline(cell, footnoteMap)}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    );
+  }
+
   switch (block.type) {
     case 'h3':
       return (
         <h3 className="text-xl font-serif text-gold mt-8 mb-3 leading-snug pt-2">
-          {block.text}
+          {renderInline(block.text, footnoteMap)}
         </h3>
       );
     case 'h4':
       return (
         <h4 className="text-base font-serif text-gold/80 mt-6 mb-2 leading-snug">
-          {block.text}
+          {renderInline(block.text, footnoteMap)}
         </h4>
       );
     case 'quote':
       return (
         <blockquote className="border-l-2 border-gold/50 pl-4 my-6 text-parchment-muted italic leading-relaxed">
-          {block.text}
+          {renderInline(block.text, footnoteMap)}
         </blockquote>
       );
     case 'p':
     default:
       return (
         <p className="text-parchment leading-[1.9] text-[0.975rem]">
-          {block.text}
+          {renderInline(block.text, footnoteMap)}
         </p>
       );
   }
+}
+
+function renderInline(text: string, footnoteMap: Map<number, PaperFootnote>) {
+  const parts: (string | { n: number; body: string })[] = [];
+  const re = /\[fn:(\d+)\]/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    const n = Number(m[1]);
+    const fn = footnoteMap.get(n);
+    parts.push({ n, body: fn?.body ?? '' });
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+
+  return (
+    <>
+      {parts.map((p, i) =>
+        typeof p === 'string' ? (
+          <Fragment key={i}>{p}</Fragment>
+        ) : (
+          <sup key={i} className="text-gold/80 mx-0.5">
+            <a
+              href={`#fn-${p.n}`}
+              title={p.body}
+              className="hover:text-gold underline decoration-gold/40 text-[0.7em]"
+            >
+              [{p.n}]
+            </a>
+          </sup>
+        )
+      )}
+    </>
+  );
 }
 
 function MenuIcon() {
