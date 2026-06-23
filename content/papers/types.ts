@@ -1,6 +1,7 @@
 export type PaperBlock =
   | { type: 'h3' | 'h4' | 'p' | 'quote'; text: string }
   | { type: 'table'; caption?: string; headers: string[]; rows: string[][] }
+  | { type: 'image'; src: string; alt: string; caption?: string; width?: number }
   | { type: 'footnotes-list'; from: number; to: number };
 
 export interface PaperChapter {

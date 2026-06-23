@@ -202,6 +202,25 @@ function BlockRenderer({
     );
   }
 
+  if (block.type === 'image') {
+    return (
+      <figure className="my-6 flex flex-col items-center">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={block.src}
+          alt={block.alt}
+          style={block.width ? { maxWidth: `${block.width}px` } : undefined}
+          className="rounded border border-gold/20 bg-parchment/5"
+        />
+        {block.caption && (
+          <figcaption className="text-gold/70 text-sm font-serif mt-2 text-center">
+            {renderInline(block.caption, footnoteMap)}
+          </figcaption>
+        )}
+      </figure>
+    );
+  }
+
   if (block.type === 'table') {
     return (
       <div className="my-6 overflow-x-auto">
