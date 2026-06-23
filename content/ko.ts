@@ -52,6 +52,12 @@ export const ko: SiteContent = {
     ],
   },
   papers: [
+    {
+      id: 'paper-jinmuk-won',
+      title: '진묵의 원에 대한 연구130104',
+      subtitle: '발표논문',
+      youtubeUrl: YOUTUBE,
+    },
     // 발표논문을 추가하려면 아래 형식으로 항목을 추가하세요:
     // {
     //   id: 'paper-고유ID',
@@ -61,12 +67,6 @@ export const ko: SiteContent = {
     //   youtubeUrl: '유튜브 재생목록 URL',
     //   websiteUrl: '논문 홈페이지 URL',
     // },
-    {
-      id: 'papers-placeholder',
-      title: '발표논문 준비 중',
-      subtitle: '곧 업데이트됩니다',
-      comingSoon: true,
-    },
   ],
   books: [
     {
