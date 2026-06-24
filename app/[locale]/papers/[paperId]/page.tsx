@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { koJinmukWonPaper } from '@/content/papers/ko-jinmuk-won';
 import { koSamgangOryunPaper } from '@/content/papers/ko-samgang-oryun';
 import { koGeumgangsanPaper } from '@/content/papers/ko-geumgangsan';
+import { koPostcoronaPaper } from '@/content/papers/ko-postcorona';
 import { getContent } from '@/lib/content';
 import PaperReader from '@/components/PaperReader';
 import type { Metadata } from 'next';
@@ -11,6 +12,7 @@ const PAPERS: Record<string, Paper> = {
   'jinmuk-won': koJinmukWonPaper,
   'samgang-oryun': koSamgangOryunPaper,
   'geumgangsan': koGeumgangsanPaper,
+  'postcorona': koPostcoronaPaper,
 };
 
 interface Props {

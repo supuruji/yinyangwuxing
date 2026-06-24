@@ -176,7 +176,9 @@ export const ko: SiteContent = {
       id: 'paper-postcorona-body',
       title: '포스트코로나시대 신종교의 대안적 인체관 일고찰--대순사상과 휴먼디자인을 중심으로-',
       subtitle: '발표논문',
+      description: '트랜스휴머니즘·포스트휴머니즘에 맞서, 혼백결합·신인소통·집단치유·우주확장이라는 네 인체관을 대순사상과 휴먼디자인을 중심으로 살펴본 논문입니다.',
       youtubeUrl: YOUTUBE,
+      websiteUrl: '/ko/papers/postcorona',
     },
     {
       id: 'paper-mireuk-origin',
