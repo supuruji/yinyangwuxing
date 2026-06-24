@@ -74,7 +74,9 @@ export const ko: SiteContent = {
       id: 'paper-geumgangsan',
       title: '금강산 어원과 담무갈보살, 회암사 유래 추적',
       subtitle: '발표논문',
+      description: '금강산의 어원을 화엄경 담무갈보살 전승과 수미산 이론으로 추적하고, 회암사 중창의 배경을 가야·서북공정의 새로운 단서들과 함께 살펴본 논문입니다.',
       youtubeUrl: YOUTUBE,
+      websiteUrl: '/ko/papers/geumgangsan',
     },
     {
       id: 'paper-kim-jiha',

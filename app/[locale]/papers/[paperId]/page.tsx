@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { koJinmukWonPaper } from '@/content/papers/ko-jinmuk-won';
 import { koSamgangOryunPaper } from '@/content/papers/ko-samgang-oryun';
+import { koGeumgangsanPaper } from '@/content/papers/ko-geumgangsan';
 import { getContent } from '@/lib/content';
 import PaperReader from '@/components/PaperReader';
 import type { Metadata } from 'next';
@@ -9,6 +10,7 @@ import type { Paper } from '@/content/papers/types';
 const PAPERS: Record<string, Paper> = {
   'jinmuk-won': koJinmukWonPaper,
   'samgang-oryun': koSamgangOryunPaper,
+  'geumgangsan': koGeumgangsanPaper,
 };
 
 interface Props {
