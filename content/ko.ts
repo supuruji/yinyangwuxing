@@ -82,7 +82,9 @@ export const ko: SiteContent = {
       id: 'paper-kim-jiha',
       title: '김지하 사상에 나타난 화해와 상생',
       subtitle: '발표논문',
-      youtubeUrl: YOUTUBE,
+      description: '김지하 사상의 일관성을 리미널리티·리바이탈라이제이션으로 풀고, 동학의 생명·정역의 율려·증산의 흰그늘 미학으로 이어지는 화해와 상생의 흐름을 비교한 논문입니다.',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9IghArp0ZbgUa-0Ld2YvxU',
+      websiteUrl: '/ko/papers/kim-jiha',
     },
     {
       id: 'paper-sacred-numbers',
