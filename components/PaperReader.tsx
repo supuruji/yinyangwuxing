@@ -296,11 +296,21 @@ function renderInline(text: string, footnoteMap: Map<number, PaperFootnote>) {
   }
   if (last < text.length) parts.push(text.slice(last));
 
+  const renderText = (s: string, keyPrefix: string) => {
+    const lines = s.split('\n');
+    return lines.map((line, li) => (
+      <Fragment key={`${keyPrefix}-${li}`}>
+        {li > 0 && <br />}
+        {line}
+      </Fragment>
+    ));
+  };
+
   return (
     <>
       {parts.map((p, i) =>
         typeof p === 'string' ? (
-          <Fragment key={i}>{p}</Fragment>
+          <Fragment key={i}>{renderText(p, String(i))}</Fragment>
         ) : (
           <sup key={i} className="text-gold/80 mx-0.5">
             <a
