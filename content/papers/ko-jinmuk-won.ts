@@ -76,10 +76,23 @@ export const koJinmukWonPaper: Paper = {
   venue: '발표논문',
   year: 2013,
   downloads: [
-    { label: 'HWPX 다운로드', href: '/papers/jinmuk-won.hwpx' },
     { label: 'PDF 다운로드', href: '/papers/jinmuk-won.pdf' },
+    { label: '요약PPT다운로드', href: '/papers/jinmuk-won.pptx' },
   ],
   chapters: [
+    {
+      id: 'toc',
+      title: '〈目次〉',
+      blocks: [
+        {
+          type: 'table',
+          headers: [
+            'Ⅰ. 들어가며\nⅡ. 진묵의 일대기와 선행연구\nⅢ. 진묵의 원의 크기, 성격, 노력\nⅣ. 나가며',
+          ],
+          rows: [],
+        },
+      ],
+    },
     {
       id: 'intro',
       title: '1. 들어가며',
