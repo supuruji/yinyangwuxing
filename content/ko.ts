@@ -171,7 +171,7 @@ export const ko: SiteContent = {
       title: '태조 이성계의 동아시아 갈등에 대한 화해 의지',
       subtitle: '발표논문',
       description: '조선 건국을 사대주의·내부권력투쟁의 트라우마가 아닌 태조 이성계의 동아시아 갈등 화해 의지로 재조명하고, 포천 전장·과전법과 회암사 중창을 사례로 살펴본 논문입니다.',
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://youtu.be/roAeRzY1VN8',
       websiteUrl: '/ko/papers/taejo',
     },
     {
