@@ -10,6 +10,7 @@ export const koGeumgangsanPaper: Paper = {
     { label: 'PDF 다운로드', href: '/papers/geumgangsan.pdf' },
     { label: '요약PPT다운로드', href: '/papers/geumgangsan.pptx' },
   ],
+  youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN_M77BOYbITNGpzA4Pxyoc5',
   chapters: [
     {
       id: 'toc',

@@ -11,6 +11,7 @@ export const koPostcoronaPaper: Paper = {
     { label: 'PDF 다운로드', href: '/papers/postcorona.pdf' },
     { label: '요약PPT다운로드', href: '/papers/postcorona.pptx' },
   ],
+  youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9iNSbb9OAnzPioCzOmAN61',
   chapters: [
     {
       id: 'toc',
