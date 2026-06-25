@@ -7,8 +7,8 @@ export const koGeumgangsanPaper: Paper = {
   venue: '발표논문',
   year: 2019,
   downloads: [
-    { label: 'HWPX 다운로드', href: '/papers/geumgangsan.hwpx' },
     { label: 'PDF 다운로드', href: '/papers/geumgangsan.pdf' },
+    { label: '요약PPT다운로드', href: '/papers/geumgangsan.pptx' },
   ],
   chapters: [
     {
@@ -17,7 +17,9 @@ export const koGeumgangsanPaper: Paper = {
       blocks: [
         {
           type: 'table',
-          headers: ['Ⅰ. 들어가는 말 Ⅱ. 금강산의 어원', 'Ⅲ. 담무갈 보살의 유래  Ⅳ. 회암사의 유래  Ⅴ. 나가는 말'],
+          headers: [
+            'Ⅰ. 들어가는 말\nⅡ. 금강산의 어원\nⅢ. 담무갈 보살의 유래\nⅣ. 회암사의 유래\nⅤ. 나가는 말',
+          ],
           rows: [],
         },
       ],
