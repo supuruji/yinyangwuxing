@@ -208,8 +208,12 @@ export const koTaejoPaper: Paper = {
         { type: 'p', text: '허흥식, 『고려로 옮긴 인도의 등불』, 일조각, 1997.' },
         { type: 'h4', text: '사이트' },
         { type: 'p', text: '회암사박물관, http://museum.yangju.go.kr/site/hasj/main.do' },
-        { type: 'footnotes-list', from: 1, to: 18 },
       ],
+    },
+    {
+      id: 'footnotes',
+      title: '각주 (1–18)',
+      blocks: [{ type: 'footnotes-list', from: 1, to: 18 }],
     },
   ],
   footnotes: [

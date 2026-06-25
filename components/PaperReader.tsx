@@ -13,6 +13,7 @@ interface PaperReaderProps {
 export default function PaperReader({ paper, backLabel, backHref }: PaperReaderProps) {
   const [activeId, setActiveId] = useState(paper.chapters[0].id);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [pendingScrollId, setPendingScrollId] = useState<string | null>(null);
   const contentRef = useRef<HTMLDivElement>(null);
 
   const activeChapter = paper.chapters.find((c) => c.id === activeId) ?? paper.chapters[0];
@@ -25,12 +26,44 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
     for (const fn of paper.footnotes) footnoteMap.set(fn.n, fn);
   }
 
+  const footnoteChapterMap = new Map<number, string>();
+  for (const ch of paper.chapters) {
+    for (const block of ch.blocks) {
+      if (block.type === 'footnotes-list') {
+        for (let n = block.from; n <= block.to; n++) {
+          if (!footnoteChapterMap.has(n)) footnoteChapterMap.set(n, ch.id);
+        }
+      }
+    }
+  }
+
+  const handleFootnoteClick = (n: number) => {
+    const targetChapter = footnoteChapterMap.get(n);
+    const elementId = `fn-${n}`;
+    if (targetChapter && targetChapter !== activeId) {
+      setPendingScrollId(elementId);
+      setActiveId(targetChapter);
+    } else {
+      const el = document.getElementById(elementId);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   useEffect(() => {
+    if (pendingScrollId) {
+      requestAnimationFrame(() => {
+        const el = document.getElementById(pendingScrollId);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setPendingScrollId(null);
+      });
+      setSidebarOpen(false);
+      return;
+    }
     if (contentRef.current) {
       contentRef.current.scrollTo({ top: 0, behavior: 'smooth' });
     }
     setSidebarOpen(false);
-  }, [activeId]);
+  }, [activeId, pendingScrollId]);
 
   return (
     <div className="flex h-[calc(100vh-120px)] relative">
@@ -129,7 +162,12 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
 
           <div className="space-y-5">
             {activeChapter.blocks.map((block, i) => (
-              <BlockRenderer key={i} block={block} footnoteMap={footnoteMap} />
+              <BlockRenderer
+                key={i}
+                block={block}
+                footnoteMap={footnoteMap}
+                onFootnoteClick={handleFootnoteClick}
+              />
             ))}
           </div>
 
@@ -176,9 +214,11 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
 function BlockRenderer({
   block,
   footnoteMap,
+  onFootnoteClick,
 }: {
   block: PaperBlock;
   footnoteMap: Map<number, PaperFootnote>;
+  onFootnoteClick: (n: number) => void;
 }) {
   if (block.type === 'footnotes-list') {
     const items: PaperFootnote[] = [];
@@ -214,7 +254,7 @@ function BlockRenderer({
         />
         {block.caption && (
           <figcaption className="text-gold/70 text-sm font-serif mt-2 text-center">
-            {renderInline(block.caption, footnoteMap)}
+            {renderInline(block.caption, footnoteMap, onFootnoteClick)}
           </figcaption>
         )}
       </figure>
@@ -225,14 +265,14 @@ function BlockRenderer({
     return (
       <div className="my-6 overflow-x-auto">
         {block.caption && (
-          <p className="text-gold/80 text-sm font-serif mb-2">{renderInline(block.caption, footnoteMap)}</p>
+          <p className="text-gold/80 text-sm font-serif mb-2">{renderInline(block.caption, footnoteMap, onFootnoteClick)}</p>
         )}
         <table className="min-w-full border border-gold/30 text-xs lg:text-sm">
           <thead>
             <tr className="bg-gold/10">
               {block.headers.map((h, i) => (
                 <th key={i} className="border border-gold/20 px-3 py-2 text-left font-serif text-gold/90">
-                  {renderInline(h, footnoteMap)}
+                  {renderInline(h, footnoteMap, onFootnoteClick)}
                 </th>
               ))}
             </tr>
@@ -242,7 +282,7 @@ function BlockRenderer({
               <tr key={ri} className="even:bg-gold/5">
                 {row.map((cell, ci) => (
                   <td key={ci} className="border border-gold/15 px-3 py-2 align-top text-parchment leading-relaxed">
-                    {renderInline(cell, footnoteMap)}
+                    {renderInline(cell, footnoteMap, onFootnoteClick)}
                   </td>
                 ))}
               </tr>
@@ -257,32 +297,36 @@ function BlockRenderer({
     case 'h3':
       return (
         <h3 className="text-xl font-serif text-gold mt-8 mb-3 leading-snug pt-2">
-          {renderInline(block.text, footnoteMap)}
+          {renderInline(block.text, footnoteMap, onFootnoteClick)}
         </h3>
       );
     case 'h4':
       return (
         <h4 className="text-base font-serif text-gold/80 mt-6 mb-2 leading-snug">
-          {renderInline(block.text, footnoteMap)}
+          {renderInline(block.text, footnoteMap, onFootnoteClick)}
         </h4>
       );
     case 'quote':
       return (
         <blockquote className="border-l-2 border-gold/50 pl-4 my-6 text-parchment-muted italic leading-relaxed">
-          {renderInline(block.text, footnoteMap)}
+          {renderInline(block.text, footnoteMap, onFootnoteClick)}
         </blockquote>
       );
     case 'p':
     default:
       return (
         <p className="text-parchment leading-[1.9] text-[0.975rem]">
-          {renderInline(block.text, footnoteMap)}
+          {renderInline(block.text, footnoteMap, onFootnoteClick)}
         </p>
       );
   }
 }
 
-function renderInline(text: string, footnoteMap: Map<number, PaperFootnote>) {
+function renderInline(
+  text: string,
+  footnoteMap: Map<number, PaperFootnote>,
+  onFootnoteClick: (n: number) => void,
+) {
   const parts: (string | { n: number; body: string })[] = [];
   const re = /\[fn:(\d+)\]/g;
   let last = 0;
@@ -316,7 +360,11 @@ function renderInline(text: string, footnoteMap: Map<number, PaperFootnote>) {
             <a
               href={`#fn-${p.n}`}
               title={p.body}
-              className="hover:text-gold underline decoration-gold/40 text-[0.7em]"
+              onClick={(e) => {
+                e.preventDefault();
+                onFootnoteClick(p.n);
+              }}
+              className="hover:text-gold underline decoration-gold/40 text-[0.7em] cursor-pointer"
             >
               [{p.n}]
             </a>
