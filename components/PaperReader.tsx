@@ -121,10 +121,10 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
           })}
         </nav>
 
-        {paper.downloads && paper.downloads.length > 0 && (
+        {((paper.downloads && paper.downloads.length > 0) || paper.youtubeUrl) && (
           <div className="p-4 border-t border-gold/20 flex-shrink-0 space-y-2">
             <p className="text-gold/60 text-xs uppercase tracking-wider mb-1">원문 다운로드</p>
-            {paper.downloads.map((dl) => (
+            {paper.downloads?.map((dl) => (
               <a
                 key={dl.href}
                 href={dl.href}
@@ -134,6 +134,16 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
                 {dl.label}
               </a>
             ))}
+            {paper.youtubeUrl && (
+              <a
+                href={paper.youtubeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center px-3 py-2 text-xs border border-gold/40 hover:border-gold hover:bg-gold/10 text-parchment rounded transition-colors"
+              >
+                유튜브 보기 ↗
+              </a>
+            )}
           </div>
         )}
       </aside>

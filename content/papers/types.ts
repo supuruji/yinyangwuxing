@@ -29,6 +29,7 @@ export interface Paper {
   venue?: string;
   year?: number;
   downloads?: PaperDownload[];
+  youtubeUrl?: string;
   chapters: PaperChapter[];
   footnotes?: PaperFootnote[];
 }

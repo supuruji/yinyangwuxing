@@ -9,6 +9,7 @@ export const koTaejoPaper: Paper = {
     { label: 'PDF 다운로드', href: '/papers/taejo.pdf' },
     { label: '요약PPT다운로드', href: '/papers/taejo.pptx' },
   ],
+  youtubeUrl: 'https://youtu.be/roAeRzY1VN8',
   chapters: [
     {
       id: 'toc',
