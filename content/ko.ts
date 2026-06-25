@@ -125,7 +125,7 @@ export const ko: SiteContent = {
       title: '삼강오륜 출현의 스토리텔링적 배경',
       subtitle: '발표논문',
       description: '동중서의 삼강오륜을 재이설·상수학·칠성 신앙의 스토리텔링적 출현 배경에서 분석하고 캠벨의 원질신화 이론과 비교한 논문입니다.',
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://youtu.be/X46pTTNjCMA',
       websiteUrl: '/ko/papers/samgang-oryun',
     },
     {

@@ -6,9 +6,10 @@ export const koSamgangOryunPaper: Paper = {
   author: '최원혁 (대진대)',
   venue: '발표논문',
   downloads: [
-    { label: 'HWPX 다운로드', href: '/papers/samgang-oryun.hwpx' },
     { label: 'PDF 다운로드', href: '/papers/samgang-oryun.pdf' },
+    { label: '요약PPT다운로드', href: '/papers/samgang-oryun.pptx' },
   ],
+  youtubeUrl: 'https://youtu.be/X46pTTNjCMA',
   chapters: [
     {
       id: 'toc',
