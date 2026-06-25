@@ -8,8 +8,8 @@ export const koPostcoronaPaper: Paper = {
   venue: '발표논문',
   year: 2021,
   downloads: [
-    { label: 'HWPX 다운로드', href: '/papers/postcorona.hwpx' },
     { label: 'PDF 다운로드', href: '/papers/postcorona.pdf' },
+    { label: '요약PPT다운로드', href: '/papers/postcorona.pptx' },
   ],
   chapters: [
     {
@@ -18,7 +18,9 @@ export const koPostcoronaPaper: Paper = {
       blocks: [
         {
           type: 'table',
-          headers: ['Ⅰ. 들어가는 말   Ⅱ. 혼백결합의 인체관   Ⅲ. 신인소통의 인체관   Ⅳ. 집단치유의 인체관   Ⅴ. 우주확장의 인체관   Ⅵ. 맺는말'],
+          headers: [
+            'Ⅰ. 들어가는 말\nⅡ. 혼백결합의 인체관\nⅢ. 신인소통의 인체관\nⅣ. 집단치유의 인체관\nⅤ. 우주확장의 인체관\nⅥ. 맺는말',
+          ],
           rows: [],
         },
       ],
