@@ -150,7 +150,9 @@ export const ko: SiteContent = {
       id: 'paper-jeju-regional-archetype',
       title: '제주도를 중심으로 본 동아시아의 지역 원형',
       subtitle: '발표논문',
-      youtubeUrl: YOUTUBE,
+      description: '월지족의 이동 경로와 관련하여 제주도의 고인돌·삼성혈·서복·돌하르방·고산리 토기를 동아시아 지역 원형의 표지로 재해석한 논문입니다.',
+      youtubeUrl: 'https://youtube.com/playlist?list=PLw9IxWay4JN-ikwRiBum5qv9YMprsIBIg&si=7h9SFmSu-y9bpnzh',
+      websiteUrl: '/ko/papers/jeju-archetype',
     },
     {
       id: 'paper-yijing-comparative',
