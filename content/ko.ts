@@ -137,7 +137,7 @@ export const ko: SiteContent = {
       title: '세계 신화로서의 제주 신화 가능성 연구',
       subtitle: '발표논문',
       description: '아틀란티스 신화를 중심으로, 순다랜드·『부도지』·군자국 문헌을 통해 제주신화의 세계 원형신화로서의 가능성을 모색한 논문입니다.',
-      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-ikwRiBum5qv9YMprsIBIg',
+      youtubeUrl: 'https://youtube.com/playlist?list=PLW3dzK2lgZM0&si=lH8mdvJuSBJMXD_U',
       websiteUrl: '/ko/papers/jeju-myth',
     },
     {

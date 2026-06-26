@@ -10,7 +10,7 @@ export const koJejuMythPaper: Paper = {
     { label: '페이지 PDF 다운로드', href: '/papers/jeju-myth.pdf' },
     { label: '요약PPT다운로드', href: '/papers/jeju-myth.pptx' },
   ],
-  youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-ikwRiBum5qv9YMprsIBIg',
+  youtubeUrl: 'https://youtube.com/playlist?list=PLW3dzK2lgZM0&si=lH8mdvJuSBJMXD_U',
   chapters: [
     {
       id: 'toc',
