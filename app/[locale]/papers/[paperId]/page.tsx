@@ -8,6 +8,7 @@ import { koKimJihaPaper } from '@/content/papers/ko-kim-jiha';
 import { koLiminalityPaper } from '@/content/papers/ko-liminality';
 import { koJejuMythPaper } from '@/content/papers/ko-jeju-myth';
 import { koJejuArchetypePaper } from '@/content/papers/ko-jeju-archetype';
+import { koKungfuPandaPaper } from '@/content/papers/ko-kungfu-panda';
 import { getContent } from '@/lib/content';
 import PaperReader from '@/components/PaperReader';
 import type { Metadata } from 'next';
@@ -23,6 +24,7 @@ const PAPERS: Record<string, Paper> = {
   'liminality': koLiminalityPaper,
   'jeju-myth': koJejuMythPaper,
   'jeju-archetype': koJejuArchetypePaper,
+  'kungfu-panda': koKungfuPandaPaper,
 };
 
 interface Props {

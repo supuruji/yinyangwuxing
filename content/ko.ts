@@ -144,7 +144,9 @@ export const ko: SiteContent = {
       id: 'paper-kungfu-panda',
       title: '영화 「쿵푸팬더 4」에 나타난 동서양 성장심리 비교',
       subtitle: '발표논문',
-      youtubeUrl: YOUTUBE,
+      description: '대상-관계이론·라깡 4담론·매슬로우 욕구설과 삼강오륜·욕계·12운성·천지인 미학을 교차시켜 『쿵푸팬더』 시리즈의 동서양 성장심리 통합 모델을 모색한 논문입니다.',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN8FmvHHUCqxrSTWT9JTPzLo',
+      websiteUrl: '/ko/papers/kungfu-panda',
     },
     {
       id: 'paper-jeju-regional-archetype',
