@@ -6,6 +6,7 @@ import { koPostcoronaPaper } from '@/content/papers/ko-postcorona';
 import { koTaejoPaper } from '@/content/papers/ko-taejo';
 import { koKimJihaPaper } from '@/content/papers/ko-kim-jiha';
 import { koLiminalityPaper } from '@/content/papers/ko-liminality';
+import { koJejuMythPaper } from '@/content/papers/ko-jeju-myth';
 import { getContent } from '@/lib/content';
 import PaperReader from '@/components/PaperReader';
 import type { Metadata } from 'next';
@@ -19,6 +20,7 @@ const PAPERS: Record<string, Paper> = {
   'taejo': koTaejoPaper,
   'kim-jiha': koKimJihaPaper,
   'liminality': koLiminalityPaper,
+  'jeju-myth': koJejuMythPaper,
 };
 
 interface Props {
