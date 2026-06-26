@@ -106,9 +106,11 @@ export const ko: SiteContent = {
     },
     {
       id: 'paper-daejin-liminality',
-      title: '대진대-리미널리티',
+      title: '한국 자생종교에 나타난 동아시아의 자생적 근대성 연구',
       subtitle: '발표논문',
-      youtubeUrl: YOUTUBE,
+      description: '동학사상과 대순사상의 상생적 삼계관을 중심으로, 한국 자생종교의 자생적 근대성을 리미널리티 이론으로 풀어낸 논문입니다.',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-f_AEhSlun0hBRifiMVfV2',
+      websiteUrl: '/ko/papers/liminality',
     },
     {
       id: 'paper-dongi',
