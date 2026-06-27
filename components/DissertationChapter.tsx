@@ -4,10 +4,10 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const LOCALE_UI = {
-  ko: { toc: '목차', back: '← 논문 개요', dissertations: '학위논문', doctoral: '박사논문', masters: '석사논문', dissertationShort: '동학·대순 비교연구', footnotes: '각주', prev: '← 이전', next: '다음 →', tocOpen: '목차 보기', tocClose: '목차 닫기' },
-  en: { toc: 'Contents', back: '← Overview', dissertations: 'Dissertations', doctoral: 'Doctoral', masters: "Master's", dissertationShort: 'Donghak·Daesoon Study', footnotes: 'Footnotes', prev: '← Prev', next: 'Next →', tocOpen: 'Show Contents', tocClose: 'Hide Contents' },
-  zh: { toc: '目录', back: '← 论文概要', dissertations: '学位论文', doctoral: '博士论文', masters: '硕士论文', dissertationShort: '东学·大巡比较研究', footnotes: '脚注', prev: '← 上一章', next: '下一章 →', tocOpen: '显示目录', tocClose: '隐藏目录' },
-  ja: { toc: '目次', back: '← 論文概要', dissertations: '学位論文', doctoral: '博士論文', masters: '修士論文', dissertationShort: '東学·大巡比較研究', footnotes: '脚注', prev: '← 前', next: '次 →', tocOpen: '目次を開く', tocClose: '目次を閉じる' },
+  ko: { toc: '목차', back: '← 논문 개요', dissertations: '학위논문', doctoral: '박사논문', masters: '석사논문', dissertationShort: '동학·대순 비교연구', footnotes: '각주', prev: '← 이전', next: '다음 →', tocOpen: '목차 보기', tocClose: '목차 닫기', resources: '자료', watchYoutube: '유튜브 보기 ↗' },
+  en: { toc: 'Contents', back: '← Overview', dissertations: 'Dissertations', doctoral: 'Doctoral', masters: "Master's", dissertationShort: 'Donghak·Daesoon Study', footnotes: 'Footnotes', prev: '← Prev', next: 'Next →', tocOpen: 'Show Contents', tocClose: 'Hide Contents', resources: 'Resources', watchYoutube: 'Watch on YouTube ↗' },
+  zh: { toc: '目录', back: '← 论文概要', dissertations: '学位论文', doctoral: '博士论文', masters: '硕士论文', dissertationShort: '东学·大巡比较研究', footnotes: '脚注', prev: '← 上一章', next: '下一章 →', tocOpen: '显示目录', tocClose: '隐藏目录', resources: '资料', watchYoutube: '观看 YouTube ↗' },
+  ja: { toc: '目次', back: '← 論文概要', dissertations: '学位論文', doctoral: '博士論文', masters: '修士論文', dissertationShort: '東学·大巡比較研究', footnotes: '脚注', prev: '← 前', next: '次 →', tocOpen: '目次を開く', tocClose: '目次を閉じる', resources: '資料', watchYoutube: 'YouTube を見る ↗' },
 } as const;
 type LocaleKey = keyof typeof LOCALE_UI;
 
@@ -35,6 +35,8 @@ interface Props {
   allChapters: ChapterMeta[];
   section?: 'doctoral' | 'masters';
   dissertationShort?: string;
+  downloads?: { label: string; href: string }[];
+  youtubeUrl?: string;
 }
 
 /* 본문 [^N] → 위첨자 앵커 */
@@ -207,6 +209,7 @@ function Sidebar({
 export default function DissertationChapter({
   chapterId, chapterTitle, items, footnotes, headings,
   locale, dissertationId, allChapters, section = 'doctoral', dissertationShort,
+  downloads, youtubeUrl,
 }: Props) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const fnNums = new Set(footnotes.map(f => f.number));
@@ -216,6 +219,32 @@ export default function DissertationChapter({
   const ui = LOCALE_UI[(locale as LocaleKey)] ?? LOCALE_UI.en;
   const sectionLabel = section === 'masters' ? ui.masters : ui.doctoral;
   const shortLabel = dissertationShort ?? ui.dissertationShort;
+  const hasResources = (downloads && downloads.length > 0) || !!youtubeUrl;
+  const resourceBlock = hasResources ? (
+    <div className="mt-3 pt-3 border-t border-gold/20 space-y-2">
+      <p className="text-[10px] font-semibold text-gold/50 uppercase tracking-widest px-3 pb-1">{ui.resources}</p>
+      {downloads?.map((dl) => (
+        <a
+          key={dl.href}
+          href={dl.href}
+          download
+          className="block w-full text-center px-3 py-2 text-xs border border-gold/40 hover:border-gold hover:bg-gold/10 text-parchment rounded transition-colors"
+        >
+          {dl.label}
+        </a>
+      ))}
+      {youtubeUrl && (
+        <a
+          href={youtubeUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full text-center px-3 py-2 text-xs border border-gold/40 hover:border-gold hover:bg-gold/10 text-parchment rounded transition-colors"
+        >
+          {ui.watchYoutube}
+        </a>
+      )}
+    </div>
+  ) : null;
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
@@ -238,6 +267,7 @@ export default function DissertationChapter({
             dissertationId={dissertationId} locale={locale}
             headings={headings} onNav={() => setMobileOpen(false)} section={section}
           />
+          {resourceBlock}
         </div>
       )}
 
@@ -256,6 +286,7 @@ export default function DissertationChapter({
               dissertationId={dissertationId} locale={locale}
               headings={headings} section={section}
             />
+            {resourceBlock}
           </div>
         </aside>
 

@@ -7,6 +7,16 @@ interface Props {
   params: Promise<{ locale: string; dissertationId: string; chapterId: string }>;
 }
 
+const RESOURCES: Record<string, { downloads?: { label: string; href: string }[]; youtubeUrl?: string }> = {
+  'donghak-daesoon-ko': {
+    downloads: [
+      { label: 'PDF 다운로드', href: '/dissertation/donghak-daesoon-ko.pdf' },
+      { label: '요약 PPT 다운로드', href: '/dissertation/donghak-daesoon-ko-summary.pdf' },
+    ],
+    youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-f_AEhSlun0hBRifiMVfV2',
+  },
+};
+
 function loadMeta(dissertationId: string) {
   try {
     const p = join(process.cwd(), 'content', 'dissertation', dissertationId, 'metadata.json');
@@ -42,6 +52,8 @@ export default async function ChapterPage({ params }: Props) {
   const chapter = loadChapter(dissertationId, chapterId);
   if (!meta || !chapter) notFound();
 
+  const res = RESOURCES[dissertationId];
+
   return (
     <DissertationChapter
       chapterId={chapterId}
@@ -52,6 +64,8 @@ export default async function ChapterPage({ params }: Props) {
       locale={locale}
       dissertationId={dissertationId}
       allChapters={meta.chapters}
+      downloads={res?.downloads}
+      youtubeUrl={res?.youtubeUrl}
     />
   );
 }
