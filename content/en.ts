@@ -36,7 +36,7 @@ export const en: SiteContent = {
         title: 'A Comparative Study of Endogenous Modernity in Donghak and Daesoon Thought',
         subtitle: 'Doctoral Dissertation',
         description: 'A doctoral dissertation comparing and analyzing the endogenous modernity inherent in Donghak and Daesoon thought.',
-        youtubeUrl: YOUTUBE,
+        youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9xt7bVaB4LcKP9evomr22s',
         websiteUrl: '/en/dissertation/doctoral/donghak-daesoon-en',
       },
     ],
