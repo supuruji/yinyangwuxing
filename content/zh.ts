@@ -47,7 +47,7 @@ export const zh: SiteContent = {
         subtitle: '硕士学位论文',
         description: '研究大巡思想中经济思想循环特性的硕士学位论文。',
         youtubeUrl: YOUTUBE,
-        websiteUrl: 'https://daesoon-web.vercel.app/chapter/3',
+        websiteUrl: '/zh/dissertation/masters/daesoon-economics-zh',
       },
     ],
   },

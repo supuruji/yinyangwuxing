@@ -1,0 +1,211 @@
+{
+  "dissertationId": "daesoon-economics-zh",
+  "title": "大巡思想循环经济观研究",
+  "subtitle": "硕士学位论文",
+  "author": "崔原爀",
+  "year": "2011",
+  "university": "大真大学校 研究生院 大巡宗学科",
+  "chapters": [
+    {
+      "id": "abstract",
+      "title": "摘要",
+      "paragraphCount": 5,
+      "footnoteCount": 0,
+      "headings": [
+        {
+          "level": 2,
+          "text": "国文摘要",
+          "anchor": "h32-国文摘要"
+        },
+        {
+          "level": 2,
+          "text": "崔原爀",
+          "anchor": "h34-崔原爀"
+        },
+        {
+          "level": 2,
+          "text": "大真大学校研究生院　大巡宗教学科",
+          "anchor": "h35-大真大学校研究生院-大巡宗教学科"
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "title": "Ⅰ. 绪论",
+      "paragraphCount": 46,
+      "footnoteCount": 135,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅰ. 绪论（引言）",
+          "anchor": "h148-绪论-引言"
+        },
+        {
+          "level": 2,
+          "text": "1. 研究的必要性",
+          "anchor": "h150-1-研究的必要性"
+        },
+        {
+          "level": 2,
+          "text": "2. 先行研究综述",
+          "anchor": "h189-2-先行研究综述"
+        },
+        {
+          "level": 2,
+          "text": "3. 研究的范围与方法",
+          "anchor": "h236-3-研究的范围与方法"
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "Ⅱ. 各宗教的经济观与有限的循环性",
+      "paragraphCount": 243,
+      "footnoteCount": 184,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅱ. 各宗教的经济观与有限的循环性",
+          "anchor": "h251-各宗教的经济观与有限的循环性"
+        },
+        {
+          "level": 2,
+          "text": "1. 经济伦理与各宗教的循环性",
+          "anchor": "h253-1-经济伦理与各宗教的循环性"
+        },
+        {
+          "level": 2,
+          "text": "2. 中国式道教资本主义与自由至上主义的财富观[^193]",
+          "anchor": "h408-2-中国式道教资本主义与自由至上主义的财富观-193"
+        },
+        {
+          "level": 2,
+          "text": "3. 佛教菩萨资本主义与社会契约主义[^232]的分配观",
+          "anchor": "h473-3-佛教菩萨资本主义与社会契约主义-232-的分配观"
+        },
+        {
+          "level": 2,
+          "text": "4. 儒教资本主义与功利主义[^271]的劳动观[^272]",
+          "anchor": "h545-4-儒教资本主义与功利主义-271-的劳动观-272"
+        },
+        {
+          "level": 2,
+          "text": "5. 西教（西教）西方资本主义与共同体主义的财货观",
+          "anchor": "h593-5-西教-西教-西方资本主义与共同体主义的财货观"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "Ⅲ. 宗旨中所体现的循环经济观",
+      "paragraphCount": 333,
+      "footnoteCount": 260,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅲ. 宗旨中所体现的循环经济观",
+          "anchor": "h668-宗旨中所体现的循环经济观"
+        },
+        {
+          "level": 2,
+          "text": "1. 易[^320]与大巡思想的圆形（圆形的）循环性",
+          "anchor": "h670-1-易-320-与大巡思想的圆形-圆形的-循环性"
+        },
+        {
+          "level": 2,
+          "text": "2. 待对式（待对的）[^555] 自由至上主义财富观与阴阳合德",
+          "anchor": "h1021-2-待对式-待对的-555-自由至上主义财富观与阴阳合德"
+        },
+        {
+          "level": 2,
+          "text": "3. 回归式（回归的）[^565] 社会契约主义分配观与神人调化",
+          "anchor": "h1084-3-回归式-回归的-565-社会契约主义分配观与神人调化"
+        },
+        {
+          "level": 2,
+          "text": "4. 中和式（中和的）[^571] 功利主义劳动观与解冤相生",
+          "anchor": "h1140-4-中和式-中和的-571-功利主义劳动观与解冤相生"
+        },
+        {
+          "level": 2,
+          "text": "5. 流行式（流行的）共同体主义财货观与道通真境",
+          "anchor": "h1196-5-流行式-流行的-共同体主义财货观与道通真境"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Ⅳ. 大巡思想循环经济观的价值",
+      "paragraphCount": 111,
+      "footnoteCount": 17,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅳ. 大巡思想循环经济观的价值",
+          "anchor": "h1255-大巡思想循环经济观的价值"
+        },
+        {
+          "level": 2,
+          "text": "1. 阴阳合德与经济动机的恢复",
+          "anchor": "h1257-1-阴阳合德与经济动机的恢复"
+        },
+        {
+          "level": 2,
+          "text": "2. 神人调化与经济伦理的再生",
+          "anchor": "h1306-2-神人调化与经济伦理的再生"
+        },
+        {
+          "level": 2,
+          "text": "3. 解冤相生与经济理念的和谐",
+          "anchor": "h1355-3-解冤相生与经济理念的和谐"
+        },
+        {
+          "level": 2,
+          "text": "4. 道通真境与环境危机的克服",
+          "anchor": "h1412-4-道通真境与环境危机的克服"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "Ⅴ. 结语",
+      "paragraphCount": 21,
+      "footnoteCount": 16,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅴ. 结语",
+          "anchor": "h1463-结语"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "参考文献",
+      "paragraphCount": 450,
+      "footnoteCount": 0,
+      "headings": [
+        {
+          "level": 2,
+          "text": "参考文献",
+          "anchor": "h1508-参考文献"
+        },
+        {
+          "level": 2,
+          "text": "Abstract（英文摘要·中译）",
+          "anchor": "h1964-abstract-英文摘要-中译"
+        },
+        {
+          "level": 2,
+          "text": "大巡思想的循环经济观研究",
+          "anchor": "h1966-大巡思想的循环经济观研究"
+        },
+        {
+          "level": 2,
+          "text": "A Study on the View of Cyclic Economics in Daesoon Thought",
+          "anchor": "h1967-a-study-on-the-view-of-cyclic-economics"
+        }
+      ]
+    }
+  ]
+}

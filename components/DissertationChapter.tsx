@@ -4,10 +4,10 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const LOCALE_UI = {
-  ko: { toc: '목차', back: '← 논문 개요', dissertations: '학위논문', doctoral: '박사논문', dissertationShort: '동학·대순 비교연구', footnotes: '각주', prev: '← 이전', next: '다음 →', tocOpen: '목차 보기', tocClose: '목차 닫기' },
-  en: { toc: 'Contents', back: '← Overview', dissertations: 'Dissertations', doctoral: 'Doctoral', dissertationShort: 'Donghak·Daesoon Study', footnotes: 'Footnotes', prev: '← Prev', next: 'Next →', tocOpen: 'Show Contents', tocClose: 'Hide Contents' },
-  zh: { toc: '目录', back: '← 论文概要', dissertations: '学位论文', doctoral: '博士论文', dissertationShort: '东学·大巡比较研究', footnotes: '脚注', prev: '← 上一章', next: '下一章 →', tocOpen: '显示目录', tocClose: '隐藏目录' },
-  ja: { toc: '目次', back: '← 論文概要', dissertations: '学位論文', doctoral: '博士論文', dissertationShort: '東学·大巡比較研究', footnotes: '脚注', prev: '← 前', next: '次 →', tocOpen: '目次を開く', tocClose: '目次を閉じる' },
+  ko: { toc: '목차', back: '← 논문 개요', dissertations: '학위논문', doctoral: '박사논문', masters: '석사논문', dissertationShort: '동학·대순 비교연구', footnotes: '각주', prev: '← 이전', next: '다음 →', tocOpen: '목차 보기', tocClose: '목차 닫기' },
+  en: { toc: 'Contents', back: '← Overview', dissertations: 'Dissertations', doctoral: 'Doctoral', masters: "Master's", dissertationShort: 'Donghak·Daesoon Study', footnotes: 'Footnotes', prev: '← Prev', next: 'Next →', tocOpen: 'Show Contents', tocClose: 'Hide Contents' },
+  zh: { toc: '目录', back: '← 论文概要', dissertations: '学位论文', doctoral: '博士论文', masters: '硕士论文', dissertationShort: '东学·大巡比较研究', footnotes: '脚注', prev: '← 上一章', next: '下一章 →', tocOpen: '显示目录', tocClose: '隐藏目录' },
+  ja: { toc: '目次', back: '← 論文概要', dissertations: '学位論文', doctoral: '博士論文', masters: '修士論文', dissertationShort: '東学·大巡比較研究', footnotes: '脚注', prev: '← 前', next: '次 →', tocOpen: '目次を開く', tocClose: '目次を閉じる' },
 } as const;
 type LocaleKey = keyof typeof LOCALE_UI;
 
@@ -33,6 +33,8 @@ interface Props {
   locale: string;
   dissertationId: string;
   allChapters: ChapterMeta[];
+  section?: 'doctoral' | 'masters';
+  dissertationShort?: string;
 }
 
 /* 본문 [^N] → 위첨자 앵커 */
@@ -118,7 +120,7 @@ function Paragraph({ para, fnNums }: { para: Paragraph; fnNums: Set<number> }) {
 
 /* 사이드바: 현재 챕터 아래 L2/L3 헤딩 3단계 전개 */
 function Sidebar({
-  allChapters, chapterId, dissertationId, locale, headings, onNav,
+  allChapters, chapterId, dissertationId, locale, headings, onNav, section = 'doctoral',
 }: {
   allChapters: ChapterMeta[];
   chapterId: string;
@@ -126,6 +128,7 @@ function Sidebar({
   locale: string;
   headings: Heading[];
   onNav?: () => void;
+  section?: 'doctoral' | 'masters';
 }) {
   /* L2 → L3 계층 빌드 */
   type L2Node = { heading: Heading; children: Heading[] };
@@ -150,7 +153,7 @@ function Sidebar({
           <div key={ch.id}>
             {/* ── 장 (Level 0 / 챕터) ── */}
             <Link
-              href={`/${locale}/dissertation/doctoral/${dissertationId}/${ch.id}`}
+              href={`/${locale}/dissertation/${section}/${dissertationId}/${ch.id}`}
               onClick={onNav}
               className={`block px-3 py-1.5 rounded text-xs leading-snug transition-colors ${
                 isCurrent
@@ -203,7 +206,7 @@ function Sidebar({
 
 export default function DissertationChapter({
   chapterId, chapterTitle, items, footnotes, headings,
-  locale, dissertationId, allChapters,
+  locale, dissertationId, allChapters, section = 'doctoral', dissertationShort,
 }: Props) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const fnNums = new Set(footnotes.map(f => f.number));
@@ -211,6 +214,8 @@ export default function DissertationChapter({
   const prev = currentIdx > 0 ? allChapters[currentIdx - 1] : null;
   const next = currentIdx < allChapters.length - 1 ? allChapters[currentIdx + 1] : null;
   const ui = LOCALE_UI[(locale as LocaleKey)] ?? LOCALE_UI.en;
+  const sectionLabel = section === 'masters' ? ui.masters : ui.doctoral;
+  const shortLabel = dissertationShort ?? ui.dissertationShort;
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
@@ -231,7 +236,7 @@ export default function DissertationChapter({
           <Sidebar
             allChapters={allChapters} chapterId={chapterId}
             dissertationId={dissertationId} locale={locale}
-            headings={headings} onNav={() => setMobileOpen(false)}
+            headings={headings} onNav={() => setMobileOpen(false)} section={section}
           />
         </div>
       )}
@@ -241,7 +246,7 @@ export default function DissertationChapter({
         <aside className="hidden lg:block w-64 shrink-0">
           <div className="sticky top-20 bg-ink-soft border border-gold/20 rounded-xl p-3 max-h-[calc(100vh-6rem)] overflow-y-auto">
             <Link
-              href={`/${locale}/dissertation/doctoral/${dissertationId}`}
+              href={`/${locale}/dissertation/${section}/${dissertationId}`}
               className="block text-[10px] text-parchment-muted hover:text-gold transition-colors mb-3 px-3"
             >
               {ui.back}
@@ -249,7 +254,7 @@ export default function DissertationChapter({
             <Sidebar
               allChapters={allChapters} chapterId={chapterId}
               dissertationId={dissertationId} locale={locale}
-              headings={headings}
+              headings={headings} section={section}
             />
           </div>
         </aside>
@@ -260,9 +265,9 @@ export default function DissertationChapter({
           <nav className="text-xs text-parchment-muted mb-6 flex items-center gap-1.5 flex-wrap">
             <Link href={`/${locale}/dissertation`} className="hover:text-gold transition-colors">{ui.dissertations}</Link>
             <span className="text-gold/40">›</span>
-            <Link href={`/${locale}/dissertation/doctoral`} className="hover:text-gold transition-colors">{ui.doctoral}</Link>
+            <Link href={`/${locale}/dissertation/${section}`} className="hover:text-gold transition-colors">{sectionLabel}</Link>
             <span className="text-gold/40">›</span>
-            <Link href={`/${locale}/dissertation/doctoral/${dissertationId}`} className="hover:text-gold transition-colors">{ui.dissertationShort}</Link>
+            <Link href={`/${locale}/dissertation/${section}/${dissertationId}`} className="hover:text-gold transition-colors">{shortLabel}</Link>
             <span className="text-gold/40">›</span>
             <span className="text-parchment">{chapterTitle}</span>
           </nav>
@@ -301,14 +306,14 @@ export default function DissertationChapter({
           {/* 이전 / 다음 */}
           <nav className="mt-12 pt-6 border-t border-gold/20 flex justify-between gap-4">
             {prev ? (
-              <Link href={`/${locale}/dissertation/doctoral/${dissertationId}/${prev.id}`}
+              <Link href={`/${locale}/dissertation/${section}/${dissertationId}/${prev.id}`}
                 className="flex-1 p-4 border border-gold/20 rounded-lg text-sm hover:border-gold/50 transition-colors bg-ink-soft">
                 <span className="block text-xs text-parchment-muted mb-1">{ui.prev}</span>
                 <span className="text-parchment font-medium line-clamp-1">{prev.title}</span>
               </Link>
             ) : <div />}
             {next ? (
-              <Link href={`/${locale}/dissertation/doctoral/${dissertationId}/${next.id}`}
+              <Link href={`/${locale}/dissertation/${section}/${dissertationId}/${next.id}`}
                 className="flex-1 p-4 border border-gold/20 rounded-lg text-sm hover:border-gold/50 transition-colors bg-ink-soft text-right">
                 <span className="block text-xs text-parchment-muted mb-1">{ui.next}</span>
                 <span className="text-parchment font-medium line-clamp-1">{next.title}</span>

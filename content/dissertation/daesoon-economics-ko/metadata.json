@@ -1,0 +1,201 @@
+{
+  "dissertationId": "daesoon-economics-ko",
+  "title": "대순사상의 순환적 경제관 연구",
+  "subtitle": "석사학위논문",
+  "author": "최원혁",
+  "year": "2011",
+  "university": "대진대학교 대학원 대순종학과",
+  "chapters": [
+    {
+      "id": "abstract",
+      "title": "국문초록",
+      "paragraphCount": 5,
+      "footnoteCount": 0,
+      "headings": [
+        {
+          "level": 2,
+          "text": "국문초록",
+          "anchor": "h33-국문초록"
+        },
+        {
+          "level": 2,
+          "text": "최원혁",
+          "anchor": "h35-최원혁"
+        },
+        {
+          "level": 2,
+          "text": "대진대학교 대학원 대순종학과",
+          "anchor": "h36-대진대학교-대학원-대순종학과"
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "title": "Ⅰ. 들어가는 말",
+      "paragraphCount": 46,
+      "footnoteCount": 135,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅰ.들어가는 말",
+          "anchor": "h142-들어가는-말"
+        },
+        {
+          "level": 2,
+          "text": "1. 연구의 필요성",
+          "anchor": "h146-1-연구의-필요성"
+        },
+        {
+          "level": 2,
+          "text": "2. 선행 연구 검토",
+          "anchor": "h170-2-선행-연구-검토"
+        },
+        {
+          "level": 2,
+          "text": "3. 연구의 범위와 방법",
+          "anchor": "h199-3-연구의-범위와-방법"
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "Ⅱ. 제 종교의 경제관과 제한적 순환성",
+      "paragraphCount": 244,
+      "footnoteCount": 184,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅱ. 제 종교의 경제관과 제한적 순환성",
+          "anchor": "h209-제-종교의-경제관과-제한적-순환성"
+        },
+        {
+          "level": 2,
+          "text": "1. 경제윤리와 제 종교의 순환성",
+          "anchor": "h212-1-경제윤리와-제-종교의-순환성"
+        },
+        {
+          "level": 2,
+          "text": "2. 중국식 도교자본주의와 자유지상주의적 재부관[^193]",
+          "anchor": "h348-2-중국식-도교자본주의와-자유지상주의적-재부관-193"
+        },
+        {
+          "level": 2,
+          "text": "3. 불교 보살자본주의와 사회계약주의[^232]적 분배관",
+          "anchor": "h393-3-불교-보살자본주의와-사회계약주의-232-적-분배관"
+        },
+        {
+          "level": 2,
+          "text": "4. 유교자본주의와 공리주의적[^271] 노동관[^272]",
+          "anchor": "h442-4-유교자본주의와-공리주의적-271-노동관-272"
+        },
+        {
+          "level": 2,
+          "text": "5. 서교(西敎) 서구자본주의와 공동체주의적 재화관",
+          "anchor": "h476-5-서교-西敎-서구자본주의와-공동체주의적-재화관"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "Ⅲ. 종지에 나타난 순환적 경제관",
+      "paragraphCount": 332,
+      "footnoteCount": 260,
+      "headings": [
+        {
+          "level": 2,
+          "text": "1. 역(易)[^320]과 대순 사상의 원형적(圓形的) 순환성",
+          "anchor": "h539-1-역-易-320-과-대순-사상의-원형적-圓形的-순환성"
+        },
+        {
+          "level": 2,
+          "text": "2. 대대적(待對的)[^555] 자유지상주의 재부관과 음양합덕",
+          "anchor": "h820-2-대대적-待對的-555-자유지상주의-재부관과-음양합덕"
+        },
+        {
+          "level": 2,
+          "text": "3. 회귀적(回歸的)[^565] 사회계약주의 분배관과 신인조화",
+          "anchor": "h874-3-회귀적-回歸的-565-사회계약주의-분배관과-신인조화"
+        },
+        {
+          "level": 2,
+          "text": "4. 중화적(中和的)[^571] 공리주의 노동관과 해원상생",
+          "anchor": "h925-4-중화적-中和的-571-공리주의-노동관과-해원상생"
+        },
+        {
+          "level": 2,
+          "text": "5. 유행적(流行的) 공동체주의 재화관과 도통진경",
+          "anchor": "h974-5-유행적-行的-공동체주의-재화관과-도통진경"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Ⅳ. 대순사상의 순환적 경제관의 가치",
+      "paragraphCount": 112,
+      "footnoteCount": 17,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅳ.대순사상의 순환적 경제관의 가치",
+          "anchor": "h1028-대순사상의-순환적-경제관의-가치"
+        },
+        {
+          "level": 2,
+          "text": "1. 음양합덕과 경제동기의 회복",
+          "anchor": "h1032-1-음양합덕과-경제동기의-회복"
+        },
+        {
+          "level": 2,
+          "text": "2. 신인조화와 경제윤리의 재생",
+          "anchor": "h1072-2-신인조화와-경제윤리의-재생"
+        },
+        {
+          "level": 2,
+          "text": "3. 해원상생과 경제이념의 조화",
+          "anchor": "h1111-3-해원상생과-경제이념의-조화"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "Ⅴ. 맺는 말",
+      "paragraphCount": 21,
+      "footnoteCount": 16,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅴ.맺는 말",
+          "anchor": "h1197-맺는-말"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "참고문헌",
+      "paragraphCount": 450,
+      "footnoteCount": 0,
+      "headings": [
+        {
+          "level": 2,
+          "text": "참고문헌",
+          "anchor": "h1222-참고문헌"
+        },
+        {
+          "level": 2,
+          "text": "Abstract",
+          "anchor": "h1673-abstract"
+        },
+        {
+          "level": 2,
+          "text": "A Study on the View of Cyclic Economics in",
+          "anchor": "h1675-a-study-on-the-view-of-cyclic-economics"
+        },
+        {
+          "level": 2,
+          "text": "Daesoon Thought",
+          "anchor": "h1676-daesoon-thought"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "dissertationId": "daesoon-economics-ja",
+  "title": "大巡思想の循環的経済観研究",
+  "subtitle": "修士学位論文",
+  "author": "崔原爀",
+  "year": "2011",
+  "university": "大真大学校 大学院 大巡宗学科",
+  "chapters": [
+    {
+      "id": "abstract",
+      "title": "要約",
+      "paragraphCount": 5,
+      "footnoteCount": 0,
+      "headings": [
+        {
+          "level": 2,
+          "text": "要約",
+          "anchor": "h1-要約"
+        },
+        {
+          "level": 2,
+          "text": "崔原爀",
+          "anchor": "h2-崔原爀"
+        },
+        {
+          "level": 2,
+          "text": "大真大学校 大学院 大巡宗学科",
+          "anchor": "h3-大真大学校-大学院-大巡宗学科"
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "title": "Ⅰ. 序論",
+      "paragraphCount": 46,
+      "footnoteCount": 135,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅰ. 序論(はじめに)",
+          "anchor": "h148-序論-はじめに"
+        },
+        {
+          "level": 2,
+          "text": "1. 研究の必要性",
+          "anchor": "h150-1-研究の必要性"
+        },
+        {
+          "level": 2,
+          "text": "2. 先行研究の検討",
+          "anchor": "h189-2-先行研究の検討"
+        },
+        {
+          "level": 2,
+          "text": "3. 研究の範囲と方法",
+          "anchor": "h236-3-研究の範囲と方法"
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "Ⅱ. 諸宗教の経済観と制限的循環性",
+      "paragraphCount": 243,
+      "footnoteCount": 184,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅱ. 諸宗教の経済観と制限的循環性",
+          "anchor": "h251-諸宗教の経済観と制限的循環性"
+        },
+        {
+          "level": 2,
+          "text": "1. 経済倫理と諸宗教の循環性",
+          "anchor": "h253-1-経済倫理と諸宗教の循環性"
+        },
+        {
+          "level": 2,
+          "text": "2. 中国式道教資本主義と自由至上主義的財富観[^193]",
+          "anchor": "h408-2-中国式道教資本主義と自由至上主義的財富観-193"
+        },
+        {
+          "level": 2,
+          "text": "3. 仏教菩薩資本主義と社会契約主義[^232]的分配観",
+          "anchor": "h473-3-仏教菩薩資本主義と社会契約主義-232-的分配観"
+        },
+        {
+          "level": 2,
+          "text": "4. 儒教資本主義と功利主義的[^271]労働観[^272]",
+          "anchor": "h545-4-儒教資本主義と功利主義的-271-労働観-272"
+        },
+        {
+          "level": 2,
+          "text": "5. 西教(西教)西欧資本主義と共同体主義的財貨観",
+          "anchor": "h593-5-西教-西教-西欧資本主義と共同体主義的財貨観"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "Ⅲ. 宗旨に現れた循環的経済観",
+      "paragraphCount": 333,
+      "footnoteCount": 260,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅲ. 宗旨に現れた循環的経済観",
+          "anchor": "h668-宗旨に現れた循環的経済観"
+        },
+        {
+          "level": 2,
+          "text": "1. 易[^320]と大巡思想の円形的循環性",
+          "anchor": "h670-1-易-320-と大巡思想の円形的循環性"
+        },
+        {
+          "level": 2,
+          "text": "2. 待対的(待対的)[^555] 自由至上主義財富観と陰陽合徳",
+          "anchor": "h1021-2-待対的-待対的-555-自由至上主義財富観と陰陽合徳"
+        },
+        {
+          "level": 2,
+          "text": "3. 回帰的(回帰的)[^565] 社会契約主義分配観と神人調化",
+          "anchor": "h1084-3-回帰的-回帰的-565-社会契約主義分配観と神人調化"
+        },
+        {
+          "level": 2,
+          "text": "4. 中和的(中和的)[^571] 功利主義労働観と解冤相生",
+          "anchor": "h1140-4-中和的-中和的-571-功利主義労働観と解冤相生"
+        },
+        {
+          "level": 2,
+          "text": "5. 流行的(流行的)共同体主義財貨観と道通真境",
+          "anchor": "h1196-5-流行的-流行的-共同体主義財貨観と道通真境"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "Ⅳ. 大巡思想の循環的経済観の価値",
+      "paragraphCount": 111,
+      "footnoteCount": 17,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅳ. 大巡思想の循環的経済観の価値",
+          "anchor": "h1255-大巡思想の循環的経済観の価値"
+        },
+        {
+          "level": 2,
+          "text": "1. 陰陽合徳と経済動機の回復",
+          "anchor": "h1257-1-陰陽合徳と経済動機の回復"
+        },
+        {
+          "level": 2,
+          "text": "2. 神人調化と経済倫理の再生",
+          "anchor": "h1306-2-神人調化と経済倫理の再生"
+        },
+        {
+          "level": 2,
+          "text": "3. 解冤相生と経済理念の調和",
+          "anchor": "h1355-3-解冤相生と経済理念の調和"
+        },
+        {
+          "level": 2,
+          "text": "4. 道通真境と環境危機の克服",
+          "anchor": "h1412-4-道通真境と環境危機の克服"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "Ⅴ. 結び",
+      "paragraphCount": 21,
+      "footnoteCount": 16,
+      "headings": [
+        {
+          "level": 1,
+          "text": "Ⅴ. 結び(おわりに)",
+          "anchor": "h1463-結び-おわりに"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "参考文献",
+      "paragraphCount": 450,
+      "footnoteCount": 0,
+      "headings": [
+        {
+          "level": 2,
+          "text": "参考文献",
+          "anchor": "h1508-参考文献"
+        },
+        {
+          "level": 2,
+          "text": "Abstract(英文要旨・和訳)",
+          "anchor": "h1964-abstract-英文要旨-和訳"
+        },
+        {
+          "level": 2,
+          "text": "大巡思想の循環的経済観研究",
+          "anchor": "h1966-大巡思想の循環的経済観研究"
+        },
+        {
+          "level": 2,
+          "text": "A Study on the View of Cyclic Economics in Daesoon Thought",
+          "anchor": "h1967-a-study-on-the-view-of-cyclic-economics"
+        }
+      ]
+    }
+  ]
+}
