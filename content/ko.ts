@@ -36,7 +36,7 @@ export const ko: SiteContent = {
         title: '동학사상과 대순사상의 자생적근대성 비교 연구',
         subtitle: '박사학위논문',
         description: '동학사상과 대순사상에 내재된 자생적 근대성을 비교 분석한 박사학위논문입니다.',
-        youtubeUrl: YOUTUBE,
+        youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-f_AEhSlun0hBRifiMVfV2',
         websiteUrl: '/ko/dissertation/doctoral/donghak-daesoon-ko',
       },
     ],
