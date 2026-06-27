@@ -30,6 +30,7 @@ export async function generateStaticParams() {
     { dissertationId: 'daesoon-economics-ko', locales: ['ko'] },
     { dissertationId: 'daesoon-economics-zh', locales: ['zh'] },
     { dissertationId: 'daesoon-economics-ja', locales: ['ja'] },
+    { dissertationId: 'daesoon-economics-en', locales: ['en'] },
   ];
   const chapterIds = ['abstract', 'intro', 'ch2', 'ch3', 'ch4', 'conclusion', 'references'];
   return dissertations.flatMap(({ dissertationId, locales }) =>

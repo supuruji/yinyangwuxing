@@ -47,7 +47,7 @@ export const en: SiteContent = {
         subtitle: "Master's Thesis",
         description: "A master's thesis studying the circular characteristics of economic thought in Daesoon ideology.",
         youtubeUrl: YOUTUBE,
-        websiteUrl: 'https://daesoon-web.vercel.app/chapter/3',
+        websiteUrl: '/en/dissertation/masters/daesoon-economics-en',
       },
     ],
   },

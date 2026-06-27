@@ -1,0 +1,201 @@
+{
+  "dissertationId": "daesoon-economics-en",
+  "title": "A Study on the View of Cyclic Economics in Daesoon Thought",
+  "subtitle": "Master's Thesis",
+  "author": "Choi Won-hyeok",
+  "year": "2011",
+  "university": "Department of Daesoon Religion Studies, Graduate School of Daejin University",
+  "chapters": [
+    {
+      "id": "abstract",
+      "title": "Abstract",
+      "paragraphCount": 5,
+      "footnoteCount": 0,
+      "headings": [
+        {
+          "level": 2,
+          "text": "Abstract",
+          "anchor": "h1-abstract"
+        },
+        {
+          "level": 2,
+          "text": "Choi Won-hyeok",
+          "anchor": "h2-choi-won-hyeok"
+        },
+        {
+          "level": 2,
+          "text": "Department of Daesoon Religion Studies, Graduate School of Daejin University",
+          "anchor": "h3-daesoon-religion-studies"
+        }
+      ]
+    },
+    {
+      "id": "intro",
+      "title": "I. Introduction",
+      "paragraphCount": 46,
+      "footnoteCount": 135,
+      "headings": [
+        {
+          "level": 1,
+          "text": "I. Introduction",
+          "anchor": "h142-들어가는-말"
+        },
+        {
+          "level": 2,
+          "text": "1. The Necessity of the Research",
+          "anchor": "h146-1-연구의-필요성"
+        },
+        {
+          "level": 2,
+          "text": "2. Review of Prior Research",
+          "anchor": "h170-2-선행-연구-검토"
+        },
+        {
+          "level": 2,
+          "text": "3. The Scope and Method of the Research",
+          "anchor": "h199-3-연구의-범위와-방법"
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "II. The Economic Views of the Various Religions and Limited Circularity",
+      "paragraphCount": 244,
+      "footnoteCount": 184,
+      "headings": [
+        {
+          "level": 1,
+          "text": "II. The Economic Views of the Various Religions and Limited Circularity",
+          "anchor": "h209-제-종교의-경제관과-제한적-순환성"
+        },
+        {
+          "level": 2,
+          "text": "1. Economic Ethics and the Circularity of the Various Religions",
+          "anchor": "h212-1-경제윤리와-제-종교의-순환성"
+        },
+        {
+          "level": 2,
+          "text": "2. Chinese-Style Taoist Capitalism and the Libertarian View of Wealth[^193]",
+          "anchor": "h348-2-중국식-도교자본주의와-자유지상주의적-재부관-193"
+        },
+        {
+          "level": 2,
+          "text": "3. Buddhist Bodhisattva Capitalism and the Social-Contractarian View of Distribution[^232]",
+          "anchor": "h393-3-불교-보살자본주의와-사회계약주의-232-적-분배관"
+        },
+        {
+          "level": 2,
+          "text": "4. Confucian Capitalism and the Utilitarian View of Labor[^271][^272]",
+          "anchor": "h442-4-유교자본주의와-공리주의적-271-노동관-272"
+        },
+        {
+          "level": 2,
+          "text": "5. Western Religion (Seogyo), Western Capitalism, and the Communitarian View of Goods",
+          "anchor": "h476-5-서교-西敎-서구자본주의와-공동체주의적-재화관"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "III. The Cyclic Economic View Manifested in the Religious Tenets",
+      "paragraphCount": 332,
+      "footnoteCount": 260,
+      "headings": [
+        {
+          "level": 2,
+          "text": "1. The I Ching (the Changes)[^320] and the Circular (圓形的) Cyclicity of Daesoon Thought",
+          "anchor": "h539-1-역-易-320-과-대순-사상의-원형적-圓形的-순환성"
+        },
+        {
+          "level": 2,
+          "text": "2. The Daedae[^555] (Polarity-Based) Libertarian View of Wealth and Eumyang Hapdeok",
+          "anchor": "h820-2-대대적-待對的-555-자유지상주의-재부관과-음양합덕"
+        },
+        {
+          "level": 2,
+          "text": "3. The Hoegwi[^565] (Return-Based) Social Contractarian View of Distribution and Sinin Johwa",
+          "anchor": "h874-3-회귀적-回歸的-565-사회계약주의-분배관과-신인조화"
+        },
+        {
+          "level": 2,
+          "text": "4. The Junghwa (中和)[^571] Utilitarian View of Labor and Haewon Sangsaeng",
+          "anchor": "h925-4-중화적-中和的-571-공리주의-노동관과-해원상생"
+        },
+        {
+          "level": 2,
+          "text": "5. The Yuhaeng (Flow) Communitarian View of Goods and Dotong Jingyeong",
+          "anchor": "h974-5-유행적-行的-공동체주의-재화관과-도통진경"
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "IV. The Value of Daesoon Thought's Cyclic Economic View",
+      "paragraphCount": 112,
+      "footnoteCount": 17,
+      "headings": [
+        {
+          "level": 1,
+          "text": "IV. The Value of Daesoon Thought's Cyclic Economic View",
+          "anchor": "h1028-대순사상의-순환적-경제관의-가치"
+        },
+        {
+          "level": 2,
+          "text": "1. Eumyang Hapdeok and the Recovery of Economic Motivation",
+          "anchor": "h1032-1-음양합덕과-경제동기의-회복"
+        },
+        {
+          "level": 2,
+          "text": "2. Sinin Johwa and the Regeneration of Economic Ethics",
+          "anchor": "h1072-2-신인조화와-경제윤리의-재생"
+        },
+        {
+          "level": 2,
+          "text": "3. Haewon Sangsaeng and the Harmonization of Economic Ideology",
+          "anchor": "h1111-3-해원상생과-경제이념의-조화"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "V. Conclusion",
+      "paragraphCount": 21,
+      "footnoteCount": 16,
+      "headings": [
+        {
+          "level": 1,
+          "text": "V. Conclusion",
+          "anchor": "h1197-conclusion"
+        }
+      ]
+    },
+    {
+      "id": "references",
+      "title": "References",
+      "paragraphCount": 450,
+      "footnoteCount": 0,
+      "headings": [
+        {
+          "level": 2,
+          "text": "References",
+          "anchor": "h1222-참고문헌"
+        },
+        {
+          "level": 2,
+          "text": "Abstract",
+          "anchor": "h1673-abstract"
+        },
+        {
+          "level": 2,
+          "text": "A Study on the View of Cyclic Economics in",
+          "anchor": "h1675-a-study-on-the-view-of-cyclic-economics"
+        },
+        {
+          "level": 2,
+          "text": "Daesoon Thought",
+          "anchor": "h1676-daesoon-thought"
+        }
+      ]
+    }
+  ]
+}

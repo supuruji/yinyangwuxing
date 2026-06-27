@@ -30,6 +30,7 @@ export async function generateStaticParams() {
     { locale: 'ko', dissertationId: 'daesoon-economics-ko' },
     { locale: 'zh', dissertationId: 'daesoon-economics-zh' },
     { locale: 'ja', dissertationId: 'daesoon-economics-ja' },
+    { locale: 'en', dissertationId: 'daesoon-economics-en' },
   ];
 }
 
