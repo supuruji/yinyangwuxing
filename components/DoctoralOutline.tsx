@@ -20,6 +20,8 @@ interface Labels {
   readOnSite: string;
   pageRange: (a: number, b: number) => string;
   playlist: string;
+  fullPresentation: string;
+  fullDissertation: string;
 }
 
 interface Props {
@@ -27,6 +29,8 @@ interface Props {
   dissertationId: string;
   items: OutlineItem[];
   playlistUrl: string;
+  fullPresentationUrl: string;
+  fullDissertationUrl: string;
   labels: Labels;
 }
 
@@ -52,7 +56,15 @@ function groupByChapter(items: OutlineItem[]): OutlineItem[][] {
   return order.map((k) => groups[k]);
 }
 
-export default function DoctoralOutline({ locale, dissertationId, items, playlistUrl, labels }: Props) {
+export default function DoctoralOutline({
+  locale,
+  dissertationId,
+  items,
+  playlistUrl,
+  fullPresentationUrl,
+  fullDissertationUrl,
+  labels,
+}: Props) {
   const groups = groupByChapter(items);
 
   return (
@@ -66,6 +78,24 @@ export default function DoctoralOutline({ locale, dissertationId, items, playlis
         >
           <YoutubeIcon />
           {labels.playlist}
+        </a>
+        <a
+          href={fullPresentationUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-4 py-2 border border-gold/50 hover:border-gold hover:bg-gold/10 text-parchment text-sm rounded transition-colors"
+        >
+          <PdfIcon />
+          {labels.fullPresentation}
+        </a>
+        <a
+          href={fullDissertationUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-4 py-2 border border-gold/50 hover:border-gold hover:bg-gold/10 text-parchment text-sm rounded transition-colors"
+        >
+          <BookIcon />
+          {labels.fullDissertation}
         </a>
       </div>
 

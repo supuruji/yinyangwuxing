@@ -38,6 +38,8 @@ const OUTLINE_LABELS: Record<string, {
   readOnSite: string;
   pageRange: (a: number, b: number) => string;
   playlist: string;
+  fullPresentation: string;
+  fullDissertation: string;
   intro: string;
 }> = {
   ko: {
@@ -45,7 +47,9 @@ const OUTLINE_LABELS: Record<string, {
     openPdf: 'PDF',
     readOnSite: '본문',
     pageRange: (a, b) => `pp. ${a}–${b}`,
-    playlist: '재생목록 전체 보기',
+    playlist: '유튜브 재생목록 전체보기',
+    fullPresentation: '발표PDF 전체보기',
+    fullDissertation: '논문 전체보기',
     intro: '유튜브 재생목록 · PDF 절별 파일 · 본문 리더를 한 카드에서 열람하세요.',
   },
   en: {
@@ -53,7 +57,9 @@ const OUTLINE_LABELS: Record<string, {
     openPdf: 'PDF',
     readOnSite: 'Read',
     pageRange: (a, b) => `pp. ${a}–${b}`,
-    playlist: 'Open full playlist',
+    playlist: 'Open full YouTube playlist',
+    fullPresentation: 'Open full presentation PDF',
+    fullDissertation: 'Open full dissertation',
     intro: 'Each card links to a YouTube video, a PDF section, and the on-site chapter reader.',
   },
   zh: {
@@ -61,7 +67,9 @@ const OUTLINE_LABELS: Record<string, {
     openPdf: 'PDF',
     readOnSite: '正文',
     pageRange: (a, b) => `pp. ${a}–${b}`,
-    playlist: '打开完整播放列表',
+    playlist: '打开完整 YouTube 播放列表',
+    fullPresentation: '打开完整发表 PDF',
+    fullDissertation: '打开完整论文',
     intro: '每张卡片链接到 YouTube 视频、PDF 分节和站内正文阅读器。',
   },
   ja: {
@@ -69,10 +77,15 @@ const OUTLINE_LABELS: Record<string, {
     openPdf: 'PDF',
     readOnSite: '本文',
     pageRange: (a, b) => `pp. ${a}–${b}`,
-    playlist: 'プレイリスト全体を開く',
+    playlist: 'YouTube プレイリスト全体を開く',
+    fullPresentation: '発表 PDF 全体を開く',
+    fullDissertation: '論文全体を開く',
     intro: '各カードから YouTube 動画・PDF 節・本文リーダーを開けます。',
   },
 };
+
+const FULL_PRESENTATION_URL = '/dissertation/donghak-daesoon-ko-presentation.pdf';
+const FULL_DISSERTATION_URL = '/dissertation/donghak-daesoon-ko.pdf';
 
 export default async function DoctoralPage({ params }: Props) {
   const { locale } = await params;
@@ -102,6 +115,8 @@ export default async function DoctoralPage({ params }: Props) {
             dissertationId={outline.dissertationId}
             items={outline.data.items}
             playlistUrl={outline.data.playlistUrl}
+            fullPresentationUrl={FULL_PRESENTATION_URL}
+            fullDissertationUrl={FULL_DISSERTATION_URL}
             labels={labels}
           />
         </>
