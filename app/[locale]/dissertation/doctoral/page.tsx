@@ -15,9 +15,22 @@ interface OutlineData {
   playlistUrl: string;
 }
 
-// Map locale to the dissertationId that hosts the outline.json (only ko for now).
+// Map locale to the dissertationId that hosts the outline.json.
 const OUTLINE_BY_LOCALE: Record<string, string> = {
   ko: 'donghak-daesoon-ko',
+  en: 'donghak-daesoon-en',
+};
+
+// Map locale to the full-PDF URLs used by the two top-level buttons.
+const FULL_URLS_BY_LOCALE: Record<string, { presentation: string; dissertation: string }> = {
+  ko: {
+    presentation: '/dissertation/donghak-daesoon-ko-presentation.pdf',
+    dissertation: '/dissertation/donghak-daesoon-ko.pdf',
+  },
+  en: {
+    presentation: '/dissertation/donghak-daesoon-en-presentation.pdf',
+    dissertation: '/dissertation/donghak-daesoon-en.pdf',
+  },
 };
 
 function loadOutline(locale: string): { dissertationId: string; data: OutlineData } | null {
@@ -84,14 +97,12 @@ const OUTLINE_LABELS: Record<string, {
   },
 };
 
-const FULL_PRESENTATION_URL = '/dissertation/donghak-daesoon-ko-presentation.pdf';
-const FULL_DISSERTATION_URL = '/dissertation/donghak-daesoon-ko.pdf';
-
 export default async function DoctoralPage({ params }: Props) {
   const { locale } = await params;
   const content = getContent(locale);
   const outline = loadOutline(locale);
   const labels = OUTLINE_LABELS[locale] ?? OUTLINE_LABELS.en;
+  const fullUrls = FULL_URLS_BY_LOCALE[locale] ?? FULL_URLS_BY_LOCALE.ko;
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-16">
@@ -115,8 +126,8 @@ export default async function DoctoralPage({ params }: Props) {
             dissertationId={outline.dissertationId}
             items={outline.data.items}
             playlistUrl={outline.data.playlistUrl}
-            fullPresentationUrl={FULL_PRESENTATION_URL}
-            fullDissertationUrl={FULL_DISSERTATION_URL}
+            fullPresentationUrl={fullUrls.presentation}
+            fullDissertationUrl={fullUrls.dissertation}
             labels={labels}
           />
         </>
