@@ -19,6 +19,7 @@ interface OutlineData {
 const OUTLINE_BY_LOCALE: Record<string, string> = {
   ko: 'donghak-daesoon-ko',
   en: 'donghak-daesoon-en',
+  ja: 'donghak-daesoon-ja',
 };
 
 // Map locale to the full-PDF URLs used by the two top-level buttons.
@@ -30,6 +31,10 @@ const FULL_URLS_BY_LOCALE: Record<string, { presentation: string; dissertation: 
   en: {
     presentation: '/dissertation/donghak-daesoon-en-presentation.pdf',
     dissertation: '/dissertation/donghak-daesoon-en.pdf',
+  },
+  ja: {
+    presentation: '/dissertation/donghak-daesoon-ja-presentation.pdf',
+    dissertation: '/dissertation/donghak-daesoon-ja.pdf',
   },
 };
 
@@ -48,6 +53,7 @@ function loadOutline(locale: string): { dissertationId: string; data: OutlineDat
 const OUTLINE_LABELS: Record<string, {
   watchYoutube: string;
   openPdf: string;
+  openDissertationPdf: string;
   readOnSite: string;
   pageRange: (a: number, b: number) => string;
   playlist: string;
@@ -57,43 +63,47 @@ const OUTLINE_LABELS: Record<string, {
 }> = {
   ko: {
     watchYoutube: '유튜브',
-    openPdf: 'PDF',
+    openPdf: '발표',
+    openDissertationPdf: '논문',
     readOnSite: '본문',
     pageRange: (a, b) => `pp. ${a}–${b}`,
     playlist: '유튜브 재생목록 전체보기',
     fullPresentation: '발표PDF 전체보기',
     fullDissertation: '논문 전체보기',
-    intro: '유튜브 재생목록 · PDF 절별 파일 · 본문 리더를 한 카드에서 열람하세요.',
+    intro: '유튜브 재생목록 · 발표PDF 절별 파일 · 논문PDF 챕터 파일 · 본문 리더를 한 카드에서 열람하세요.',
   },
   en: {
     watchYoutube: 'YouTube',
-    openPdf: 'PDF',
+    openPdf: 'Slides',
+    openDissertationPdf: 'Paper',
     readOnSite: 'Read',
     pageRange: (a, b) => `pp. ${a}–${b}`,
     playlist: 'Open full YouTube playlist',
     fullPresentation: 'Open full presentation PDF',
     fullDissertation: 'Open full dissertation',
-    intro: 'Each card links to a YouTube video, a PDF section, and the on-site chapter reader.',
+    intro: 'Each card links to a YouTube video, a slide section PDF, the dissertation chapter PDF, and the on-site chapter reader.',
   },
   zh: {
     watchYoutube: 'YouTube',
-    openPdf: 'PDF',
+    openPdf: '发表',
+    openDissertationPdf: '论文',
     readOnSite: '正文',
     pageRange: (a, b) => `pp. ${a}–${b}`,
     playlist: '打开完整 YouTube 播放列表',
     fullPresentation: '打开完整发表 PDF',
     fullDissertation: '打开完整论文',
-    intro: '每张卡片链接到 YouTube 视频、PDF 分节和站内正文阅读器。',
+    intro: '每张卡片链接到 YouTube 视频、发表 PDF 分节、论文 PDF 章节及站内正文阅读器。',
   },
   ja: {
     watchYoutube: 'YouTube',
-    openPdf: 'PDF',
+    openPdf: '発表',
+    openDissertationPdf: '論文',
     readOnSite: '本文',
     pageRange: (a, b) => `pp. ${a}–${b}`,
-    playlist: 'YouTube プレイリスト全体を開く',
-    fullPresentation: '発表 PDF 全体を開く',
+    playlist: 'YouTube 再生リスト全体を開く',
+    fullPresentation: '発表PDF全体を開く',
     fullDissertation: '論文全体を開く',
-    intro: '各カードから YouTube 動画・PDF 節・本文リーダーを開けます。',
+    intro: '各カードから YouTube 動画・発表 PDF 節・論文 PDF 章・本文リーダーを開けます。',
   },
 };
 

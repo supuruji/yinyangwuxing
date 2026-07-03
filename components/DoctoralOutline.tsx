@@ -12,11 +12,14 @@ export interface OutlineItem {
   pdfStart: number;
   pdfEnd: number;
   chapter: string;
+  dissertationPdfFile?: string | null;
+  dissertationPdfPath?: string | null;
 }
 
 interface Labels {
   watchYoutube: string;
   openPdf: string;
+  openDissertationPdf: string;
   readOnSite: string;
   pageRange: (a: number, b: number) => string;
   playlist: string;
@@ -172,6 +175,18 @@ function OutlineCard({
               <PdfIcon />
               <span className="hidden sm:inline">{labels.openPdf}</span>
             </a>
+            {item.dissertationPdfPath ? (
+              <a
+                href={item.dissertationPdfPath}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-2.5 py-1.5 border border-gold/50 hover:border-gold hover:bg-gold/10 text-parchment text-xs rounded transition-colors"
+                title={labels.openDissertationPdf}
+              >
+                <DissertationIcon />
+                <span className="hidden sm:inline">{labels.openDissertationPdf}</span>
+              </a>
+            ) : null}
             <Link
               href={`/${locale}/dissertation/doctoral/${dissertationId}/${item.chapter}`}
               className="inline-flex items-center gap-1.5 px-2.5 py-1.5 border border-gold/50 hover:border-gold hover:bg-gold/10 text-parchment text-xs rounded transition-colors"
@@ -207,6 +222,14 @@ function BookIcon() {
   return (
     <svg className="w-3.5 h-3.5 stroke-current fill-none" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+    </svg>
+  );
+}
+
+function DissertationIcon() {
+  return (
+    <svg className="w-3.5 h-3.5 stroke-current fill-none" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 4h11a3 3 0 013 3v13H7a3 3 0 01-3-3V4zm0 0v13a3 3 0 003 3M8 8h6M8 12h6" />
     </svg>
   );
 }
