@@ -20,6 +20,7 @@ const OUTLINE_BY_LOCALE: Record<string, string> = {
   ko: 'donghak-daesoon-ko',
   en: 'donghak-daesoon-en',
   ja: 'donghak-daesoon-ja',
+  zh: 'donghak-daesoon-zh',
 };
 
 // Map locale to the full-PDF URLs used by the two top-level buttons.
@@ -35,6 +36,10 @@ const FULL_URLS_BY_LOCALE: Record<string, { presentation: string; dissertation: 
   ja: {
     presentation: '/dissertation/donghak-daesoon-ja-presentation.pdf',
     dissertation: '/dissertation/donghak-daesoon-ja.pdf',
+  },
+  zh: {
+    presentation: '/dissertation/donghak-daesoon-zh-presentation.pdf',
+    dissertation: '/dissertation/donghak-daesoon-zh.pdf',
   },
 };
 
@@ -89,9 +94,9 @@ const OUTLINE_LABELS: Record<string, {
     openDissertationPdf: '论文',
     readOnSite: '正文',
     pageRange: (a, b) => `pp. ${a}–${b}`,
-    playlist: '打开完整 YouTube 播放列表',
-    fullPresentation: '打开完整发表 PDF',
-    fullDissertation: '打开完整论文',
+    playlist: 'YouTube 播放列表全览',
+    fullPresentation: '发表PDF全览',
+    fullDissertation: '论文全览',
     intro: '每张卡片链接到 YouTube 视频、发表 PDF 分节、论文 PDF 章节及站内正文阅读器。',
   },
   ja: {
