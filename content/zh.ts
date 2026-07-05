@@ -86,10 +86,18 @@ export const zh: SiteContent = {
     homepage: [
       {
         id: 'ai-homepage-guide',
-        title: '电脑小白也能上手的网站搭建六步完全指南',
-        subtitle: 'AI · 搭建网站',
+        title: '电脑小白也能上手的网站搭建六步完全指南(全本)',
+        subtitle: 'AI · 搭建网站 · 全本',
         description: '从购买域名到配置 Vercel、GitHub、Obsidian、Google Drive,再到安装 Claude Code 并完成网站制作与部署,分六步整理的完整指南(韩文版)。',
         pdfUrl: '/pdf/website-guide-ko.pdf',
+        youtubeUrl: 'https://youtu.be/5L5IP7iyvko',
+      },
+      {
+        id: 'ai-homepage-ch00',
+        title: '00. 简介 · 全流程',
+        subtitle: 'AI · 搭建网站 · 分章指南',
+        description: '先梳理网站搭建六步指南整体流程的入门章(韩文版)。',
+        youtubeUrl: 'https://youtu.be/qQfcldWYc-E',
       },
     ],
   },

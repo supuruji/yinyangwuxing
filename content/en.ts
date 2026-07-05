@@ -86,10 +86,18 @@ export const en: SiteContent = {
     homepage: [
       {
         id: 'ai-homepage-guide',
-        title: 'A Complete 6-Step Guide to Building a Website — Even for Beginners',
-        subtitle: 'AI · Build a Website',
+        title: 'A Complete 6-Step Guide to Building a Website — Even for Beginners (Full)',
+        subtitle: 'AI · Build a Website · Full Guide',
         description: 'From buying a domain to configuring Vercel, GitHub, Obsidian, and Google Drive, then installing Claude Code and building and deploying your site — a complete 6-step guide any beginner can follow (Korean).',
         pdfUrl: '/pdf/website-guide-ko.pdf',
+        youtubeUrl: 'https://youtu.be/5L5IP7iyvko',
+      },
+      {
+        id: 'ai-homepage-ch00',
+        title: '00. Introduction · Overall Flow',
+        subtitle: 'AI · Build a Website · Chapter-by-Chapter',
+        description: 'The introductory chapter that walks through the overall flow of the 6-step website-building guide (Korean).',
+        youtubeUrl: 'https://youtu.be/qQfcldWYc-E',
       },
     ],
   },

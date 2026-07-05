@@ -260,10 +260,18 @@ export const ko: SiteContent = {
     homepage: [
       {
         id: 'ai-homepage-guide',
-        title: '컴맹도 만드는 웹사이트 6단계 완벽 가이드',
-        subtitle: 'AI · 홈페이지 만들기',
+        title: '컴맹도 만드는 웹사이트 6단계 완벽 가이드 (전체)',
+        subtitle: 'AI · 홈페이지 만들기 · 전체본',
         description: '도메인 구입부터 Vercel·GitHub·Obsidian·Google Drive 설정, Claude Code 설치와 사이트 제작·배포까지 컴맹도 따라할 수 있도록 6단계로 정리한 완벽 가이드입니다.',
         pdfUrl: '/pdf/website-guide-ko.pdf',
+        youtubeUrl: 'https://youtu.be/5L5IP7iyvko',
+      },
+      {
+        id: 'ai-homepage-ch00',
+        title: '00. 소개 · 전체흐름',
+        subtitle: 'AI · 홈페이지 만들기 · 장별 가이드',
+        description: '컴맹도 만드는 웹사이트 6단계 가이드의 전체 흐름을 먼저 짚어보는 소개 장입니다.',
+        youtubeUrl: 'https://youtu.be/qQfcldWYc-E',
       },
       // AI 홈페이지 자료를 추가하려면 아래 형식으로 항목을 추가하세요:
       // {
@@ -272,6 +280,7 @@ export const ko: SiteContent = {
       //   subtitle: 'AI · 홈페이지 만들기',
       //   description: '자료 소개',
       //   pdfUrl: '/pdf/파일명.pdf',
+      //   youtubeUrl: '유튜브 URL',
       // },
     ],
   },

@@ -86,10 +86,18 @@ export const ja: SiteContent = {
     homepage: [
       {
         id: 'ai-homepage-guide',
-        title: 'パソコン初心者でも作れるウェブサイト6ステップ完全ガイド',
-        subtitle: 'AI · ホームページ作成',
+        title: 'パソコン初心者でも作れるウェブサイト6ステップ完全ガイド(全体版)',
+        subtitle: 'AI · ホームページ作成 · 全体版',
         description: 'ドメイン購入から Vercel・GitHub・Obsidian・Google Drive の設定、Claude Code のインストール、サイト制作・デプロイまでを6ステップにまとめた完全ガイド(韓国語版)。',
         pdfUrl: '/pdf/website-guide-ko.pdf',
+        youtubeUrl: 'https://youtu.be/5L5IP7iyvko',
+      },
+      {
+        id: 'ai-homepage-ch00',
+        title: '00. 紹介 · 全体の流れ',
+        subtitle: 'AI · ホームページ作成 · 章別ガイド',
+        description: 'ウェブサイト構築6ステップガイドの全体の流れを最初に整理する導入章(韓国語版)。',
+        youtubeUrl: 'https://youtu.be/qQfcldWYc-E',
       },
     ],
   },
