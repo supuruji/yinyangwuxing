@@ -15,6 +15,7 @@ interface NavigationProps {
 export default function Navigation({ locale, content }: NavigationProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dissertationOpen, setDissertationOpen] = useState(false);
+  const [aiOpen, setAiOpen] = useState(false);
   const pathname = usePathname();
 
   const isActive = (path: string) => pathname === path || pathname.startsWith(path + '/');
@@ -91,6 +92,34 @@ export default function Navigation({ locale, content }: NavigationProps) {
                 {label}
               </Link>
             ))}
+
+            {/* AI with dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setAiOpen(true)}
+              onMouseLeave={() => setAiOpen(false)}
+            >
+              <Link
+                href={`/${locale}/ai/homepage`}
+                className={`px-4 py-2 text-sm rounded transition-colors ${
+                  isActive(`/${locale}/ai`)
+                    ? 'text-gold bg-gold/10'
+                    : 'text-parchment hover:text-gold hover:bg-gold/5'
+                }`}
+              >
+                {content.nav.ai}
+              </Link>
+              {aiOpen && (
+                <div className="absolute top-full left-0 mt-1 w-52 bg-ink-soft border border-gold/30 rounded-lg shadow-xl py-1">
+                  <Link
+                    href={`/${locale}/ai/homepage`}
+                    className="block px-4 py-2.5 text-sm text-parchment hover:text-gold hover:bg-gold/5 transition-colors"
+                  >
+                    {content.nav.homepage}
+                  </Link>
+                </div>
+              )}
+            </div>
           </nav>
 
           {/* Language Switcher */}
@@ -145,6 +174,12 @@ export default function Navigation({ locale, content }: NavigationProps) {
             </Link>
             <Link href={`/${locale}/yinyang`} className="block px-3 py-2 text-parchment hover:text-gold text-sm" onClick={() => setMenuOpen(false)}>
               {content.nav.yinyang}
+            </Link>
+            <Link href={`/${locale}/ai/homepage`} className="block px-3 py-2 text-parchment hover:text-gold text-sm" onClick={() => setMenuOpen(false)}>
+              {content.nav.ai}
+            </Link>
+            <Link href={`/${locale}/ai/homepage`} className="block px-6 py-2 text-parchment-muted hover:text-gold text-sm" onClick={() => setMenuOpen(false)}>
+              └ {content.nav.homepage}
             </Link>
             <div className="flex gap-1 px-3 pt-2">
               {locales.map((l) => (

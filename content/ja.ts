@@ -13,16 +13,21 @@ export const ja: SiteContent = {
     papers: '発表論文',
     books: '単行本',
     yinyang: '陰陽五行',
+    ai: 'AI',
+    homepage: 'ホームページ作成',
     masters: '修士論文',
     doctoral: '博士論文',
     visitYoutube: 'YouTubeで見る',
     visitWebsite: 'ウェブサイトへ',
+    downloadPdf: 'PDFダウンロード',
     comingSoon: '近日公開',
     backToTop: '一覧へ戻る',
     dissertationDesc: '修士・博士学位論文',
     papersDesc: '学術誌・学会発表論文',
     booksDesc: '単著書籍',
     yinyangDesc: '陰陽五行関連研究・コンテンツ',
+    aiDesc: 'AI活用ガイドと実践資料',
+    homepageDesc: 'AIで自分のホームページを作る完全ガイド',
   },
   home: {
     heading: '陰陽五行',
@@ -77,4 +82,15 @@ export const ja: SiteContent = {
       youtubeUrl: YOUTUBE,
     },
   ],
+  ai: {
+    homepage: [
+      {
+        id: 'ai-homepage-guide',
+        title: 'パソコン初心者でも作れるウェブサイト6ステップ完全ガイド',
+        subtitle: 'AI · ホームページ作成',
+        description: 'ドメイン購入から Vercel・GitHub・Obsidian・Google Drive の設定、Claude Code のインストール、サイト制作・デプロイまでを6ステップにまとめた完全ガイド(韓国語版)。',
+        pdfUrl: '/pdf/website-guide-ko.pdf',
+      },
+    ],
+  },
 };

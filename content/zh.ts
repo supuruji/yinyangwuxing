@@ -13,16 +13,21 @@ export const zh: SiteContent = {
     papers: '发表论文',
     books: '单行本',
     yinyang: '阴阳五行',
+    ai: 'AI',
+    homepage: '搭建网站',
     masters: '硕士论文',
     doctoral: '博士论文',
     visitYoutube: '观看视频',
     visitWebsite: '访问网站',
+    downloadPdf: '下载 PDF',
     comingSoon: '即将推出',
     backToTop: '返回列表',
     dissertationDesc: '硕士及博士学位论文',
     papersDesc: '期刊及学术会议论文',
     booksDesc: '独著单行本',
     yinyangDesc: '阴阳五行相关研究与内容',
+    aiDesc: 'AI 使用指南与实操资料',
+    homepageDesc: '用 AI 搭建自己的网站的完整指南',
   },
   home: {
     heading: '陰陽五行',
@@ -77,4 +82,15 @@ export const zh: SiteContent = {
       youtubeUrl: YOUTUBE,
     },
   ],
+  ai: {
+    homepage: [
+      {
+        id: 'ai-homepage-guide',
+        title: '电脑小白也能上手的网站搭建六步完全指南',
+        subtitle: 'AI · 搭建网站',
+        description: '从购买域名到配置 Vercel、GitHub、Obsidian、Google Drive,再到安装 Claude Code 并完成网站制作与部署,分六步整理的完整指南(韩文版)。',
+        pdfUrl: '/pdf/website-guide-ko.pdf',
+      },
+    ],
+  },
 };

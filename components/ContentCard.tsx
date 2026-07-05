@@ -6,9 +6,10 @@ interface ContentCardProps {
   youtubeLabel: string;
   websiteLabel: string;
   comingSoonLabel: string;
+  pdfLabel?: string;
 }
 
-export default function ContentCard({ item, youtubeLabel, websiteLabel, comingSoonLabel }: ContentCardProps) {
+export default function ContentCard({ item, youtubeLabel, websiteLabel, comingSoonLabel, pdfLabel }: ContentCardProps) {
   if (item.comingSoon) {
     return (
       <div className="border border-gold/20 rounded-lg p-6 bg-ink-card opacity-60">
@@ -65,8 +66,27 @@ export default function ContentCard({ item, youtubeLabel, websiteLabel, comingSo
             </a>
           )
         )}
+        {item.pdfUrl && pdfLabel && (
+          <a
+            href={item.pdfUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-gold/90 hover:bg-gold text-ink text-sm font-semibold rounded transition-colors"
+          >
+            <PdfIcon />
+            {pdfLabel}
+          </a>
+        )}
       </div>
     </div>
+  );
+}
+
+function PdfIcon() {
+  return (
+    <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zM8.5 13.5h1.25c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5H9v1H8.5v-4zm.5 2h.75c.28 0 .5-.22.5-.5s-.22-.5-.5-.5H9v1zm3-2h1.25c.69 0 1.25.56 1.25 1.25v1.5c0 .69-.56 1.25-1.25 1.25H12v-4zm.5 3.5h.75c.41 0 .75-.34.75-.75v-1.5c0-.41-.34-.75-.75-.75H12.5v3zm3-3.5H17v.5h-1v1h1v.5h-1v2h-.5v-4z" />
+    </svg>
   );
 }
 

@@ -13,16 +13,21 @@ export const en: SiteContent = {
     papers: 'Papers',
     books: 'Books',
     yinyang: 'Yin-Yang',
+    ai: 'AI',
+    homepage: 'Build a Website',
     masters: "Master's Thesis",
     doctoral: 'Doctoral Dissertation',
     visitYoutube: 'Watch on YouTube',
     visitWebsite: 'Visit Website',
+    downloadPdf: 'Download PDF',
     comingSoon: 'Coming Soon',
     backToTop: 'Back to List',
     dissertationDesc: "Master's and Doctoral dissertations",
     papersDesc: 'Journal and conference papers',
     booksDesc: 'Authored books',
     yinyangDesc: 'Yin-Yang Five Elements research and content',
+    aiDesc: 'AI usage guides and practical materials',
+    homepageDesc: 'A complete guide to building your own website with AI',
   },
   home: {
     heading: '陰陽五行',
@@ -77,4 +82,15 @@ export const en: SiteContent = {
       youtubeUrl: YOUTUBE,
     },
   ],
+  ai: {
+    homepage: [
+      {
+        id: 'ai-homepage-guide',
+        title: 'A Complete 6-Step Guide to Building a Website — Even for Beginners',
+        subtitle: 'AI · Build a Website',
+        description: 'From buying a domain to configuring Vercel, GitHub, Obsidian, and Google Drive, then installing Claude Code and building and deploying your site — a complete 6-step guide any beginner can follow (Korean).',
+        pdfUrl: '/pdf/website-guide-ko.pdf',
+      },
+    ],
+  },
 };

@@ -5,6 +5,7 @@ export interface ContentItem {
   description?: string;
   youtubeUrl?: string;
   websiteUrl?: string;
+  pdfUrl?: string;
   comingSoon?: boolean;
 }
 
@@ -14,16 +15,21 @@ export interface NavTranslations {
   papers: string;
   books: string;
   yinyang: string;
+  ai: string;
+  homepage: string;
   masters: string;
   doctoral: string;
   visitYoutube: string;
   visitWebsite: string;
+  downloadPdf: string;
   comingSoon: string;
   backToTop: string;
   dissertationDesc: string;
   papersDesc: string;
   booksDesc: string;
   yinyangDesc: string;
+  aiDesc: string;
+  homepageDesc: string;
 }
 
 export interface SiteContent {
@@ -37,6 +43,9 @@ export interface SiteContent {
   papers: ContentItem[];
   books: ContentItem[];
   yinyang: ContentItem[];
+  ai: {
+    homepage: ContentItem[];
+  };
 }
 
 export type Locale = 'ko' | 'en' | 'zh' | 'ja';

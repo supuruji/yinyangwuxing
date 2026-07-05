@@ -13,16 +13,21 @@ export const ko: SiteContent = {
     papers: '발표논문',
     books: '단행본',
     yinyang: '음양오행',
+    ai: 'AI',
+    homepage: '홈페이지 만들기',
     masters: '석사논문',
     doctoral: '박사논문',
     visitYoutube: '유튜브 보기',
     visitWebsite: '홈페이지 방문',
+    downloadPdf: 'PDF 다운로드',
     comingSoon: '준비 중',
     backToTop: '목록으로',
     dissertationDesc: '석사 및 박사 학위논문',
     papersDesc: '학술지 및 학술대회 발표논문',
     booksDesc: '단독 저술 단행본',
     yinyangDesc: '음양오행 관련 연구 및 콘텐츠',
+    aiDesc: 'AI 활용 가이드 및 실습 자료',
+    homepageDesc: 'AI로 나만의 홈페이지 만들기 완벽 가이드',
   },
   home: {
     heading: '陰陽五行',
@@ -251,4 +256,23 @@ export const ko: SiteContent = {
     //   websiteUrl: '홈페이지 URL',
     // },
   ],
+  ai: {
+    homepage: [
+      {
+        id: 'ai-homepage-guide',
+        title: '컴맹도 만드는 웹사이트 6단계 완벽 가이드',
+        subtitle: 'AI · 홈페이지 만들기',
+        description: '도메인 구입부터 Vercel·GitHub·Obsidian·Google Drive 설정, Claude Code 설치와 사이트 제작·배포까지 컴맹도 따라할 수 있도록 6단계로 정리한 완벽 가이드입니다.',
+        pdfUrl: '/pdf/website-guide-ko.pdf',
+      },
+      // AI 홈페이지 자료를 추가하려면 아래 형식으로 항목을 추가하세요:
+      // {
+      //   id: 'ai-homepage-고유ID',
+      //   title: '자료 제목',
+      //   subtitle: 'AI · 홈페이지 만들기',
+      //   description: '자료 소개',
+      //   pdfUrl: '/pdf/파일명.pdf',
+      // },
+    ],
+  },
 };
