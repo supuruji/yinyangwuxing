@@ -11,13 +11,26 @@ const SHORT: Record<string, string> = {
   ko: '대순 순환경제관', en: 'Cyclic Economics', zh: '循环经济观', ja: '循環的経済観',
 };
 
+const PLAYLIST = 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-qQKkJErG7QrrHCVobzg4X';
 const RESOURCES: Record<string, { downloads?: { label: string; href: string }[]; youtubeUrl?: string }> = {
   'daesoon-economics-ko': {
     downloads: [
       { label: '논문 PDF 다운로드', href: '/dissertation/daesoon-economics-ko.pdf' },
       { label: '발표자료 PDF 다운로드', href: '/dissertation/daesoon-economics-ko-presentation.pdf' },
     ],
-    youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-qQKkJErG7QrrHCVobzg4X',
+    youtubeUrl: PLAYLIST,
+  },
+  'daesoon-economics-en': {
+    downloads: [{ label: 'Presentation PDF', href: '/dissertation/daesoon-economics-en-presentation.pdf' }],
+    youtubeUrl: PLAYLIST,
+  },
+  'daesoon-economics-zh': {
+    downloads: [{ label: '发表资料 PDF 下载', href: '/dissertation/daesoon-economics-zh-presentation.pdf' }],
+    youtubeUrl: PLAYLIST,
+  },
+  'daesoon-economics-ja': {
+    downloads: [{ label: '発表資料 PDF ダウンロード', href: '/dissertation/daesoon-economics-ja-presentation.pdf' }],
+    youtubeUrl: PLAYLIST,
   },
 };
 

@@ -89,24 +89,28 @@ export default function DoctoralOutline({
           <YoutubeIcon />
           {labels.playlist}
         </a>
-        <a
-          href={fullPresentationUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-4 py-2 border border-gold/50 hover:border-gold hover:bg-gold/10 text-parchment text-sm rounded transition-colors"
-        >
-          <PdfIcon />
-          {labels.fullPresentation}
-        </a>
-        <a
-          href={fullDissertationUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-4 py-2 border border-gold/50 hover:border-gold hover:bg-gold/10 text-parchment text-sm rounded transition-colors"
-        >
-          <BookIcon />
-          {labels.fullDissertation}
-        </a>
+        {fullPresentationUrl ? (
+          <a
+            href={fullPresentationUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 border border-gold/50 hover:border-gold hover:bg-gold/10 text-parchment text-sm rounded transition-colors"
+          >
+            <PdfIcon />
+            {labels.fullPresentation}
+          </a>
+        ) : null}
+        {fullDissertationUrl ? (
+          <a
+            href={fullDissertationUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 border border-gold/50 hover:border-gold hover:bg-gold/10 text-parchment text-sm rounded transition-colors"
+          >
+            <BookIcon />
+            {labels.fullDissertation}
+          </a>
+        ) : null}
       </div>
 
       {groups.map((group) => {

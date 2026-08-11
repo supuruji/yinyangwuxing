@@ -18,14 +18,21 @@ interface OutlineData {
 // Map locale to the dissertationId that hosts the master's outline.json.
 const OUTLINE_BY_LOCALE: Record<string, string> = {
   ko: 'daesoon-economics-ko',
+  en: 'daesoon-economics-en',
+  zh: 'daesoon-economics-zh',
+  ja: 'daesoon-economics-ja',
 };
 
 // Map locale to the full-PDF / presentation URLs used by the top-level buttons.
+// `dissertation` is empty where no typeset full-thesis PDF exists yet (en/zh/ja).
 const FULL_URLS_BY_LOCALE: Record<string, { presentation: string; dissertation: string }> = {
   ko: {
     presentation: '/dissertation/daesoon-economics-ko-presentation.pdf',
     dissertation: '/dissertation/daesoon-economics-ko.pdf',
   },
+  en: { presentation: '/dissertation/daesoon-economics-en-presentation.pdf', dissertation: '' },
+  zh: { presentation: '/dissertation/daesoon-economics-zh-presentation.pdf', dissertation: '' },
+  ja: { presentation: '/dissertation/daesoon-economics-ja-presentation.pdf', dissertation: '' },
 };
 
 function loadOutline(locale: string): { dissertationId: string; data: OutlineData } | null {
