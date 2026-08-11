@@ -15,7 +15,7 @@ const RESOURCES: Record<string, { downloads?: { label: string; href: string }[];
   'daesoon-economics-ko': {
     downloads: [
       { label: '논문 PDF 다운로드', href: '/dissertation/daesoon-economics-ko.pdf' },
-      { label: '발표 PPT 다운로드', href: '/ppt/daesoon-economics-ko.pptx' },
+      { label: '발표자료 PDF 다운로드', href: '/dissertation/daesoon-economics-ko-presentation.pdf' },
     ],
     youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-qQKkJErG7QrrHCVobzg4X',
   },
