@@ -10,7 +10,7 @@
       "pdfFile": "01-abstract.pdf",
       "pdfPath": "/pdf/masters/en/01-abstract.pdf",
       "pdfStart": 1,
-      "pdfEnd": 4,
+      "pdfEnd": 8,
       "chapter": "abstract"
     },
     {
@@ -23,7 +23,7 @@
       "pdfFile": "02-intro.pdf",
       "pdfPath": "/pdf/masters/en/02-intro.pdf",
       "pdfStart": 1,
-      "pdfEnd": 2,
+      "pdfEnd": 9,
       "chapter": "intro"
     },
     {
@@ -36,7 +36,7 @@
       "pdfFile": "03-necessity.pdf",
       "pdfPath": "/pdf/masters/en/03-necessity.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 9,
       "chapter": "intro"
     },
     {
@@ -49,7 +49,7 @@
       "pdfFile": "04-prior-research.pdf",
       "pdfPath": "/pdf/masters/en/04-prior-research.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 8,
       "chapter": "intro"
     },
     {
@@ -62,7 +62,7 @@
       "pdfFile": "05-scope-method.pdf",
       "pdfPath": "/pdf/masters/en/05-scope-method.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 8,
       "chapter": "intro"
     },
     {
@@ -75,7 +75,7 @@
       "pdfFile": "06-ch2-overview.pdf",
       "pdfPath": "/pdf/masters/en/06-ch2-overview.pdf",
       "pdfStart": 1,
-      "pdfEnd": 2,
+      "pdfEnd": 12,
       "chapter": "ch2"
     },
     {
@@ -88,7 +88,7 @@
       "pdfFile": "07-ch2-ethics.pdf",
       "pdfPath": "/pdf/masters/en/07-ch2-ethics.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 10,
       "chapter": "ch2"
     },
     {
@@ -101,7 +101,7 @@
       "pdfFile": "08-ch2-daoism.pdf",
       "pdfPath": "/pdf/masters/en/08-ch2-daoism.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 12,
       "chapter": "ch2"
     },
     {
@@ -114,7 +114,7 @@
       "pdfFile": "09-ch2-buddhism.pdf",
       "pdfPath": "/pdf/masters/en/09-ch2-buddhism.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 12,
       "chapter": "ch2"
     },
     {
@@ -127,7 +127,7 @@
       "pdfFile": "10-ch2-confucian.pdf",
       "pdfPath": "/pdf/masters/en/10-ch2-confucian.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 9,
       "chapter": "ch2"
     },
     {
@@ -140,7 +140,7 @@
       "pdfFile": "11-ch2-christianity.pdf",
       "pdfPath": "/pdf/masters/en/11-ch2-christianity.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 10,
       "chapter": "ch2"
     },
     {
@@ -153,7 +153,7 @@
       "pdfFile": "12-ch3-overview.pdf",
       "pdfPath": "/pdf/masters/en/12-ch3-overview.pdf",
       "pdfStart": 1,
-      "pdfEnd": 2,
+      "pdfEnd": 12,
       "chapter": "ch3"
     },
     {
@@ -166,7 +166,7 @@
       "pdfFile": "13-ch3-yeok.pdf",
       "pdfPath": "/pdf/masters/en/13-ch3-yeok.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 8,
       "chapter": "ch3"
     },
     {
@@ -179,7 +179,7 @@
       "pdfFile": "14-ch3-daedae.pdf",
       "pdfPath": "/pdf/masters/en/14-ch3-daedae.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 8,
       "chapter": "ch3"
     },
     {
@@ -192,7 +192,7 @@
       "pdfFile": "15-ch3-return.pdf",
       "pdfPath": "/pdf/masters/en/15-ch3-return.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 8,
       "chapter": "ch3"
     },
     {
@@ -205,7 +205,7 @@
       "pdfFile": "16-ch3-junghwa.pdf",
       "pdfPath": "/pdf/masters/en/16-ch3-junghwa.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 6,
       "chapter": "ch3"
     },
     {
@@ -218,7 +218,7 @@
       "pdfFile": "17-ch3-yuhaeng.pdf",
       "pdfPath": "/pdf/masters/en/17-ch3-yuhaeng.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 8,
       "chapter": "ch3"
     },
     {
@@ -231,7 +231,7 @@
       "pdfFile": "18-ch4-overview.pdf",
       "pdfPath": "/pdf/masters/en/18-ch4-overview.pdf",
       "pdfStart": 1,
-      "pdfEnd": 2,
+      "pdfEnd": 8,
       "chapter": "ch4"
     },
     {
@@ -244,7 +244,7 @@
       "pdfFile": "19-ch4-eumyang.pdf",
       "pdfPath": "/pdf/masters/en/19-ch4-eumyang.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 5,
       "chapter": "ch4"
     },
     {
@@ -257,7 +257,7 @@
       "pdfFile": "20-ch4-sinin.pdf",
       "pdfPath": "/pdf/masters/en/20-ch4-sinin.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 8,
       "chapter": "ch4"
     },
     {
@@ -270,7 +270,7 @@
       "pdfFile": "21-ch4-haewon.pdf",
       "pdfPath": "/pdf/masters/en/21-ch4-haewon.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 4,
       "chapter": "ch4"
     },
     {
@@ -283,7 +283,7 @@
       "pdfFile": "22-ch4-dotong.pdf",
       "pdfPath": "/pdf/masters/en/22-ch4-dotong.pdf",
       "pdfStart": 1,
-      "pdfEnd": 1,
+      "pdfEnd": 8,
       "chapter": "ch4"
     },
     {
@@ -296,10 +296,10 @@
       "pdfFile": "23-conclusion.pdf",
       "pdfPath": "/pdf/masters/en/23-conclusion.pdf",
       "pdfStart": 1,
-      "pdfEnd": 2,
+      "pdfEnd": 10,
       "chapter": "conclusion"
     }
   ],
-  "totalPages": 31,
+  "totalPages": 200,
   "playlistUrl": "https://www.youtube.com/playlist?list=PLw9IxWay4JN-qQKkJErG7QrrHCVobzg4X"
 }
