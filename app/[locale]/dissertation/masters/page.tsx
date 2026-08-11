@@ -30,9 +30,9 @@ const FULL_URLS_BY_LOCALE: Record<string, { presentation: string; dissertation: 
     presentation: '/dissertation/daesoon-economics-ko-presentation.pdf',
     dissertation: '/dissertation/daesoon-economics-ko.pdf',
   },
-  en: { presentation: '/dissertation/daesoon-economics-en-presentation.pdf', dissertation: '' },
-  zh: { presentation: '/dissertation/daesoon-economics-zh-presentation.pdf', dissertation: '' },
-  ja: { presentation: '/dissertation/daesoon-economics-ja-presentation.pdf', dissertation: '' },
+  en: { presentation: '/dissertation/daesoon-economics-en-presentation.pdf', dissertation: '/dissertation/daesoon-economics-en.pdf' },
+  zh: { presentation: '/dissertation/daesoon-economics-zh-presentation.pdf', dissertation: '/dissertation/daesoon-economics-zh.pdf' },
+  ja: { presentation: '/dissertation/daesoon-economics-ja-presentation.pdf', dissertation: '/dissertation/daesoon-economics-ja.pdf' },
 };
 
 function loadOutline(locale: string): { dissertationId: string; data: OutlineData } | null {

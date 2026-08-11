@@ -21,15 +21,24 @@ const RESOURCES: Record<string, { downloads?: { label: string; href: string }[];
     youtubeUrl: PLAYLIST,
   },
   'daesoon-economics-en': {
-    downloads: [{ label: 'Presentation PDF', href: '/dissertation/daesoon-economics-en-presentation.pdf' }],
+    downloads: [
+      { label: 'Thesis PDF', href: '/dissertation/daesoon-economics-en.pdf' },
+      { label: 'Presentation PDF', href: '/dissertation/daesoon-economics-en-presentation.pdf' },
+    ],
     youtubeUrl: PLAYLIST,
   },
   'daesoon-economics-zh': {
-    downloads: [{ label: '发表资料 PDF 下载', href: '/dissertation/daesoon-economics-zh-presentation.pdf' }],
+    downloads: [
+      { label: '论文 PDF 下载', href: '/dissertation/daesoon-economics-zh.pdf' },
+      { label: '发表资料 PDF 下载', href: '/dissertation/daesoon-economics-zh-presentation.pdf' },
+    ],
     youtubeUrl: PLAYLIST,
   },
   'daesoon-economics-ja': {
-    downloads: [{ label: '発表資料 PDF ダウンロード', href: '/dissertation/daesoon-economics-ja-presentation.pdf' }],
+    downloads: [
+      { label: '論文 PDF ダウンロード', href: '/dissertation/daesoon-economics-ja.pdf' },
+      { label: '発表資料 PDF ダウンロード', href: '/dissertation/daesoon-economics-ja-presentation.pdf' },
+    ],
     youtubeUrl: PLAYLIST,
   },
 };
