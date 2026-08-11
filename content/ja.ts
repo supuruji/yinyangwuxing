@@ -51,7 +51,7 @@ export const ja: SiteContent = {
         title: '大巡思想の循環的経済観',
         subtitle: '修士学位論文',
         description: '大巡思想における経済思想の循環的特性を研究した修士学位論文。',
-        youtubeUrl: YOUTUBE,
+        youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-qQKkJErG7QrrHCVobzg4X',
         websiteUrl: '/ja/dissertation/masters/daesoon-economics-ja',
       },
     ],

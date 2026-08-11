@@ -51,7 +51,7 @@ export const ko: SiteContent = {
         title: '대순사상의 순환적 경제관',
         subtitle: '석사학위논문',
         description: '대순사상에 나타난 경제 사상의 순환적 특성을 연구한 석사학위논문입니다.',
-        youtubeUrl: YOUTUBE,
+        youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-qQKkJErG7QrrHCVobzg4X',
         websiteUrl: '/ko/dissertation/masters/daesoon-economics-ko',
       },
     ],

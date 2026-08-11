@@ -35,6 +35,10 @@ interface Props {
   fullPresentationUrl: string;
   fullDissertationUrl: string;
   labels: Labels;
+  /** URL segment under /dissertation/ — 'doctoral' (default) or 'masters'. */
+  basePath?: string;
+  /** Renders the sticky group header for a chapter key. */
+  groupLabel?: (chapter: string) => string;
 }
 
 const ROMAN_LABELS: Record<string, string> = {
@@ -67,8 +71,11 @@ export default function DoctoralOutline({
   fullPresentationUrl,
   fullDissertationUrl,
   labels,
+  basePath = 'doctoral',
+  groupLabel,
 }: Props) {
   const groups = groupByChapter(items);
+  const renderGroupLabel = groupLabel ?? ((chapter: string) => `Chapter ${ROMAN_LABELS[chapter] ?? ''}`);
 
   return (
     <div className="space-y-10">
@@ -108,7 +115,7 @@ export default function DoctoralOutline({
           <section key={head.chapter} className="space-y-2">
             <div className="sticky top-0 z-10 bg-ink-soft/95 backdrop-blur-sm py-2 border-b border-gold/30 mb-3">
               <p className="text-xs text-gold/70 tracking-widest uppercase">
-                Chapter {ROMAN_LABELS[head.chapter] ?? ''}
+                {renderGroupLabel(head.chapter)}
               </p>
             </div>
             <div className="grid gap-2">
@@ -119,6 +126,7 @@ export default function DoctoralOutline({
                   locale={locale}
                   dissertationId={dissertationId}
                   labels={labels}
+                  basePath={basePath}
                 />
               ))}
             </div>
@@ -134,11 +142,13 @@ function OutlineCard({
   locale,
   dissertationId,
   labels,
+  basePath = 'doctoral',
 }: {
   item: OutlineItem;
   locale: string;
   dissertationId: string;
   labels: Labels;
+  basePath?: string;
 }) {
   const indent = item.level === 1 ? 'pl-0' : item.level === 2 ? 'pl-4 sm:pl-6' : 'pl-8 sm:pl-12';
   const titleSize = item.level === 1 ? 'text-lg sm:text-xl' : item.level === 2 ? 'text-base sm:text-lg' : 'text-sm sm:text-base';
@@ -188,7 +198,7 @@ function OutlineCard({
               </a>
             ) : null}
             <Link
-              href={`/${locale}/dissertation/doctoral/${dissertationId}/${item.chapter}`}
+              href={`/${locale}/dissertation/${basePath}/${dissertationId}/${item.chapter}`}
               className="inline-flex items-center gap-1.5 px-2.5 py-1.5 border border-gold/50 hover:border-gold hover:bg-gold/10 text-parchment text-xs rounded transition-colors"
               title={labels.readOnSite}
             >

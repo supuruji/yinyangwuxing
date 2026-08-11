@@ -51,7 +51,7 @@ export const en: SiteContent = {
         title: "Daesoon Thought's Circular Economic View",
         subtitle: "Master's Thesis",
         description: "A master's thesis studying the circular characteristics of economic thought in Daesoon ideology.",
-        youtubeUrl: YOUTUBE,
+        youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-qQKkJErG7QrrHCVobzg4X',
         websiteUrl: '/en/dissertation/masters/daesoon-economics-en',
       },
     ],

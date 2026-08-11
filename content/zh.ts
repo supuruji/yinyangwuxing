@@ -51,7 +51,7 @@ export const zh: SiteContent = {
         title: '大巡思想的循环经济观',
         subtitle: '硕士学位论文',
         description: '研究大巡思想中经济思想循环特性的硕士学位论文。',
-        youtubeUrl: YOUTUBE,
+        youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-qQKkJErG7QrrHCVobzg4X',
         websiteUrl: '/zh/dissertation/masters/daesoon-economics-zh',
       },
     ],

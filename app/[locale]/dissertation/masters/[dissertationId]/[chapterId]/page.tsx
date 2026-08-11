@@ -11,6 +11,16 @@ const SHORT: Record<string, string> = {
   ko: '대순 순환경제관', en: 'Cyclic Economics', zh: '循环经济观', ja: '循環的経済観',
 };
 
+const RESOURCES: Record<string, { downloads?: { label: string; href: string }[]; youtubeUrl?: string }> = {
+  'daesoon-economics-ko': {
+    downloads: [
+      { label: '논문 PDF 다운로드', href: '/dissertation/daesoon-economics-ko.pdf' },
+      { label: '발표 PPT 다운로드', href: '/ppt/daesoon-economics-ko.pptx' },
+    ],
+    youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-qQKkJErG7QrrHCVobzg4X',
+  },
+};
+
 function loadMeta(dissertationId: string) {
   try {
     const p = join(process.cwd(), 'content', 'dissertation', dissertationId, 'metadata.json');
@@ -46,6 +56,8 @@ export default async function MastersChapterPage({ params }: Props) {
   const chapter = loadChapter(dissertationId, chapterId);
   if (!meta || !chapter) notFound();
 
+  const res = RESOURCES[dissertationId];
+
   return (
     <DissertationChapter
       chapterId={chapterId}
@@ -58,6 +70,8 @@ export default async function MastersChapterPage({ params }: Props) {
       allChapters={meta.chapters}
       section="masters"
       dissertationShort={SHORT[locale] ?? meta.title}
+      downloads={res?.downloads}
+      youtubeUrl={res?.youtubeUrl}
     />
   );
 }
