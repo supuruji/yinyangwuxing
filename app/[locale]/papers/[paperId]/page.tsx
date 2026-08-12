@@ -7,6 +7,9 @@ import { koTaejoPaper } from '@/content/papers/ko-taejo';
 import { koKimJihaPaper } from '@/content/papers/ko-kim-jiha';
 import { koLiminalityPaper } from '@/content/papers/ko-liminality';
 import { koJejuMythPaper } from '@/content/papers/ko-jeju-myth';
+import { enJejuMythPaper } from '@/content/papers/en-jeju-myth';
+import { zhJejuMythPaper } from '@/content/papers/zh-jeju-myth';
+import { jaJejuMythPaper } from '@/content/papers/ja-jeju-myth';
 import { koJejuArchetypePaper } from '@/content/papers/ko-jeju-archetype';
 import { koKungfuPandaPaper } from '@/content/papers/ko-kungfu-panda';
 import { getContent } from '@/lib/content';
@@ -27,6 +30,18 @@ const PAPERS: Record<string, Paper> = {
   'kungfu-panda': koKungfuPandaPaper,
 };
 
+// Per-locale overrides for papers that have been translated.
+// Falls back to the Korean paper when no translation exists for the locale.
+const PAPER_OVERRIDES: Record<string, Record<string, Paper>> = {
+  en: { 'jeju-myth': enJejuMythPaper },
+  zh: { 'jeju-myth': zhJejuMythPaper },
+  ja: { 'jeju-myth': jaJejuMythPaper },
+};
+
+function getPaper(locale: string, paperId: string): Paper | undefined {
+  return PAPER_OVERRIDES[locale]?.[paperId] ?? PAPERS[paperId];
+}
+
 interface Props {
   params: Promise<{ locale: string; paperId: string }>;
 }
@@ -38,8 +53,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { paperId } = await params;
-  const paper = PAPERS[paperId];
+  const { locale, paperId } = await params;
+  const paper = getPaper(locale, paperId);
   if (!paper) return {};
   return {
     title: `${paper.title} — ${paper.author}`,
@@ -49,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function PaperPage({ params }: Props) {
   const { locale, paperId } = await params;
-  const paper = PAPERS[paperId];
+  const paper = getPaper(locale, paperId);
   if (!paper) notFound();
 
   const content = getContent(locale);
@@ -59,6 +74,13 @@ export default async function PaperPage({ params }: Props) {
       paper={paper}
       backLabel={content.nav.backToTop}
       backHref={`/${locale}/papers`}
+      labels={{
+        downloads: content.nav.readerDownloads,
+        youtube: content.nav.readerYoutube,
+        prev: content.nav.readerPrev,
+        next: content.nav.readerNext,
+        openToc: content.nav.readerToc,
+      }}
     />
   );
 }

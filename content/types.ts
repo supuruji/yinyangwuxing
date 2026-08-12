@@ -24,6 +24,11 @@ export interface NavTranslations {
   downloadPdf: string;
   comingSoon: string;
   backToTop: string;
+  readerDownloads: string;
+  readerYoutube: string;
+  readerPrev: string;
+  readerNext: string;
+  readerToc: string;
   dissertationDesc: string;
   papersDesc: string;
   booksDesc: string;

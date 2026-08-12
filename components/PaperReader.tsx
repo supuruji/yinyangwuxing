@@ -4,13 +4,30 @@ import { useState, useEffect, useRef, Fragment } from 'react';
 import Link from 'next/link';
 import type { Paper, PaperBlock, PaperFootnote } from '@/content/papers/types';
 
+interface PaperReaderLabels {
+  downloads: string;
+  youtube: string;
+  prev: string;
+  next: string;
+  openToc: string;
+}
+
 interface PaperReaderProps {
   paper: Paper;
   backLabel: string;
   backHref: string;
+  labels?: PaperReaderLabels;
 }
 
-export default function PaperReader({ paper, backLabel, backHref }: PaperReaderProps) {
+const DEFAULT_LABELS: PaperReaderLabels = {
+  downloads: '원문 다운로드',
+  youtube: '유튜브 보기 ↗',
+  prev: '이전',
+  next: '다음',
+  openToc: '목차 열기',
+};
+
+export default function PaperReader({ paper, backLabel, backHref, labels = DEFAULT_LABELS }: PaperReaderProps) {
   const [activeId, setActiveId] = useState(paper.chapters[0].id);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [pendingScrollId, setPendingScrollId] = useState<string | null>(null);
@@ -123,7 +140,7 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
 
         {((paper.downloads && paper.downloads.length > 0) || paper.youtubeUrl) && (
           <div className="p-4 border-t border-gold/20 flex-shrink-0 space-y-2">
-            <p className="text-gold/60 text-xs uppercase tracking-wider mb-1">원문 다운로드</p>
+            <p className="text-gold/60 text-xs uppercase tracking-wider mb-1">{labels.downloads}</p>
             {paper.downloads?.map((dl) => (
               <a
                 key={dl.href}
@@ -141,7 +158,7 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
                 rel="noopener noreferrer"
                 className="block w-full text-center px-3 py-2 text-xs border border-gold/40 hover:border-gold hover:bg-gold/10 text-parchment rounded transition-colors"
               >
-                유튜브 보기 ↗
+                {labels.youtube}
               </a>
             )}
           </div>
@@ -153,7 +170,7 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
           <button
             onClick={() => setSidebarOpen(true)}
             className="p-1.5 rounded border border-gold/30 hover:border-gold/60 transition-colors"
-            aria-label="목차 열기"
+            aria-label={labels.openToc}
           >
             <MenuIcon />
           </button>
@@ -189,7 +206,7 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
               >
                 <span className="text-gold/60 mt-0.5 group-hover:text-gold transition-colors">←</span>
                 <div>
-                  <p className="text-parchment-muted text-xs uppercase tracking-wide">이전</p>
+                  <p className="text-parchment-muted text-xs uppercase tracking-wide">{labels.prev}</p>
                   <p className="text-parchment text-sm group-hover:text-gold transition-colors leading-snug">
                     {prevChapter.title}
                   </p>
@@ -205,7 +222,7 @@ export default function PaperReader({ paper, backLabel, backHref }: PaperReaderP
               >
                 <span className="text-gold/60 mt-0.5 group-hover:text-gold transition-colors">→</span>
                 <div>
-                  <p className="text-parchment-muted text-xs uppercase tracking-wide">다음</p>
+                  <p className="text-parchment-muted text-xs uppercase tracking-wide">{labels.next}</p>
                   <p className="text-parchment text-sm group-hover:text-gold transition-colors leading-snug">
                     {nextChapter.title}
                   </p>
