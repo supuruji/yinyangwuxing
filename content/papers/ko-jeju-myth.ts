@@ -11,6 +11,13 @@ export const koJejuMythPaper: Paper = {
     { label: '요약PPT다운로드', href: '/papers/jeju-myth.pptx' },
   ],
   youtubeUrl: 'https://youtube.com/playlist?list=PLW3dzK2lgZM0&si=lH8mdvJuSBJMXD_U',
+  sections: [
+    { code: 'I', title: '들어가는 말', chapter: 'intro', youtubeId: 'o8itLecNqe8', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
+    { code: 'II', title: '순다랜드의 중심지로서 제주도', chapter: 'ch2', youtubeId: 'DQk0qUXJQf4', pdfSlug: '02-sundaland', pageStart: 9, pageEnd: 18 },
+    { code: 'III', title: '아틀란티스 신화와 제주신화의 비교', chapter: 'ch3', youtubeId: '0MJt8HEgHzI', pdfSlug: '03-atlantis', pageStart: 19, pageEnd: 41 },
+    { code: 'IV', title: '군자국과 제주신화의 비교', chapter: 'ch4', youtubeId: '68cOCNRnFmc', pdfSlug: '04-junja', pageStart: 42, pageEnd: 58 },
+    { code: 'V', title: '나가는 말', chapter: 'ch5', youtubeId: 'jC_bHYMUYLU', pdfSlug: '05-conclusion', pageStart: 59, pageEnd: 61 },
+  ],
   chapters: [
     {
       id: 'toc',

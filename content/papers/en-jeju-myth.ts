@@ -10,6 +10,13 @@ export const enJejuMythPaper: Paper = {
     { label: 'Download summary slides (PDF)', href: '/papers/jeju-myth-en.pdf' },
   ],
   youtubeUrl: 'https://youtube.com/playlist?list=PLW3dzK2lgZM0&si=lH8mdvJuSBJMXD_U',
+  sections: [
+    { code: 'I', title: 'Introduction', chapter: 'intro', youtubeId: 'o8itLecNqe8', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
+    { code: 'II', title: 'Jeju Island as the Center of Sundaland', chapter: 'ch2', youtubeId: 'DQk0qUXJQf4', pdfSlug: '02-sundaland', pageStart: 9, pageEnd: 18 },
+    { code: 'III', title: 'A Comparison of the Atlantis Myth and Jeju Mythology', chapter: 'ch3', youtubeId: '0MJt8HEgHzI', pdfSlug: '03-atlantis', pageStart: 19, pageEnd: 41 },
+    { code: 'IV', title: 'A Comparison of the Land of the Gentlemen and Jeju Mythology', chapter: 'ch4', youtubeId: '68cOCNRnFmc', pdfSlug: '04-junja', pageStart: 42, pageEnd: 58 },
+    { code: 'V', title: 'Conclusion', chapter: 'ch5', youtubeId: 'jC_bHYMUYLU', pdfSlug: '05-conclusion', pageStart: 59, pageEnd: 61 },
+  ],
   chapters: [
     {
       id: 'toc',

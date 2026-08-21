@@ -12,8 +12,10 @@ import { zhJejuMythPaper } from '@/content/papers/zh-jeju-myth';
 import { jaJejuMythPaper } from '@/content/papers/ja-jeju-myth';
 import { koJejuArchetypePaper } from '@/content/papers/ko-jeju-archetype';
 import { koKungfuPandaPaper } from '@/content/papers/ko-kungfu-panda';
+import Link from 'next/link';
 import { getContent } from '@/lib/content';
 import PaperReader from '@/components/PaperReader';
+import PaperOutline from '@/components/PaperOutline';
 import type { Metadata } from 'next';
 import type { Paper } from '@/content/papers/types';
 
@@ -44,6 +46,7 @@ function getPaper(locale: string, paperId: string): Paper | undefined {
 
 interface Props {
   params: Promise<{ locale: string; paperId: string }>;
+  searchParams: Promise<{ read?: string }>;
 }
 
 export async function generateStaticParams() {
@@ -62,18 +65,45 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function PaperPage({ params }: Props) {
+export default async function PaperPage({ params, searchParams }: Props) {
   const { locale, paperId } = await params;
+  const { read } = await searchParams;
   const paper = getPaper(locale, paperId);
   if (!paper) notFound();
 
   const content = getContent(locale);
 
+  // Papers with a presentation outline show a master's-thesis-style card grid
+  // as the landing page; the on-site reader opens via ?read=<chapterId>.
+  if (paper.sections && paper.sections.length > 0 && !read) {
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-16">
+        <nav className="text-parchment-muted text-sm mb-8 flex items-center gap-2">
+          <Link href={`/${locale}/papers`} className="hover:text-gold transition-colors">
+            {content.nav.papers}
+          </Link>
+          <span className="text-gold/40">›</span>
+          <span className="text-parchment line-clamp-1">{paper.title}</span>
+        </nav>
+
+        {paper.venue && (
+          <p className="text-gold/70 text-xs uppercase tracking-widest mb-2">{paper.venue}</p>
+        )}
+        <h1 className="text-3xl sm:text-4xl font-serif text-gold mb-1 leading-tight">{paper.title}</h1>
+        {paper.subtitle && <p className="text-parchment-muted mb-1">{paper.subtitle}</p>}
+        <p className="text-parchment-muted text-sm mb-10">— {paper.author}</p>
+
+        <PaperOutline paper={paper} locale={locale} />
+      </div>
+    );
+  }
+
   return (
     <PaperReader
       paper={paper}
       backLabel={content.nav.backToTop}
-      backHref={`/${locale}/papers`}
+      backHref={paper.sections && paper.sections.length > 0 ? `/${locale}/papers/${paperId}` : `/${locale}/papers`}
+      initialChapterId={read}
       labels={{
         downloads: content.nav.readerDownloads,
         youtube: content.nav.readerYoutube,

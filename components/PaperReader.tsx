@@ -17,6 +17,8 @@ interface PaperReaderProps {
   backLabel: string;
   backHref: string;
   labels?: PaperReaderLabels;
+  /** Chapter id to open on mount (e.g. from a ?read= link). */
+  initialChapterId?: string;
 }
 
 const DEFAULT_LABELS: PaperReaderLabels = {
@@ -27,8 +29,12 @@ const DEFAULT_LABELS: PaperReaderLabels = {
   openToc: '목차 열기',
 };
 
-export default function PaperReader({ paper, backLabel, backHref, labels = DEFAULT_LABELS }: PaperReaderProps) {
-  const [activeId, setActiveId] = useState(paper.chapters[0].id);
+export default function PaperReader({ paper, backLabel, backHref, labels = DEFAULT_LABELS, initialChapterId }: PaperReaderProps) {
+  const [activeId, setActiveId] = useState(
+    initialChapterId && paper.chapters.some((c) => c.id === initialChapterId)
+      ? initialChapterId
+      : paper.chapters[0].id,
+  );
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [pendingScrollId, setPendingScrollId] = useState<string | null>(null);
   const contentRef = useRef<HTMLDivElement>(null);
