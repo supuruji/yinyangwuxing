@@ -5,17 +5,25 @@ import { enAiSurvivalBook } from '@/content/books/en-ai-survival';
 import { zhAiSurvivalBook } from '@/content/books/zh-ai-survival';
 import { jaAiSurvivalBook } from '@/content/books/ja-ai-survival';
 import { AI_SURVIVAL_OUTLINE, AI_SURVIVAL_PLAYLIST } from '@/content/books/ai-survival-outline';
+import { koJejuSerendipityBook } from '@/content/books/ko-jeju-serendipity';
+import { enJejuSerendipityBook } from '@/content/books/en-jeju-serendipity';
+import { zhJejuSerendipityBook } from '@/content/books/zh-jeju-serendipity';
+import { jaJejuSerendipityBook } from '@/content/books/ja-jeju-serendipity';
 import { getContent } from '@/lib/content';
 import BookReader from '@/components/BookReader';
 import BookOutline, { type BookOutlineCard } from '@/components/BookOutline';
 import type { Metadata } from 'next';
 
 const BOOKS_BY_LOCALE: Record<string, Record<string, Book>> = {
-  ko: { 'ai-survival': koAiSurvivalBook },
-  en: { 'ai-survival': enAiSurvivalBook },
-  zh: { 'ai-survival': zhAiSurvivalBook },
-  ja: { 'ai-survival': jaAiSurvivalBook },
+  ko: { 'ai-survival': koAiSurvivalBook, 'jeju-serendipity': koJejuSerendipityBook },
+  en: { 'ai-survival': enAiSurvivalBook, 'jeju-serendipity': enJejuSerendipityBook },
+  zh: { 'ai-survival': zhAiSurvivalBook, 'jeju-serendipity': zhJejuSerendipityBook },
+  ja: { 'ai-survival': jaAiSurvivalBook, 'jeju-serendipity': jaJejuSerendipityBook },
 };
+
+// Books with a card outline (YouTube + presentation PDF). Books not listed here
+// fall back to a plain cover + chapter-list landing that opens the reader.
+const HAS_OUTLINE: Record<string, boolean> = { 'ai-survival': true };
 
 function getBook(locale: string, bookId: string): Book | undefined {
   return (BOOKS_BY_LOCALE[locale] ?? BOOKS_BY_LOCALE.ko)[bookId];
@@ -95,6 +103,61 @@ export default async function BookPage({ params, searchParams }: Props) {
         backHref={`/${locale}/books/${bookId}`}
         initialChapterId={read}
       />
+    );
+  }
+
+  // Plain landing view for books without a card outline (no YouTube / slides):
+  // cover + grouped chapter list that opens the on-site reader.
+  if (!HAS_OUTLINE[bookId]) {
+    const contentsLabel = { ko: '목차', en: 'Contents', zh: '目录', ja: '目次' }[locale] ?? 'Contents';
+    const firstId = book.chapters[0]?.id ?? '';
+    return (
+      <div className="max-w-3xl mx-auto px-4 py-12">
+        <nav className="text-parchment-muted text-sm mb-6 flex items-center gap-2">
+          <Link href={`/${locale}/books`} className="hover:text-gold transition-colors">
+            {content.nav.books}
+          </Link>
+          <span className="text-gold/40">›</span>
+          <span className="text-parchment">{book.title}</span>
+        </nav>
+
+        <div className="border border-gold/30 rounded-lg p-8 md:p-10 bg-ink-card mb-8 text-center">
+          <p className="text-gold/60 text-xs uppercase tracking-widest mb-3">{book.series}</p>
+          <h1 className="text-2xl sm:text-3xl font-serif text-gold mb-2 leading-snug">{book.title}</h1>
+          <p className="text-parchment-muted font-serif mb-5">{book.subtitle}</p>
+          <p className="text-parchment text-sm">{book.author}</p>
+          <p className="text-parchment-muted text-sm">{book.publisher} · {book.year}</p>
+        </div>
+
+        <div className="text-center mb-10">
+          <Link
+            href={`/${locale}/books/${bookId}?read=${firstId}`}
+            className="inline-block px-8 py-3 bg-gold text-ink font-semibold rounded-lg hover:bg-gold-light transition-colors text-sm tracking-wide"
+          >
+            {ui.fullBook}
+          </Link>
+        </div>
+
+        <h2 className="text-gold/70 text-xs uppercase tracking-widest mb-3">{contentsLabel}</h2>
+        <ul className="divide-y divide-gold/10 border-y border-gold/10">
+          {book.chapters.map((c, i) => {
+            const showPart = c.part && (i === 0 || book.chapters[i - 1].part !== c.part);
+            return (
+              <li key={c.id}>
+                {showPart && (
+                  <p className="text-gold/50 text-[0.7rem] uppercase tracking-widest pt-4 pb-1">{c.part}</p>
+                )}
+                <Link
+                  href={`/${locale}/books/${bookId}?read=${c.id}`}
+                  className="block py-3 text-parchment hover:text-gold transition-colors text-sm leading-snug"
+                >
+                  {c.title}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     );
   }
 

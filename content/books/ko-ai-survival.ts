@@ -1,8 +1,9 @@
 export interface BookBlock {
-  type: 'h3' | 'h4' | 'p' | 'quote' | 'table';
+  type: 'h3' | 'h4' | 'p' | 'quote' | 'table' | 'footnotes';
   text?: string;
   headers?: string[];
   rows?: string[][];
+  notes?: { n: string; text: string }[];
 }
 
 export interface BookChapter {

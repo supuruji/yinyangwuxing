@@ -93,6 +93,13 @@ export const zh: SiteContent = {
       description: '探讨人工智能时代人类生存战略的著作。',
       youtubeUrl: YOUTUBE,
     },
+    {
+      id: 'book-jeju-serendipity',
+      title: '作为塞伦迪皮蒂的济州文化',
+      subtitle: '单行本 · 济州学丛书 ⑨',
+      description: '从塞伦迪皮蒂（将偶然引向成功的力量）的视角，探讨济州备受瞩目之理由的济州学研究著作。中文全译本，可在线阅读。（金德三·崔元爀 合著，2014年）',
+      websiteUrl: '/zh/books/jeju-serendipity',
+    },
   ],
   yinyang: [
     {

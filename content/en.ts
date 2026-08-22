@@ -93,6 +93,13 @@ export const en: SiteContent = {
       description: 'A book exploring strategies for human survival in the age of artificial intelligence.',
       youtubeUrl: YOUTUBE,
     },
+    {
+      id: 'book-jeju-serendipity',
+      title: 'Jeju Culture as Serendipity',
+      subtitle: 'Book · Jeju Studies Series ⑨',
+      description: 'A Jeju studies work exploring why Jeju draws the spotlight, seen through serendipity — the power to turn chance into success. Full English translation, readable online. (Kim Deok-sam & Choi Won-hyeok, 2014)',
+      websiteUrl: '/en/books/jeju-serendipity',
+    },
   ],
   yinyang: [
     {

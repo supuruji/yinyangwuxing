@@ -246,6 +246,19 @@ function BlockRenderer({ block }: { block: BookBlock }) {
           {block.text}
         </blockquote>
       );
+    case 'footnotes':
+      return (
+        <section className="mt-12 pt-6 border-t border-gold/20">
+          <ol className="space-y-2">
+            {(block.notes ?? []).map((nt) => (
+              <li key={nt.n} className="text-parchment-muted text-[0.8rem] leading-relaxed flex gap-2">
+                <span className="text-gold/70 shrink-0">{nt.n}.</span>
+                <span>{nt.text}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+      );
     case 'p':
     default:
       return (

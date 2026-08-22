@@ -93,6 +93,13 @@ export const ja: SiteContent = {
       description: 'AI時代における人間の生存戦略を探求した著書。',
       youtubeUrl: YOUTUBE,
     },
+    {
+      id: 'book-jeju-serendipity',
+      title: 'セレンディピティとしての済州文化',
+      subtitle: '単行本 · 済州学叢書 ⑨',
+      description: '偶然を成功へ導く力＝セレンディピティの視点から、済州が脚光を浴びる理由を探る済州学の研究書。日本語全訳をオンラインで読めます。（金徳三・崔元爀 共著、2014年）',
+      websiteUrl: '/ja/books/jeju-serendipity',
+    },
   ],
   yinyang: [
     {
