@@ -63,6 +63,14 @@ export const zh: SiteContent = {
   },
   papers: [
     {
+      id: 'paper-baekchongang',
+      title: '663年白村江之战的东方天文学意义',
+      subtitle: '会议论文',
+      description: '本发表论文以三功能体系解读东方天文学，揭示作为最初甲子（癸亥年甲子月甲子日甲子时）的663年冬至五星聚娄现象与白村江之战所具有的天文学与历史意义。',
+      youtubeUrl: YOUTUBE,
+      websiteUrl: '/zh/papers/baekgang-663',
+    },
+    {
       id: 'paper-search-for-dialogue',
       title: '在基督教与伊斯兰教之间寻求对话',
       subtitle: '会议论文',

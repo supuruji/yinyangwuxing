@@ -63,6 +63,14 @@ export const ja: SiteContent = {
   },
   papers: [
     {
+      id: 'paper-baekchongang',
+      title: '663年 白村江の戦いの東洋天文学的意義',
+      subtitle: '発表論文',
+      description: '三機能体系によって東洋天文学を読み解き、最初の甲子（癸亥年・甲子月・甲子日・甲子時）にあたる663年冬至の五星聚婁と、白村江の戦いが持つ天文学的・歴史的意義を明らかにした発表論文。',
+      youtubeUrl: YOUTUBE,
+      websiteUrl: '/ja/papers/baekgang-663',
+    },
+    {
       id: 'paper-search-for-dialogue',
       title: 'キリスト教とイスラム教の対話の模索',
       subtitle: '発表論文',
