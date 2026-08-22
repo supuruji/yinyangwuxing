@@ -108,11 +108,15 @@ function OutlineCard({
   locale: string;
   labels: OutlineLabels;
 }) {
-  const youtubeUrl = `https://www.youtube.com/watch?v=${section.youtubeId}${
-    paper.youtubeUrl?.includes('list=')
-      ? '&list=' + paper.youtubeUrl.split('list=')[1].split('&')[0]
-      : ''
-  }`;
+  // When a section has no dedicated video id yet, fall back to the paper's
+  // playlist/channel URL so the button still leads somewhere useful.
+  const youtubeUrl = section.youtubeId
+    ? `https://www.youtube.com/watch?v=${section.youtubeId}${
+        paper.youtubeUrl?.includes('list=')
+          ? '&list=' + paper.youtubeUrl.split('list=')[1].split('&')[0]
+          : ''
+      }`
+    : paper.youtubeUrl ?? '#';
   const pdfPath = `/pdf/papers/${paper.id}/${locale}/${section.pdfSlug}.pdf`;
   const readHref = `/${locale}/papers/${paper.id}?read=${section.chapter}`;
 

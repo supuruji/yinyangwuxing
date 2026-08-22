@@ -63,6 +63,14 @@ export const zh: SiteContent = {
   },
   papers: [
     {
+      id: 'paper-search-for-dialogue',
+      title: '在基督教与伊斯兰教之间寻求对话',
+      subtitle: '会议论文',
+      description: '本发表论文以阴阳五行为基础的大巡真理宗教循环论为依据，借助儒教与佛教为中介，探索基督教与伊斯兰教之间对话的可能性。',
+      youtubeUrl: YOUTUBE,
+      websiteUrl: '/zh/papers/search-for-dialogue',
+    },
+    {
       id: 'paper-jeju-myth-world',
       title: '作为世界神话的济州神话之可能性研究',
       subtitle: '会议论文',

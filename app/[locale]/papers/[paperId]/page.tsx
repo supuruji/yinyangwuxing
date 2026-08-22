@@ -12,6 +12,10 @@ import { zhJejuMythPaper } from '@/content/papers/zh-jeju-myth';
 import { jaJejuMythPaper } from '@/content/papers/ja-jeju-myth';
 import { koJejuArchetypePaper } from '@/content/papers/ko-jeju-archetype';
 import { koKungfuPandaPaper } from '@/content/papers/ko-kungfu-panda';
+import { koSearchForDialoguePaper } from '@/content/papers/ko-search-for-dialogue';
+import { enSearchForDialoguePaper } from '@/content/papers/en-search-for-dialogue';
+import { zhSearchForDialoguePaper } from '@/content/papers/zh-search-for-dialogue';
+import { jaSearchForDialoguePaper } from '@/content/papers/ja-search-for-dialogue';
 import Link from 'next/link';
 import { getContent } from '@/lib/content';
 import PaperReader from '@/components/PaperReader';
@@ -30,14 +34,15 @@ const PAPERS: Record<string, Paper> = {
   'jeju-myth': koJejuMythPaper,
   'jeju-archetype': koJejuArchetypePaper,
   'kungfu-panda': koKungfuPandaPaper,
+  'search-for-dialogue': koSearchForDialoguePaper,
 };
 
 // Per-locale overrides for papers that have been translated.
 // Falls back to the Korean paper when no translation exists for the locale.
 const PAPER_OVERRIDES: Record<string, Record<string, Paper>> = {
-  en: { 'jeju-myth': enJejuMythPaper },
-  zh: { 'jeju-myth': zhJejuMythPaper },
-  ja: { 'jeju-myth': jaJejuMythPaper },
+  en: { 'jeju-myth': enJejuMythPaper, 'search-for-dialogue': enSearchForDialoguePaper },
+  zh: { 'jeju-myth': zhJejuMythPaper, 'search-for-dialogue': zhSearchForDialoguePaper },
+  ja: { 'jeju-myth': jaJejuMythPaper, 'search-for-dialogue': jaSearchForDialoguePaper },
 };
 
 function getPaper(locale: string, paperId: string): Paper | undefined {

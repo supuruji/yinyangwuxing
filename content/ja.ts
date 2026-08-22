@@ -63,6 +63,14 @@ export const ja: SiteContent = {
   },
   papers: [
     {
+      id: 'paper-search-for-dialogue',
+      title: 'キリスト教とイスラム教の対話の模索',
+      subtitle: '発表論文',
+      description: '陰陽五行に基づく大巡真理の宗教循環論を用い、儒教・仏教を媒介としてキリスト教とイスラム教の対話の可能性を模索した発表論文。',
+      youtubeUrl: YOUTUBE,
+      websiteUrl: '/ja/papers/search-for-dialogue',
+    },
+    {
       id: 'paper-jeju-myth-world',
       title: '世界神話としての済州神話の可能性に関する研究',
       subtitle: '発表論文',
