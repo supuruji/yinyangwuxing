@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { ContentItem } from '@/content/types';
+import { isSpecificYoutube } from '@/lib/youtube';
 
 interface ContentCardProps {
   item: ContentItem;
@@ -34,7 +35,7 @@ export default function ContentCard({ item, youtubeLabel, websiteLabel, comingSo
         <p className="text-parchment-muted text-sm leading-relaxed mb-5">{item.description}</p>
       )}
       <div className="flex flex-wrap gap-3">
-        {item.youtubeUrl && (
+        {isSpecificYoutube(item.youtubeUrl) && (
           <a
             href={item.youtubeUrl}
             target="_blank"

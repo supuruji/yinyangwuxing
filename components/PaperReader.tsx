@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, Fragment } from 'react';
 import Link from 'next/link';
 import type { Paper, PaperBlock, PaperFootnote } from '@/content/papers/types';
+import { isSpecificYoutube } from '@/lib/youtube';
 
 interface PaperReaderLabels {
   downloads: string;
@@ -144,7 +145,7 @@ export default function PaperReader({ paper, backLabel, backHref, labels = DEFAU
           })}
         </nav>
 
-        {((paper.downloads && paper.downloads.length > 0) || paper.youtubeUrl) && (
+        {((paper.downloads && paper.downloads.length > 0) || isSpecificYoutube(paper.youtubeUrl)) && (
           <div className="p-4 border-t border-gold/20 flex-shrink-0 space-y-2">
             <p className="text-gold/60 text-xs uppercase tracking-wider mb-1">{labels.downloads}</p>
             {paper.downloads?.map((dl) => (
@@ -157,7 +158,7 @@ export default function PaperReader({ paper, backLabel, backHref, labels = DEFAU
                 {dl.label}
               </a>
             ))}
-            {paper.youtubeUrl && (
+            {isSpecificYoutube(paper.youtubeUrl) && (
               <a
                 href={paper.youtubeUrl}
                 target="_blank"

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Paper, PaperSection } from '@/content/papers/types';
+import { isSpecificYoutube } from '@/lib/youtube';
 
 interface OutlineLabels {
   intro: string;
@@ -64,7 +65,7 @@ export default function PaperOutline({ paper, locale }: Props) {
   return (
     <div className="space-y-8">
       <div className="flex flex-wrap items-center gap-3">
-        {playlistUrl ? (
+        {isSpecificYoutube(playlistUrl) ? (
           <a
             href={playlistUrl}
             target="_blank"
@@ -133,16 +134,18 @@ function OutlineCard({
           </p>
         </div>
         <div className="flex flex-wrap gap-1.5 shrink-0">
-          <a
-            href={youtubeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-crimson/80 hover:bg-crimson text-parchment text-xs rounded transition-colors"
-            title={labels.watchYoutube}
-          >
-            <YoutubeIcon />
-            <span className="hidden sm:inline">{labels.watchYoutube}</span>
-          </a>
+          {isSpecificYoutube(youtubeUrl) && (
+            <a
+              href={youtubeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-crimson/80 hover:bg-crimson text-parchment text-xs rounded transition-colors"
+              title={labels.watchYoutube}
+            >
+              <YoutubeIcon />
+              <span className="hidden sm:inline">{labels.watchYoutube}</span>
+            </a>
+          )}
           <a
             href={pdfPath}
             target="_blank"

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { isSpecificYoutube } from '@/lib/youtube';
 
 const LOCALE_UI = {
   ko: { toc: '목차', back: '← 논문 개요', dissertations: '학위논문', doctoral: '박사논문', masters: '석사논문', dissertationShort: '동학·대순 비교연구', footnotes: '각주', prev: '← 이전', next: '다음 →', tocOpen: '목차 보기', tocClose: '목차 닫기', resources: '자료', watchYoutube: '유튜브 보기 ↗' },
@@ -219,7 +220,7 @@ export default function DissertationChapter({
   const ui = LOCALE_UI[(locale as LocaleKey)] ?? LOCALE_UI.en;
   const sectionLabel = section === 'masters' ? ui.masters : ui.doctoral;
   const shortLabel = dissertationShort ?? ui.dissertationShort;
-  const hasResources = (downloads && downloads.length > 0) || !!youtubeUrl;
+  const hasResources = (downloads && downloads.length > 0) || isSpecificYoutube(youtubeUrl);
   const resourceBlock = hasResources ? (
     <div className="mt-3 pt-3 border-t border-gold/20 space-y-2">
       <p className="text-[10px] font-semibold text-gold/50 uppercase tracking-widest px-3 pb-1">{ui.resources}</p>
@@ -233,7 +234,7 @@ export default function DissertationChapter({
           {dl.label}
         </a>
       ))}
-      {youtubeUrl && (
+      {isSpecificYoutube(youtubeUrl) && (
         <a
           href={youtubeUrl}
           target="_blank"

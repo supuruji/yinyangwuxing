@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { isSpecificYoutube } from '@/lib/youtube';
 
 export interface BookOutlineCard {
   code: string;
@@ -57,15 +58,17 @@ export default function BookOutline({
   return (
     <div className="space-y-10">
       <div className="flex flex-wrap items-center gap-3">
-        <a
-          href={playlistUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-4 py-2 bg-crimson/80 hover:bg-crimson text-parchment text-sm rounded transition-colors"
-        >
-          <YoutubeIcon />
-          {labels.playlist}
-        </a>
+        {isSpecificYoutube(playlistUrl) && (
+          <a
+            href={playlistUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-crimson/80 hover:bg-crimson text-parchment text-sm rounded transition-colors"
+          >
+            <YoutubeIcon />
+            {labels.playlist}
+          </a>
+        )}
         {fullPresentationUrl ? (
           <a
             href={fullPresentationUrl}
@@ -108,16 +111,18 @@ export default function BookOutline({
                     </h3>
                   </div>
                   <div className="flex flex-wrap gap-1.5 shrink-0">
-                    <a
-                      href={item.youtubeUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-crimson/80 hover:bg-crimson text-parchment text-xs rounded transition-colors"
-                      title={labels.watchYoutube}
-                    >
-                      <YoutubeIcon />
-                      <span className="hidden sm:inline">{labels.watchYoutube}</span>
-                    </a>
+                    {isSpecificYoutube(item.youtubeUrl) && (
+                      <a
+                        href={item.youtubeUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-crimson/80 hover:bg-crimson text-parchment text-xs rounded transition-colors"
+                        title={labels.watchYoutube}
+                      >
+                        <YoutubeIcon />
+                        <span className="hidden sm:inline">{labels.watchYoutube}</span>
+                      </a>
+                    )}
                     <a
                       href={item.pdfPath}
                       target="_blank"
