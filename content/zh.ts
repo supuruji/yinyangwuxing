@@ -88,7 +88,7 @@ export const zh: SiteContent = {
   books: [
     {
       id: 'book-ai-survival',
-      title: 'AI时代人类生存战略',
+      title: 'AI时代通过相关性思维与和诤的人类生存战略',
       subtitle: '单行本',
       description: '探讨人工智能时代人类生存战略的著作。',
       youtubeUrl: YOUTUBE,

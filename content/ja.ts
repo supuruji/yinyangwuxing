@@ -88,7 +88,7 @@ export const ja: SiteContent = {
   books: [
     {
       id: 'book-ai-survival',
-      title: 'AI時代の人間生存戦略',
+      title: 'AI時代における相関的思惟と和諍による人類の生存戦略',
       subtitle: '単行本',
       description: 'AI時代における人間の生存戦略を探求した著書。',
       youtubeUrl: YOUTUBE,

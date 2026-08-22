@@ -88,7 +88,7 @@ export const en: SiteContent = {
   books: [
     {
       id: 'book-ai-survival',
-      title: 'Human Survival Strategies in the AI Era',
+      title: 'Human Survival Strategy through Correlative Thinking and Hwajaeng in the AI Era',
       subtitle: 'Book',
       description: 'A book exploring strategies for human survival in the age of artificial intelligence.',
       youtubeUrl: YOUTUBE,
