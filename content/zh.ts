@@ -92,6 +92,7 @@ export const zh: SiteContent = {
       subtitle: '单行本',
       description: '探讨人工智能时代人类生存战略的著作。',
       youtubeUrl: YOUTUBE,
+      websiteUrl: '/zh/books/ai-survival',
     },
     {
       id: 'book-jeju-serendipity',

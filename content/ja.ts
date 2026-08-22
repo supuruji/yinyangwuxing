@@ -92,6 +92,7 @@ export const ja: SiteContent = {
       subtitle: '単行本',
       description: 'AI時代における人間の生存戦略を探求した著書。',
       youtubeUrl: YOUTUBE,
+      websiteUrl: '/ja/books/ai-survival',
     },
     {
       id: 'book-jeju-serendipity',

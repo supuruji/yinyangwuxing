@@ -92,6 +92,7 @@ export const en: SiteContent = {
       subtitle: 'Book',
       description: 'A book exploring strategies for human survival in the age of artificial intelligence.',
       youtubeUrl: YOUTUBE,
+      websiteUrl: '/en/books/ai-survival',
     },
     {
       id: 'book-jeju-serendipity',
