@@ -9,10 +9,15 @@ interface BookReaderProps {
   locale: string;
   backLabel: string;
   backHref: string;
+  initialChapterId?: string;
 }
 
-export default function BookReader({ book, locale, backLabel, backHref }: BookReaderProps) {
-  const [activeId, setActiveId] = useState(book.chapters[0].id);
+export default function BookReader({ book, locale, backLabel, backHref, initialChapterId }: BookReaderProps) {
+  const initial =
+    initialChapterId && book.chapters.some((c) => c.id === initialChapterId)
+      ? initialChapterId
+      : book.chapters[0].id;
+  const [activeId, setActiveId] = useState(initial);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
 
@@ -186,6 +191,43 @@ export default function BookReader({ book, locale, backLabel, backHref }: BookRe
 
 function BlockRenderer({ block }: { block: BookBlock }) {
   switch (block.type) {
+    case 'table':
+      return (
+        <div className="my-6 overflow-x-auto">
+          <table className="w-full text-sm border-collapse">
+            {block.headers && block.headers.length > 0 && (
+              <thead>
+                <tr>
+                  {block.headers.map((h, i) => (
+                    <th
+                      key={i}
+                      className="border border-gold/30 bg-gold/10 text-gold font-serif px-3 py-2 text-left align-top leading-snug"
+                    >
+                      {h}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+            )}
+            <tbody>
+              {(block.rows ?? []).map((row, ri) => (
+                <tr key={ri}>
+                  {row.map((cell, ci) => (
+                    <td
+                      key={ci}
+                      className={`border border-gold/20 px-3 py-2 align-top leading-relaxed ${
+                        ci === 0 ? 'text-parchment font-medium' : 'text-parchment-muted'
+                      }`}
+                    >
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
     case 'h3':
       return (
         <h3 className="text-xl font-serif text-gold mt-8 mb-3 leading-snug pt-2">
