@@ -9,13 +9,13 @@ export const zhJejuMythPaper: Paper = {
   downloads: [
     { label: '下载摘要幻灯片（PDF）', href: '/papers/jeju-myth-zh.pdf' },
   ],
-  youtubeUrl: 'https://youtube.com/playlist?list=PLW3dzK2lgZM0&si=lH8mdvJuSBJMXD_U',
+  youtubeUrl: 'https://www.youtube.com/playlist?list=PLIOWy1Be-8-k',
   sections: [
-    { code: 'I', title: '引言', chapter: 'intro', youtubeId: 'o8itLecNqe8', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
-    { code: 'II', title: '作为巽他古陆中心地的济州岛', chapter: 'ch2', youtubeId: 'DQk0qUXJQf4', pdfSlug: '02-sundaland', pageStart: 9, pageEnd: 18 },
-    { code: 'III', title: '亚特兰蒂斯神话与济州神话的比较', chapter: 'ch3', youtubeId: '0MJt8HEgHzI', pdfSlug: '03-atlantis', pageStart: 19, pageEnd: 41 },
-    { code: 'IV', title: '君子国与济州神话的比较', chapter: 'ch4', youtubeId: '68cOCNRnFmc', pdfSlug: '04-junja', pageStart: 42, pageEnd: 58 },
-    { code: 'V', title: '结语', chapter: 'ch5', youtubeId: 'jC_bHYMUYLU', pdfSlug: '05-conclusion', pageStart: 59, pageEnd: 61 },
+    { code: 'I', title: '引言', chapter: 'intro', youtubeId: '2TCCX5Pz0Mc', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
+    { code: 'II', title: '作为巽他古陆中心地的济州岛', chapter: 'ch2', youtubeId: 'rlV3l7oBpZ0', pdfSlug: '02-sundaland', pageStart: 9, pageEnd: 18 },
+    { code: 'III', title: '亚特兰蒂斯神话与济州神话的比较', chapter: 'ch3', youtubeId: '0zClOZBKKeY', pdfSlug: '03-atlantis', pageStart: 19, pageEnd: 41 },
+    { code: 'IV', title: '君子国与济州神话的比较', chapter: 'ch4', youtubeId: 'vH1eM9TRyHk', pdfSlug: '04-junja', pageStart: 42, pageEnd: 58 },
+    { code: 'V', title: '结语', chapter: 'ch5', youtubeId: 'aS0c_BCr5UY', pdfSlug: '05-conclusion', pageStart: 59, pageEnd: 61 },
   ],
   chapters: [
     {

@@ -9,13 +9,13 @@ export const jaJejuMythPaper: Paper = {
   downloads: [
     { label: '要約スライド（PDF）をダウンロード', href: '/papers/jeju-myth-ja.pdf' },
   ],
-  youtubeUrl: 'https://youtube.com/playlist?list=PLW3dzK2lgZM0&si=lH8mdvJuSBJMXD_U',
+  youtubeUrl: 'https://www.youtube.com/playlist?list=PLX9Ikms9qREg',
   sections: [
-    { code: 'I', title: 'はじめに', chapter: 'intro', youtubeId: 'o8itLecNqe8', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
-    { code: 'II', title: 'スンダランドの中心地としての済州島', chapter: 'ch2', youtubeId: 'DQk0qUXJQf4', pdfSlug: '02-sundaland', pageStart: 9, pageEnd: 18 },
-    { code: 'III', title: 'アトランティス神話と済州神話の比較', chapter: 'ch3', youtubeId: '0MJt8HEgHzI', pdfSlug: '03-atlantis', pageStart: 19, pageEnd: 41 },
-    { code: 'IV', title: '君子国と済州神話の比較', chapter: 'ch4', youtubeId: '68cOCNRnFmc', pdfSlug: '04-junja', pageStart: 42, pageEnd: 58 },
-    { code: 'V', title: 'おわりに', chapter: 'ch5', youtubeId: 'jC_bHYMUYLU', pdfSlug: '05-conclusion', pageStart: 59, pageEnd: 61 },
+    { code: 'I', title: 'はじめに', chapter: 'intro', youtubeId: 'sP38rxsR8q8', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
+    { code: 'II', title: 'スンダランドの中心地としての済州島', chapter: 'ch2', youtubeId: 'yV3cKOoToCo', pdfSlug: '02-sundaland', pageStart: 9, pageEnd: 18 },
+    { code: 'III', title: 'アトランティス神話と済州神話の比較', chapter: 'ch3', youtubeId: 'yCijU-oB6PU', pdfSlug: '03-atlantis', pageStart: 19, pageEnd: 41 },
+    { code: 'IV', title: '君子国と済州神話の比較', chapter: 'ch4', youtubeId: 'oTxiqyabT-U', pdfSlug: '04-junja', pageStart: 42, pageEnd: 58 },
+    { code: 'V', title: 'おわりに', chapter: 'ch5', youtubeId: 'AUqrWplZED0', pdfSlug: '05-conclusion', pageStart: 59, pageEnd: 61 },
   ],
   chapters: [
     {
