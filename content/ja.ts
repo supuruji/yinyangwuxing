@@ -107,6 +107,7 @@ export const ja: SiteContent = {
       title: 'セレンディピティとしての済州文化',
       subtitle: '単行本 · 済州学叢書 ⑨',
       description: '偶然を成功へ導く力＝セレンディピティの視点から、済州が脚光を浴びる理由を探る済州学の研究書。日本語全訳をオンラインで読めます。（金徳三・崔元爀 共著、2014年）',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLf-LvaN16i7g',
       websiteUrl: '/ja/books/jeju-serendipity',
     },
   ],

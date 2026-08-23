@@ -107,6 +107,7 @@ export const en: SiteContent = {
       title: 'Jeju Culture as Serendipity',
       subtitle: 'Book · Jeju Studies Series ⑨',
       description: 'A Jeju studies work exploring why Jeju draws the spotlight, seen through serendipity — the power to turn chance into success. Full English translation, readable online. (Kim Deok-sam & Choi Won-hyeok, 2014)',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLfLEfE_wQTqs',
       websiteUrl: '/en/books/jeju-serendipity',
     },
   ],

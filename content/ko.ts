@@ -242,6 +242,7 @@ export const ko: SiteContent = {
       title: '세렌디피티로서의 제주문화',
       subtitle: '단행본 · 제주학총서 ⑨',
       description: '제주가 각광받는 이유를 세렌디피티(우연을 성공으로 이끄는 힘)의 관점에서 탐구한 제주학 연구서입니다. (김덕삼·최원혁 공저, 2014)',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN_V_IRxyxJonhOIHVX22r66',
       websiteUrl: '/ko/books/jeju-serendipity',
     },
     // 단행본을 추가하려면 아래 형식으로 항목을 추가하세요:
