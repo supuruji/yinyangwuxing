@@ -17,6 +17,7 @@ interface Labels {
   playlist: string;
   fullPresentation: string;
   fullBook: string;
+  overview?: string;
 }
 
 interface Props {
@@ -28,6 +29,8 @@ interface Props {
   fullBookUrl: string;
   labels: Labels;
   groupLabel: (group: string) => string;
+  /** whole-book overview video (optional; shown as a top button when set) */
+  overviewUrl?: string;
 }
 
 function groupCards(cards: BookOutlineCard[]): BookOutlineCard[][] {
@@ -52,12 +55,24 @@ export default function BookOutline({
   fullBookUrl,
   labels,
   groupLabel,
+  overviewUrl,
 }: Props) {
   const groups = groupCards(cards);
 
   return (
     <div className="space-y-10">
       <div className="flex flex-wrap items-center gap-3">
+        {overviewUrl && isSpecificYoutube(overviewUrl) && labels.overview && (
+          <a
+            href={overviewUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-crimson/80 hover:bg-crimson text-parchment text-sm rounded transition-colors"
+          >
+            <YoutubeIcon />
+            {labels.overview}
+          </a>
+        )}
         {isSpecificYoutube(playlistUrl) && (
           <a
             href={playlistUrl}

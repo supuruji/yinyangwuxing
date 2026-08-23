@@ -1,11 +1,10 @@
 // Card outline for the book "jeju-serendipity" — mirrors the ai-survival card UI.
 // The presentation deck is organized into 5 sections (parts Ⅰ–Ⅴ); each card links
 // to a YouTube video, the section's slide-deck PDF, and the on-site reader (opening
-// at the first chapter of that part).
+// at the first chapter of that part). A separate overview video covers the whole book.
 //
-// Videos are per LANGUAGE (Korean already exists; English/Chinese/Japanese are newly
-// produced), so youtubeIds is keyed by locale. Empty id → the YouTube button stays
-// hidden until that locale's section video is uploaded.
+// Videos are per LANGUAGE (Korean, English, Chinese, Japanese), each with its own
+// YouTube playlist, so youtubeIds is keyed by locale.
 
 export interface JejuOutlineItem {
   /** short code shown on the card badge (Roman section numeral) */
@@ -22,12 +21,10 @@ export interface JejuOutlineItem {
   titles: Record<string, string>;
 }
 
-const NO_IDS = { ko: '', en: '', zh: '', ja: '' };
-
 export const JEJU_OUTLINE: JejuOutlineItem[] = [
   {
     code: 'Ⅰ', chapter: '1-1', group: 'sections', pdfSlug: '01-understanding',
-    youtubeIds: { ...NO_IDS },
+    youtubeIds: { ko: '6uBuU2gwUM0', en: 'O03tZ8bieVU', zh: 'AtsZsSA6pl0', ja: 'an-QeR1G4M4' },
     titles: {
       ko: 'Ⅰ. 세렌디피티의 이해',
       en: 'Ⅰ. Understanding Serendipity',
@@ -37,7 +34,7 @@ export const JEJU_OUTLINE: JejuOutlineItem[] = [
   },
   {
     code: 'Ⅱ', chapter: '2-1', group: 'sections', pdfSlug: '02-expansion',
-    youtubeIds: { ...NO_IDS },
+    youtubeIds: { ko: '9YrRjbH_yX8', en: 'USw_LBfNOfs', zh: 'czbvzOWAq0c', ja: 'CMF4arSpCyM' },
     titles: {
       ko: 'Ⅱ. 세렌디피티의 확장',
       en: 'Ⅱ. The Expansion of Serendipity',
@@ -47,7 +44,7 @@ export const JEJU_OUTLINE: JejuOutlineItem[] = [
   },
   {
     code: 'Ⅲ', chapter: '3-1', group: 'sections', pdfSlug: '03-regional-culture',
-    youtubeIds: { ...NO_IDS },
+    youtubeIds: { ko: 'pWKjYQoByDY', en: '7T4lHOFBeGE', zh: 'jommjCexCRw', ja: 'Psenp9XdJLg' },
     titles: {
       ko: 'Ⅲ. 나, 여기, 지금으로서의 세렌디피티와 지역문화',
       en: 'Ⅲ. Serendipity as I, Here, Now, and Local Culture',
@@ -57,7 +54,7 @@ export const JEJU_OUTLINE: JejuOutlineItem[] = [
   },
   {
     code: 'Ⅳ', chapter: '4-1', group: 'sections', pdfSlug: '04-jeju-culture',
-    youtubeIds: { ...NO_IDS },
+    youtubeIds: { ko: 'f8sllDYGDmI', en: 'WLyvkYzsGec', zh: 'iEYU7YfZ57g', ja: 'vLH0UN4VdS4' },
     titles: {
       ko: 'Ⅳ. 나, 여기, 지금으로서의 세렌디피티와 제주문화',
       en: 'Ⅳ. Serendipity as I, Here, Now, and Jeju Culture',
@@ -67,7 +64,7 @@ export const JEJU_OUTLINE: JejuOutlineItem[] = [
   },
   {
     code: 'Ⅴ', chapter: '5-1', group: 'sections', pdfSlug: '05-jeju-creation',
-    youtubeIds: { ...NO_IDS },
+    youtubeIds: { ko: 'uiuZa4xyKVQ', en: 'Qf0MMdkrRfE', zh: '3zS-bKrCaJk', ja: 'cYhQL583UEQ' },
     titles: {
       ko: 'Ⅴ. 나, 여기, 지금으로서의 세렌디피티와 제주문화 창조',
       en: 'Ⅴ. Serendipity as I, Here, Now, and the Creation of Jeju Culture',
@@ -84,12 +81,19 @@ export const JEJU_GROUP_LABELS: Record<string, Record<string, string>> = {
   ja: { sections: '節別発表 (Ⅰ–Ⅴ)' },
 };
 
-/** Fallback channel when a locale has no dedicated playlist yet. */
+/** Whole-book overview video, per locale (shown as a top "개요 영상" button). */
+export const JEJU_OVERVIEW_IDS: Record<string, string> = {
+  ko: 'fJtk1R0QvQY', en: 'fQfmSgxCMb4', zh: '8X6eGduY-lY', ja: 'lZwyQ_F0NCI',
+};
+
+/** Fallback channel when a locale has no dedicated playlist. */
 export const JEJU_CHANNEL =
   'https://www.youtube.com/@%EC%B5%9C%EC%9B%90%ED%98%81-b3r';
 
-/** Per-locale YouTube playlist (empty → JEJU_CHANNEL; a bare channel URL keeps the
- *  top "playlist" button hidden until a real playlist/video link is provided). */
+/** Per-locale YouTube playlist (한·영·중·일). */
 export const JEJU_PLAYLISTS: Record<string, string> = {
-  ko: '', en: '', zh: '', ja: '',
+  ko: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN_V_IRxyxJonhOIHVX22r66',
+  en: 'https://www.youtube.com/playlist?list=PLfLEfE_wQTqs',
+  zh: 'https://www.youtube.com/playlist?list=PLKq33i8Hqfjo',
+  ja: 'https://www.youtube.com/playlist?list=PLf-LvaN16i7g',
 };

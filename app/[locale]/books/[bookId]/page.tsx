@@ -5,7 +5,7 @@ import { enAiSurvivalBook } from '@/content/books/en-ai-survival';
 import { zhAiSurvivalBook } from '@/content/books/zh-ai-survival';
 import { jaAiSurvivalBook } from '@/content/books/ja-ai-survival';
 import { AI_SURVIVAL_OUTLINE, AI_SURVIVAL_PLAYLIST } from '@/content/books/ai-survival-outline';
-import { JEJU_OUTLINE, JEJU_PLAYLISTS, JEJU_CHANNEL, JEJU_GROUP_LABELS } from '@/content/books/jeju-serendipity-outline';
+import { JEJU_OUTLINE, JEJU_PLAYLISTS, JEJU_CHANNEL, JEJU_GROUP_LABELS, JEJU_OVERVIEW_IDS } from '@/content/books/jeju-serendipity-outline';
 import { koJejuSerendipityBook } from '@/content/books/ko-jeju-serendipity';
 import { enJejuSerendipityBook } from '@/content/books/en-jeju-serendipity';
 import { zhJejuSerendipityBook } from '@/content/books/zh-jeju-serendipity';
@@ -74,25 +74,30 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const OUTLINE_LABELS: Record<string, {
   watchYoutube: string; openPdf: string; readOnSite: string;
   playlist: string; fullPresentation: string; fullBook: string; intro: string;
+  overview?: string;
 }> = {
   ko: {
     watchYoutube: '유튜브', openPdf: '발표', readOnSite: '본문',
     playlist: '유튜브 재생목록 전체보기', fullPresentation: '발표PDF 전체보기', fullBook: '처음부터 읽기',
+    overview: '개요 영상',
     intro: '유튜브 영상 · 발표 PDF · 본문 리더를 한 카드에서 열람하세요. 각 장·절이 유튜브 영상과 1:1로 연결됩니다.',
   },
   en: {
     watchYoutube: 'YouTube', openPdf: 'Slides', readOnSite: 'Read',
     playlist: 'Open full YouTube playlist', fullPresentation: 'Open full presentation PDF', fullBook: 'Read from the start',
+    overview: 'Overview video',
     intro: 'Each card links to a YouTube video, a slide-deck PDF, and the on-site chapter reader. Every chapter maps one-to-one to a video.',
   },
   zh: {
     watchYoutube: 'YouTube', openPdf: '发表', readOnSite: '正文',
     playlist: 'YouTube 播放列表全览', fullPresentation: '发表PDF全览', fullBook: '从头阅读',
+    overview: '概述视频',
     intro: '每张卡片链接到 YouTube 视频、发表 PDF 及站内正文阅读器。各章·节与视频一一对应。',
   },
   ja: {
     watchYoutube: 'YouTube', openPdf: '発表', readOnSite: '本文',
     playlist: 'YouTube 再生リスト全体を開く', fullPresentation: '発表PDF全体を開く', fullBook: '最初から読む',
+    overview: '概要動画',
     intro: '各カードから YouTube 動画・発表 PDF・本文リーダーを開けます。各章・節が動画と 1:1 で対応します。',
   },
 };
@@ -190,6 +195,11 @@ export default async function BookPage({ params, searchParams }: Props) {
       ? (JEJU_GROUP_LABELS[locale] ?? JEJU_GROUP_LABELS.en)
       : groupMap;
   const firstChapterId = book.chapters[0]?.id ?? '';
+  const listId = playlist.split('list=')[1] ?? '';
+  const overviewId = bookId === 'jeju-serendipity' ? (JEJU_OVERVIEW_IDS[locale] ?? '') : '';
+  const overviewUrl = overviewId
+    ? `https://www.youtube.com/watch?v=${overviewId}${listId ? `&list=${listId}` : ''}`
+    : '';
   const titleById = new Map(book.chapters.map((c) => [c.id, c.title]));
   const cards: BookOutlineCard[] = outline.map((it) => {
     const vid = it.youtubeIds?.[locale] ?? it.youtubeId ?? '';
@@ -226,6 +236,7 @@ export default async function BookPage({ params, searchParams }: Props) {
         bookId={bookId}
         cards={cards}
         playlistUrl={playlist}
+        overviewUrl={overviewUrl}
         fullPresentationUrl={`/pdf/books/${bookId}/${locale}/presentation.pdf`}
         fullBookUrl={`/${locale}/books/${bookId}?read=${firstChapterId}`}
         labels={ui}
