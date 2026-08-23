@@ -83,7 +83,7 @@ export const zh: SiteContent = {
       title: '作为世界神话的济州神话之可能性研究',
       subtitle: '会议论文',
       description: '本文以亚特兰蒂斯神话为中心，透过巽他古陆、《符都志》与君子国文献，探讨济州神话作为世界原型神话的可能性。',
-      youtubeUrl: 'https://youtube.com/playlist?list=PLW3dzK2lgZM0&si=lH8mdvJuSBJMXD_U',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLIOWy1Be-8-k',
       websiteUrl: '/zh/papers/jeju-myth',
     },
     {

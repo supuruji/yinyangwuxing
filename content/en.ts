@@ -83,7 +83,7 @@ export const en: SiteContent = {
       title: 'A Study on the Possibility of Jeju Mythology as World Mythology',
       subtitle: 'Conference Paper',
       description: 'Centering on the Atlantis myth, this paper explores the possibility of Jeju mythology as a global archetypal mythology through Sundaland, the Budoji, and the Land-of-the-Gentlemen (Gunjaguk) sources.',
-      youtubeUrl: 'https://youtube.com/playlist?list=PLW3dzK2lgZM0&si=lH8mdvJuSBJMXD_U',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLff-b7nMmy50',
       websiteUrl: '/en/papers/jeju-myth',
     },
     {

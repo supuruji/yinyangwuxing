@@ -83,7 +83,7 @@ export const ja: SiteContent = {
       title: '世界神話としての済州神話の可能性に関する研究',
       subtitle: '発表論文',
       description: 'アトランティス神話を中心に、スンダランド・『符都誌』・君子国の文献を通じて、済州神話が世界の原型神話となりうる可能性を探った論文。',
-      youtubeUrl: 'https://youtube.com/playlist?list=PLW3dzK2lgZM0&si=lH8mdvJuSBJMXD_U',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLX9Ikms9qREg',
       websiteUrl: '/ja/papers/jeju-myth',
     },
     {
