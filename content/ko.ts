@@ -67,7 +67,7 @@ export const ko: SiteContent = {
       title: '663년 백촌강 전투의 동양 천문학적 의의',
       subtitle: '발표논문',
       description: '삼기능체계로 동양천문학을 읽어, 최초의 갑자(계해년 갑자월 갑자일 갑자시)인 663년 동지의 오성취루와 백촌강 전투가 갖는 천문학적·역사적 의의를 밝힌 발표논문입니다.',
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN-KuvpeGhV88_gRj61UCP4_',
       websiteUrl: '/ko/papers/baekgang-663',
     },
     {

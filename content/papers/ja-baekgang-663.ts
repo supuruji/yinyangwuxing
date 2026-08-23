@@ -13,13 +13,13 @@ export const jaBaekgang663Paper: Paper = {
       "href": "/pdf/papers/baekgang-663/ja/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/@%EC%B5%9C%EC%9B%90%ED%98%81-b3r",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLL3m0fhP-3JU",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "三機能体系としての東洋天文学",
       "chapter": "ch1",
-      "youtubeId": "",
+      "youtubeId": "Suwh65zZMTc",
       "pdfSlug": "01-trifunctional-astronomy",
       "pageStart": 1,
       "pageEnd": 6
@@ -28,7 +28,7 @@ export const jaBaekgang663Paper: Paper = {
       "code": "Ⅱ",
       "title": "東アジア三機能体系の変遷",
       "chapter": "ch2",
-      "youtubeId": "",
+      "youtubeId": "eYain7v19fY",
       "pdfSlug": "02-transformation",
       "pageStart": 7,
       "pageEnd": 14
@@ -37,7 +37,7 @@ export const jaBaekgang663Paper: Paper = {
       "code": "Ⅲ",
       "title": "東洋天文学における663年の意味",
       "chapter": "ch3",
-      "youtubeId": "",
+      "youtubeId": "z-1X-W0axT0",
       "pdfSlug": "03-663-meaning",
       "pageStart": 15,
       "pageEnd": 17
@@ -46,7 +46,7 @@ export const jaBaekgang663Paper: Paper = {
       "code": "Ⅳ",
       "title": "663年白村江の戦いの三機能体系としての意義",
       "chapter": "ch4",
-      "youtubeId": "",
+      "youtubeId": "L9G-CCtjWkk",
       "pdfSlug": "04-baekgang-significance",
       "pageStart": 18,
       "pageEnd": 23

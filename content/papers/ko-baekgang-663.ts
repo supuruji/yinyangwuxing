@@ -13,13 +13,13 @@ export const koBaekgang663Paper: Paper = {
       "href": "/pdf/papers/baekgang-663/ko/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/@%EC%B5%9C%EC%9B%90%ED%98%81-b3r",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLw9IxWay4JN-KuvpeGhV88_gRj61UCP4_",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "삼기능체계로서의 동양천문학",
       "chapter": "ch1",
-      "youtubeId": "",
+      "youtubeId": "7jNcPDpINo8",
       "pdfSlug": "01-trifunctional-astronomy",
       "pageStart": 1,
       "pageEnd": 6
@@ -28,7 +28,7 @@ export const koBaekgang663Paper: Paper = {
       "code": "Ⅱ",
       "title": "동아시아 삼기능체계의 변천",
       "chapter": "ch2",
-      "youtubeId": "",
+      "youtubeId": "mtBUIowMQZI",
       "pdfSlug": "02-transformation",
       "pageStart": 7,
       "pageEnd": 14
@@ -37,7 +37,7 @@ export const koBaekgang663Paper: Paper = {
       "code": "Ⅲ",
       "title": "동양 천문학에서 663년의 의미",
       "chapter": "ch3",
-      "youtubeId": "",
+      "youtubeId": "JFltcr-Hufg",
       "pdfSlug": "03-663-meaning",
       "pageStart": 15,
       "pageEnd": 17
@@ -46,7 +46,7 @@ export const koBaekgang663Paper: Paper = {
       "code": "Ⅳ",
       "title": "663년 백촌강 전투의 삼기능체계로서의 의의",
       "chapter": "ch4",
-      "youtubeId": "",
+      "youtubeId": "cNLLzUrIsnk",
       "pdfSlug": "04-baekgang-significance",
       "pageStart": 18,
       "pageEnd": 23

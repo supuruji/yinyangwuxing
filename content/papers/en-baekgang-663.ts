@@ -13,13 +13,13 @@ export const enBaekgang663Paper: Paper = {
       "href": "/pdf/papers/baekgang-663/en/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/@%EC%B5%9C%EC%9B%90%ED%98%81-b3r",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLTiBLx84dYtU",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "East Asian Astronomy as a Trifunctional System",
       "chapter": "ch1",
-      "youtubeId": "",
+      "youtubeId": "wCTzF0FFZYA",
       "pdfSlug": "01-trifunctional-astronomy",
       "pageStart": 1,
       "pageEnd": 6
@@ -28,7 +28,7 @@ export const enBaekgang663Paper: Paper = {
       "code": "Ⅱ",
       "title": "The Transformation of the East Asian Trifunctional System",
       "chapter": "ch2",
-      "youtubeId": "",
+      "youtubeId": "RhclbVrhS_w",
       "pdfSlug": "02-transformation",
       "pageStart": 7,
       "pageEnd": 14
@@ -37,7 +37,7 @@ export const enBaekgang663Paper: Paper = {
       "code": "Ⅲ",
       "title": "The Meaning of the Year 663 in East Asian Astronomy",
       "chapter": "ch3",
-      "youtubeId": "",
+      "youtubeId": "y8_55fxO6C8",
       "pdfSlug": "03-663-meaning",
       "pageStart": 15,
       "pageEnd": 17
@@ -46,7 +46,7 @@ export const enBaekgang663Paper: Paper = {
       "code": "Ⅳ",
       "title": "The Significance of the 663 Battle of Baekchon River as a Trifunctional System",
       "chapter": "ch4",
-      "youtubeId": "",
+      "youtubeId": "KRBV3N4PKZo",
       "pdfSlug": "04-baekgang-significance",
       "pageStart": 18,
       "pageEnd": 23

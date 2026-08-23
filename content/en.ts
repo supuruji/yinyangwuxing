@@ -67,7 +67,7 @@ export const en: SiteContent = {
       title: 'The East Asian Astronomical Significance of the 663 Battle of Baekchon River',
       subtitle: 'Conference Paper',
       description: 'Reading East Asian astronomy through the trifunctional system, this paper reveals the astronomical and historical significance of the five-planet alignment (Oseongchwiru) at the 663 winter solstice — the first Gapja (Gyehae year, Gapja month, day, and hour) — and of the Battle of Baekchon River.',
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLTiBLx84dYtU',
       websiteUrl: '/en/papers/baekgang-663',
     },
     {
