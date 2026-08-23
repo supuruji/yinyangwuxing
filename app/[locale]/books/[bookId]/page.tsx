@@ -5,7 +5,7 @@ import { enAiSurvivalBook } from '@/content/books/en-ai-survival';
 import { zhAiSurvivalBook } from '@/content/books/zh-ai-survival';
 import { jaAiSurvivalBook } from '@/content/books/ja-ai-survival';
 import { AI_SURVIVAL_OUTLINE, AI_SURVIVAL_PLAYLIST } from '@/content/books/ai-survival-outline';
-import { JEJU_OUTLINE, JEJU_PLAYLIST, JEJU_GROUP_LABELS } from '@/content/books/jeju-serendipity-outline';
+import { JEJU_OUTLINE, JEJU_PLAYLISTS, JEJU_CHANNEL, JEJU_GROUP_LABELS } from '@/content/books/jeju-serendipity-outline';
 import { koJejuSerendipityBook } from '@/content/books/ko-jeju-serendipity';
 import { enJejuSerendipityBook } from '@/content/books/en-jeju-serendipity';
 import { zhJejuSerendipityBook } from '@/content/books/zh-jeju-serendipity';
@@ -29,7 +29,9 @@ const HAS_OUTLINE: Record<string, boolean> = { 'ai-survival': true, 'jeju-serend
 // Shared shape for a card outline item (jeju items additionally carry per-locale
 // `titles`; ai-survival items pull their title from the localized Book chapter).
 type OutlineItem = {
-  code: string; chapter: string; group: string; pdfSlug: string; youtubeId: string;
+  code: string; chapter: string; group: string; pdfSlug: string;
+  youtubeId?: string;                       // ai-survival: single per-section id
+  youtubeIds?: Record<string, string>;      // jeju: per-locale ids
   titles?: Record<string, string>;
 };
 
@@ -37,10 +39,12 @@ const OUTLINE_BY_BOOK: Record<string, OutlineItem[]> = {
   'ai-survival': AI_SURVIVAL_OUTLINE,
   'jeju-serendipity': JEJU_OUTLINE,
 };
-const PLAYLIST_BY_BOOK: Record<string, string> = {
-  'ai-survival': AI_SURVIVAL_PLAYLIST,
-  'jeju-serendipity': JEJU_PLAYLIST,
-};
+
+// Resolve the playlist/channel URL for a book+locale.
+function playlistFor(bookId: string, locale: string): string {
+  if (bookId === 'jeju-serendipity') return JEJU_PLAYLISTS[locale] || JEJU_CHANNEL;
+  return AI_SURVIVAL_PLAYLIST;
+}
 
 function getBook(locale: string, bookId: string): Book | undefined {
   return (BOOKS_BY_LOCALE[locale] ?? BOOKS_BY_LOCALE.ko)[bookId];
@@ -180,23 +184,26 @@ export default async function BookPage({ params, searchParams }: Props) {
 
   // Card landing view
   const outline = OUTLINE_BY_BOOK[bookId] ?? AI_SURVIVAL_OUTLINE;
-  const playlist = PLAYLIST_BY_BOOK[bookId] ?? AI_SURVIVAL_PLAYLIST;
+  const playlist = playlistFor(bookId, locale);
   const outlineGroupMap =
     bookId === 'jeju-serendipity'
       ? (JEJU_GROUP_LABELS[locale] ?? JEJU_GROUP_LABELS.en)
       : groupMap;
   const firstChapterId = book.chapters[0]?.id ?? '';
   const titleById = new Map(book.chapters.map((c) => [c.id, c.title]));
-  const cards: BookOutlineCard[] = outline.map((it) => ({
-    code: it.code,
-    title: it.titles?.[locale] ?? titleById.get(it.chapter) ?? it.chapter,
-    chapter: it.chapter,
-    group: it.group,
-    youtubeUrl: it.youtubeId
-      ? `https://www.youtube.com/watch?v=${it.youtubeId}&list=${playlist.split('list=')[1] ?? ''}`
-      : playlist,
-    pdfPath: `/pdf/books/${bookId}/${locale}/${it.pdfSlug}.pdf`,
-  }));
+  const cards: BookOutlineCard[] = outline.map((it) => {
+    const vid = it.youtubeIds?.[locale] ?? it.youtubeId ?? '';
+    return {
+      code: it.code,
+      title: it.titles?.[locale] ?? titleById.get(it.chapter) ?? it.chapter,
+      chapter: it.chapter,
+      group: it.group,
+      youtubeUrl: vid
+        ? `https://www.youtube.com/watch?v=${vid}&list=${playlist.split('list=')[1] ?? ''}`
+        : playlist,
+      pdfPath: `/pdf/books/${bookId}/${locale}/${it.pdfSlug}.pdf`,
+    };
+  });
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">

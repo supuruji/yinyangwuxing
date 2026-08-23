@@ -1,8 +1,11 @@
 // Card outline for the book "jeju-serendipity" — mirrors the ai-survival card UI.
 // The presentation deck is organized into 5 sections (parts Ⅰ–Ⅴ); each card links
 // to a YouTube video, the section's slide-deck PDF, and the on-site reader (opening
-// at the first chapter of that part). youtubeId is filled per section once the
-// section videos are uploaded (empty → the YouTube button stays hidden).
+// at the first chapter of that part).
+//
+// Videos are per LANGUAGE (Korean already exists; English/Chinese/Japanese are newly
+// produced), so youtubeIds is keyed by locale. Empty id → the YouTube button stays
+// hidden until that locale's section video is uploaded.
 
 export interface JejuOutlineItem {
   /** short code shown on the card badge (Roman section numeral) */
@@ -13,15 +16,18 @@ export interface JejuOutlineItem {
   group: string;
   /** presentation PDF basename under /pdf/books/jeju-serendipity/<locale>/ */
   pdfSlug: string;
-  /** per-section YouTube video id (empty → falls back to the playlist URL) */
-  youtubeId: string;
+  /** per-locale YouTube video id (empty → falls back to the locale playlist) */
+  youtubeIds: Record<string, string>;
   /** localized card title (the section/part name; not a single reader chapter) */
   titles: Record<string, string>;
 }
 
+const NO_IDS = { ko: '', en: '', zh: '', ja: '' };
+
 export const JEJU_OUTLINE: JejuOutlineItem[] = [
   {
-    code: 'Ⅰ', chapter: '1-1', group: 'sections', pdfSlug: '01-understanding', youtubeId: '',
+    code: 'Ⅰ', chapter: '1-1', group: 'sections', pdfSlug: '01-understanding',
+    youtubeIds: { ...NO_IDS },
     titles: {
       ko: 'Ⅰ. 세렌디피티의 이해',
       en: 'Ⅰ. Understanding Serendipity',
@@ -30,7 +36,8 @@ export const JEJU_OUTLINE: JejuOutlineItem[] = [
     },
   },
   {
-    code: 'Ⅱ', chapter: '2-1', group: 'sections', pdfSlug: '02-expansion', youtubeId: '',
+    code: 'Ⅱ', chapter: '2-1', group: 'sections', pdfSlug: '02-expansion',
+    youtubeIds: { ...NO_IDS },
     titles: {
       ko: 'Ⅱ. 세렌디피티의 확장',
       en: 'Ⅱ. The Expansion of Serendipity',
@@ -39,7 +46,8 @@ export const JEJU_OUTLINE: JejuOutlineItem[] = [
     },
   },
   {
-    code: 'Ⅲ', chapter: '3-1', group: 'sections', pdfSlug: '03-regional-culture', youtubeId: '',
+    code: 'Ⅲ', chapter: '3-1', group: 'sections', pdfSlug: '03-regional-culture',
+    youtubeIds: { ...NO_IDS },
     titles: {
       ko: 'Ⅲ. 나, 여기, 지금으로서의 세렌디피티와 지역문화',
       en: 'Ⅲ. Serendipity as I, Here, Now, and Local Culture',
@@ -48,7 +56,8 @@ export const JEJU_OUTLINE: JejuOutlineItem[] = [
     },
   },
   {
-    code: 'Ⅳ', chapter: '4-1', group: 'sections', pdfSlug: '04-jeju-culture', youtubeId: '',
+    code: 'Ⅳ', chapter: '4-1', group: 'sections', pdfSlug: '04-jeju-culture',
+    youtubeIds: { ...NO_IDS },
     titles: {
       ko: 'Ⅳ. 나, 여기, 지금으로서의 세렌디피티와 제주문화',
       en: 'Ⅳ. Serendipity as I, Here, Now, and Jeju Culture',
@@ -57,7 +66,8 @@ export const JEJU_OUTLINE: JejuOutlineItem[] = [
     },
   },
   {
-    code: 'Ⅴ', chapter: '5-1', group: 'sections', pdfSlug: '05-jeju-creation', youtubeId: '',
+    code: 'Ⅴ', chapter: '5-1', group: 'sections', pdfSlug: '05-jeju-creation',
+    youtubeIds: { ...NO_IDS },
     titles: {
       ko: 'Ⅴ. 나, 여기, 지금으로서의 세렌디피티와 제주문화 창조',
       en: 'Ⅴ. Serendipity as I, Here, Now, and the Creation of Jeju Culture',
@@ -74,7 +84,12 @@ export const JEJU_GROUP_LABELS: Record<string, Record<string, string>> = {
   ja: { sections: '節別発表 (Ⅰ–Ⅴ)' },
 };
 
-/** YouTube playlist for the book (per-card youtubeId links resolve within it).
- *  Placeholder channel until the Korean/EN/ZH/JA section playlists are provided. */
-export const JEJU_PLAYLIST =
+/** Fallback channel when a locale has no dedicated playlist yet. */
+export const JEJU_CHANNEL =
   'https://www.youtube.com/@%EC%B5%9C%EC%9B%90%ED%98%81-b3r';
+
+/** Per-locale YouTube playlist (empty → JEJU_CHANNEL; a bare channel URL keeps the
+ *  top "playlist" button hidden until a real playlist/video link is provided). */
+export const JEJU_PLAYLISTS: Record<string, string> = {
+  ko: '', en: '', zh: '', ja: '',
+};
