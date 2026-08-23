@@ -75,7 +75,7 @@ export const zh: SiteContent = {
       title: '在基督教与伊斯兰教之间寻求对话',
       subtitle: '会议论文',
       description: '本发表论文以阴阳五行为基础的大巡真理宗教循环论为依据，借助儒教与佛教为中介，探索基督教与伊斯兰教之间对话的可能性。',
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLem_5GS1xkbU',
       websiteUrl: '/zh/papers/search-for-dialogue',
     },
     {

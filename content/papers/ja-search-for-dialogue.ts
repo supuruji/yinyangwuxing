@@ -12,13 +12,13 @@ export const jaSearchForDialoguePaper: Paper = {
       "href": "/pdf/papers/search-for-dialogue/ja/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/@%EC%B5%9C%EC%9B%90%ED%98%81-b3r",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLaR4liIoO26s",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "序論",
       "chapter": "intro",
-      "youtubeId": "",
+      "youtubeId": "FON6ahbNfrw",
       "pdfSlug": "01-intro",
       "pageStart": 1,
       "pageEnd": 4
@@ -27,7 +27,7 @@ export const jaSearchForDialoguePaper: Paper = {
       "code": "Ⅱ",
       "title": "イスラム教と東アジアの宗教との比較",
       "chapter": "ch2",
-      "youtubeId": "",
+      "youtubeId": "4BifpEhOqdM",
       "pdfSlug": "02-comparison",
       "pageStart": 5,
       "pageEnd": 14
@@ -36,7 +36,7 @@ export const jaSearchForDialoguePaper: Paper = {
       "code": "Ⅲ",
       "title": "東アジアの宗教循環観",
       "chapter": "ch3",
-      "youtubeId": "",
+      "youtubeId": "GhbB3kAxazo",
       "pdfSlug": "03-circulation",
       "pageStart": 15,
       "pageEnd": 19
@@ -45,7 +45,7 @@ export const jaSearchForDialoguePaper: Paper = {
       "code": "Ⅳ",
       "title": "東アジアの宗教を通じたイスラム教とキリスト教の対話",
       "chapter": "ch4",
-      "youtubeId": "",
+      "youtubeId": "M-bX8vAaR18",
       "pdfSlug": "04-dialogue",
       "pageStart": 20,
       "pageEnd": 22
@@ -54,7 +54,7 @@ export const jaSearchForDialoguePaper: Paper = {
       "code": "Ⅴ",
       "title": "結論",
       "chapter": "ch5",
-      "youtubeId": "",
+      "youtubeId": "vmoFMw2owqI",
       "pdfSlug": "05-conclusion",
       "pageStart": 23,
       "pageEnd": 24

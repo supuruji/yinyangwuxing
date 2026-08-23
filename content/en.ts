@@ -75,7 +75,7 @@ export const en: SiteContent = {
       title: 'Search for Dialogue between Christianity and Islam',
       subtitle: 'Conference Paper',
       description: "A conference paper exploring the possibility of dialogue between Christianity and Islam mediated through Confucianism and Buddhism, drawing on Daesoon Jinri's theory of religion circulation based on Yin-Yang and the Five Elements.",
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLK19Fw9ZnrqI',
       websiteUrl: '/en/papers/search-for-dialogue',
     },
     {

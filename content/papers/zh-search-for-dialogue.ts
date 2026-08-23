@@ -12,13 +12,13 @@ export const zhSearchForDialoguePaper: Paper = {
       "href": "/pdf/papers/search-for-dialogue/zh/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/@%EC%B5%9C%EC%9B%90%ED%98%81-b3r",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLem_5GS1xkbU",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "引言",
       "chapter": "intro",
-      "youtubeId": "",
+      "youtubeId": "foilQUM7Sks",
       "pdfSlug": "01-intro",
       "pageStart": 1,
       "pageEnd": 4
@@ -27,7 +27,7 @@ export const zhSearchForDialoguePaper: Paper = {
       "code": "Ⅱ",
       "title": "伊斯兰教与东亚宗教的比较",
       "chapter": "ch2",
-      "youtubeId": "",
+      "youtubeId": "IKIYjiJ_s8U",
       "pdfSlug": "02-comparison",
       "pageStart": 5,
       "pageEnd": 14
@@ -36,7 +36,7 @@ export const zhSearchForDialoguePaper: Paper = {
       "code": "Ⅲ",
       "title": "东亚的宗教循环观",
       "chapter": "ch3",
-      "youtubeId": "",
+      "youtubeId": "xoPZx6T6Pkw",
       "pdfSlug": "03-circulation",
       "pageStart": 15,
       "pageEnd": 19
@@ -45,7 +45,7 @@ export const zhSearchForDialoguePaper: Paper = {
       "code": "Ⅳ",
       "title": "借助东亚宗教在伊斯兰教与基督教之间展开的对话",
       "chapter": "ch4",
-      "youtubeId": "",
+      "youtubeId": "GeodnUVnf3w",
       "pdfSlug": "04-dialogue",
       "pageStart": 20,
       "pageEnd": 22
@@ -54,7 +54,7 @@ export const zhSearchForDialoguePaper: Paper = {
       "code": "Ⅴ",
       "title": "结论",
       "chapter": "ch5",
-      "youtubeId": "",
+      "youtubeId": "9l-bW5hdXb8",
       "pdfSlug": "05-conclusion",
       "pageStart": 23,
       "pageEnd": 24

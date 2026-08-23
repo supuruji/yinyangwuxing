@@ -75,7 +75,7 @@ export const ko: SiteContent = {
       title: 'Search for Dialogue',
       subtitle: '발표논문',
       description: '음양오행에 기반한 대순진리의 종교 순환론으로, 유교·불교를 매개 삼아 기독교와 이슬람의 대화 가능성을 모색한 발표논문입니다.',
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLObdwEym8K1c',
       websiteUrl: '/ko/papers/search-for-dialogue',
     },
     {

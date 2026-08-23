@@ -12,13 +12,13 @@ export const enSearchForDialoguePaper: Paper = {
       "href": "/pdf/papers/search-for-dialogue/en/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/@%EC%B5%9C%EC%9B%90%ED%98%81-b3r",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLK19Fw9ZnrqI",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "Introduction",
       "chapter": "intro",
-      "youtubeId": "",
+      "youtubeId": "Ks04cDdHZiU",
       "pdfSlug": "01-intro",
       "pageStart": 1,
       "pageEnd": 4
@@ -27,7 +27,7 @@ export const enSearchForDialoguePaper: Paper = {
       "code": "Ⅱ",
       "title": "Comparison with Islam and East Asian religion",
       "chapter": "ch2",
-      "youtubeId": "",
+      "youtubeId": "_cnJZEeWIuE",
       "pdfSlug": "02-comparison",
       "pageStart": 5,
       "pageEnd": 14
@@ -36,7 +36,7 @@ export const enSearchForDialoguePaper: Paper = {
       "code": "Ⅲ",
       "title": "East Asian view of religion circulation",
       "chapter": "ch3",
-      "youtubeId": "",
+      "youtubeId": "UJWgoE3FMBY",
       "pdfSlug": "03-circulation",
       "pageStart": 15,
       "pageEnd": 19
@@ -45,7 +45,7 @@ export const enSearchForDialoguePaper: Paper = {
       "code": "Ⅳ",
       "title": "A dialogue through East Asian religion between Islam and Christianity",
       "chapter": "ch4",
-      "youtubeId": "",
+      "youtubeId": "rxg8uZ7xJBU",
       "pdfSlug": "04-dialogue",
       "pageStart": 20,
       "pageEnd": 22
@@ -54,7 +54,7 @@ export const enSearchForDialoguePaper: Paper = {
       "code": "Ⅴ",
       "title": "Conclusion",
       "chapter": "ch5",
-      "youtubeId": "",
+      "youtubeId": "4EU1Bsg1Nfk",
       "pdfSlug": "05-conclusion",
       "pageStart": 23,
       "pageEnd": 24

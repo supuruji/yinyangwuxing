@@ -12,7 +12,7 @@ export const koSearchForDialoguePaper: Paper = {
       "href": "/pdf/papers/search-for-dialogue/ko/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/@%EC%B5%9C%EC%9B%90%ED%98%81-b3r",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLObdwEym8K1c",
   "sections": [
     {
       "code": "Ⅰ",

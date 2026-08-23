@@ -75,7 +75,7 @@ export const ja: SiteContent = {
       title: 'キリスト教とイスラム教の対話の模索',
       subtitle: '発表論文',
       description: '陰陽五行に基づく大巡真理の宗教循環論を用い、儒教・仏教を媒介としてキリスト教とイスラム教の対話の可能性を模索した発表論文。',
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLaR4liIoO26s',
       websiteUrl: '/ja/papers/search-for-dialogue',
     },
     {
