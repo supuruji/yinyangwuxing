@@ -4,7 +4,7 @@ import { koAiSurvivalBook, type Book } from '@/content/books/ko-ai-survival';
 import { enAiSurvivalBook } from '@/content/books/en-ai-survival';
 import { zhAiSurvivalBook } from '@/content/books/zh-ai-survival';
 import { jaAiSurvivalBook } from '@/content/books/ja-ai-survival';
-import { AI_SURVIVAL_OUTLINE, AI_SURVIVAL_PLAYLIST } from '@/content/books/ai-survival-outline';
+import { AI_SURVIVAL_OUTLINE, AI_SURVIVAL_PLAYLISTS, AI_SURVIVAL_CHANNEL, AI_SURVIVAL_OVERVIEW_IDS } from '@/content/books/ai-survival-outline';
 import { JEJU_OUTLINE, JEJU_PLAYLISTS, JEJU_CHANNEL, JEJU_GROUP_LABELS, JEJU_OVERVIEW_IDS } from '@/content/books/jeju-serendipity-outline';
 import { koJejuSerendipityBook } from '@/content/books/ko-jeju-serendipity';
 import { enJejuSerendipityBook } from '@/content/books/en-jeju-serendipity';
@@ -43,7 +43,7 @@ const OUTLINE_BY_BOOK: Record<string, OutlineItem[]> = {
 // Resolve the playlist/channel URL for a book+locale.
 function playlistFor(bookId: string, locale: string): string {
   if (bookId === 'jeju-serendipity') return JEJU_PLAYLISTS[locale] || JEJU_CHANNEL;
-  return AI_SURVIVAL_PLAYLIST;
+  return AI_SURVIVAL_PLAYLISTS[locale] || AI_SURVIVAL_CHANNEL;
 }
 
 function getBook(locale: string, bookId: string): Book | undefined {
@@ -196,7 +196,12 @@ export default async function BookPage({ params, searchParams }: Props) {
       : groupMap;
   const firstChapterId = book.chapters[0]?.id ?? '';
   const listId = playlist.split('list=')[1] ?? '';
-  const overviewId = bookId === 'jeju-serendipity' ? (JEJU_OVERVIEW_IDS[locale] ?? '') : '';
+  const overviewId =
+    bookId === 'jeju-serendipity'
+      ? (JEJU_OVERVIEW_IDS[locale] ?? '')
+      : bookId === 'ai-survival'
+        ? (AI_SURVIVAL_OVERVIEW_IDS[locale] ?? '')
+        : '';
   const overviewUrl = overviewId
     ? `https://www.youtube.com/watch?v=${overviewId}${listId ? `&list=${listId}` : ''}`
     : '';
