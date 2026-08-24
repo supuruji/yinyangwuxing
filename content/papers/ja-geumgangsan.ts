@@ -10,13 +10,13 @@ export const jaGeumgangsanPaper: Paper = {
     { label: 'PDF ダウンロード', href: '/papers/geumgangsan.pdf' },
     { label: '要約 PPT ダウンロード', href: '/papers/geumgangsan.pptx' },
   ],
-  youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN_M77BOYbITNGpzA4Pxyoc5',
+  youtubeUrl: 'https://www.youtube.com/playlist?list=PLXB_VeMi6nic',
   sections: [
-    { code: 'I', title: 'はじめに', chapter: 'intro', youtubeId: 'cYRYznPewX8', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
-    { code: 'II', title: '金剛山の語源', chapter: 'ch2', youtubeId: 'zHcX7NysJLM', pdfSlug: '02-etymology', pageStart: 9, pageEnd: 14 },
-    { code: 'III', title: '曇無竭菩薩の由来', chapter: 'ch3', youtubeId: '7E1CgeGejK0', pdfSlug: '03-dhammugal', pageStart: 15, pageEnd: 19 },
-    { code: 'IV', title: '檜巌寺の由来', chapter: 'ch4', youtubeId: 'DZGCgkXBcx8', pdfSlug: '04-hoeamsa', pageStart: 20, pageEnd: 26 },
-    { code: 'V', title: 'おわりに', chapter: 'conclusion', youtubeId: 'q4B5s4I3vk8', pdfSlug: '05-conclusion', pageStart: 27, pageEnd: 29 },
+    { code: 'I', title: 'はじめに', chapter: 'intro', youtubeId: '6DvSbme1luo', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
+    { code: 'II', title: '金剛山の語源', chapter: 'ch2', youtubeId: 'zRAfqxvS8-Q', pdfSlug: '02-etymology', pageStart: 9, pageEnd: 14 },
+    { code: 'III', title: '曇無竭菩薩の由来', chapter: 'ch3', youtubeId: 'HWTuiw3hzO4', pdfSlug: '03-dhammugal', pageStart: 15, pageEnd: 19 },
+    { code: 'IV', title: '檜巌寺の由来', chapter: 'ch4', youtubeId: 'LiasJ8nXv0o', pdfSlug: '04-hoeamsa', pageStart: 20, pageEnd: 26 },
+    { code: 'V', title: 'おわりに', chapter: 'conclusion', youtubeId: '', pdfSlug: '05-conclusion', pageStart: 27, pageEnd: 29 },
   ],
   chapters: [
     {

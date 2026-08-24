@@ -10,13 +10,13 @@ export const zhGeumgangsanPaper: Paper = {
     { label: '下载 PDF', href: '/papers/geumgangsan.pdf' },
     { label: '下载摘要 PPT', href: '/papers/geumgangsan.pptx' },
   ],
-  youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN_M77BOYbITNGpzA4Pxyoc5',
+  youtubeUrl: 'https://www.youtube.com/playlist?list=PLVhlLts7OGs8',
   sections: [
-    { code: 'I', title: '引言', chapter: 'intro', youtubeId: 'cYRYznPewX8', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
-    { code: 'II', title: '金刚山的词源', chapter: 'ch2', youtubeId: 'zHcX7NysJLM', pdfSlug: '02-etymology', pageStart: 9, pageEnd: 14 },
-    { code: 'III', title: '昙无竭菩萨的由来', chapter: 'ch3', youtubeId: '7E1CgeGejK0', pdfSlug: '03-dhammugal', pageStart: 15, pageEnd: 19 },
-    { code: 'IV', title: '桧岩寺的由来', chapter: 'ch4', youtubeId: 'DZGCgkXBcx8', pdfSlug: '04-hoeamsa', pageStart: 20, pageEnd: 26 },
-    { code: 'V', title: '结语', chapter: 'conclusion', youtubeId: 'q4B5s4I3vk8', pdfSlug: '05-conclusion', pageStart: 27, pageEnd: 29 },
+    { code: 'I', title: '引言', chapter: 'intro', youtubeId: 'UEl5KWh4Rxg', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
+    { code: 'II', title: '金刚山的词源', chapter: 'ch2', youtubeId: 'faPzeh9GMRg', pdfSlug: '02-etymology', pageStart: 9, pageEnd: 14 },
+    { code: 'III', title: '昙无竭菩萨的由来', chapter: 'ch3', youtubeId: 'X3Pcczfo4tw', pdfSlug: '03-dhammugal', pageStart: 15, pageEnd: 19 },
+    { code: 'IV', title: '桧岩寺的由来', chapter: 'ch4', youtubeId: 'UWvVyUY2vwQ', pdfSlug: '04-hoeamsa', pageStart: 20, pageEnd: 26 },
+    { code: 'V', title: '结语', chapter: 'conclusion', youtubeId: '', pdfSlug: '05-conclusion', pageStart: 27, pageEnd: 29 },
   ],
   chapters: [
     {
