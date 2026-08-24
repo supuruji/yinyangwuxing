@@ -11,6 +11,13 @@ export const koGeumgangsanPaper: Paper = {
     { label: '요약PPT다운로드', href: '/papers/geumgangsan.pptx' },
   ],
   youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN_M77BOYbITNGpzA4Pxyoc5',
+  sections: [
+    { code: 'I', title: '들어가는 말', chapter: 'intro', youtubeId: 'cYRYznPewX8', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
+    { code: 'II', title: '금강산의 어원', chapter: 'ch2', youtubeId: 'zHcX7NysJLM', pdfSlug: '02-etymology', pageStart: 9, pageEnd: 14 },
+    { code: 'III', title: '담무갈 보살의 유래', chapter: 'ch3', youtubeId: '7E1CgeGejK0', pdfSlug: '03-dhammugal', pageStart: 15, pageEnd: 19 },
+    { code: 'IV', title: '회암사의 유래', chapter: 'ch4', youtubeId: 'DZGCgkXBcx8', pdfSlug: '04-hoeamsa', pageStart: 20, pageEnd: 26 },
+    { code: 'V', title: '나가는 말', chapter: 'conclusion', youtubeId: 'q4B5s4I3vk8', pdfSlug: '05-conclusion', pageStart: 27, pageEnd: 29 },
+  ],
   chapters: [
     {
       id: 'toc',

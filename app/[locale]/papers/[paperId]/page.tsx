@@ -20,6 +20,9 @@ import { koBaekgang663Paper } from '@/content/papers/ko-baekgang-663';
 import { enBaekgang663Paper } from '@/content/papers/en-baekgang-663';
 import { zhBaekgang663Paper } from '@/content/papers/zh-baekgang-663';
 import { jaBaekgang663Paper } from '@/content/papers/ja-baekgang-663';
+import { enGeumgangsanPaper } from '@/content/papers/en-geumgangsan';
+import { zhGeumgangsanPaper } from '@/content/papers/zh-geumgangsan';
+import { jaGeumgangsanPaper } from '@/content/papers/ja-geumgangsan';
 import Link from 'next/link';
 import { getContent } from '@/lib/content';
 import PaperReader from '@/components/PaperReader';
@@ -45,9 +48,9 @@ const PAPERS: Record<string, Paper> = {
 // Per-locale overrides for papers that have been translated.
 // Falls back to the Korean paper when no translation exists for the locale.
 const PAPER_OVERRIDES: Record<string, Record<string, Paper>> = {
-  en: { 'jeju-myth': enJejuMythPaper, 'search-for-dialogue': enSearchForDialoguePaper, 'baekgang-663': enBaekgang663Paper },
-  zh: { 'jeju-myth': zhJejuMythPaper, 'search-for-dialogue': zhSearchForDialoguePaper, 'baekgang-663': zhBaekgang663Paper },
-  ja: { 'jeju-myth': jaJejuMythPaper, 'search-for-dialogue': jaSearchForDialoguePaper, 'baekgang-663': jaBaekgang663Paper },
+  en: { 'jeju-myth': enJejuMythPaper, 'search-for-dialogue': enSearchForDialoguePaper, 'baekgang-663': enBaekgang663Paper, 'geumgangsan': enGeumgangsanPaper },
+  zh: { 'jeju-myth': zhJejuMythPaper, 'search-for-dialogue': zhSearchForDialoguePaper, 'baekgang-663': zhBaekgang663Paper, 'geumgangsan': zhGeumgangsanPaper },
+  ja: { 'jeju-myth': jaJejuMythPaper, 'search-for-dialogue': jaSearchForDialoguePaper, 'baekgang-663': jaBaekgang663Paper, 'geumgangsan': jaGeumgangsanPaper },
 };
 
 function getPaper(locale: string, paperId: string): Paper | undefined {
