@@ -3,10 +3,10 @@
 // metadata lives here.
 //
 // Videos are per LANGUAGE (Korean, English, Chinese, Japanese), each with its own
-// YouTube playlist, so youtubeIds is keyed by locale. The Korean & Chinese playlists
-// carry a dedicated Part-Ⅰ conclusion video (Ⅰ6 → chapter-6); the English & Japanese
-// playlists do not, so chapter-6 has no id there and the card falls back to the
-// locale playlist. A separate "full" video (per locale) is the whole-book overview.
+// YouTube playlist, so youtubeIds is keyed by locale. Every locale carries all 11
+// section videos (Preface, Ⅰ1–6, Ⅱ1–4). A separate "full" video (per locale) is the
+// whole-book overview. A section with no id for a locale falls back to that locale's
+// playlist.
 
 export interface BookOutlineItem {
   /** short code shown on the card (chapter number or symbol) */
@@ -35,7 +35,7 @@ export const AI_SURVIVAL_OUTLINE: BookOutlineItem[] = [
   { code: '5',  chapter: 'chapter-5',  group: 'part1', pdfSlug: '05-yunghap',
     youtubeIds: { ko: 'G_dZJqS24BE', en: 'YaZfni23ccg', zh: 'DJXrrUTj-6M', ja: '3wfz4oQDG2Q' } },
   { code: '6',  chapter: 'chapter-6',  group: 'part1', pdfSlug: '06-part1-conclusion',
-    youtubeIds: { ko: 'hkhhdBOXhk0', zh: 'ufzX_X-FFqE' } },
+    youtubeIds: { ko: 'hkhhdBOXhk0', en: 'hpVePWqHBNc', zh: 'ufzX_X-FFqE', ja: 'uJyWlYXESYI' } },
   { code: '7',  chapter: 'chapter-7',  group: 'part2', pdfSlug: '07-sammun-hwajaeng',
     youtubeIds: { ko: 'gvhfFTdZxs8', en: 'ahpsQEypne4', zh: 'jTlA85Rkdes', ja: 'bhf4tUm6Cho' } },
   { code: '8',  chapter: 'chapter-8',  group: 'part2', pdfSlug: '08-wonhyo-economy',
