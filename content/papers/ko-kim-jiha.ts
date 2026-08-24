@@ -11,6 +11,13 @@ export const koKimJihaPaper: Paper = {
     { label: '요약PPT다운로드', href: '/papers/kim-jiha.pptx' },
   ],
   youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9IghArp0ZbgUa-0Ld2YvxU',
+  sections: [
+    { code: 'I', title: '들어가는 말', chapter: 'intro', youtubeId: 'nVFWjPp6Puo', pdfSlug: '01-intro', pageStart: 1, pageEnd: 8 },
+    { code: 'II', title: '생명 사상과 동학사상의 리미날리티', chapter: 'ch2', youtubeId: 'pKiTZcUiIIc', pdfSlug: '02-liminality', pageStart: 9, pageEnd: 17 },
+    { code: 'III', title: '율려 사상과 정역사상의 리바이탈라이제이션', chapter: 'ch3', youtubeId: 'OygmoXa6RkQ', pdfSlug: '03-revitalization', pageStart: 18, pageEnd: 21 },
+    { code: 'IV', title: '흰그늘미학에 나타난 증산의 화해와 상생', chapter: 'ch4', youtubeId: 'eRV62as6ms8', pdfSlug: '04-huingeuneul', pageStart: 22, pageEnd: 24 },
+    { code: 'V', title: '나가는 말', chapter: 'ch5', youtubeId: 'wrnDN7_kwOI', pdfSlug: '05-conclusion', pageStart: 25, pageEnd: 25 },
+  ],
   chapters: [
     {
       id: 'toc',
