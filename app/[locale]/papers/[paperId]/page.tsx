@@ -73,7 +73,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const paper = getPaper(locale, paperId);
   if (!paper) return {};
   return {
-    title: `${paper.title} — ${paper.author}`,
+    title: `${paper.title} — ${paper.author.replace(/\[fn:\d+\]/g, '')}`,
     description: paper.subtitle ?? paper.venue,
   };
 }
@@ -104,7 +104,7 @@ export default async function PaperPage({ params, searchParams }: Props) {
         )}
         <h1 className="text-3xl sm:text-4xl font-serif text-gold mb-1 leading-tight">{paper.title}</h1>
         {paper.subtitle && <p className="text-parchment-muted mb-1">{paper.subtitle}</p>}
-        <p className="text-parchment-muted text-sm mb-10">— {paper.author}</p>
+        <p className="text-parchment-muted text-sm mb-10">— {paper.author.replace(/\[fn:\d+\]/g, '')}</p>
 
         <PaperOutline paper={paper} locale={locale} />
       </div>
