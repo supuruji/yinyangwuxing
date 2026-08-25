@@ -87,6 +87,14 @@ export const en: SiteContent = {
       websiteUrl: '/en/papers/jeju-myth',
     },
     {
+      id: 'paper-kim-jiha',
+      title: "A Study of Reconciliation and Coexistence in Kim Ji-ha's Thought",
+      subtitle: 'Conference Paper',
+      description: "This paper reads the consistency of Kim Ji-ha's thought through liminality and revitalization, comparing the current of reconciliation and coexistence that runs from the life-philosophy of Donghak, through the Yulryeo of Jeongyeok, to the Huingeuneul (White Shadow) aesthetics of Jeungsan.",
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9IghArp0ZbgUa-0Ld2YvxU',
+      websiteUrl: '/en/papers/kim-jiha',
+    },
+    {
       id: 'papers-placeholder',
       title: 'More Papers Coming Soon',
       subtitle: 'Updates forthcoming',

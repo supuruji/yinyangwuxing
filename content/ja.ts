@@ -87,6 +87,14 @@ export const ja: SiteContent = {
       websiteUrl: '/ja/papers/jeju-myth',
     },
     {
+      id: 'paper-kim-jiha',
+      title: '金芝河思想に現れた和解と相生の研究',
+      subtitle: '発表論文',
+      description: '本稿は金芝河思想の一貫性をリミナリティとリバイタライゼーションで読み解き、東学の生命思想・正易の律呂・甑山のヒングヌル（白い翳）美学へと連なる和解と相生の流れを比較した論文である。',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9IghArp0ZbgUa-0Ld2YvxU',
+      websiteUrl: '/ja/papers/kim-jiha',
+    },
+    {
       id: 'papers-placeholder',
       title: 'その他の発表論文 近日公開',
       subtitle: '更新予定',

@@ -87,6 +87,14 @@ export const zh: SiteContent = {
       websiteUrl: '/zh/papers/jeju-myth',
     },
     {
+      id: 'paper-kim-jiha',
+      title: '金芝河思想中的和解与相生研究',
+      subtitle: '会议论文',
+      description: '本文以阈限性与复活化解读金芝河思想的一贯性，比较从东学的生命思想、正易的律吕到甑山白荫（白色阴影）美学一脉相承的和解与相生脉络。',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9IghArp0ZbgUa-0Ld2YvxU',
+      websiteUrl: '/zh/papers/kim-jiha',
+    },
+    {
       id: 'papers-placeholder',
       title: '更多论文即将发布',
       subtitle: '敬请期待',
