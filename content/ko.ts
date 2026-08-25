@@ -234,7 +234,7 @@ export const ko: SiteContent = {
       title: 'AI시대 상관적 사유와 화쟁을 통한 인류의 생존전략',
       subtitle: '단행본 · 가설과상상총서 ①',
       description: 'AI 시대에 입체(立體)·순환(循環)·공감(共感)·융합(融合)의 4가지 상관적 사유와 원효의 화쟁이론을 통해 인류의 생존 전략을 탐구한 저서입니다.',
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://youtu.be/2FBhUTRkhR0',
       websiteUrl: '/ko/books/ai-survival',
     },
     {

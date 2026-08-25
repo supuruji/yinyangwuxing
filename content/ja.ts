@@ -99,7 +99,7 @@ export const ja: SiteContent = {
       title: 'AI時代における相関的思惟と和諍による人類の生存戦略',
       subtitle: '単行本',
       description: 'AI時代における人間の生存戦略を探求した著書。',
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://youtu.be/i51ncE2NORk',
       websiteUrl: '/ja/books/ai-survival',
     },
     {

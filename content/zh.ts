@@ -99,7 +99,7 @@ export const zh: SiteContent = {
       title: 'AI时代通过相关性思维与和诤的人类生存战略',
       subtitle: '单行本',
       description: '探讨人工智能时代人类生存战略的著作。',
-      youtubeUrl: YOUTUBE,
+      youtubeUrl: 'https://youtu.be/E1QaFGrYTY0',
       websiteUrl: '/zh/books/ai-survival',
     },
     {
