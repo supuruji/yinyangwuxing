@@ -99,7 +99,7 @@ export const zh: SiteContent = {
       title: '作为经济思想的檀君思想与西方韩流',
       subtitle: '会议论文',
       description: '本文将韩流的道德背景与檀君思想相联系，通过弘益人间·在世理化的经济思想（三数分化·立体五行）与西方韩流的历史加以阐明。',
-      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN_Q3100PlwmezrKMLUyD01Q',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLImSOFS7bvzc',
       websiteUrl: '/zh/papers/dangun-economy',
     },
     {

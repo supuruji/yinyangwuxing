@@ -16,13 +16,13 @@ export const jaDangunEconomyPaper: Paper = {
       "href": "/papers/dangun-economy.pptx"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/playlist?list=PLw9IxWay4JN_Q3100PlwmezrKMLUyD01Q",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLWbOGjC3i1zQ",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "はじめに",
       "chapter": "intro",
-      "youtubeId": "",
+      "youtubeId": "W79eoNb0TBE",
       "pdfSlug": "01-intro",
       "pageStart": 1,
       "pageEnd": 2
@@ -31,7 +31,7 @@ export const jaDangunEconomyPaper: Paper = {
       "code": "Ⅱ",
       "title": "経済思想としての檀君思想",
       "chapter": "ch2",
-      "youtubeId": "",
+      "youtubeId": "5X0s5uIBfn0",
       "pdfSlug": "02-economy",
       "pageStart": 3,
       "pageEnd": 30
@@ -40,7 +40,7 @@ export const jaDangunEconomyPaper: Paper = {
       "code": "Ⅲ",
       "title": "檀君思想と西洋韓流",
       "chapter": "ch3",
-      "youtubeId": "",
+      "youtubeId": "1ciF-OBGnV0",
       "pdfSlug": "03-hallyu",
       "pageStart": 31,
       "pageEnd": 37
@@ -49,7 +49,7 @@ export const jaDangunEconomyPaper: Paper = {
       "code": "Ⅳ",
       "title": "おわりに",
       "chapter": "ch4",
-      "youtubeId": "",
+      "youtubeId": "libBbgMEWJo",
       "pdfSlug": "04-conclusion",
       "pageStart": 38,
       "pageEnd": 39

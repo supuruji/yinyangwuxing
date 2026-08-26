@@ -16,13 +16,13 @@ export const enDangunEconomyPaper: Paper = {
       "href": "/papers/dangun-economy.pptx"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/playlist?list=PLw9IxWay4JN_Q3100PlwmezrKMLUyD01Q",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLBGOcbOmPXJ0",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "Introduction",
       "chapter": "intro",
-      "youtubeId": "",
+      "youtubeId": "ORezo5Ige4I",
       "pdfSlug": "01-intro",
       "pageStart": 1,
       "pageEnd": 2
@@ -31,7 +31,7 @@ export const enDangunEconomyPaper: Paper = {
       "code": "Ⅱ",
       "title": "Dangun Thought as Economic Philosophy",
       "chapter": "ch2",
-      "youtubeId": "",
+      "youtubeId": "KDW8eWfWH8U",
       "pdfSlug": "02-economy",
       "pageStart": 3,
       "pageEnd": 30
@@ -40,7 +40,7 @@ export const enDangunEconomyPaper: Paper = {
       "code": "Ⅲ",
       "title": "Dangun Thought and the Western Korean Wave",
       "chapter": "ch3",
-      "youtubeId": "",
+      "youtubeId": "vsNtlWKkaMw",
       "pdfSlug": "03-hallyu",
       "pageStart": 31,
       "pageEnd": 37
@@ -49,7 +49,7 @@ export const enDangunEconomyPaper: Paper = {
       "code": "Ⅳ",
       "title": "Conclusion",
       "chapter": "ch4",
-      "youtubeId": "",
+      "youtubeId": "ge8N4sOBI7g",
       "pdfSlug": "04-conclusion",
       "pageStart": 38,
       "pageEnd": 39
