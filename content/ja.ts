@@ -95,6 +95,14 @@ export const ja: SiteContent = {
       websiteUrl: '/ja/papers/kim-jiha',
     },
     {
+      id: 'paper-dangun-economy',
+      title: '経済思想としての檀君思想と西洋韓流',
+      subtitle: '発表論文',
+      description: '韓流の道徳的背景を檀君思想に結びつけ、弘益人間・在世理化の経済思想（三数分化・立体五行）と西洋韓流の歴史から解明した発表論文である。',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN_Q3100PlwmezrKMLUyD01Q',
+      websiteUrl: '/ja/papers/dangun-economy',
+    },
+    {
       id: 'papers-placeholder',
       title: 'その他の発表論文 近日公開',
       subtitle: '更新予定',

@@ -95,6 +95,14 @@ export const en: SiteContent = {
       websiteUrl: '/en/papers/kim-jiha',
     },
     {
+      id: 'paper-dangun-economy',
+      title: 'Dangun Thought as Economic Philosophy and the Western Korean Wave',
+      subtitle: 'Conference Paper',
+      description: 'Linking the moral background of the Korean Wave to Dangun Thought, this paper elucidates the economic thought of Hongik Ingan and Jaese Ihwa (threefold differentiation and the three-dimensional Five Phases) together with the history of the Western Korean Wave.',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN_Q3100PlwmezrKMLUyD01Q',
+      websiteUrl: '/en/papers/dangun-economy',
+    },
+    {
       id: 'papers-placeholder',
       title: 'More Papers Coming Soon',
       subtitle: 'Updates forthcoming',

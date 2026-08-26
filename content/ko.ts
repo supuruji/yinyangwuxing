@@ -82,7 +82,9 @@ export const ko: SiteContent = {
       id: 'paper-dangun-economy',
       title: '경제사상으로서의 단군사상과 서양 한류',
       subtitle: '발표논문',
-      youtubeUrl: YOUTUBE,
+      description: '한류의 도덕적 배경을 단군사상에 연계하여, 홍익인간·재세이화의 경제사상(삼수분화·입체오행)과 서양 한류의 역사로 규명한 발표논문입니다.',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN_Q3100PlwmezrKMLUyD01Q',
+      websiteUrl: '/ko/papers/dangun-economy',
     },
     {
       id: 'paper-geumgangsan',
