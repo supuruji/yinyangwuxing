@@ -103,6 +103,14 @@ export const zh: SiteContent = {
       websiteUrl: '/zh/papers/dangun-economy',
     },
     {
+      id: 'paper-sacred-numbers',
+      title: '檀君-密特拉-弥勒神话中呈现的圣数(聖數)',
+      subtitle: '会议论文',
+      description: '本文比较檀君、密特拉、弥勒神话中共同出现的圣数3与7，借助约瑟夫·坎贝尔的单一神话与中泽新一的分形神话理论，从创世原理及七星·三神的结构加以阐明。',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9XYG6jZ4vxT_umJ8VRYk5x',
+      websiteUrl: '/zh/papers/sacred-numbers',
+    },
+    {
       id: 'papers-placeholder',
       title: '更多论文即将发布',
       subtitle: '敬请期待',

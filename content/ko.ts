@@ -106,7 +106,9 @@ export const ko: SiteContent = {
       id: 'paper-sacred-numbers',
       title: '단군-미트라-미륵신화에 나타난 성수(聖數)',
       subtitle: '발표논문',
-      youtubeUrl: YOUTUBE,
+      description: '단군·미트라·미륵신화에 공통으로 나타나는 성수(聖數) 3과 7을, 조셉 캠벨의 단일신화와 나카자와 신이치의 프랙탈 신화이론을 매개로 창세 원리와 칠성·삼신의 구조로 비교한 발표논문입니다.',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9XYG6jZ4vxT_umJ8VRYk5x',
+      websiteUrl: '/ko/papers/sacred-numbers',
     },
     {
       id: 'paper-dangjin-maritime',

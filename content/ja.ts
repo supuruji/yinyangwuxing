@@ -103,6 +103,14 @@ export const ja: SiteContent = {
       websiteUrl: '/ja/papers/dangun-economy',
     },
     {
+      id: 'paper-sacred-numbers',
+      title: '檀君・ミトラ・弥勒神話に現れた聖数(聖數)',
+      subtitle: '発表論文',
+      description: '檀君・ミトラ・弥勒神話に共通して現れる聖数3と7を、ジョーゼフ・キャンベルの単一神話と中沢新一のフラクタル神話理論を手がかりに、創世原理および七星・三神の構造として比較した発表論文。',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9XYG6jZ4vxT_umJ8VRYk5x',
+      websiteUrl: '/ja/papers/sacred-numbers',
+    },
+    {
       id: 'papers-placeholder',
       title: 'その他の発表論文 近日公開',
       subtitle: '更新予定',
