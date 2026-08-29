@@ -12,13 +12,13 @@ export const enSacredNumbersPaper: Paper = {
       "href": "/pdf/papers/sacred-numbers/en/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/playlist?list=PLw9IxWay4JN9XYG6jZ4vxT_umJ8VRYk5x",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLXDE3w3ID7uw",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "Introduction",
       "chapter": "intro",
-      "youtubeId": "1Bozbnpa4PU",
+      "youtubeId": "dCkLFtvAIXs",
       "pdfSlug": "01-intro",
       "pageStart": 1,
       "pageEnd": 9
@@ -27,7 +27,7 @@ export const enSacredNumbersPaper: Paper = {
       "code": "Ⅱ",
       "title": "The Sacred Number 7 in Joseph Campbell's Monomyth and the Cycle of the Heroic Narrative",
       "chapter": "campbell",
-      "youtubeId": "YtZUN0Zk-7U",
+      "youtubeId": "nflvI__2NLs",
       "pdfSlug": "02-campbell",
       "pageStart": 10,
       "pageEnd": 17
@@ -36,7 +36,7 @@ export const enSacredNumbersPaper: Paper = {
       "code": "Ⅲ",
       "title": "The Fractal Structure of the Sacred Number 3 in Nakazawa Shin'ichi's Mythology",
       "chapter": "nakazawa",
-      "youtubeId": "R7ED2oIehnY",
+      "youtubeId": "lZjOf-f8lTg",
       "pdfSlug": "03-nakazawa",
       "pageStart": 18,
       "pageEnd": 22
@@ -45,7 +45,7 @@ export const enSacredNumbersPaper: Paper = {
       "code": "Ⅳ",
       "title": "The Creation Principles of the Sacred Numbers (聖數) 3 and 7 in the Mithra–Maitreya–Dangun Myths",
       "chapter": "creation",
-      "youtubeId": "DYZ4FlAcCLc",
+      "youtubeId": "7ZsHKU7EjBE",
       "pdfSlug": "04-creation",
       "pageStart": 23,
       "pageEnd": 35
@@ -54,7 +54,7 @@ export const enSacredNumbersPaper: Paper = {
       "code": "Ⅴ",
       "title": "Conclusion",
       "chapter": "conclusion",
-      "youtubeId": "SzP6J8_X77c",
+      "youtubeId": "",
       "pdfSlug": "05-conclusion",
       "pageStart": 36,
       "pageEnd": 41

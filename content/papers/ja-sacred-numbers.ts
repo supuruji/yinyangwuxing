@@ -12,13 +12,13 @@ export const jaSacredNumbersPaper: Paper = {
       "href": "/pdf/papers/sacred-numbers/ja/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/playlist?list=PLw9IxWay4JN9XYG6jZ4vxT_umJ8VRYk5x",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLNEtmMtGE8nQ",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "はじめに",
       "chapter": "intro",
-      "youtubeId": "1Bozbnpa4PU",
+      "youtubeId": "31Zub0yP868",
       "pdfSlug": "01-intro",
       "pageStart": 1,
       "pageEnd": 9
@@ -27,7 +27,7 @@ export const jaSacredNumbersPaper: Paper = {
       "code": "Ⅱ",
       "title": "ジョーゼフ・キャンベルの単一神話に現れた聖数7と英雄叙事の循環",
       "chapter": "campbell",
-      "youtubeId": "YtZUN0Zk-7U",
+      "youtubeId": "asVnBrMkjwo",
       "pdfSlug": "02-campbell",
       "pageStart": 10,
       "pageEnd": 17
@@ -36,7 +36,7 @@ export const jaSacredNumbersPaper: Paper = {
       "code": "Ⅲ",
       "title": "中沢新一の神話学に現れた聖数3のフラクタル構造",
       "chapter": "nakazawa",
-      "youtubeId": "R7ED2oIehnY",
+      "youtubeId": "c5dvhN-Bo6I",
       "pdfSlug": "03-nakazawa",
       "pageStart": 18,
       "pageEnd": 22
@@ -45,7 +45,7 @@ export const jaSacredNumbersPaper: Paper = {
       "code": "Ⅳ",
       "title": "ミトラ・弥勒・檀君神話に現れた聖数（聖數）3と7の創世原理",
       "chapter": "creation",
-      "youtubeId": "DYZ4FlAcCLc",
+      "youtubeId": "a_T7gAJIFCU",
       "pdfSlug": "04-creation",
       "pageStart": 23,
       "pageEnd": 35
@@ -54,7 +54,7 @@ export const jaSacredNumbersPaper: Paper = {
       "code": "Ⅴ",
       "title": "おわりに",
       "chapter": "conclusion",
-      "youtubeId": "SzP6J8_X77c",
+      "youtubeId": "3QroNiw7v0A",
       "pdfSlug": "05-conclusion",
       "pageStart": 36,
       "pageEnd": 41

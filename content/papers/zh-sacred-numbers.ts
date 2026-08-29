@@ -12,13 +12,13 @@ export const zhSacredNumbersPaper: Paper = {
       "href": "/pdf/papers/sacred-numbers/zh/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/playlist?list=PLw9IxWay4JN9XYG6jZ4vxT_umJ8VRYk5x",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLHgj9MSwMMjQ",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "引言",
       "chapter": "intro",
-      "youtubeId": "1Bozbnpa4PU",
+      "youtubeId": "wr7TPFvxFZU",
       "pdfSlug": "01-intro",
       "pageStart": 1,
       "pageEnd": 9
@@ -27,7 +27,7 @@ export const zhSacredNumbersPaper: Paper = {
       "code": "Ⅱ",
       "title": "约瑟夫·坎贝尔单一神话中呈现的圣数7与英雄叙事的循环",
       "chapter": "campbell",
-      "youtubeId": "YtZUN0Zk-7U",
+      "youtubeId": "1b9PmKNgy48",
       "pdfSlug": "02-campbell",
       "pageStart": 10,
       "pageEnd": 17
@@ -36,7 +36,7 @@ export const zhSacredNumbersPaper: Paper = {
       "code": "Ⅲ",
       "title": "中泽新一神话学中呈现的圣数3的分形结构",
       "chapter": "nakazawa",
-      "youtubeId": "R7ED2oIehnY",
+      "youtubeId": "Ot4aTp55lrQ",
       "pdfSlug": "03-nakazawa",
       "pageStart": 18,
       "pageEnd": 22
@@ -45,7 +45,7 @@ export const zhSacredNumbersPaper: Paper = {
       "code": "Ⅳ",
       "title": "密特拉—弥勒—檀君神话中呈现的圣数（聖數）3与7的创世原理",
       "chapter": "creation",
-      "youtubeId": "DYZ4FlAcCLc",
+      "youtubeId": "P2G4lXmm7f4",
       "pdfSlug": "04-creation",
       "pageStart": 23,
       "pageEnd": 35
@@ -54,7 +54,7 @@ export const zhSacredNumbersPaper: Paper = {
       "code": "Ⅴ",
       "title": "结语",
       "chapter": "conclusion",
-      "youtubeId": "SzP6J8_X77c",
+      "youtubeId": "U1Q3Bdj70LM",
       "pdfSlug": "05-conclusion",
       "pageStart": 36,
       "pageEnd": 41

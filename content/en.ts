@@ -107,7 +107,7 @@ export const en: SiteContent = {
       title: 'Sacred Numbers (聖數) in the Dangun–Mithra–Maitreya Myths',
       subtitle: 'Conference Paper',
       description: "Comparing the sacred numbers 3 and 7 common to the Dangun, Mithra, and Maitreya myths, this paper reads their creation principles and the structure of the Seven Stars and Three Gods through Joseph Campbell's monomyth and Nakazawa Shin'ichi's fractal theory of myth.",
-      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN9XYG6jZ4vxT_umJ8VRYk5x',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLXDE3w3ID7uw',
       websiteUrl: '/en/papers/sacred-numbers',
     },
     {
