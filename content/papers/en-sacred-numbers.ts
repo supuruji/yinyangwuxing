@@ -54,7 +54,7 @@ export const enSacredNumbersPaper: Paper = {
       "code": "Ⅴ",
       "title": "Conclusion",
       "chapter": "conclusion",
-      "youtubeId": "",
+      "youtubeId": "GO5Q1lnueQw",
       "pdfSlug": "05-conclusion",
       "pageStart": 36,
       "pageEnd": 41
