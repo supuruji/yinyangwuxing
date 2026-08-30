@@ -111,6 +111,14 @@ export const zh: SiteContent = {
       websiteUrl: '/zh/papers/sacred-numbers',
     },
     {
+      id: 'paper-dangjin-maritime',
+      title: '唐津利用厚生海洋文化的背景——兼论百济复兴军与白村江之战的记忆遗产',
+      subtitle: '会议论文',
+      description: '本文将唐津的利用厚生海洋文化背景重新解读为百济复兴军与白村江之战的记忆遗产，并以东亚创伤的视角审视濊貊族离散及白村江之战后的弥勒佛教与海洋商业文化，为一篇发表论文。',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN8RJ1_-bYtR5kVrSDQ2dvwV',
+      websiteUrl: '/zh/papers/dangjin',
+    },
+    {
       id: 'papers-placeholder',
       title: '更多论文即将发布',
       subtitle: '敬请期待',

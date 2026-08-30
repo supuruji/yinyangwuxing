@@ -111,6 +111,14 @@ export const ja: SiteContent = {
       websiteUrl: '/ja/papers/sacred-numbers',
     },
     {
+      id: 'paper-dangjin-maritime',
+      title: '唐津の利用厚生・海洋文化の背景——百済復興軍と白村江の戦いの記憶遺産をめぐって',
+      subtitle: '発表論文',
+      description: '唐津の利用厚生・海洋文化の背景を、百済復興軍と白村江の戦いの記憶遺産として捉え直し、濊貊族のディアスポラと白村江の戦い以後の弥勒仏教・海洋商業文化を東アジアのトラウマの視点から照らした発表論文。',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN8RJ1_-bYtR5kVrSDQ2dvwV',
+      websiteUrl: '/ja/papers/dangjin',
+    },
+    {
       id: 'papers-placeholder',
       title: 'その他の発表論文 近日公開',
       subtitle: '更新予定',

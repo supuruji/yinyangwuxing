@@ -114,7 +114,9 @@ export const ko: SiteContent = {
       id: 'paper-dangjin-maritime',
       title: '당진(唐津) 이용후생(利用厚生) 해양(海洋)문화의 배경 -백촌강전투 백제부흥군의 기억유산과 관련하여-',
       subtitle: '발표논문',
-      youtubeUrl: YOUTUBE,
+      description: '당진(唐津)의 이용후생 해양문화 배경을 백촌강 전투와 백제부흥군의 기억유산으로 재해석하고, 예맥족 디아스포라와 전투 이후의 미륵 불교·해양 상업문화를 동아시아 트라우마의 관점에서 조명한 발표논문입니다.',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN8RJ1_-bYtR5kVrSDQ2dvwV',
+      websiteUrl: '/ko/papers/dangjin',
     },
     {
       id: 'paper-daesoon-capitalism-alternative',

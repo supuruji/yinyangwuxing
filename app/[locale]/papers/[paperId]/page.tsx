@@ -34,6 +34,10 @@ import { koSacredNumbersPaper } from '@/content/papers/ko-sacred-numbers';
 import { enSacredNumbersPaper } from '@/content/papers/en-sacred-numbers';
 import { zhSacredNumbersPaper } from '@/content/papers/zh-sacred-numbers';
 import { jaSacredNumbersPaper } from '@/content/papers/ja-sacred-numbers';
+import { koDangjinPaper } from '@/content/papers/ko-dangjin';
+import { enDangjinPaper } from '@/content/papers/en-dangjin';
+import { zhDangjinPaper } from '@/content/papers/zh-dangjin';
+import { jaDangjinPaper } from '@/content/papers/ja-dangjin';
 import Link from 'next/link';
 import { getContent } from '@/lib/content';
 import PaperReader from '@/components/PaperReader';
@@ -56,14 +60,15 @@ const PAPERS: Record<string, Paper> = {
   'baekgang-663': koBaekgang663Paper,
   'dangun-economy': koDangunEconomyPaper,
   'sacred-numbers': koSacredNumbersPaper,
+  'dangjin': koDangjinPaper,
 };
 
 // Per-locale overrides for papers that have been translated.
 // Falls back to the Korean paper when no translation exists for the locale.
 const PAPER_OVERRIDES: Record<string, Record<string, Paper>> = {
-  en: { 'jeju-myth': enJejuMythPaper, 'search-for-dialogue': enSearchForDialoguePaper, 'baekgang-663': enBaekgang663Paper, 'geumgangsan': enGeumgangsanPaper, 'kim-jiha': enKimJihaPaper, 'dangun-economy': enDangunEconomyPaper, 'sacred-numbers': enSacredNumbersPaper },
-  zh: { 'jeju-myth': zhJejuMythPaper, 'search-for-dialogue': zhSearchForDialoguePaper, 'baekgang-663': zhBaekgang663Paper, 'geumgangsan': zhGeumgangsanPaper, 'kim-jiha': zhKimJihaPaper, 'dangun-economy': zhDangunEconomyPaper, 'sacred-numbers': zhSacredNumbersPaper },
-  ja: { 'jeju-myth': jaJejuMythPaper, 'search-for-dialogue': jaSearchForDialoguePaper, 'baekgang-663': jaBaekgang663Paper, 'geumgangsan': jaGeumgangsanPaper, 'kim-jiha': jaKimJihaPaper, 'dangun-economy': jaDangunEconomyPaper, 'sacred-numbers': jaSacredNumbersPaper },
+  en: { 'jeju-myth': enJejuMythPaper, 'search-for-dialogue': enSearchForDialoguePaper, 'baekgang-663': enBaekgang663Paper, 'geumgangsan': enGeumgangsanPaper, 'kim-jiha': enKimJihaPaper, 'dangun-economy': enDangunEconomyPaper, 'sacred-numbers': enSacredNumbersPaper, 'dangjin': enDangjinPaper },
+  zh: { 'jeju-myth': zhJejuMythPaper, 'search-for-dialogue': zhSearchForDialoguePaper, 'baekgang-663': zhBaekgang663Paper, 'geumgangsan': zhGeumgangsanPaper, 'kim-jiha': zhKimJihaPaper, 'dangun-economy': zhDangunEconomyPaper, 'sacred-numbers': zhSacredNumbersPaper, 'dangjin': zhDangjinPaper },
+  ja: { 'jeju-myth': jaJejuMythPaper, 'search-for-dialogue': jaSearchForDialoguePaper, 'baekgang-663': jaBaekgang663Paper, 'geumgangsan': jaGeumgangsanPaper, 'kim-jiha': jaKimJihaPaper, 'dangun-economy': jaDangunEconomyPaper, 'sacred-numbers': jaSacredNumbersPaper, 'dangjin': jaDangjinPaper },
 };
 
 function getPaper(locale: string, paperId: string): Paper | undefined {
