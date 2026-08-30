@@ -115,7 +115,7 @@ export const en: SiteContent = {
       title: 'The Background of Dangjin (唐津) Maritime Culture of Practical Statecraft — On the Heritage of Memory of the Baekje Revival Army and the Battle of Baekchon River',
       subtitle: 'Conference Paper',
       description: 'A conference paper reinterpreting the practical-statecraft (利用厚生) maritime culture of Dangjin (唐津) as a heritage of memory of the Baekje revival army and the Battle of Baekchon River, illuminating the Ye-Maek diaspora and the post-battle Maitreya-Buddhist and maritime-commercial culture through the lens of East Asian trauma.',
-      youtubeUrl: 'https://www.youtube.com/playlist?list=PLw9IxWay4JN8RJ1_-bYtR5kVrSDQ2dvwV',
+      youtubeUrl: 'https://www.youtube.com/playlist?list=PLRUKEDguhhxM',
       websiteUrl: '/en/papers/dangjin',
     },
     {

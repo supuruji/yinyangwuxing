@@ -12,13 +12,13 @@ export const zhDangjinPaper: Paper = {
       "href": "/pdf/papers/dangjin/zh/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/playlist?list=PLw9IxWay4JN8RJ1_-bYtR5kVrSDQ2dvwV",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLJ93Ayk9PH0c",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "引言",
       "chapter": "intro",
-      "youtubeId": "",
+      "youtubeId": "bQ3K2P5VOns",
       "pdfSlug": "01-intro",
       "pageStart": 1,
       "pageEnd": 3
@@ -27,7 +27,7 @@ export const zhDangjinPaper: Paper = {
       "code": "Ⅱ",
       "title": "为理解东亚而研究唐津文化背景之必要性",
       "chapter": "needs",
-      "youtubeId": "",
+      "youtubeId": "iyOx2PZWk3w",
       "pdfSlug": "02-needs",
       "pageStart": 4,
       "pageEnd": 10
@@ -36,7 +36,7 @@ export const zhDangjinPaper: Paper = {
       "code": "Ⅲ",
       "title": "作为白村江之战背景的濊貊族离散（diaspora）",
       "chapter": "diaspora",
-      "youtubeId": "",
+      "youtubeId": "L6DXjTBAwqE",
       "pdfSlug": "03-diaspora",
       "pageStart": 11,
       "pageEnd": 30
@@ -45,7 +45,7 @@ export const zhDangjinPaper: Paper = {
       "code": "Ⅳ",
       "title": "白村江之战以后的弥勒佛教与海洋利用厚生文化",
       "chapter": "buddhism",
-      "youtubeId": "",
+      "youtubeId": "dm3wU8vu6tE",
       "pdfSlug": "04-buddhism",
       "pageStart": 31,
       "pageEnd": 39
@@ -54,7 +54,7 @@ export const zhDangjinPaper: Paper = {
       "code": "Ⅴ",
       "title": "结语",
       "chapter": "conclusion",
-      "youtubeId": "",
+      "youtubeId": "5SfAqPStS4Q",
       "pdfSlug": "05-conclusion",
       "pageStart": 40,
       "pageEnd": 42

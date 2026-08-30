@@ -12,13 +12,13 @@ export const enDangjinPaper: Paper = {
       "href": "/pdf/papers/dangjin/en/presentation.pdf"
     }
   ],
-  "youtubeUrl": "https://www.youtube.com/playlist?list=PLw9IxWay4JN8RJ1_-bYtR5kVrSDQ2dvwV",
+  "youtubeUrl": "https://www.youtube.com/playlist?list=PLRUKEDguhhxM",
   "sections": [
     {
       "code": "Ⅰ",
       "title": "Introduction",
       "chapter": "intro",
-      "youtubeId": "",
+      "youtubeId": "LiKyUu6nyns",
       "pdfSlug": "01-intro",
       "pageStart": 1,
       "pageEnd": 3
@@ -27,7 +27,7 @@ export const enDangjinPaper: Paper = {
       "code": "Ⅱ",
       "title": "The Need for Research on the Cultural Background of Dangjin for Understanding East Asia",
       "chapter": "needs",
-      "youtubeId": "",
+      "youtubeId": "eLSCrE34ehE",
       "pdfSlug": "02-needs",
       "pageStart": 4,
       "pageEnd": 10
@@ -36,7 +36,7 @@ export const enDangjinPaper: Paper = {
       "code": "Ⅲ",
       "title": "The Ye-Maek Diaspora as the Background to the Battle of Baekchon River",
       "chapter": "diaspora",
-      "youtubeId": "",
+      "youtubeId": "_E1TGNVduB0",
       "pdfSlug": "03-diaspora",
       "pageStart": 11,
       "pageEnd": 30
@@ -45,7 +45,7 @@ export const enDangjinPaper: Paper = {
       "code": "Ⅳ",
       "title": "Maitreya Buddhism and the Maritime Culture of Practical Statecraft for the People's Welfare after the Battle of Baekchon River",
       "chapter": "buddhism",
-      "youtubeId": "",
+      "youtubeId": "R9pM99zjJfI",
       "pdfSlug": "04-buddhism",
       "pageStart": 31,
       "pageEnd": 39
@@ -54,7 +54,7 @@ export const enDangjinPaper: Paper = {
       "code": "Ⅴ",
       "title": "Conclusion",
       "chapter": "conclusion",
-      "youtubeId": "",
+      "youtubeId": "kcESN13TM48",
       "pdfSlug": "05-conclusion",
       "pageStart": 40,
       "pageEnd": 42
